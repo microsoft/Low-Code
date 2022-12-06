@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 
-  title: 'Low Code Empowered!',
-  tagline: 'Power Platform - Azure Cloud - Dev Tools',
+  title: 'Low Code & Fusion Dev',
+  tagline: 'Power Platform - Cloud Integrations - Developer Tools',
   url: 'https://microsoft.github.io',
   baseUrl: '/Low-Code/',
   favicon: 'img/favicon.ico',
@@ -38,7 +38,7 @@ const config = {
 
         blog: {
           blogTitle: '#30DaysOfLowCode',
-          blogDescription: 'From Low Code to Fusion Development - empowered!',
+          blogDescription: 'Jumpstart your #LowCode and #FusionDev learning journey with #30Days of content and resources',
           blogSidebarCount: 'ALL',
           blogSidebarTitle: 'Recent Articles',
           tagsBasePath: 'tags',
@@ -65,77 +65,160 @@ const config = {
       },
 
       navbar: {
-        title: 'Low Code',
+        title: 'Low Code |',
         logo: {
           alt: 'Low Code Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
+          {to: '/lowcode-february', label: '#LowCodeFeb ♥️', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: 'Workshops',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/calendar', label: 'Calendar', position: 'right'},
           {
             href: 'https://github.com/microsoft/Low-Code',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
 
       footer: {
         style: 'dark',
+
+        /*
+        logo: {
+          alt: 'LowCode February Logo',
+          src: 'img/???.png',
+          href: 'https://aka.ms/lowcode-february',
+          width: 280,
+          height: 100,
+        },
+        */
+
         links: [
+
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            label: `🔖 Resources`,
+            to: 'https://aka.ms/lowcode-february/collection'
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            label: `Power Platforms`,
+            to: 'https://learn.microsoft.com/en-us/power-platform/developer/get-started?WT.mc_id=javascript-82212-ninarasi'
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+            label: `Power Virtual Agents`,
+            to: 'https://learn.microsoft.com/en-us/power-virtual-agents/fundamentals-what-is-power-virtual-agents?WT.mc_id=javascript-82212-ninarasi'
+          },
+          {
+            label: `Power Automate`,
+            to: 'https://learn.microsoft.com/en-us/power-automate/getting-started?WT.mc_id=javascript-82212-ninarasi'
+          },
+          {
+            label: `Power Apps`,
+            to: 'https://learn.microsoft.com/en-us/power-apps/powerapps-overview?WT.mc_id=javascript-82212-ninarasi'
+          },
+          {
+            label: `Power BI`,
+            to: 'https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-service-overview?WT.mc_id=javascript-82212-ninarasi'
+          },
+          {
+            label: `Power Pages`,
+            to: 'https://learn.microsoft.com/en-us/power-pages/introduction?WT.mc_id=javascript-82212-ninarasi'
+          },
+          {
+            label: 'Privacy Statement ',
+            to: 'https://privacy.microsoft.com/privacystatement',
+          },
+          { 
+           label: `Copyright © ${new Date().getFullYear()} Microsoft`,
+           to: 'https://microsoft.com'
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
+      // TODO: Configure to provide default OpenGraph Metadata 
+      image: 'img/logo.png',
+      metadata: [
+        { 
+          name: 'twitter:url', 
+          content: 'https://aka.ms/lowcode-february'
+        },
+        { 
+          name: 'twitter:title', 
+          content: '#LowCodeFebruary is here!'
+        },
+        { 
+          name: 'twitter:description', 
+          content: 'Explore Low Code Development and Fusion Teams with Power Platforms, Azure and Developer Tools - with resources for self-study'
+        },
+        { 
+          name: 'twitter:image', 
+          content: 'img/logo.png' // TODO: Add URL to image
+        },
+        { 
+          name: 'twitter:card', 
+          content: 'summary_large_image'
+        },
+        { 
+          name: 'twitter:creator', 
+          content: '@nitya'
+        },
+        { 
+          name: 'twitter:site', 
+          content: '@AzureAdvocates'
+        },
+      ],
+
+      /* Banner Announcements */
+      announcementBar: {
+        id: 'LowCode February kicks off Feb 1, 2022!',
+        content:
+          '<b> Join our Cloud Skills Challenge! | Give us <a href="https://github.com/microsoft/Low-Code"><b> a 🌟 on GitHub</b></a> </b> ',
+        backgroundColor: '#050D20',
+        textColor: '#4DC7B2',
+        isCloseable: false,
+      },
+
+      /* Clarity Config *
+      clarity: {
+        ID: "", // Instructions below
+      }
+      */
+
     }),
+
+
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. 
+        steps: 2, // #images b/w min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+
+    /*
+    [
+      'docusaurus-plugin-clarity',
+      {
+      }
+    ],
+    */
+  ],
 };
 
 module.exports = config;
