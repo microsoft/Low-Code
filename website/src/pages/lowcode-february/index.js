@@ -8,7 +8,7 @@ import styles from './../index.module.css';
 const CampaignFeatures = [
   {
     title: '#30DaysOfLowCode',
-    Svg: require('@site/static/img/campaign/30Days.svg').default,
+    Svg: require('@site/static/img/campaign/30days.svg').default,
     fillColor: "#f25022",
     link: "/Low-Code/blog",
     description: (
