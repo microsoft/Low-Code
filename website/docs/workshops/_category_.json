@@ -1,8 +1,4 @@
 {
-  "label": "Workshop #1",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Description of Workshop 1"
-  }
+  "label": "Quickstarts",
+  "position": 2
 }
