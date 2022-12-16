@@ -5,11 +5,11 @@ title: Calendar
 ## Categories
 
 Events related to key #LowCodeFebruary activities will be prefixed by one of these icons:
- * 🧰 [**Hands-on Workshops**](/lowcode-februrary/AskTheExpert) - live session (workshop or learning path)
- * 🚀 [**Zero To Hero**](/lowcode-februrary/ZeroToHero) - blog post published by product team
- * 🔋 [**#30DaysOfLowCode**](/lowcode-februrary/30Days) - blog post from #30Days schedule
- * 🎯 [**Cloud Skills Challenge**](/lowcode-februrary/CloudSkills) - key deadlines for participation
- * 💬 [**Ask The Expert**](/lowcode-februrary/AskTheExpert) - key deadlines for participation
+ * 🧰 [**Hands-on Workshops**](/lowcode-february/AskTheExpert) - live session (workshop or learning path)
+ * 🚀 [**Zero To Hero**](/lowcode-february/ZeroToHero) - blog post published by product team
+ * 🔋 [**#30DaysOfLowCode**](/lowcode-february/30Days) - blog post from #30Days schedule
+ * 🎯 [**Cloud Skills Challenge**](/lowcode-february/CloudSkills) - key deadlines for participation
+ * 💬 [**Ask The Expert**](/lowcode-february/AskTheExpert) - key deadlines for participation
 
 ---
 
