@@ -10,7 +10,7 @@ const CampaignFeatures = [
     title: '#30DaysOfLowCode',
     Svg: require('@site/static/img/campaign/30Days.svg').default,
     fillColor: "#f25022",
-    link: "/Low-Code/blog",
+    link: "/Low-Code/lowcode-february/30Days",
     description: (
       <>
       Join us on a #30Day journey covering Power Platforms, Fusion Teams and Low Code Development!
@@ -29,13 +29,13 @@ const CampaignFeatures = [
     ),
   },
   {
-    title: 'Hands-on Workshops',
-    Svg: require('@site/static/img/campaign/hacks.svg').default,
-    fillColor: "#00a4ef",
-    link: "/Low-Code/docs/intro",
+    title: 'Ask The Expert',
+    Svg: require('@site/static/img/campaign/ama.svg').default,
+    fillColor: "#b66dff",
+    link: "/Low-Code/lowcode-february/AskTheExpert",
     description: (
       <>
-      Explore workshops in your own time, to work through various features or solutions in self-guided mode.
+      Join us for online conversations with the product teams - submit questions ahead of time or ask them live!
       </>
     ),
   },
@@ -50,11 +50,33 @@ const CampaignFeatures = [
       </>
     ),
   },
+  {
+    title: 'Hands-on Workshops',
+    Svg: require('@site/static/img/campaign/hacks.svg').default,
+    fillColor: "#00a4ef",
+    link: "/Low-Code/docs/intro",
+    description: (
+      <>
+      Explore workshops in your own time, to work through various features or solutions in self-guided mode.
+      </>
+    ),
+  },
+  {
+    title: 'Community Buzz',
+    Svg: require('@site/static/img/campaign/buzz.svg').default,
+    link: "https://pnp.github.io/powerplatform-samples/",
+    fillColor: "#fe6db6",
+    description: (
+      <>
+      Build interesting demos or wrote helpful articles? Connect with the community and contribute your expertise!
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description, link, fillColor}) {
   return (
-    <div className={clsx('col col--6')}>
+    <div className={clsx('col col--4')}>
       <a href={link} target="_blank">
         <div className="text--center">
           <Svg height="200px" width="200px" fill={fillColor} role="img" />

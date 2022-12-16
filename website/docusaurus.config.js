@@ -65,13 +65,17 @@ const config = {
       },
 
       navbar: {
-        title: 'Low Code |',
+        title: ' ',
         logo: {
           alt: 'Low Code Logo',
           src: 'img/logo.png',
         },
         items: [
-          {to: '/lowcode-february', label: '#LowCodeFeb ♥️', position: 'left'},
+          {to: '/lowcode-february', label: '#LowCodeFebruary 🔋', position: 'left'},
+          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf 🎙', position: 'left'},
+
+
+          
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             type: 'doc',
@@ -184,17 +188,16 @@ const config = {
       announcementBar: {
         id: 'LowCode February kicks off Feb 1, 2022!',
         content:
-          '<b> Join our Cloud Skills Challenge! | Give us <a href="https://github.com/microsoft/Low-Code"><b> a 🌟 on GitHub</b></a> </b> ',
-        backgroundColor: '#050D20',
-        textColor: '#4DC7B2',
+          '<b> <a href="https://developer.microsoft.com/en-us/reactor/events/18025/?WT.mc_id=javascript-82212-ninarasi"> Register For #PowerfulDevs Conf! </a> | Give us <a href="https://microsoft.github.io/Low-Code/?WT.mc_id=javascript-82212-ninarasi"><b> a 🌟 on GitHub</b></a> </b> ',
+        backgroundColor: '#742779', /* '#050D20',*/
+        textColor: '#ffffff', /* '#4DC7B2', */
         isCloseable: false,
       },
 
-      /* Clarity Config *
+      /* Clarity Config */
       clarity: {
-        ID: "", // Instructions below
+        ID: "eze7lsqnch", 
       }
-      */
 
     }),
 
@@ -211,13 +214,11 @@ const config = {
       },
     ],
 
-    /*
     [
       'docusaurus-plugin-clarity',
       {
       }
     ],
-    */
   ],
 };
 

@@ -6,10 +6,11 @@ title: Calendar
 
 Events related to key #LowCodeFebruary activities will be prefixed by one of these icons:
 
- * 💻 [**Hands-on Workshops**](/lowcode-februrary/AskTheExpert) - live session covering a workshop or learning path
+ * 🧰 [**Hands-on Workshops**](/lowcode-februrary/AskTheExpert) - live session (workshop or learning path)
  * 🚀 [**Zero To Hero**](/lowcode-februrary/ZeroToHero) - blog post published by product team
- * ✍🏽 [**#30DaysOfLowCode**](/lowcode-februrary/30Days) - blog post from #30Days schedule
+ * 🔋 [**#30DaysOfLowCode**](/lowcode-februrary/30Days) - blog post from #30Days schedule
  * 🎯 [**Cloud Skills Challenge**](/lowcode-februrary/CloudSkills) - key deadlines for participation
+ * 💬 [**Ask The Expert**](/lowcode-februrary/AskTheExpert) - key deadlines for participation
 
 ---
 
@@ -35,7 +36,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 12 |  |  |
 | Feb 13 |  |  |
 | Feb 14 |  |  |
-| Feb 15 |  |  |
+| Feb 15 | [#PowerfulDevs Conf](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
 | Feb 16 |  |  |
 | Feb 17 |  |  |
 | Feb 18 |  |  |

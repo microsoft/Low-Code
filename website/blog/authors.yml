@@ -1,17 +1,25 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+nitya:
+  name: Nitya Narasimhan
+  title: Senior Cloud Advocate, Illustrator
+  url: https://github.com/nitya
+  image_url: https://github.com/nitya.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+sonja:
+  name: Sonja Gu
+  title: Product Marketing Manager
+  url: https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/968497#profile
+  image_url: https://devintxcontent.blob.core.windows.net/showcontent/speakers/309c-200o200o2-BTdxMZw6hRjLyR2wCvEsGD.jpg
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+april:
+  name: April Dunham
+  title: Power Platforms Advocacy Lead
+  url: https://github.com/AprilDunnam
+  image_url: https://github.com/AprilDunnam.png
+  
+matt:
+  name: Matt Soucoup
+  title: .NET Advocacy Lead
+  url: https://github.com/codemillmatt
+  image_url: https://github.com/codemillmatt.png
+  
+    
