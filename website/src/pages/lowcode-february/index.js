@@ -131,8 +131,8 @@ function FeaturesSection() {
 export default function() {
   return (
     <Layout
-      title={`Welcome to #ServerlessSeptember`}
-      description="Join us for a month-long celebration of Cloud Native technologies go from core concept to code with #30DaysOfServerless />"> 
+      title={`Welcome to #LowCode February`}
+      description="Join us for a month-long celebration ofLow Code & Fusion Development with #30DaysOfLowCode />"> 
       <CampaignHeader/>
       <main>
         <FeaturesSection/>
