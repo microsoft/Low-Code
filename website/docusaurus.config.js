@@ -172,7 +172,7 @@ const config = {
         },
         { 
           name: 'twitter:image', 
-          content: 'img/og-lowcodefeb.png' // TODO: Add URL to image
+          content: 'https://microsoft.github.io/Low-Code/assets/ideal-img/fusion-dev.95bc030.1030.png' // TODO: Add URL to image
         },
         { 
           name: 'twitter:card', 
