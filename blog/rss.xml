@@ -15,8 +15,13 @@
             <pubDate>Tue, 31 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Empty Banner Placeholder]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" alt="Empty Banner Placeholder" src="/Low-Code/assets/images/banner-d53c0bd413d511cd5ea292a325526162.png" width="1500" height="630" class="img_ev3q"></p>]]></content:encoded>
-            <category>lowcode</category>
-            <category>hello</category>
+            <category>low-code-february</category>
+            <category>30-days-of-lowcode</category>
+            <category>learn-live</category>
+            <category>zero-to-hero</category>
+            <category>ask-the-expert</category>
+            <category>fusion-teams</category>
+            <category>power-platform</category>
         </item>
     </channel>
 </rss>

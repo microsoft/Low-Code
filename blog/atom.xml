@@ -30,7 +30,12 @@
             <name>Sonja Gu</name>
             <uri>https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/968497#profile</uri>
         </author>
-        <category label="lowcode" term="lowcode"/>
-        <category label="hello" term="hello"/>
+        <category label="low-code-february" term="low-code-february"/>
+        <category label="30-days-of-lowcode" term="30-days-of-lowcode"/>
+        <category label="learn-live" term="learn-live"/>
+        <category label="zero-to-hero" term="zero-to-hero"/>
+        <category label="ask-the-expert" term="ask-the-expert"/>
+        <category label="fusion-teams" term="fusion-teams"/>
+        <category label="power-platform" term="power-platform"/>
     </entry>
 </feed>
