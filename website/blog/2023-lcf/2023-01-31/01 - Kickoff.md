@@ -8,4 +8,6 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
 # Kickoff Post 
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Technologies used for fusion development](01%20-%20Kickoff.png)
+
+Welcome to #LowCodeFeb
