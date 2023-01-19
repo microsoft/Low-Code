@@ -28,10 +28,12 @@ Welcome to `Day 10` of #28DaysOfLowCode!
 The theme for this week is **backend**. Yesterday we talked about building custom connectors. Today we'll explore the topic of giving extra security to those custom connectors through [Azure API Management (APIM)][az apim].
 
 ## What We'll Cover
- * Section 1
- * Section 2
- * Section 3
- * Section 4
+
+ * Deploying Sample Apps
+ * API Key Auth
+ * Basic Auth
+ * OAuth2 &ndash; Authorisation Code Auth
+ * BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth
  * Exercise: Try this yourself!
  * Resources: For self-study!
 
@@ -48,15 +50,34 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 Let's deploy the sample apps for this post. Fork [this repository][gh sample] and follow the detailed instruction written on its README to provision and deploy the sample apps. Once everything is done, you will have three [Azure Functions][az fncapp] app instances and one [APIM][az apim] instance.
 
 
-## Section 2
+## API Key Auth
 
-## Section 3
+TBD
 
-## Section 4
+
+## Basic Auth
+
+TBD
+
+
+## OAuth2 &ndash; Authorisation Code Auth
+
+TBD
+
+
+## BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth
+
+TBD
+
 
 ## Exercise
 
+TBD
+
+
 ## Resources
+
+TBD
 
 
 [gh sample]: https://github.com/devkimchi/power-platform-connector-via-apim
