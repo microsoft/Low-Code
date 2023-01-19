@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://microsoft.github.io/Low-Code/blog</id>
     <title>Low Code &amp; Fusion Dev Blog</title>
-    <updated>2023-01-31T00:00:00.000Z</updated>
+    <updated>2023-01-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://microsoft.github.io/Low-Code/blog"/>
     <subtitle>Low Code &amp; Fusion Dev Blog</subtitle>
     <icon>https://microsoft.github.io/Low-Code/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[🗺 | Kickoff The Journey!]]></title>
+        <title type="html"><![CDATA[It's a LowCode February!]]></title>
         <id>2023-kickoff</id>
         <link href="https://microsoft.github.io/Low-Code/blog/2023-kickoff"/>
-        <updated>2023-01-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Technologies used for fusion development]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Technologies used for fusion development" src="/Low-Code/assets/images/01 - Kickoff-b6ff5da871188894bc9935af9614742c.png" width="1600" height="900" class="img_ev3q"></p><p>Welcome to #LowCodeFeb</p>]]></content>
+        <updated>2023-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to #LowCodeFeb]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to #LowCodeFeb</p><p><img loading="lazy" alt="Technologies used for fusion development" src="/Low-Code/assets/images/01 - Kickoff-b6ff5da871188894bc9935af9614742c.png" width="1600" height="900" class="img_ev3q"></p>]]></content>
         <author>
             <name>April Dunham</name>
             <uri>https://github.com/AprilDunnam</uri>
@@ -28,7 +28,51 @@
         </author>
         <author>
             <name>Sonja Gu</name>
-            <uri>https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/968497#profile</uri>
+            <uri>https://github.com/SonjaGu</uri>
+        </author>
+        <author>
+            <name>Justin Yoo</name>
+            <uri>https://github.com/justinyoo</uri>
+        </author>
+        <author>
+            <name>Srikumar Nair</name>
+            <uri>https://github.com/MicroSri</uri>
+        </author>
+        <author>
+            <name>Julia Kasper</name>
+            <uri>https://github.com/juliajuju93</uri>
+        </author>
+        <author>
+            <name>Kartik Kanakasabesan</name>
+            <uri>https://github.com/kkanakas</uri>
+        </author>
+        <author>
+            <name>Sameer Chabungbam</name>
+            <uri>https://github.com/schabungbam</uri>
+        </author>
+        <author>
+            <name>Taiki Yoshida</name>
+            <uri>https://github.com/taiki-yoshida</uri>
+        </author>
+        <author>
+            <name>Daniel Laskewitz</name>
+            <uri>https://github.com/Laskewitz</uri>
+        </author>
+        <author>
+            <name>Marcel Ferreira</name>
+            <uri>https://github.com/marcelbf</uri>
+        </author>
+        <author>
+            <name>Linda Nichols</name>
+            <uri>https://github.com/lynnaloo</uri>
+        </author>
+        <author>
+            <name>Evan Law</name>
+            <uri>https://github.com/evanmlew</uri>
+        </author>
+        <author>
+            <name>Casey Burke</name>
+            <uri>https://github.com/caburk</uri>
         </author>
         <category label="low-code-february" term="low-code-february"/>
         <category label="30-days-of-lowcode" term="30-days-of-lowcode"/>
