@@ -105,7 +105,7 @@ function CampaignHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/blog">
-            Explore #30DaysOfLowCode 🔋
+            Explore #30DaysOfLowCode
           </Link>
         </div>
       </div>

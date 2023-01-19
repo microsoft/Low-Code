@@ -74,8 +74,8 @@ const config = {
         style: 'primary',
 
         items: [
-          {to: '/lowcode-february', label: '#LowCodeFebruary 🔋', position: 'left'},
-          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf 🎙', position: 'left'},
+          {to: '/lowcode-february', label: '#LowCodeFebruary', position: 'left'},
+          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf', position: 'left'},
 
 
           
@@ -113,7 +113,7 @@ const config = {
         links: [
 
           {
-            label: `🔖 Collection`,
+            label: `Collection`,
             to: 'https://aka.ms/lowcode-february/collection'
           },
           {
@@ -156,7 +156,7 @@ const config = {
       },
 
       // TODO: Configure to provide default OpenGraph Metadata 
-      image: 'img/logo.png',
+      image: 'img/logo.svg',
       metadata: [
         { 
           name: 'twitter:url', 
