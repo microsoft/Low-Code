@@ -2,4 +2,10 @@
 sidebar_position: 1
 ---
 
-# Workshops Directory
+# Table of Contents
+
+:::danger GUIDANCE
+
+Use this file to list the workshops below with some guidance for who the audience is.
+
+:::
