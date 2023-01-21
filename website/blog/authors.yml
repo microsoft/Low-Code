@@ -1,18 +1,18 @@
 nitya:
   name: Nitya Narasimhan
-  title: Senior Cloud Advocate, Illustrator
+  title: Sr. Cloud Advocate, Illustrator
   url: https://github.com/nitya
   image_url: https://github.com/nitya.png
 
 sonja:
   name: Sonja Gu
   title: Product Marketing Manager
-  url: https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/968497#profile
-  image_url: https://devintxcontent.blob.core.windows.net/showcontent/speakers/309c-200o200o2-BTdxMZw6hRjLyR2wCvEsGD.jpg
+  url: https://github.com/SonjaGu 
+  image_url: https://github.com/SonjaGu.png
 
 april:
-  name: April Dunham
-  title: Power Platforms Advocacy Lead
+  name: April Dunnam
+  title: Power Platform Advocacy Lead
   url: https://github.com/AprilDunnam
   image_url: https://github.com/AprilDunnam.png
   
@@ -21,9 +21,74 @@ matt:
   title: .NET Advocacy Lead
   url: https://github.com/codemillmatt
   image_url: https://github.com/codemillmatt.png
-  
+    
 justin:
-  name: Justim Yoo
-  title: Senior Cloud Advocate
+  name: Justin Yoo
+  title: Senior Cloud Advocate (.NET)
   url: https://github.com/justinyoo
   image_url: https://github.com/justinyoo.png
+
+srikumar:
+  name: Srikumar Nair
+  title: Principal Group Program Manager
+  url: https://github.com/MicroSri
+  image_url: https://github.com/MicroSri.png 
+
+julia:
+  name: Julia Kasper
+  title: Program Manager II
+  url: https://github.com/juliajuju93
+  image_url: https://github.com/juliajuju93.png 
+
+kartik:
+  name: Kartik Kanakasabesan
+  title: Principal Program Manager
+  url: https://github.com/kkanakas
+  image_url: https://github.com/kkanakas.png
+
+sameer:
+  name: Sameer Chabungbam
+  title: Principal Program Manager Lead
+  url: https://github.com/schabungbam 
+  image_url: https://github.com/schabungbam.png 
+
+taiki:
+  name: Taiki Yoshida
+  title: Principal Program Manager
+  url: https://github.com/taiki-yoshida 
+  image_url: https://github.com/taiki-yoshida.png 
+
+daniel:
+  name: Daniel Laskewitz 
+  title: Senior Cloud Advocate
+  url: https://github.com/Laskewitz 
+  image_url: https://github.com/Laskewitz.png 
+ 
+marcel:
+  name: Marcel Ferreira
+  title: Senior Program Manager
+  url: https://github.com/marcelbf  
+  image_url: https://github.com/marcelbf.png 
+
+linda:
+  name: Linda Nichols
+  title: Principal Solution Spec GBB
+  url: https://github.com/lynnaloo 
+  image_url: https://github.com/lynnaloo.png 
+
+evan:
+  name: Evan Law
+  title: GPM, Power Apps (Ent. Platform)
+  url: https://github.com/evanmlew 
+  image_url: https://github.com/evanmlew.png 
+
+  
+casey:
+  name: Casey Burke
+  title: Principal Product Manager
+  url: https://github.com/caburk  
+  image_url: https://github.com/caburk.png 
+
+  
+  
+  

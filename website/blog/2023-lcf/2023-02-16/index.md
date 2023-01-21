@@ -1,6 +1,6 @@
 ---
-slug: 2023-day17
-title: 17. Build a PCF Control
+slug: 2023-day16
+title: 16. Power Component Framework Controls
 authors: [april, matt, nitya, sonja]
 draft: true
 hide_table_of_contents: false
@@ -43,6 +43,7 @@ The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll
 
 <!-- FIXME: banner image -->
 ![Empty Banner Placeholder](../../../static/img/banner.png)
+
 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->

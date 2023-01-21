@@ -4,45 +4,19 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. *
 :root {
-  --ifm-color-primary: #050d20;
-  --ifm-color-primary-dark: #040c1d;
-  --ifm-color-primary-darker: #040b1b;
-  --ifm-color-primary-darkest: #030916;
-  --ifm-color-primary-light: #050e23;
-  --ifm-color-primary-lighter: #060f25;
-  --ifm-color-primary-lightest: #06112a;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-*/
-
-:root {
-  --ifm-color-primary: #3c5eb3;
-  --ifm-color-primary-dark: #3655a1;
-  --ifm-color-primary-darker: #335098;
-  --ifm-color-primary-darkest: #2a427d;
-  --ifm-color-primary-light: #4669c1;
-  --ifm-color-primary-lighter: #4f70c4;
-  --ifm-color-primary-lightest: #6a86cd;
+  --ifm-color-primary: #1f416e;
+  --ifm-color-primary-dark: #1c3a63;
+  --ifm-color-primary-darker: #1a375e;
+  --ifm-color-primary-darkest: #162d4d;
+  --ifm-color-primary-light: #224779;
+  --ifm-color-primary-lighter: #244b7f;
+  --ifm-color-primary-lightest: #28548f;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. *
-[data-theme='dark'] {
-  --ifm-color-primary: #4dc7b2;
-  --ifm-color-primary-dark: #3bbda7;
-  --ifm-color-primary-darker: #38b29d;
-  --ifm-color-primary-darkest: #2e9382;
-  --ifm-color-primary-light: #62cebb;
-  --ifm-color-primary-lighter: #6cd1c0;
-  --ifm-color-primary-lightest: #8cdbcd;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-*/
-
 [data-theme='dark'] {
   --ifm-color-primary: #6ed46e;
   --ifm-color-primary-dark: #55cd55;
@@ -52,6 +26,17 @@
   --ifm-color-primary-lighter: #93df93;
   --ifm-color-primary-lightest: #b9eab9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+*/
+
+[data-theme='dark'] {
+  --ifm-color-primary: #66cc9e;
+  --ifm-color-primary-dark: #4fc48f;
+  --ifm-color-primary-darker: #44c188;
+  --ifm-color-primary-darkest: #36a170;
+  --ifm-color-primary-light: #7dd4ad;
+  --ifm-color-primary-lighter: #88d7b4;
+  --ifm-color-primary-lightest: #abe3ca;
 }
 
 

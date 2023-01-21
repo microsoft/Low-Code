@@ -24,7 +24,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/lowcode-february">
-            Explore #LowCodeFebruary 🔋
+            Explore #LowCodeFebruary 
           </Link>
         </div>
       </div>

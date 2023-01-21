@@ -20,7 +20,8 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 
 | When | What | Where |
 |:---|:---|:---|
-| Jan 31 |  Kickoff  | [#30Days Blog](/blog)  |
+| Jan 25 |  🔋 Kickoff  | [#30Days Blog](/blog)  |
+| Jan 31 |  🎯 Cloud Skills Challenge Starts | [Register Now](https://aka.ms/lowcode-february/challenge) |
 | Feb 01 |  |  |
 | Feb 02 |  |  |
 | Feb 03 |  |  |
@@ -35,7 +36,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 12 |  |  |
 | Feb 13 |  |  |
 | Feb 14 |  |  |
-| Feb 15 | [#PowerfulDevs Conf](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
+| Feb 15 | [🎙 #PowerfulDevs Conference](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
 | Feb 16 |  |  |
 | Feb 17 |  |  |
 | Feb 18 |  |  |
@@ -49,7 +50,8 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 26 |  |  |
 | Feb 27 |  |  |
 | Feb 28 |  |  |
-| Mar 01 |  Wrap-up  | [#30Days Blog](/blog)  |
+| Mar 01 |  🎯 Cloud Skills Challenge Ends | [Last Sprint!](https://aka.ms/lowcode-february/challenge) |
+| Mar 01 |  🔋 Wrap-up  | [#30Days Blog](/blog)  |
 
 ---
 

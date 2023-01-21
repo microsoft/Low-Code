@@ -74,8 +74,8 @@ const config = {
         style: 'primary',
 
         items: [
-          {to: '/lowcode-february', label: '#LowCodeFebruary 🔋', position: 'left'},
-          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf 🎙', position: 'left'},
+          {to: '/lowcode-february', label: '#LowCodeFebruary', position: 'left'},
+          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf', position: 'left'},
 
 
           
@@ -113,7 +113,7 @@ const config = {
         links: [
 
           {
-            label: `🔖 Collection`,
+            label: `Collection`,
             to: 'https://aka.ms/lowcode-february/collection'
           },
           {
@@ -156,7 +156,7 @@ const config = {
       },
 
       // TODO: Configure to provide default OpenGraph Metadata 
-      image: 'img/logo.png',
+      image: 'img/logo.svg',
       metadata: [
         { 
           name: 'twitter:url', 
@@ -192,7 +192,7 @@ const config = {
       announcementBar: {
         id: 'LowCode February kicks off Feb 1, 2022!',
         content:
-          '<b> <a href="https://developer.microsoft.com/en-us/reactor/events/18025/?WT.mc_id=javascript-82212-ninarasi"> Register For #PowerfulDevs Conf! </a> | Give us <a href="https://microsoft.github.io/Low-Code/?WT.mc_id=javascript-82212-ninarasi"><b> a 🌟 on GitHub</b></a> </b> ',
+          '<b> <a href="https://aka.ms/lowcode-february/challenge"> Take Our Cloud Skills Challenge! </a> | Give us <a href="https://microsoft.github.io/Low-Code/?WT.mc_id=javascript-82212-ninarasi"><b> a 🌟 on GitHub</b></a> </b> ',
         backgroundColor: '#000000', /* '#050D20',*/
         textColor: '#ffffff', /* '#4DC7B2', */
         isCloseable: false,
