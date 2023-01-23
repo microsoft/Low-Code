@@ -474,6 +474,7 @@ Throughout this post, we've walked through the first combination. After that, yo
 [image-22]: ./01-image-22.png
 [image-23]: ./01-image-23.png
 [image-24]: ./01-image-24.png
+[image-25]: ./01-image-25.png
 
 
 [gh sample]: https://github.com/devkimchi/power-platform-connector-via-apim
