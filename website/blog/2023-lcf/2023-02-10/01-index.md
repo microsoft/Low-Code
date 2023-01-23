@@ -35,8 +35,8 @@ The theme for this week is **backend**. Yesterday we talked about building custo
  * [Basic Auth](#2-basic-auth)
  * [OAuth2 &ndash; Authorisation Code Auth](#3-oauth2--authorisation-code-auth)
  * [BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth](#4-bff-backend-for-frontend--combination-of-api-key-auth-and-basic-auth)
- * Exercise: Try this yourself!
- * Resources: For self-study!
+ * [Exercise &ndash; Try it yourself!](#exercise-–-try-it-yourself)
+ * [Resources &ndash; For self-study!](#resources-–-for-self-study)
 
 <!-- FIXME: banner image -->
 ![Empty Banner Placeholder](../../../static/img/banner.png)
@@ -251,7 +251,7 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
     * `null/signin-oauth/code/callback/authcode-auth`
     * `null/signin-oauth/implicit/callback`
 
-    Replace `null` with your APIM instance URL like `https://{{APIM_NAME}}.azure-api.net`.
+    Replace `null` with your APIM instance URL like `https://{{APIM_NAME}}.azure-api.net`, where `{{APIM_NAME}}` is your APIM instance name.
 
 1. Add both redirect URLs to your registered app on Azure AD as redirect URLs.
 
@@ -271,7 +271,7 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
 1. Then you will be able to download an OpenAPI document. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use either `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
-   However, you MUST remove both because you are not going to use the API key auth this time.
+   However, you MUST remove both because you are not going to use the API key auth this time. Make sure that you MUST replace `{{TENANT_ID}}` with your tenant ID.
 
     ```jsonc
     {
@@ -351,19 +351,103 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 We've added an extra security to the custom connector with OAuth2 - authorisation code auth.
 
 
-## 4. BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth
+## 4. BFF (Backends-for-Frontends) &ndash; Combination of API Key Auth and Basic Auth
 
-TBD
+There are many requirements using the [BFF (Backends-for-frontends) pattern][az patterns architecture bff] through APIM, especially if your organisation adopts microservice architecture. It's not uncommon that APIs use different authentication approaches from each API &ndash; one use the API key auth, another one uses the basic key auth and the other one uses the OAuth2 auth.
+
+If you are about to build a BFF with those APIs using different authentication methods, what would you do? If you're even about to create the BFF for the Power Platform custom connector, what could you do? There are many different combinations of authentication methods, but let's focus on those two &ndash; API key auth and basic auth.
+
+1. First of all, you MUST choose which authentication type will use for the main one for the Power Platform custom connector. If you want to use the basic auth as the main one, the custom connector doesn't have to know the API key, and vice versa. In other words, the other authentication method MUST be handled by the APIM policy of the BFF API.
+
+1. Let's take a look at [this OpenAPI document][gh sample openapi bff] for BFF. It's the combination of both apps using the API key auth and basic auth respectively.
+
+    ```yaml
+    openapi: 3.0.1
+    ...
+    paths:
+      /greeting:
+        get:
+          tags:
+            - greeting
+          summary: Greeting
+          operationId: Greeting
+          ...
+          security:
+            - apiKeyHeader: [ ]
+            - apiKeyQuery: [ ]
+      /profile:
+        get:
+          tags:
+            - profile
+          summary: Profile
+          operationId: Profile
+          ...
+          security:
+            - apiKeyHeader: [ ]
+            - apiKeyQuery: [ ]
+            - basicAuth: [ ]
+    ...
+    components:
+      ...
+      securitySchemes:
+        apiKeyHeader:
+          type: apiKey
+          name: Ocp-Apim-Subscription-Key
+          in: header
+        apiKeyQuery:
+          type: apiKey
+          name: subscription-key
+          in: query
+        basicAuth:
+          type: http
+          scheme: basic
+    ```
+
+   It defines both API key auth and basic auth in the document and apply them to each endpoint.
+
+1. Import this OpenAPI to APIM. Then check out the settings. Make sure the subscription MUST be activated.
+
+    ![BFF - enable subscription][image-23]
+
+1. Add the [`authentication-basic` as an inbound policy][az apim policies basicauth] that sets the basic auth token to the request header. After this, APIM automatically injects this basic auth token to every request header.
+
+    ![BFF - basic authentication policy][image-24]
+
+1. Export the OpenAPI document. As you're going to use the API key auth, follow the [1. API Key Auth](#1-api-key-auth) pattern.
+
+1. In the Power Platform custom connector, you only need the API key provided by APIM to create the connection because the basic auth token has already been encapsulated by APIM.
+
+1. Test the connector whether it works OK or not. As you can see, both endpoints works perfectly fine.
+
+    ![BFF - custom connector test][image-25]
+
+We've created a BFF by combining APIs that use API key auth and basic auth, and used it for Power Platform custom connector. As we mentioned earlier in this post, due to the restriction of authentication types in Power Platform custom connector, we have to choose only one authentication type. If you need more than one authentication type for your connector, you MUST choose one and all the others MUST be encapsulated by APIM.
+
+Theoretically, there are three possible combinations for BFF:
+
+* API key auth and basic auth
+* API key auth and OAuth2 auth code auth
+* Basic auth and OAuth2 auth code auth
+
+Throughout this post, we've walked through the first combination. You can try the other two combinations on your end!
 
 
-## Exercise
+## Exercise &ndash; Try it yourself!
 
-TBD
+* Fork this [GitHub repository][gh sample] to provision and deploy the sample apps.
+* Read and follow the instructions for each scenario:
+  * [API Key Auth][gh sample apikeyauth readme]
+  * [Basic Auth][gh sample basicauth readme]
+  * [Authorisation Code Auth][gh sample authcodeauth readme]
+  * [BFF][gh sample bff readme]
 
 
-## Resources
+## Resources &ndash; For self-study!
 
-TBD
+* [Cloud architecture pattern &ndash; BFF (Backends-for-frontends)][az patterns architecture bff]
+* [Azure AD application model][az ad register app]
+* [Azure APIM authentication and authorisation][az apim security authn]
+* [Power Platform custom connector parameters][az pp cuscon authn]
 
 
 [image-01]: ./01-image-01.png
@@ -390,15 +474,16 @@ TBD
 [image-22]: ./01-image-22.png
 [image-23]: ./01-image-23.png
 [image-24]: ./01-image-24.png
-[image-25]: ./01-image-25.png
-[image-26]: ./01-image-26.png
-[image-27]: ./01-image-27.png
-[image-28]: ./01-image-28.png
-[image-29]: ./01-image-29.png
 
 
 [gh sample]: https://github.com/devkimchi/power-platform-connector-via-apim
+[gh sample apikeyauth readme]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/src/ApiKeyAuthApp/README.md
+[gh sample basicauth readme]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/src/BasicAuthApp/README.md
 [gh sample authcodeauth readme]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/src/AuthCodeAuthApp/README.md
+[gh sample bff readme]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/src/BffApp/README.md
+[gh sample openapi bff]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/infra/apim-openapi-bff.yaml
+
+[az patterns architecture bff]: https://learn.microsoft.com/azure/architecture/patterns/backends-for-frontends?WT.mc_id=dotnet-82522-juyoo
 
 [az ad]: https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis?WT.mc_id=dotnet-82522-juyoo
 [az ad authn authcodeauth]: https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow?WT.mc_id=dotnet-82522-juyoo
@@ -406,7 +491,10 @@ TBD
 
 [az apim]: https://learn.microsoft.com/azure/api-management/api-management-key-concepts?WT.mc_id=dotnet-82522-juyoo
 [az apim policies]: https://learn.microsoft.com/azure/api-management/api-management-howto-policies?WT.mc_id=dotnet-82522-juyoo
+[az apim policies setheader]: https://learn.microsoft.com/azure/api-management/set-header-policy?WT.mc_id=dotnet-82522-juyoo
+[az apim policies basicauth]: https://learn.microsoft.com/azure/api-management/authentication-basic-policy?WT.mc_id=dotnet-82522-juyoo
 [az apim subscription]: https://learn.microsoft.com/azure/api-management/api-management-subscriptions?WT.mc_id=dotnet-82522-juyoo
+[az apim security authn]: https://learn.microsoft.com/azure/api-management/authentication-authorization-overview?WT.mc_id=dotnet-82522-juyoo
 
 [az fncapp]: https://learn.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=dotnet-82522-juyoo
 
