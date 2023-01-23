@@ -8,7 +8,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [power-platform, custom-connector, api-management, apim, security, authn, authentication, authorization]
 image: ../../static/img/banner.png
-description: "Throughout this post, let's discuss how Azure API Management can offer extra security to Power Platform custom connectors" 
+description: "Throughout this post, let's discuss how Azure API Management can offer extra security to Power Platform custom connectors." 
 tags: [low-code-february, 28-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert, fusion-teams, power-platform]
 ---
 
@@ -48,12 +48,12 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 
 ## Power Platform Custom Connector Authentication Types
 
-Power Platform custom connectors currently support [four authentication flow options &ndash; No Auth flow, API Key Auth flow, Basic Auth flow and OAuth2 Authorisation Code Auth flow][az pp cuscon authn]. "No Auth flow" is definately not an option for this time, but let's focus on the other three options throughout this post. You also need to be aware that those authentication types are mutually exclusive from each other. In other words, you CANNOT combine two or more authentication scenarios on one custom connector. Also, if you want to use the API Key auth flow, you CANNOT use the other two authentication types either within the custom connector. I'll discuss that later in this post.
+Power Platform custom connectors currently support [four authentication flow options &ndash; No Auth flow, API Key Auth flow, Basic Auth flow and OAuth2 Authorisation Code Auth flow][az pp cuscon authn]. "No Auth flow" is definitely not an option this time, but let's focus on the other three options throughout this post. You also need to be aware that those authentication types are mutually exclusive. In other words, you CANNOT combine two or more authentication scenarios on one custom connector. Also, if you want to use the API Key auth flow, you CANNOT use the other two authentication types within the custom connector. I'll discuss that later in this post.
 
 
 ## Deploying Sample Apps
 
-Let's deploy the sample apps for this post. Fork [this repository][gh sample] and follow the detailed instruction written on its README to provision and deploy the sample apps. Once everything is done, you will have one [APIM][az apim] instance and three [Azure Functions][az fncapp] app instances representing authentication scenarios like API Key Auth, Basic Auth and OAuth2 Auth respectively.
+Let's deploy the sample apps for this post. Fork [this repository][gh sample] and follow the detailed instruction on its README to provision and deploy the sample apps. Once everything is done, you will have one [APIM][az apim] instance and three [Azure Functions][az fncapp] app instances representing authentication scenarios like API Key Auth, Basic Auth and OAuth2 Auth, respectively.
 
 ![Azure resources provisioned][image-01]
 
@@ -62,7 +62,7 @@ Each function app has already been integrated with APIM. Let's take a look at ea
 
 ## 1. API Key Auth
 
-The first option is to use an API key to give extra security. APIM offers a concept called [subscription][az apim subscription] that comes with either HTTP request header of `Ocp-Apim-Subscription-Key` or HTTP request querystring of `subscription-key`. Therefore, you can add another security layer of API key with APIM, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
+The first option is to use an API key to give extra security. As APIM offers a concept called [subscription][az apim subscription], you can use the subscription key through an HTTP request header of `Ocp-Apim-Subscription-Key` or an HTTP request query string of `subscription-key`. Therefore, you can add another security layer of API key with APIM, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
 
 1. Let's take a look at the [API policy configurations][az apim policies] on APIM.
 
@@ -70,7 +70,7 @@ The first option is to use an API key to give extra security. APIM offers a conc
 
    Through this policy, the function app's API key is integrated. Therefore, you don't need to worry about the function app's API key.
 
-1. Now, you want to add the APIM's API key. Make sure your API settings has enabled the subscription. Also make sure that there is no user authorisation enabled by selecting "None" against the "User authorization" option.
+1. Now, you want to add the APIM's API key. First, make sure your API settings have enabled the subscription. Also, ensure that no user authorisation is enabled by selecting "None" against the "User authorization" option.
 
     ![API Key Auth - enable subscription][image-03]
 
@@ -115,7 +115,7 @@ The first option is to use an API key to give extra security. APIM offers a conc
 
     ![API Key Auth - custom connector by OpenAPI file][image-05]
 
-1. It automatically identifies the authentication type to "API Key", API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
+1. It automatically identifies the authentication type to "API Key", the API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
 
     ![API Key Auth - custom connector authentication type][image-06]
 
@@ -123,34 +123,34 @@ The first option is to use an API key to give extra security. APIM offers a conc
 
     ![API Key Auth - custom connector connection][image-07]
 
-1. Test the connector whether it works OK or not.
+1. Test the connector to see whether it works OK or not.
 
     ![API Key Auth - custom connector test][image-08]
 
-We've added an extra security to the custom connector with APIM's API key.
+We've added extra security to the custom connector with APIM's API key.
 
 
 ## 2. Basic Auth
 
-The second option is to use the basic auth flow. It's important to know that **APIM doesn't support this basic auth flow out-of-the-box**. Although it's the limitation, you can still apply this flow for the Power Platform custom connectors, by slightly modifying the OpenAPI document.
+The second option is to use the basic auth flow. It's important to know that **APIM doesn't support this basic auth flow out-of-the-box**. Although it's a limitation, you can still apply this flow for the Power Platform custom connectors by slightly modifying the OpenAPI document.
 
 1. Let's take a look at the API policy, which is basically the same as the one in the previous section &ndash; integrate the function app's API key with APIM.
 
     ![Basic Auth - API policy][image-09]
 
-1. Make sure that you're not going to use the subscription key for this time. Therefore, disable the subscription key. By doing so, you don't need the API key any longer for this API.
+1. Make sure that you're not going to use the subscription key at this time. Therefore, disable the subscription key. By doing so, you no longer need the API key for this API.
 
     ![Basic Auth - disable subscription][image-10]
 
-    It's also worth noting that, because the custom connector sends the basic auth token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
+    It's also worth noting that because the custom connector sends the basic auth token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
 
 1. Once you're ready, export the OpenAPI document by selecting the "Export" menu and choosing the "OpenAPI v2 (JSON)" option.
 
     ![Basic Auth - export OpenAPI document][image-11]
 
-1. Then you will be able to download an OpenAPI document. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use either `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
+1. Then, you will be able to download an OpenAPI document. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use either `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
-   However, you MUST replace both with the basic auth because you are not going to use the API key auth this time.
+   However, you MUST replace both with the basic auth because you will not use the API key auth this time.
 
     ```jsonc
     {
@@ -203,39 +203,39 @@ The second option is to use the basic auth flow. It's important to know that **A
 
     ![Basic Auth - custom connector by OpenAPI file][image-12]
 
-1. It automatically identifies the authentication type to "Basic authentication", "username" and "password".
+1. It automatically identifies the authentication type as "Basic authentication", "username", and "password".
 
     ![Basic Auth - custom connector authentication type][image-13]
 
-1. After creating the connector, let's create a connection for the connector. Then, it requires the username and password. In this sample app, the username and password are for [Atlassian Jira][atlassian jira]. Therefore, get your email address as the username and API token as the password from there.
+1. After creating the connector, let's create a connection for the connector. Then, it requires the username and password. The username and password in this sample app are for [Atlassian Jira][atlassian jira]. Therefore, get your email address as the username and API token as the password from there.
 
     ![Basic Auth - custom connector connection][image-14]
 
-1. Test the connector whether it works OK or not.
+1. Test the connector to see whether it works OK or not.
 
     ![Basic Auth - custom connector test][image-15]
 
-We've added an extra security to the custom connector with basic auth.
+We've added extra security to the custom connector with basic auth.
 
 
 ## 3. OAuth2 &ndash; Authorisation Code Auth
 
-The third option is to use [OAuth2][oauth2]. There are many authentication flows in OAuth2, but Power Platform custom connector only supports the [Authorisation code auth flow][az ad authn authcodeauth] at this time of writing. Therefore, let's focus on that. The basic idea of using any OAuth2 auth flow is to get the access token to get the resources that you want. So, it's safe to assume that the function app is able to understand the access token and process it.
+The third option is to use [OAuth2][oauth2]. There are many authentication flows in OAuth2, but Power Platform custom connector only supports the [Authorisation code auth flow][az ad authn authcodeauth] at this time of writing. Therefore, let's focus on that. The basic idea of using any OAuth2 auth flow is to get the access token and the resources you want. It's safe to assume that the function app is able to understand the access token and process it.
 
-1. To use OAuth2 auth flow, you need to [register an app][az ad register app] on [Azure Active Directory][az ad]. After registering a new app, it will give ability to get the access codes. I'm not going into too many details here, but it's worth taking a look at [this document][gh sample authcodeauth readme]. Once you create the app, you will have the following information:
+1. To use OAuth2 auth flow, you need to [register an app][az ad register app] on [Azure Active Directory][az ad]. After registering a new app, it will give the ability to get the access codes. I'm not going into too many details here, but it's worth taking a look at [this document][gh sample authcodeauth readme]. Once you create the app, you will have the following information:
 
     * Tenant ID
     * Client ID
     * Client secret
-    * Endpoint URL for authorization
-    * Endpoint URL for access token
-    * Endpoint URL for refresh token
+    * Endpoint URL for authorisation
+    * Endpoint URL for the access token
+    * Endpoint URL for the refresh token
 
-1. With this information, you need to integrate it with APIM. Go to Azure Portal, open the APIM instance, and naviagte to the "OAuth 2.0 + OpenID Connect" blade. Add a new OAuth2 service under the "OAuth 2.0" tab.
+1. With this information, you need to integrate it with APIM. Go to Azure Portal, open the APIM instance, and navigate to the "OAuth 2.0 + OpenID Connect" blade. Add a new OAuth2 service under the "OAuth 2.0" tab.
 
     ![Auth Code Auth - new OAuth2 service][image-16]
 
-1. Enter the following detains in the fields and create the service.
+1. Enter the following details in the fields and create the service.
 
     * Display name: `AuthCode Auth`
     * Client registration page URL: `http://localhost`
@@ -246,7 +246,7 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
     * Client ID: client ID noted from the above
     * Client secret: client secret noted from the above
 
-    After that you will have both redirect URLs:
+    After that, you will have both redirect URLs:
 
     * `null/signin-oauth/code/callback/authcode-auth`
     * `null/signin-oauth/implicit/callback`
@@ -255,23 +255,23 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
 1. Add both redirect URLs to your registered app on Azure AD as redirect URLs.
 
-1. Check out the API policy, which is basically the same as the ones in the previous sections &ndash; integrate the function app's API key with APIM.
+1. Check out the API policy, which is basically the same as in the previous sections &ndash; integrate the function app's API key with APIM.
 
     ![Auth Code Auth - API policy][image-17]
 
-1. Make sure that you're not going to use the subscription key for this time. Therefore, disable the subscription key. By doing so, you don't need the API key any longer for this API. In addition to this, because you're using OAuth2 authorization, choose the "OAuth 2.0" option and select the OAuth 2.0 server of "AuthCode Auth" that you just created right before.
+1. Make sure you will not use the subscription key this time. Therefore, disable the subscription key. By doing so, you no longer need the API key for this API. In addition to this, because you're using OAuth2 authorization, choose the "OAuth 2.0" option and select the OAuth 2.0 server of "AuthCode Auth" that you just created right before.
 
     ![Auth Code Auth - disable subscription][image-18]
 
-    It's also worth noting that, because the custom connector sends the OAuth2 access token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
+    It's also worth noting that because the custom connector sends the OAuth2 access token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
 
 1. Once you're ready, export the OpenAPI document by selecting the "Export" menu and choosing the "OpenAPI v2 (JSON)" option.
 
     ![Auth Code Auth - export OpenAPI document][image-19]
 
-1. Then you will be able to download an OpenAPI document. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use either `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
+1. Then, you will be able to download an OpenAPI document. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use either `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
-   However, you MUST remove both because you are not going to use the API key auth this time. Make sure that you MUST replace `{{TENANT_ID}}` with your tenant ID.
+   However, you MUST remove both because you will not use the API key auth this time. Make sure you MUST replace `{{TENANT_ID}}` with your tenant ID.
 
     ```jsonc
     {
@@ -338,28 +338,28 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
     ![Auth Code Auth - custom connector by OpenAPI file][image-20]
 
-1. It automatically identifies the authentication type to "OAuth 2.0" and Identity Provider of "Generic OAuth 2". Enter Client ID, Client secret and Refresh URL noted from above. It's OK to use a different registered app here, as long as it's under the same tenant.
+1. It automatically identifies the authentication type to "OAuth 2.0" and the Identity Provider of "Generic OAuth 2". Then, enter the Client ID, Client secret, and the Refresh URL noted above. Using a different registered app here is OK if it's under the same tenant.
 
     ![Auth Code Auth - custom connector authentication type][image-21]
 
-1. After creating the connector, let's create a connection for the connector. As you've already provided the client ID and secret, the connection will be created straightaway.
+1. After creating the connector, let's create a connection for the connector. As you've already provided the client ID and secret, you will immediately create the connection.
 
-1. Test the connector whether it works OK or not.
+1. Test the connector to see whether it works OK or not.
 
     ![Auth Code Auth - custom connector test][image-22]
 
-We've added an extra security to the custom connector with OAuth2 - authorisation code auth.
+We've added extra security to the custom connector with OAuth2 - authorisation code auth.
 
 
 ## 4. BFF (Backends-for-Frontends) &ndash; Combination of API Key Auth and Basic Auth
 
-There are many requirements using the [BFF (Backends-for-frontends) pattern][az patterns architecture bff] through APIM, especially if your organisation adopts microservice architecture. It's not uncommon that APIs use different authentication approaches from each API &ndash; one use the API key auth, another one uses the basic key auth and the other one uses the OAuth2 auth.
+Many organisations nowadays have requirements using the [BFF (Backends-for-frontends) pattern][az patterns architecture bff] through APIM, mainly if your organisation adopts microservice architecture. It's not uncommon that APIs use different authentication approaches from each API &ndash; one uses the API key auth, another uses the basic key auth, and the other uses the OAuth2 auth.
 
-If you are about to build a BFF with those APIs using different authentication methods, what would you do? If you're even about to create the BFF for the Power Platform custom connector, what could you do? There are many different combinations of authentication methods, but let's focus on those two &ndash; API key auth and basic auth.
+If you are about to build a BFF with those APIs using different authentication methods, what would you do? What could you do if you're even about to create the BFF for the Power Platform custom connector? There are many different combinations of authentication methods, but let's focus on those two &ndash; API key auth and basic auth.
 
-1. First of all, you MUST choose which authentication type will use for the main one for the Power Platform custom connector. If you want to use the basic auth as the main one, the custom connector doesn't have to know the API key, and vice versa. In other words, the other authentication method MUST be handled by the APIM policy of the BFF API.
+1. First of all, you MUST choose which authentication type will use for the main one for the Power Platform custom connector. If you want to use the basic auth as the main one, the custom connector doesn't have to know the API key and vice versa. In other words, the other authentication method MUST be handled by the APIM policy of the BFF API.
 
-1. Let's take a look at [this OpenAPI document][gh sample openapi bff] for BFF. It's the combination of both apps using the API key auth and basic auth respectively.
+1. Let's take a look at [this OpenAPI document][gh sample openapi bff] for BFF. It combines both apps using the API key auth and basic auth, respectively.
 
     ```yaml
     openapi: 3.0.1
@@ -403,25 +403,25 @@ If you are about to build a BFF with those APIs using different authentication m
           scheme: basic
     ```
 
-   It defines both API key auth and basic auth in the document and apply them to each endpoint.
+   It defines API key auth and basic auth in the document and applies them to each endpoint.
 
-1. Import this OpenAPI to APIM. Then check out the settings. Make sure the subscription MUST be activated.
+1. Import this OpenAPI to APIM. Then check out the settings. Make sure you MUST activate the subscription.
 
     ![BFF - enable subscription][image-23]
 
-1. Add the [`authentication-basic` as an inbound policy][az apim policies basicauth] that sets the basic auth token to the request header. After this, APIM automatically injects this basic auth token to every request header.
+1. Add the [`authentication-basic` as an inbound policy][az apim policies basicauth] that sets the basic auth token to the request header. After this, APIM automatically injects this basic auth token into every request header.
 
     ![BFF - basic authentication policy][image-24]
 
-1. Export the OpenAPI document. As you're going to use the API key auth, follow the [1. API Key Auth](#1-api-key-auth) pattern.
+1. Export the OpenAPI document. As you use the API key auth, follow the [1. API Key Auth](#1-api-key-auth) pattern.
 
-1. In the Power Platform custom connector, you only need the API key provided by APIM to create the connection because the basic auth token has already been encapsulated by APIM.
+1. In the Power Platform custom connector, you only need the API key provided by APIM to create the connection because APIM has already encapsulated the basic auth token.
 
-1. Test the connector whether it works OK or not. As you can see, both endpoints works perfectly fine.
+1. Test the connector to see whether it works OK or not. As you can see, both endpoints work perfectly fine.
 
     ![BFF - custom connector test][image-25]
 
-We've created a BFF by combining APIs that use API key auth and basic auth, and used it for Power Platform custom connector. As we mentioned earlier in this post, due to the restriction of authentication types in Power Platform custom connector, we have to choose only one authentication type. If you need more than one authentication type for your connector, you MUST choose one and all the others MUST be encapsulated by APIM.
+We've created a BFF by combining APIs that use API key auth and basic auth, and the BFF has been used for the Power Platform custom connector. However, as mentioned earlier in this post, we have to choose only one authentication type due to the restriction of authentication types in the Power Platform custom connector. Therefore, if you need more than one authentication type for your connector, you MUST choose one, and APIM MUST encapsulate all the others.
 
 Theoretically, there are three possible combinations for BFF:
 
@@ -429,7 +429,7 @@ Theoretically, there are three possible combinations for BFF:
 * API key auth and OAuth2 auth code auth
 * Basic auth and OAuth2 auth code auth
 
-Throughout this post, we've walked through the first combination. You can try the other two combinations on your end!
+Throughout this post, we've walked through the first combination. After that, you can try the other two combinations on your end!
 
 
 ## Exercise &ndash; Try it yourself!
