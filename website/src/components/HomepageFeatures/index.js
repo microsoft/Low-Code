@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 // CORE = POWER PLATFORM
-// https://learn.microsoft.com/en-us/power-platform/guidance/icons
+// https://learn.microsoft.com/power-platform/guidance/icons
 const CoreServices = [
   { 
     title: 'Power Apps',

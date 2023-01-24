@@ -75,7 +75,7 @@ const config = {
 
         items: [
           {to: '/lowcode-february', label: '#LowCodeFebruary', position: 'left'},
-          {to: 'https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf', position: 'left'},
+          {to: 'https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf', position: 'left'},
 
 
           
@@ -118,27 +118,27 @@ const config = {
           },
           {
             label: `Power Platforms`,
-            to: 'https://learn.microsoft.com/en-us/power-platform/developer/get-started?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-platform/developer/get-started?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: `Power Virtual Agents`,
-            to: 'https://learn.microsoft.com/en-us/power-virtual-agents/fundamentals-what-is-power-virtual-agents?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: `Power Automate`,
-            to: 'https://learn.microsoft.com/en-us/power-automate/getting-started?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-automate/getting-started?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: `Power Apps`,
-            to: 'https://learn.microsoft.com/en-us/power-apps/powerapps-overview?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-apps/powerapps-overview?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: `Power BI`,
-            to: 'https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-service-overview?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-bi/fundamentals/power-bi-service-overview?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: `Power Pages`,
-            to: 'https://learn.microsoft.com/en-us/power-pages/introduction?WT.mc_id=javascript-82212-ninarasi'
+            to: 'https://learn.microsoft.com/power-pages/introduction?WT.mc_id=javascript-82212-ninarasi'
           },
           {
             label: 'Privacy Statement ',

@@ -9,7 +9,7 @@ Events related to key #LowCodeFebruary activities will be prefixed by one of the
  * 🚀 [**Zero To Hero**](/lowcode-february/ZeroToHero) - blog post published by product team
  * 🔋 [**#30DaysOfLowCode**](/lowcode-february/30Days) - blog post from #30Days schedule
  * 🎯 [**Cloud Skills Challenge**](/lowcode-february/CloudSkills) - key deadlines for participation
- * 💬 [**Ask The Expert**](/lowcode-february/AskTheExpert) - key deadlines for participation
+ * 💬 [**Video & Livestreams**](/lowcode-february/Video-Live) - key deadlines for participation
 
 ---
 
@@ -36,7 +36,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 12 |  |  |
 | Feb 13 |  |  |
 | Feb 14 |  |  |
-| Feb 15 | [🎙 #PowerfulDevs Conference](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
+| Feb 15 | [🎙 #PowerfulDevs Conference](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
 | Feb 16 |  |  |
 | Feb 17 |  |  |
 | Feb 18 |  |  |
