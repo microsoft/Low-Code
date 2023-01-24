@@ -5,7 +5,7 @@ title: Calendar
 ## Categories
 
 Events related to key #LowCodeFebruary activities will be prefixed by one of these icons:
- * 🧰 [**Hands-on Workshops**](/lowcode-february/docs/intro) - live session (workshop or learning path)
+ * 🧰 [**Hands-on Workshops**](/docs/intro) - live session (workshop or learning path)
  * 🚀 [**Zero To Hero**](/lowcode-february/ZeroToHero) - blog post published by product team
  * 🔋 [**#30DaysOfLowCode**](/lowcode-february/30Days) - blog post from #30Days schedule
  * 🎯 [**Cloud Skills Challenge**](/lowcode-february/CloudSkills) - key deadlines for participation
