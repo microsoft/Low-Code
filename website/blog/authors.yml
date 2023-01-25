@@ -82,13 +82,26 @@ evan:
   url: https://github.com/evanmlew 
   image_url: https://github.com/evanmlew.png 
 
-  
 casey:
   name: Casey Burke
   title: Principal Product Manager
   url: https://github.com/caburk  
   image_url: https://github.com/caburk.png 
 
+gomolemo:
+  name: Gomolemo Mohapi
+  title: Cloud Advocate 
+  url: https://github.com/gomomohapi
+  image_url: https://github.com/gomomohapi.png 
+
+phil:
+  name: Phil Topness
+  title: Power CAT (Customer Advisory Team)
+  url: https://github.com/topness-msft/  
+  image_url: https://github.com/topness-msft.png 
+
+  
+  
   
   
   
