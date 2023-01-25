@@ -1,6 +1,6 @@
 ---
 slug: 2023-kickoff
-title: It's a LowCode February!
+title: It's a Low Code February!
 authors: [sonja,nitya]
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
@@ -26,8 +26,7 @@ Let's talk about what you will learn in our developer journey this month. We hav
 4. The [**Cloud Skills Challenge**](https://aka.ms/lowcode-february/challenge) is a set of curated free, self-guided learning modules _focused on fusion teams and low-code development_. Complete them in #30Days and make the leaderboard!
 5. The [**Video + Livestream**](/lowcode-february/Video-Live/) page showcases live events (e.g., AskTheExpert, LearnLive) and on-demand video shows (e.g., LowCode Revolution) and replays, to help you learn at your own pace. 
 6. The [**Community Buzz**](https://pnp.github.io/powerplatform-samples/) section connects you to peer community members. Share your samples and learn from 90+ real-world Power Platform examples shared by the community. And share your contributions with us via GitHub issues or with a [post on dev.to usingthe #powerfuldevs tag](https://dev.to/t/powerfuldevs).
-
-
+ 
  
 ## How can you participate?
 
@@ -35,9 +34,9 @@ Want to get started on your low code development journey with us? Here are some 
 
 * 1️⃣ [**Sign up**](https://aka.ms/lowcode-february/devplan) for the free Power Apps Developer Plan.
 * 2️⃣ [**Enroll**](https://aka.ms/lowcode-february/challenge) in the Cloud Skills Challenge and start climbing that leaderboard!
-* 3️⃣ [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates. 
+* 3️⃣ [**Save**](http://aka.ms/lowcode-february) the page to start your learning on Feb 1, and [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates. 
 
-Ready to get started being a low-code developer, or a pro-dev supporting fusion teams and low code development?
+Ready to get started being a low-code developer, or a pro-dev supporting fusion teams and low code app development?
 
 🏁 **#Lets Go!**
 
