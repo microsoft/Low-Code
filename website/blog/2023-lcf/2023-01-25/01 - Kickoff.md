@@ -11,7 +11,7 @@ February is traditionally a month where we celebrate family, friends and loved o
 
 ![Post Banner](./banner.png)
 
-We are excited to announce the **launch of #LowCodeFebruary**, a month-long developer journey that will take you from app development tips, to Fusion team insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure, and popular developer tools to enhance your productivity.
+We are excited to announce the **launch of #LowCodeFebruary**, a month-long developer journey that will take you from app development tips, to fusion teams insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure, and popular developer tools to enhance your productivity.
 
 
 ## What will we cover?
