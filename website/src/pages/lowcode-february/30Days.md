@@ -9,7 +9,7 @@ title: 30 Days Of Low Code
 ## Welcome! 
 
 :::warning TENTATIVE ROADMAP
-This is a tentative roadmap for #28DaysOfLowCode, a daily content series planned for the upcoming **LowCodeFebruary** campaign. Topics and schedule are subject to changes. Revisit this page for updates!
+This is a tentative roadmap for #30DaysOfLowCode, a daily content series planned for the upcoming **LowCodeFebruary** campaign. Topics and schedule are subject to changes. Revisit this page for updates!
 :::
 
 Welcome to our month-long celebration of Low Code development and Fusion teams! Skill up on:
@@ -25,7 +25,9 @@ Welcome to our month-long celebration of Low Code development and Fusion teams! 
 
 _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we wanted to share a few posts ahead of time to set the context and describe the various resources available to you!
 
-![Kickoff](./../../../static/img/banner.png)
+* Jan 25 - [It's a Low Code February!](/blog/)
+
+![Kickoff](CampaignBanner.png)
 
 ---
 
@@ -35,7 +37,7 @@ _Welcome to the Week 1 of your learning journey into Low Code Development._
 
 :::info WEEK 1 - TOPIC
 _Posts will be linked here once published._
- * Feb 01 - [Hello, #28DaysOfLowCode](/blog/)
+ * Feb 01 - [Hello, #30DaysOfLowCode](/blog/)
  * Feb 02 - [You say Low, I say Code!](/blog/)
  * Feb 03 - [Developer Tools & Onboarding](/blog/)
  * Feb 04 - [Use Cases](/blog/)
