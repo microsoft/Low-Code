@@ -29,12 +29,12 @@ The theme for this week is **backend**. We talked about how we can provide extra
 
 ## What We'll Cover
 
- * [Power Platform Custom Connector Authentication Types](#power-platform-custom-connector-authentication-types)
+ * [What is API Management Authorizations](##what-is-api-management-authorizations)
+ * [Scenario - Power Apps integration with GitHub via Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
+ * [Scenario Overview](#scenario-overview)
  * [Prerequisites](#prerequisites)
- * [Deploying Sample Apps](#deploying-sample-apps)
- * [API Key Auth](#1-api-key-auth)
- * [Basic Auth](#2-basic-auth)
- * [OAuth2 &ndash; Authorisation Code Auth](#3-oauth2--authorisation-code-auth)
+ * [Step 1: Register an application in GitHub for your organization](#2-basic-auth)
+ * [Step 2: Configure an authorization in API Management](#3-oauth2--authorisation-code-auth)
  * [BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth](#4-bff-backend-for-frontend--combination-of-api-key-auth-and-basic-auth)
  * [Exercise &ndash; Try it yourself!](#exercise-–-try-it-yourself)
  * [Resources &ndash; For self-study!](#resources-–-for-self-study)
@@ -49,19 +49,19 @@ The theme for this week is **backend**. We talked about how we can provide extra
 
 ## What is API Management Authorizations
 
-API Management authorizations allow you to delegate authentication to API Management to let it authenticate against a given backend service or a given SaaS platform. It greatly simplifies the process for authenticating and authorizing users across these services and reduces development costs in ramping up, implementing and maintaining security features with service integrations. It lets you configure OAuth, Consent, Acquire Tokens, Cache Tokens and refreshes tokens for multiple services without writing a single line of code. API Management does all the heavy lifting for you, while you can focus on the application/domain logic.
+[API Management authorizations](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview) allows you to delegate authentication to API Management to let it authenticate against a given backend service or a given SaaS platform. It greatly simplifies the process for authenticating and authorizing users across these services and reduces development costs in ramping up, implementing and maintaining security features with service integrations. It lets you configure OAuth, Consent, Acquire Tokens, Cache Tokens and refreshes tokens for multiple services without writing a single line of code. API Management does all the heavy lifting for you, while you can focus on the application/domain logic.
 
-It differs from managed identity in that it spans multiple identity providers (IDP), as it is not tight to Azure Active Directory. It also leverages OAuth flows, such as the Authorization code flow, while managed identities stick to the Client Credentials Grant. 
+> *Note: It differs from managed identity in that it spans multiple identity providers (IDP), as it is not tight to Azure Active Directory. It also leverages OAuth flows, such as the Authorization code flow, while managed identities stick to the Client Credentials Grant.*
 
 ## Scenario - Power Apps integration with GitHub via Authorizations
 
-###### Scenario Overview
+### Scenario Overview
 
 Imagine having a GitHub organization with multiple [team discussions](https://docs.github.com/en/organizations/collaborating-with-your-team/about-team-discussions). In one of your team discussions, you want to collect issues from users via comments. Now, to post a GitHub comment, every user requires a GitHub account and needs to understand where to find the relevant team discussion.
 
-Let's create a Power App for this scenario that uses a custom connector to call the right GitHub API to post a comment about an issues to the team discussion.
+> Let's create a Power App for this scenario that uses a custom connector to call the right GitHub API to post a comment about an issues to the team discussion.
 
-* *Note: Microsoft Power Platform offers wide varity of pre-installed connectors, one of them for [GitHub](https://learn.microsoft.com/en-us/connectors/github/). For our scenarios however, this connector doesn't provide us with the right capability. Creating a custom connector using Azure API Management is an easy and secure way to expose your microservices/APIs directly. This way, you can expand the possibilities with the Microsoft Power Platform and adapt it according to your organization's use cases.* *
+*Note: Microsoft Power Platform offers wide varity of pre-installed connectors, one of them for [GitHub](https://learn.microsoft.com/en-us/connectors/github/). For our scenarios however, this connector doesn't provide us with the right capability. Creating a custom connector using Azure API Management is an easy and secure way to expose your microservices/APIs directly. This way, you can expand the possibilities with the Microsoft Power Platform and adapt it according to your organization's use cases.*
 
 ###### Prerequisites
 - A GitHub account is required.
@@ -74,22 +74,23 @@ Let's create a Power App for this scenario that uses a custom connector to call 
 
 1. Sign in to GitHub.
 2. In your account profile, go to **Your organizations** and select the organization that the scenario is for.
+![organization](media/organization.png)
 2. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
-  - Enter * *teamdiscussion* * as your Application name
-  - * *https://portal.azure.com/* * as your Homepage URL
+  - Enter *teamdiscussion* as your Application name
+  - *https://portal.azure.com/* as your Homepage URL
   - Optionally, add an Application description.
-  - In Authorization callback URL (the redirect URL), enter * *https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>* *, substituting the API Management service name that is used.
+  - In Authorization callback URL (the redirect URL), enter *https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>*, substituting the API Management service name that is used.
 3. Select **Register application**.
 4. In the General page, copy the **Client ID**, which you'll use in a later step.
 5. Select **Generate a new client secret**. Copy the secret, which won't be displayed again, and which you'll use in a later step.
 
-![teamdiscussion](.media/teamdiscussion.png)
+![teamdiscussion](media/teamdiscussion.png)
 
 ###### Step 2: Configure an authorization in API Management
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select Authorizations > + Create.
-![authportal](.media/authportal.png)
+![authportal](media/authportal.png)
 3. In the **Create authorization window**, enter the following settings, and select **Create**:
 
 | Settings  | Value |
@@ -106,17 +107,17 @@ Let's create a Power App for this scenario that uses a custom connector to call 
 5. On the Login tab, select **Login with GitHub**. Before the authorization will work, it needs to be authorized at GitHub.
 6. Sign in to your GitHub account if you're prompted to do so. If prompted during redirection, select **Allow access**. 
 7. After authorization, the browser is redirected to API Management and the window is closed. In API Management, select **Next**.
-8. On the Access policy page, create an access policy so that API Management has access to use the authorization. * *Note: Ensure that a [managed identity](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-use-managed-service-identity#create-a-system-assigned-managed-identity) is configured for API Management.* *
+8. On the Access policy page, create an access policy so that API Management has access to use the authorization. *Note: Ensure that a [managed identity](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-use-managed-service-identity#create-a-system-assigned-managed-identity) is configured for API Management.*
 9. Select **Managed identity + Add members** and then select your subscription.
 10. In **Select managed identity**, select **API Management service**, and then select the API Management instance that is used. Click **Select** and then **Complete**.
 
-![accesspolicy](.media/accesspolicy.png)
+![accesspolicy](media/accesspolicy.png)
 
-###### Step 2: Create an API in API Management and configure a policy
+###### Step 3: Create an API in API Management and configure a policy
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **APIs > + Add API** and select **HTTP**.
-![addapi](.media/addapi.png)
+![addapi](media/addapi.png)
 
 3. Enter the following settings. Then select **Create**.
 
@@ -134,11 +135,12 @@ Let's create a Power App for this scenario that uses a custom connector to call 
 | Display name  | POSTdiscussioncomment  |
 | URL for **POST**  | /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments  |
 
-Please find here an example of a POST URL: * */orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments* *
-![addoperation](.media/addoperation.png)
+Please find here an example of a POST URL: 
+> /orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments
+![addoperation](media/addoperation.png)
 
 5. Next, we need to add a **Request Body** to your API. For this, within your Frontend section scroll down and select **Request**.
-![request](.media/request.png)
+![request](media/request.png)
 
 6. Now **Add representation** and insert the following information:
 
@@ -147,7 +149,7 @@ Please find here an example of a POST URL: * */orgs/AuthorizationsOrganization/t
 | CONTENT TYPE  | application/json  |
 | DEFINITION  | {"body":"This is a test issue"}  |
 
-![representation](.media/representation.png)
+![representation](media/representation.png)
 
 7. Select **All operations** and in the **Inbound processing** section, select the **(</>)** (code editor) icon.
 8. Copy the following, and paste in the policy editor. Make sure the provider-id and authorization-id correspond to the names in our previous step. Select **Save**.
@@ -197,28 +199,28 @@ Inbound policy:
 
 You should get a **HTTP/1.1 201 Created** response and a comment should have been posted in your team's discussion.
 
-![test](.media/test.png)
+![test](media/test.png)
 
-###### Step 3: Create a custom connector for the Microsoft Power Platform using API Management
+###### Step 4: Create a custom connector for the Microsoft Power Platform using API Management
 
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
 If you want to add additional security to your API, check out our blog post on [10. Providing Power Platform custom connector with additional security via Azure API Management]()
 
-![createpower](.media/createpower.png)
+![createpower](media/createpower.png)
 
-###### Step 4: Call your web API via your Power App
+###### Step 5: Call your web API via your Power App
 
-Next, we want to make an API call within your Power. You can import our [GitHub Comment - Power App](.powerapp) sample app, please follow instructions on [Importing a canvas app package](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/export-import-app#importing-a-canvas-app-package).
+Next, we want to make an API call within your Power. You can import our [GitHub Comment - Power App](powerapp) sample app, please follow instructions on [Importing a canvas app package](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/export-import-app#importing-a-canvas-app-package).
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
-![customconnectorpower](.media/customconnectorpower.png)
+![customconnectorpower](media/customconnectorpower.png)
 
 2. Next, we modify our **Send** Button with the following PowerFX formular:
 
 > githubdiscussion.postdiscussioncomment({body:TextInputFeedback.Text}); Reset(TextInputFeedback); Notify("Success: 201 Created",NotificationType.Success)
 
-![powerappsinput](.media/powerappsinput.png)
+![powerappsinput](media/powerappsinput.png)
 
 3. Now, you are able to test your Power App and create a new comment in your GitHub team's discussion.
 
