@@ -89,6 +89,14 @@ The first option is to use an API key to give extra security. As APIM offers a c
 
     ![API Key Auth - export OpenAPI document][image-04]
 
+   You might have a question here.
+   
+   > What does the "Create Power Connector" menu do? Isn't that for this API key auth?
+
+   That's actually a valid question. The only difference between exporting the OpenAPI document and creating the connector directly on the menu is that which tenant you want to export the connector to. If you want to use only within your tenant, the "Create Power Connector" is way easier. However, if your connector is not only for your tenant, but also other tenant, you should export the OpenAPI document and use it on the other tenants.
+
+   Therefore, throughout this post, you're assuming to use this custom connector in general purpose, rather than tied with your tenant.
+
 1. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use the API key through `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
     ```jsonc
