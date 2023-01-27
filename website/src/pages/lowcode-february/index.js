@@ -29,13 +29,13 @@ const CampaignFeatures = [
     ),
   },
   {
-    title: 'Ask The Expert',
-    Svg: require('@site/static/img/campaign/ama.svg').default,
+    title: 'Video + Livestreams',
+    Svg: require('@site/static/img/campaign/buzz.svg').default,
     fillColor: "#b66dff",
-    link: "/Low-Code/lowcode-february/AskTheExpert",
+    link: "/Low-Code/lowcode-february/Video-Live",
     description: (
       <>
-      Join us for online conversations with the product teams - submit questions ahead of time or ask them live!
+      Join us for live online events to learn and engage with experts, or catch up with video series and replays on your own time.
       </>
     ),
   },
@@ -63,12 +63,12 @@ const CampaignFeatures = [
   },
   {
     title: 'Community Buzz',
-    Svg: require('@site/static/img/campaign/buzz.svg').default,
+    Svg: require('@site/static/img/campaign/ama.svg').default,
     link: "https://pnp.github.io/powerplatform-samples/",
     fillColor: "#fe6db6",
     description: (
       <>
-      Build interesting demos or wrote helpful articles? Connect with the community and contribute your expertise!
+      Have you built interesting low-code components, connectors, or applications? Wrote articles to help others? Share them with the community!
       </>
     ),
   },

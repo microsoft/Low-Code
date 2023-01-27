@@ -1,7 +1,7 @@
 ---
 slug: 2023-day1
 title: 1. Hello, 30DaysOfLowCode!
-authors: [april, matt, nitya, sonja]
+authors: [sonja, april, matt, nitya,  justin, daniel, gomolemo, srikumar, julia, kartik, sameer, taiki, marcel , evan, casey,linda, phil]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
