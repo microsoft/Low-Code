@@ -10,14 +10,6 @@ There is a low code revolution underway. We have a surging digital demand with a
 
 With low code tools like the Power Platform making it easier for business technologists to develop solutions, you might wonder if there's any room for a code first developer in this low code revolution. Well, the answer is, absolutely there is! In fact, code first developers are a critical piece to the puzzle.
 
-## Low Code + Full Code = No Cliffs
-
-Using low-code tools is key to helping to resolve the existing and impending app gap challenge but that doesn't mean that low code alone can solve every business problem. Low code tools like the Power Platform's full potential is unlocked when you combine the low code capabilities with code first development.
-
-The combination of low code + full code creates what we call a "no cliffs" experience that allows business technologists to easily build solutions with low code while professional developers can leverage full code to augment and extend the platform capabilities. The process of low code developers, IT pros and full code developers working together like this is often referred to as "fusion development".
-
-![Fusion Development Process](./02_FusionDevProcess.png)
-
 ## What is "low code"?
 
 The term "low code" can mean different things to different people when they first hear it. What we mean when we talk about low code is that with tools like Power Apps, you only need to write a small amount of code to get results that would normally take several more lines of code in a traditional programming language.
@@ -25,6 +17,14 @@ The term "low code" can mean different things to different people when they firs
 ![What is Low Code](./02_WhatIsLowCode.png)
 
 In canvas-based Power Apps, the low code scripting language used is called [Power Fx](https://aka.ms/LearnPowerFx). This language is based on the Microsoft Excel formula language which meets many business technologists where they are by leveraging the knowledge they already have.
+
+## Low Code + Full Code = No Cliffs
+
+Using low-code tools is key to helping to resolve the existing and impending app gap challenge but that doesn't mean that low code alone can solve every business problem. Low code tools like the Power Platform's full potential is unlocked when you combine the low code capabilities with code first development.
+
+The combination of low code + full code creates what we call a "no cliffs" experience that allows business technologists to easily build solutions with low code while professional developers can leverage full code to augment and extend the platform capabilities. The process of low code developers, IT pros and full code developers working together like this is often referred to as "fusion development".
+
+![Fusion Development Process](./02_FusionDevProcess.png)
 
 ## What does the Power Platform Provide?
 
@@ -58,7 +58,7 @@ In the next series of posts you'll learn more about some of these core concepts 
 If all of this sounds intriguing and you want to get started on your low code development journey, here are some actions you can take:
 
 * 1️⃣ [**Sign up**](https://aka.ms/lowcode-february/devplan) for the free Power Apps Developer Plan.
-* 2️⃣ [**Enroll**](https://aka.ms/lowcode-february/challenge) in the Cloud Skills Challenge and start climbing that leaderboard!
+* 2️⃣ [**Enroll**](https://aka.ms/lowcode-february/challenge) in the Cloud Skills Challenge to learn more about low code and fusion team fundamentals and start climbing that leaderboard!
 * 3️⃣ [**Save**](http://aka.ms/lowcode-february) the page to start your learning on Feb 1, and [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates.
 
 <!-- FIXME: banner image -->
