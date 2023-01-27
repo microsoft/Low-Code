@@ -30,6 +30,7 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 ## What We'll Cover
 
  * [Power Platform Custom Connector Authentication Types](#power-platform-custom-connector-authentication-types)
+ * [Prerequisites](#prerequisites)
  * [Deploying Sample Apps](#deploying-sample-apps)
  * [API Key Auth](#1-api-key-auth)
  * [Basic Auth](#2-basic-auth)
@@ -49,6 +50,16 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 ## Power Platform Custom Connector Authentication Types
 
 Power Platform custom connectors currently support [four authentication flow options &ndash; No Auth flow, API Key Auth flow, Basic Auth flow and OAuth2 Authorisation Code Auth flow][az pp cuscon authn]. "No Auth flow" is definitely not an option this time, but let's focus on the other three options throughout this post. You also need to be aware that those authentication types are mutually exclusive. In other words, you CANNOT combine two or more authentication scenarios on one custom connector. Also, if you want to use the API Key auth flow, you CANNOT use the other two authentication types within the custom connector. I'll discuss that later in this post.
+
+
+## Prerequisites ##
+
+For this post, you need to have the followings signed up:
+
+* [Microsoft 365 Developer Program][m365 dev]
+* [Power Platform Developer Program][pp dev]
+* [Free Microsoft Azure subscription][az free]
+* [Free GitHub account][gh free]
 
 
 ## Deploying Sample Apps
@@ -503,3 +514,8 @@ Throughout this post, we've walked through the first combination. After that, yo
 
 [atlassian jira]: https://www.atlassian.com/software/jira
 [oauth2]: https://oauth.net/2/
+
+[m365 dev]: https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program?WT.mc_id=dotnet-82522-juyoo
+[pp dev]: https://learn.microsoft.com/power-apps/maker/developer-plan?WT.mc_id=dotnet-82522-juyoo
+[az free]: https://azure.microsoft.com/free/?WT.mc_id=dotnet-82522-juyoo
+[gh free]: https://github.com/signup
