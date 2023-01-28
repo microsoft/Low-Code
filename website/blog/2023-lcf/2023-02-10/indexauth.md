@@ -30,7 +30,7 @@ The theme for this week is **backend**. We talked about how we can provide extra
 ## What We'll Cover
 
  * [What is API Management Authorizations](#what-is-api-management-authorizations)
- * [Scenario - Power Apps integration with GitHub via Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
+ * [Scenario - Power Apps integration with GitHub and API Management Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
  * [Scenario Overview](#scenario-overview)
  * [Prerequisites](#prerequisites)
  * [Step 1: Register an application in GitHub for your organization](#step-1-register-an-application-in-github-for-your-organization)
@@ -53,7 +53,7 @@ The theme for this week is **backend**. We talked about how we can provide extra
 
 > *Note: It differs from managed identity in that it spans multiple identity providers (IDP), as it is not tight to Azure Active Directory. It also leverages OAuth flows, such as the Authorization code flow, while managed identities stick to the Client Credentials Grant.*
 
-## Scenario - Power Apps integration with GitHub via Authorizations
+## Scenario - Power Apps integration with GitHub and API Management Authorizations
 
 ### Scenario Overview
 
