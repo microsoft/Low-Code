@@ -232,4 +232,4 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 3. Now, you are able to test your Power App and create a new comment in your GitHub team's discussion.
 
 
->Enjoy this fun little tutorial and let us know what you think!
+>Enjoy this fun little tutorial and let us know what you think! @juliajuju93
