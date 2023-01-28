@@ -30,7 +30,7 @@ The theme for this week is **backend**. We talked about how we can provide extra
 ## What We'll Cover
 
  * [What is API Management Authorizations](#what-is-api-management-authorizations)
- * [Scenario - Power Apps integration with GitHub and API Management Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
+ * [Scenario - Power Apps integration with GitHub and API Management Authorizations](#scenario---power-apps-integration-with-github-and-api-management-authorizations)
  * [Scenario Overview](#scenario-overview)
  * [Prerequisites](#prerequisites)
  * [Step 1: Register an application in GitHub for your organization](#step-1-register-an-application-in-github-for-your-organization)
