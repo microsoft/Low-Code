@@ -23,9 +23,9 @@ tags: [low-code-february, 28-days-of-lowcode, learn-live, zero-to-hero, ask-the-
   <link rel="canonical" href="https://microsoft.github.io/Low-Code/blog/2023-day10" />
 </head>
 
-Welcome to `Day 10` of #28DaysOfLowCode!
+Welcome to `Day 10` of #30DaysOfLowCode!
 
-The theme for this week is **backend**. Yesterday we talked about building custom connectors. Today we'll explore the topic of giving extra security to those custom connectors through [Azure API Management (APIM)][az apim].
+The theme for this week is **backend**. Yesterday we talked about building custom connectors. Today we'll explore the topic of giving extra security to those custom connectors through [Azure API Management][az apim].
 
 ## What We'll Cover
 
@@ -64,24 +64,29 @@ For this post, you need to have the followings signed up:
 
 ## Deploying Sample Apps
 
-Let's deploy the sample apps for this post. Fork [this repository][gh sample] and follow the detailed instruction on its README to provision and deploy the sample apps. Once everything is done, you will have one [APIM][az apim] instance and three [Azure Functions][az fncapp] app instances representing authentication scenarios like API Key Auth, Basic Auth and OAuth2 Auth, respectively.
+Let's deploy the sample apps for this post. Fork [this repository][gh sample] and follow the detailed instruction on its README to provision and deploy the sample apps. Once everything is done, you will have one [API Management][az apim] instance and three [Azure Functions][az fncapp] app instances representing authentication scenarios like API Key Auth, Basic Auth and OAuth2 Auth, respectively.
 
 ![Azure resources provisioned][image-01]
 
-Each function app has already been integrated with APIM. Let's take a look at each authentication type.
+Each function app has already been integrated with API Management. Let's take a look at each authentication type.
 
 
 ## 1. API Key Auth
 
-The first option is to use an API key to give extra security. As APIM offers a concept called [subscription][az apim subscription], you can use the subscription key through an HTTP request header of `Ocp-Apim-Subscription-Key` or an HTTP request query string of `subscription-key`. Therefore, you can add another security layer of API key with APIM, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
+The first option is using an API key to provide extra security. Using Azure API Management, you can choose between:
 
-1. Let's take a look at the [API policy configurations][az apim policies] on APIM.
+    * A concept called [subscription][az apim subscription], where you use the subscription key through a HTTP request header of `Ocp-Apim-Subscription-Key`
+    * Or you can use a HTTP request query string of `subscription-key`.
+
+Both options add another security layer to your API, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
+
+1. Let's take a look at the [API policy configurations][az apim policies] in API Management.
 
     ![API Key Auth - API policy][image-02]
 
    Through this policy, the function app's API key is integrated. Therefore, you don't need to worry about the function app's API key.
 
-1. Now, you want to add the APIM's API key. First, make sure your API settings have enabled the subscription. Also, ensure that no user authorisation is enabled by selecting "None" against the "User authorization" option.
+1. Now, you want to add the API Management's API key. First, make sure your API settings have enabled the subscription. Also, ensure that no user authorization is enabled by selecting "None" against the "User authorization" option.
 
     ![API Key Auth - enable subscription][image-03]
 
@@ -138,7 +143,7 @@ The first option is to use an API key to give extra security. As APIM offers a c
 
     ![API Key Auth - custom connector authentication type][image-06]
 
-1. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the APIM.
+1. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the API Management.
 
     ![API Key Auth - custom connector connection][image-07]
 
@@ -146,14 +151,14 @@ The first option is to use an API key to give extra security. As APIM offers a c
 
     ![API Key Auth - custom connector test][image-08]
 
-We've added extra security to the custom connector with APIM's API key.
+We've added extra security to the custom connector with API Management's API key.
 
 
 ## 2. Basic Auth
 
-The second option is to use the basic auth flow. It's important to know that **APIM doesn't support this basic auth flow out-of-the-box**. Although it's a limitation, you can still apply this flow for the Power Platform custom connectors by slightly modifying the OpenAPI document.
+The second option is to use the basic auth flow. It's important to know that **API Management doesn't support this basic auth flow out-of-the-box**. Although it's a limitation, you can still apply this flow for the Power Platform custom connectors by slightly modifying the OpenAPI document.
 
-1. Let's take a look at the API policy, which is basically the same as the one in the previous section &ndash; integrate the function app's API key with APIM.
+1. Let's take a look at the API policy, which is basically the same as the one in the previous section &ndash; integrate the function app's API key with API Management.
 
     ![Basic Auth - API policy][image-09]
 
@@ -161,7 +166,7 @@ The second option is to use the basic auth flow. It's important to know that **A
 
     ![Basic Auth - disable subscription][image-10]
 
-    It's also worth noting that because the custom connector sends the basic auth token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
+    It's also worth noting that because the custom connector sends the basic auth token to the function app through API Management, it's safe to assume that the function app is able to understand the token and process it.
 
 1. Once you're ready, export the OpenAPI document by selecting the "Export" menu and choosing the "OpenAPI v2 (JSON)" option.
 
@@ -241,16 +246,16 @@ We've added extra security to the custom connector with basic auth.
 
 The third option is to use [OAuth2][oauth2]. There are many authentication flows in OAuth2, but Power Platform custom connector only supports the [Authorisation code auth flow][az ad authn authcodeauth] at this time of writing. Therefore, let's focus on that. The basic idea of using any OAuth2 auth flow is to get the access token and the resources you want. It's safe to assume that the function app is able to understand the access token and process it.
 
-1. To use OAuth2 auth flow, you need to [register an app][az ad register app] on [Azure Active Directory][az ad]. After registering a new app, it will give the ability to get the access codes. I'm not going into too many details here, but it's worth taking a look at [this document][gh sample authcodeauth readme]. Once you create the app, you will have the following information:
+1. To use OAuth2 auth flow, you need to first [register an app][az ad register app] in [Azure Active Directory][az ad]. After registering a new app, it will give the ability to get the access codes. I'm not going into too many details here, but it's worth taking a look at [this document][gh sample authcodeauth readme]. Once you create the app, you will have the following information:
 
     * Tenant ID
     * Client ID
     * Client secret
-    * Endpoint URL for authorisation
+    * Endpoint URL for authorization
     * Endpoint URL for the access token
     * Endpoint URL for the refresh token
 
-1. With this information, you need to integrate it with APIM. Go to Azure Portal, open the APIM instance, and navigate to the "OAuth 2.0 + OpenID Connect" blade. Add a new OAuth2 service under the "OAuth 2.0" tab.
+1. With this information, you need to integrate it with API Management. Go to Azure Portal, open the API Management instance, and navigate to the "OAuth 2.0 + OpenID Connect" blade. Add a new OAuth2 service under the "OAuth 2.0" tab.
 
     ![Auth Code Auth - new OAuth2 service][image-16]
 
@@ -270,11 +275,11 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
     * `null/signin-oauth/code/callback/authcode-auth`
     * `null/signin-oauth/implicit/callback`
 
-    Replace `null` with your APIM instance URL like `https://{{APIM_NAME}}.azure-api.net`, where `{{APIM_NAME}}` is your APIM instance name.
+    Replace `null` with your API Management instance URL like `https://{{APIM_NAME}}.azure-api.net`, where `{{APIM_NAME}}` is your API Management instance name.
 
 1. Add both redirect URLs to your registered app on Azure AD as redirect URLs.
 
-1. Check out the API policy, which is basically the same as in the previous sections &ndash; integrate the function app's API key with APIM.
+1. Check out the API policy, which is basically the same as in the previous sections &ndash; integrate the function app's API key with API Management.
 
     ![Auth Code Auth - API policy][image-17]
 
@@ -282,7 +287,7 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
     ![Auth Code Auth - disable subscription][image-18]
 
-    It's also worth noting that because the custom connector sends the OAuth2 access token to the function app through APIM, it's safe to assume that the function app is able to understand the token and process it.
+    It's also worth noting that because the custom connector sends the OAuth2 access token to the function app through API Management, it's safe to assume that the function app is able to understand the token and process it.
 
 1. Once you're ready, export the OpenAPI document by selecting the "Export" menu and choosing the "OpenAPI v2 (JSON)" option.
 
@@ -367,16 +372,16 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
     ![Auth Code Auth - custom connector test][image-22]
 
-We've added extra security to the custom connector with OAuth2 - authorisation code auth.
+We've added extra security to the custom connector with OAuth2 - authorization code auth.
 
 
 ## 4. BFF (Backends-for-Frontends) &ndash; Combination of API Key Auth and Basic Auth
 
-Many organisations nowadays have requirements using the [BFF (Backends-for-frontends) pattern][az patterns architecture bff] through APIM, mainly if your organisation adopts microservice architecture. It's not uncommon that APIs use different authentication approaches from each API &ndash; one uses the API key auth, another uses the basic key auth, and the other uses the OAuth2 auth.
+Many organisations nowadays have requirements using the [BFF (Backends-for-frontends) pattern][az patterns architecture bff] through API Management, mainly if your organisation adopts microservice architecture. It's not uncommon that APIs use different authentication approaches for different APIs &ndash; one uses the API key auth, another uses the basic key auth, and the other uses the OAuth2 auth.
 
-If you are about to build a BFF with those APIs using different authentication methods, what would you do? What could you do if you're even about to create the BFF for the Power Platform custom connector? There are many different combinations of authentication methods, but let's focus on those two &ndash; API key auth and basic auth.
+If you are about to build a BFF with those APIs using different authentication methods, what would you do? What could you do if you're even about to create the BFF for the Power Platform custom connector? There are many different combinations of authentication methods, but let's focus on following two &ndash; API key auth and basic auth:
 
-1. First of all, you MUST choose which authentication type will use for the main one for the Power Platform custom connector. If you want to use the basic auth as the main one, the custom connector doesn't have to know the API key and vice versa. In other words, the other authentication method MUST be handled by the APIM policy of the BFF API.
+1. First of all, you MUST choose which authentication type you will use for the main one for the Power Platform custom connector. If you want to use basic auth as the main one, the custom connector doesn't have to know the API key and vice versa. In other words, the other authentication method MUST be handled by the API Management policy of the BFF API.
 
 1. Let's take a look at [this OpenAPI document][gh sample openapi bff] for BFF. It combines both apps using the API key auth and basic auth, respectively.
 
@@ -424,23 +429,23 @@ If you are about to build a BFF with those APIs using different authentication m
 
    It defines API key auth and basic auth in the document and applies them to each endpoint.
 
-1. Import this OpenAPI to APIM. Then check out the settings. Make sure you MUST activate the subscription.
+1. Import this OpenAPI to API Management. Then check out the settings. Make sure you MUST activate the subscription.
 
     ![BFF - enable subscription][image-23]
 
-1. Add the [`authentication-basic` as an inbound policy][az apim policies basicauth] that sets the basic auth token to the request header. After this, APIM automatically injects this basic auth token into every request header.
+1. Add the [`authentication-basic` as an inbound policy][az apim policies basicauth] that sets the basic auth token to the request header. After this, API Management automatically injects this basic auth token into every request header.
 
     ![BFF - basic authentication policy][image-24]
 
 1. Export the OpenAPI document. As you use the API key auth, follow the [1. API Key Auth](#1-api-key-auth) pattern.
 
-1. In the Power Platform custom connector, you only need the API key provided by APIM to create the connection because APIM has already encapsulated the basic auth token.
+1. In the Power Platform custom connector, you only need the API key provided by API Management to create the connection because API Management has already encapsulated the basic auth token.
 
 1. Test the connector to see whether it works OK or not. As you can see, both endpoints work perfectly fine.
 
     ![BFF - custom connector test][image-25]
 
-We've created a BFF by combining APIs that use API key auth and basic auth, and the BFF has been used for the Power Platform custom connector. However, as mentioned earlier in this post, we have to choose only one authentication type due to the restriction of authentication types in the Power Platform custom connector. Therefore, if you need more than one authentication type for your connector, you MUST choose one, and APIM MUST encapsulate all the others.
+We've created a BFF by combining APIs that use API key auth and basic auth, and the BFF has been used for the Power Platform custom connector. However, as mentioned earlier in this post, we have to choose only one authentication type due to the restriction of authentication types in the Power Platform custom connector. Therefore, if you need more than one authentication type for your connector, you MUST choose one, and API Management MUST encapsulate all the others.
 
 Theoretically, there are three possible combinations for BFF:
 
@@ -452,6 +457,15 @@ Throughout this post, we've walked through the first combination. After that, yo
 
 
 ## Exercise &ndash; Try it yourself!
+
+If you haven't joined the following programs, it's time to do so for further learning!
+
+* [Microsoft 365 Developer Program][m365 dev]
+* [Power Platform Developer Program][pp dev]
+* [Free Microsoft Azure subscription][az free]
+* [Free GitHub account][gh free]
+
+Then, follow the steps below. After that, you will be the one who knows better security on Power Platform custom connectors!
 
 * Fork this [GitHub repository][gh sample] to provision and deploy the sample apps.
 * Read and follow the instructions for each scenario:
@@ -465,8 +479,9 @@ Throughout this post, we've walked through the first combination. After that, yo
 
 * [Cloud architecture pattern &ndash; BFF (Backends-for-frontends)][az patterns architecture bff]
 * [Azure AD application model][az ad register app]
-* [Azure APIM authentication and authorisation][az apim security authn]
+* [Azure API Management authentication and authorisation][az apim security authn]
 * [Power Platform custom connector parameters][az pp cuscon authn]
+* [Creating Microsoft 365 Developer Environment][m365 dev create]
 
 
 [image-01]: ./01-image-01.png
@@ -524,6 +539,7 @@ Throughout this post, we've walked through the first combination. After that, yo
 [oauth2]: https://oauth.net/2/
 
 [m365 dev]: https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program?WT.mc_id=dotnet-82522-juyoo
-[pp dev]: https://learn.microsoft.com/power-apps/maker/developer-plan?WT.mc_id=dotnet-82522-juyoo
+[m365 dev create]: https://learn.microsoft.com/power-platform/developer/create-developer-environment
+[pp dev]: https://learn.microsoft.com/power-apps/maker/developer-plan?WT.mc_id=dotnet-82522-juyoo?WT.mc_id=dotnet-82522-juyoo
 [az free]: https://azure.microsoft.com/free/?WT.mc_id=dotnet-82522-juyoo
 [gh free]: https://github.com/signup
