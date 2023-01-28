@@ -78,9 +78,9 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 
 3. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
  - Enter *teamdiscussion* as your **Application name**
- - *https://portal.azure.com* as your **Homepage URL**
+ - *ht<span>tps://<span>portal.azure.com* as your **Homepage URL**
  - Optionally, add an Application description.
- - In **Authorization callback URL** (the redirect URL), enter {https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>} (substituting the API Management service name that is used).
+ - In **Authorization callback URL** (the redirect URL), enter ht<span>tps://<span>authorization-manager.consent.azure-apim.net/redirect/apim/{YOUR-APIM-SERVICENAME} (substituting the API Management service name that is used).
 
 4. Select **Register application**.
 5. In the General page, copy the **Client ID**, which you'll use in a later step.
