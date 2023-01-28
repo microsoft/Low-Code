@@ -76,36 +76,37 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 2. In your account profile, go to **Your organizations** and select the organization that the scenario is for.
 <img src="media/organization.png" width="250">
 
-2. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
-  - Enter *teamdiscussion* as your Application name
-  - *https://portal.azure.com/* as your Homepage URL
+3. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
+  - Enter *teamdiscussion* as your **Application name**
+  - *https://portal.azure.com* as your **Homepage URL**
   - Optionally, add an Application description.
-  - In Authorization callback URL (the redirect URL), enter *https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>*, substituting the API Management service name that is used.
-3. Select **Register application**.
-4. In the General page, copy the **Client ID**, which you'll use in a later step.
-5. Select **Generate a new client secret**. Copy the secret, which won't be displayed again, and which you'll use in a later step.
+  - In **Authorization callback URL** (the redirect URL), enter {https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>} (substituting the API Management service name that is used).
 
-![teamdiscussion](media/teamdiscussion.png)
+4. Select **Register application**.
+5. In the General page, copy the **Client ID**, which you'll use in a later step.
+6. Select **Generate a new client secret**. Copy the secret, which won't be displayed again, and which you'll use in a later step.
+
+<img src="media/teamdiscussion.png" width="250">
 
 ### Step 2: Configure an authorization in API Management
 
 1. Sign into Azure portal and go to your API Management instance.
-2. In the left menu, select Authorizations > + Create.
+2. In the left menu, select **Authorizations > + Create**.
 ![authportal](media/authportal.png)
 3. In the **Create authorization window**, enter the following settings, and select **Create**:
 
-| Settings  | Value |
-| ------------- | ------------- |
-| Provider name  | github-discussion  |
-| Identity provider  | Select GitHub  |
-| Grant type  | Select Authorization code  |
-| Client id  | Paste the value you copied earlier from the app registration  |
-| Client secret  | Paste the value you copied earlier from the app registration  |
-| Scope  | write:discussion  |
-| Authorization name  | auth-discussion  |
+  | Settings  | Value |
+  | ------------- | ------------- |
+  | Provider name  | *github-discussion*  |
+  | Identity provider  | Select *GitHub*  |
+  | Grant type  | Select *Authorization code*  |
+  | Client id  | Paste the value you copied earlier from the app registration  |
+  | Client secret  | Paste the value you copied earlier from the app registration  |
+  | Scope  | *write:discussion*  |
+  | Authorization name  | *auth-discussion*  |
 
 4. After the authorization provider and authorization are created, select **Next**.
-5. On the Login tab, select **Login with GitHub**. Before the authorization will work, it needs to be authorized at GitHub.
+5. On the **Login tab**, select **Login with GitHub**. Before the authorization will work, it needs to be authorized at GitHub.
 6. Sign in to your GitHub account if you're prompted to do so. If prompted during redirection, select **Allow access**. 
 7. After authorization, the browser is redirected to API Management and the window is closed. In API Management, select **Next**.
 8. On the Access policy page, create an access policy so that API Management has access to use the authorization. *Note: Ensure that a [managed identity](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-use-managed-service-identity#create-a-system-assigned-managed-identity) is configured for API Management.*
@@ -118,41 +119,41 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **APIs > + Add API** and select **HTTP**.
-![addapi](media/addapi.png)
+<img src="media/addapi.png" width="250">
 
 3. Enter the following settings. Then select **Create**.
 
-| Settings  | Value |
-| ------------- | ------------- |
-| Display name  | githubdiscussion  |
-| Name  | githubdiscussion  |
-| Web service URL  | https://api.github.com  |
-| API URL suffix  | githubdiscussion  |
+  | Settings  | Value |
+  | ------------- | ------------- |
+  | Display name  | githubdiscussion  |
+  | Name  | githubdiscussion  |
+  | Web service URL  | https://api.github.com  |
+  | API URL suffix  | githubdiscussion  |
 
 4. Navigate to the newly created API and select **Add Operation**. Enter the following settings and select **Save**.
 
-| Settings  | Value |
-| ------------- | ------------- |
-| Display name  | POSTdiscussioncomment  |
-| URL for **POST**  | /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments  |
+  | Settings  | Value |
+  | ------------- | ------------- |
+  | Display name  | POSTdiscussioncomment  |
+  | URL for **POST**  | /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments  |
 
 Please find here an example of a POST URL: 
 ```
 /orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments
 ```
-![addoperation](media/addoperation.png)
+<img src="media/addoperation.png" width="250">
 
 5. Next, we need to add a **Request Body** to your API. For this, within your Frontend section scroll down and select **Request**.
-![request](media/request.png)
+<img src="media/request.png" width="250">
 
 6. Now **Add representation** and insert the following information:
 
-| Representations  |  |
-| ------------- | ------------- |
-| CONTENT TYPE  | application/json  |
-| DEFINITION  | {"body":"This is a test issue"}  |
+  | Representations  |  |
+  | ------------- | ------------- |
+  | CONTENT TYPE  | application/json  |
+  | DEFINITION  | {"body":"This is a test issue"}  |
 
-![representation](media/representation.png)
+<img src="media/representation.png" width="250">
 
 7. Select **All operations** and in the **Inbound processing** section, select the **(</>)** (code editor) icon.
 8. Copy the following, and paste in the policy editor. Make sure the provider-id and authorization-id correspond to the names in our previous step. Select **Save**.
@@ -188,11 +189,11 @@ Inbound policy:
 </policies>
 ```
 > Note: The policy to be used consists of five parts.
-    - Fetch an authorization token.
-    - Create an HTTP header with the fetched authorization token.
-    - Create an HTTP header with an accept header [(API requirement)](https://docs.github.com/en/rest/teams/discussion-comments?apiVersion=2022-11-28#create-a-discussion-comment).
-    - Create an HTTP header with a X-GitHub-Api-Version header [(API requirement)](https://docs.github.com/en/rest/teams/discussion-comments?apiVersion=2022-11-28#create-a-discussion-comment).
-    - Create an HTTP header with a User-Agent header [(GitHub requirement)](https://docs.github.com/rest/overview/resources-in-the-rest-api#user-agent-required).
+    1. Fetch an authorization token.
+    2. Create an HTTP header with the fetched authorization token.
+    3. Create an HTTP header with an accept header [(API requirement)](https://docs.github.com/en/rest/teams/discussion-comments?apiVersion=2022-11-28#create-a-discussion-comment).
+    4. Create an HTTP header with a X-GitHub-Api-Version header [(API requirement)](https://docs.github.com/en/rest/teams/discussion-comments?apiVersion=2022-11-28#create-a-discussion-comment).
+    5. Create an HTTP header with a User-Agent header [(GitHub requirement)](https://docs.github.com/rest/overview/resources-in-the-rest-api#user-agent-required).
 
 
 9. Test the API in Azure API Management:
@@ -202,14 +203,14 @@ Inbound policy:
 
 You should get a **HTTP/1.1 201 Created** response and a comment should have been posted in your team's discussion.
 
-![test](media/test.png)
+<img src="media/test.png" width="250">
 
 ### Step 4: Create a custom connector for the Microsoft Power Platform using API Management
 
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
 If you want to add additional security to your API, check out our blog post on [10. Providing Power Platform custom connector with additional security via Azure API Management]()
 
-![createpower](media/createpower.png)
+<img src="media/createpower.png" width="250">
 
 ### Step 5: Call your web API via your Power App
 
@@ -217,7 +218,7 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
-![customconnectorpower](media/customconnectorpower.png)
+<img src="media/customconnectorpower.png" width="250">
 
 2. Next, we modify our **Send** Button with the following PowerFX formular:
 
@@ -228,4 +229,4 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 3. Now, you are able to test your Power App and create a new comment in your GitHub team's discussion.
 
 
-Enjoy this fun little tutorial!
+>Enjoy this fun little tutorial and let us know what you think!
