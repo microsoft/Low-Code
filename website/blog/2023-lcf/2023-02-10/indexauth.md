@@ -29,12 +29,12 @@ The theme for this week is **backend**. We talked about how we can provide extra
 
 ## What We'll Cover
 
- * [What is API Management Authorizations](##what-is-api-management-authorizations)
+ * [What is API Management Authorizations](#what-is-api-management-authorizations)
  * [Scenario - Power Apps integration with GitHub via Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
  * [Scenario Overview](#scenario-overview)
  * [Prerequisites](#prerequisites)
  * [Step 1: Register an application in GitHub for your organization](#step-1-register-an-application-in-github-for-your-organization)
- * [Step 2: Configure an authorization in API Management](#3-oauth2--authorisation-code-auth)
+ * [Step 2: Configure an authorization in API Management](#step-2-configure-an-authorization-in-api-management)
  * [Step 3: Create an API in API Management and configure a policy](#step-3-create-an-api-in-api-management-and-configure-a-policy)
  * [Step 4: Create a custom connector for the Microsoft Power Platform using API Management](#step-4-create-a-custom-connector-for-the-microsoft-power-platform-using-api-management)
  * [Step 5: Call your web API via your Power App](#step-5-call-your-web-api-via-your-power-app)
@@ -59,9 +59,9 @@ The theme for this week is **backend**. We talked about how we can provide extra
 
 Imagine having a GitHub organization with multiple [team discussions](https://docs.github.com/en/organizations/collaborating-with-your-team/about-team-discussions). In one of your team discussions, you want to collect issues from users via comments. Now, to post a GitHub comment, every user requires a GitHub account and needs to understand where to find the relevant team discussion.
 
-> Let's create a Power App for this scenario that uses a custom connector to call the right GitHub API to post a comment about an issues to the team discussion.
+> Let's create a Power App that uses a custom connector to call the right GitHub API to post a comment about an issues to a team's discussion.
 
-*Note: Microsoft Power Platform offers wide varity of pre-installed connectors, one of them for [GitHub](https://learn.microsoft.com/en-us/connectors/github/). For our scenarios however, this connector doesn't provide us with the right capability. Creating a custom connector using Azure API Management is an easy and secure way to expose your microservices/APIs directly. This way, you can expand the possibilities with the Microsoft Power Platform and adapt it according to your organization's use cases.*
+Note: Microsoft Power Platform offers wide varity of pre-installed connectors, one of them for [GitHub](https://learn.microsoft.com/en-us/connectors/github/). For our scenarios however, this connector doesn't provide us with the right capability. Creating a custom connector using Azure API Management is an easy and secure way to expose your microservices/APIs directly. This way, you can expand the possibilities with the Microsoft Power Platform and adapt it according to your organization's use cases.
 
 ### Prerequisites
 - A GitHub account is required.
@@ -77,16 +77,16 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 <img src="media/organization.png" width="250">
 
 3. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
-  - Enter *teamdiscussion* as your **Application name**
-  - *https://portal.azure.com* as your **Homepage URL**
-  - Optionally, add an Application description.
-  - In **Authorization callback URL** (the redirect URL), enter {https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>} (substituting the API Management service name that is used).
+ - Enter *teamdiscussion* as your **Application name**
+ - *https://portal.azure.com* as your **Homepage URL**
+ - Optionally, add an Application description.
+ - In **Authorization callback URL** (the redirect URL), enter {https://authorization-manager.consent.azure-apim.net/redirect/apim/<YOUR-APIM-SERVICENAME>} (substituting the API Management service name that is used).
 
 4. Select **Register application**.
 5. In the General page, copy the **Client ID**, which you'll use in a later step.
 6. Select **Generate a new client secret**. Copy the secret, which won't be displayed again, and which you'll use in a later step.
 
-<img src="media/teamdiscussion.png" width="250">
+<img src="media/teamdiscussion.png" width="700">
 
 ### Step 2: Configure an authorization in API Management
 
@@ -119,7 +119,7 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **APIs > + Add API** and select **HTTP**.
-<img src="media/addapi.png" width="250">
+<img src="media/addapi.png" width="700">
 
 3. Enter the following settings. Then select **Create**.
 
@@ -141,10 +141,10 @@ Please find here an example of a POST URL:
 ```
 /orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments
 ```
-<img src="media/addoperation.png" width="250">
+<img src="media/addoperation.png" width="700">
 
 5. Next, we need to add a **Request Body** to your API. For this, within your Frontend section scroll down and select **Request**.
-<img src="media/request.png" width="250">
+<img src="media/request.png" width="700">
 
 6. Now **Add representation** and insert the following information:
 
@@ -153,7 +153,7 @@ Please find here an example of a POST URL:
   | CONTENT TYPE  | application/json  |
   | DEFINITION  | {"body":"This is a test issue"}  |
 
-<img src="media/representation.png" width="250">
+<img src="media/representation.png" width="700">
 
 7. Select **All operations** and in the **Inbound processing** section, select the **(</>)** (code editor) icon.
 8. Copy the following, and paste in the policy editor. Make sure the provider-id and authorization-id correspond to the names in our previous step. Select **Save**.
