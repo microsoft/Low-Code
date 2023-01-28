@@ -74,8 +74,8 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 1. Sign in to GitHub.
 2. In your account profile, go to **Your organizations** and select the organization that the scenario is for.
-![organization](media/organization.png = 250x250)
 <img src="media/organization.png" width="250">
+
 2. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
   - Enter *teamdiscussion* as your Application name
   - *https://portal.azure.com/* as your Homepage URL
