@@ -92,7 +92,7 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **Authorizations > + Create**.
-![authportal](media/authportal.png)
+<img src="media/authportal.png" width="700">
 3. In the **Create authorization window**, enter the following settings, and select **Create**:
 
   | Settings  | Value |
@@ -113,7 +113,7 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 9. Select **Managed identity + Add members** and then select your subscription.
 10. In **Select managed identity**, select **API Management service**, and then select the API Management instance that is used. Click **Select** and then **Complete**.
 
-![accesspolicy](media/accesspolicy.png)
+<img src="media/accesspolicy.png" width="700">
 
 ### Step 3: Create an API in API Management and configure a policy
 
@@ -210,7 +210,7 @@ You should get a **HTTP/1.1 201 Created** response and a comment should have bee
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
 If you want to add additional security to your API, check out our blog post on [10. Providing Power Platform custom connector with additional security via Azure API Management]()
 
-<img src="media/createpower.png" width="250">
+<img src="media/createpower.png" width="700">
 
 ### Step 5: Call your web API via your Power App
 
@@ -218,7 +218,7 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
-<img src="media/customconnectorpower.png" width="250">
+<img src="media/customconnectorpower.png" width="700">
 
 2. Next, we modify our **Send** Button with the following PowerFX formular:
 
