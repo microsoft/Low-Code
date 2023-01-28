@@ -225,7 +225,9 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 
 2. Next, we modify our **Send** Button with the following PowerFX formular:
 
-> githubdiscussion.postdiscussioncomment({body:TextInputFeedback.Text}); Reset(TextInputFeedback); Notify("Success: 201 Created",NotificationType.Success)
+```
+githubdiscussion.postdiscussioncomment({body:TextInputFeedback.Text}); Reset(TextInputFeedback); Notify("Success: 201 Created",NotificationType.Success)
+```
 
 ![powerappsinput](media/powerappsinput.png)
 
