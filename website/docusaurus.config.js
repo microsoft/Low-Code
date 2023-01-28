@@ -80,12 +80,14 @@ const config = {
 
           
           {to: '/blog', label: 'Blog', position: 'right'},
+          /*
           {
             type: 'doc',
             docId: 'intro',
             position: 'right',
             label: 'Workshops',
           },
+          */
           {to: '/calendar', label: 'Calendar', position: 'right'},
           {
             href: 'https://github.com/microsoft/Low-Code',
