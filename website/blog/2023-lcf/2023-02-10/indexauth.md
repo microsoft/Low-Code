@@ -79,8 +79,8 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 3. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
  - Enter *teamdiscussion* as your **Application name**
  - *ht<span>tps://<span>portal.azure.com* as your **Homepage URL**
- - Optionally, add an Application description.
- - In **Authorization callback URL** (the redirect URL), enter ht<span>tps://<span>authorization-manager.consent.azure-apim.net/redirect/apim/{YOUR-APIM-SERVICENAME} (substituting the API Management service name that is used).
+ - Optionally, add an application description.
+ - In **Authorization callback URL** (the redirect URL), enter *ht<span>tps://<span>authorization-manager.consent.azure-apim.net/redirect/apim/{YOUR-APIM-SERVICENAME}* (substituting the API Management service name that is used).
 
 4. Select **Register application**.
 5. In the General page, copy the **Client ID**, which you'll use in a later step.
@@ -93,6 +93,7 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **Authorizations > + Create**.
 <img src="media/authportal.png" width="700">
+
 3. In the **Create authorization window**, enter the following settings, and select **Create**:
 
   | Settings  | Value |
@@ -108,6 +109,8 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 4. After the authorization provider and authorization are created, select **Next**.
 5. On the **Login tab**, select **Login with GitHub**. Before the authorization will work, it needs to be authorized at GitHub.
 6. Sign in to your GitHub account if you're prompted to do so. If prompted during redirection, select **Allow access**. 
+<img src="media/allowaccess.png" width="500">
+
 7. After authorization, the browser is redirected to API Management and the window is closed. In API Management, select **Next**.
 8. On the Access policy page, create an access policy so that API Management has access to use the authorization. *Note: Ensure that a [managed identity](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-use-managed-service-identity#create-a-system-assigned-managed-identity) is configured for API Management.*
 9. Select **Managed identity + Add members** and then select your subscription.
@@ -125,17 +128,17 @@ Note: Microsoft Power Platform offers wide varity of pre-installed connectors, o
 
   | Settings  | Value |
   | ------------- | ------------- |
-  | Display name  | githubdiscussion  |
-  | Name  | githubdiscussion  |
-  | Web service URL  | https://api.github.com  |
-  | API URL suffix  | githubdiscussion  |
+  | Display name  | *githubdiscussion*  |
+  | Name  | *githubdiscussion*  |
+  | Web service URL  | *https://api.github.com*  |
+  | API URL suffix  | *githubdiscussion*  |
 
 4. Navigate to the newly created API and select **Add Operation**. Enter the following settings and select **Save**.
 
   | Settings  | Value |
   | ------------- | ------------- |
-  | Display name  | POSTdiscussioncomment  |
-  | URL for **POST**  | /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments  |
+  | Display name  | *POSTdiscussioncomment*  |
+  | URL for **POST**  | */orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments*  |
 
 Please find here an example of a POST URL: 
 ```
@@ -203,7 +206,7 @@ Inbound policy:
 
 You should get a **HTTP/1.1 201 Created** response and a comment should have been posted in your team's discussion.
 
-<img src="media/test.png" width="250">
+<img src="media/test.png" width="700">
 
 ### Step 4: Create a custom connector for the Microsoft Power Platform using API Management
 
@@ -218,7 +221,7 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
-<img src="media/customconnectorpower.png" width="700">
+<img src="media/customconnectorpower.png" width="400">
 
 2. Next, we modify our **Send** Button with the following PowerFX formular:
 
