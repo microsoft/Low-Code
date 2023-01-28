@@ -33,11 +33,11 @@ The theme for this week is **backend**. We talked about how we can provide extra
  * [Scenario - Power Apps integration with GitHub via Authorizations](#scenario---power-apps-integration-with-github-via-authorizations)
  * [Scenario Overview](#scenario-overview)
  * [Prerequisites](#prerequisites)
- * [Step 1: Register an application in GitHub for your organization](#2-basic-auth)
+ * [Step 1: Register an application in GitHub for your organization](#step-1-register-an-application-in-github-for-your-organization)
  * [Step 2: Configure an authorization in API Management](#3-oauth2--authorisation-code-auth)
- * [BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth](#4-bff-backend-for-frontend--combination-of-api-key-auth-and-basic-auth)
- * [Exercise &ndash; Try it yourself!](#exercise-–-try-it-yourself)
- * [Resources &ndash; For self-study!](#resources-–-for-self-study)
+ * [Step 3: Create an API in API Management and configure a policy](#step-3-create-an-api-in-api-management-and-configure-a-policy)
+ * [Step 4: Create a custom connector for the Microsoft Power Platform using API Management](#step-4-create-a-custom-connector-for-the-microsoft-power-platform-using-api-management)
+ * [Step 5: Call your web API via your Power App](#step-5-call-your-web-api-via-your-power-app)
 
 <!-- FIXME: banner image -->
 ![Empty Banner Placeholder](../../../static/img/banner.png)
@@ -63,18 +63,18 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 *Note: Microsoft Power Platform offers wide varity of pre-installed connectors, one of them for [GitHub](https://learn.microsoft.com/en-us/connectors/github/). For our scenarios however, this connector doesn't provide us with the right capability. Creating a custom connector using Azure API Management is an easy and secure way to expose your microservices/APIs directly. This way, you can expand the possibilities with the Microsoft Power Platform and adapt it according to your organization's use cases.*
 
-###### Prerequisites
+### Prerequisites
 - A GitHub account is required.
 - A team discussion in your GitHub organization. Follow [Creating a team discussion](https://docs.github.com/en/organizations/collaborating-with-your-team/creating-a-team-discussion) for more information.
 - A running API Management instance. Complete the following [Quickstart: Create a new Azure API Management service instance by using the Azure portal](https://learn.microsoft.com/en-us/azure/api-management/get-started-create-service-instance).
 - Enable [managed service identiy](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-use-managed-service-identity) for API Management in the API Management instance.
 - Make sure you have a Power Apps or Power Automate [environment](https://learn.microsoft.com/en-us/power-apps/powerapps-overview#power-apps-for-developers).
 
-###### Step 1: Register an application in GitHub for your organization
+### Step 1: Register an application in GitHub for your organization
 
 1. Sign in to GitHub.
 2. In your account profile, go to **Your organizations** and select the organization that the scenario is for.
-![organization](media/organization.png)
+![organization](media/organization.png){width=256 height=256}
 2. In your organization's profile, go to **Settings > Developer Settings > OAuth Apps > New OAuth App**
   - Enter *teamdiscussion* as your Application name
   - *https://portal.azure.com/* as your Homepage URL
@@ -86,7 +86,7 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 ![teamdiscussion](media/teamdiscussion.png)
 
-###### Step 2: Configure an authorization in API Management
+### Step 2: Configure an authorization in API Management
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select Authorizations > + Create.
@@ -113,7 +113,7 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 
 ![accesspolicy](media/accesspolicy.png)
 
-###### Step 3: Create an API in API Management and configure a policy
+### Step 3: Create an API in API Management and configure a policy
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **APIs > + Add API** and select **HTTP**.
@@ -136,7 +136,9 @@ Imagine having a GitHub organization with multiple [team discussions](https://do
 | URL for **POST**  | /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments  |
 
 Please find here an example of a POST URL: 
-> /orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments
+```
+/orgs/AuthorizationsOrganization/teams/AuthorizationEngineering/discussions/1/comments
+```
 ![addoperation](media/addoperation.png)
 
 5. Next, we need to add a **Request Body** to your API. For this, within your Frontend section scroll down and select **Request**.
@@ -201,14 +203,14 @@ You should get a **HTTP/1.1 201 Created** response and a comment should have bee
 
 ![test](media/test.png)
 
-###### Step 4: Create a custom connector for the Microsoft Power Platform using API Management
+### Step 4: Create a custom connector for the Microsoft Power Platform using API Management
 
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
 If you want to add additional security to your API, check out our blog post on [10. Providing Power Platform custom connector with additional security via Azure API Management]()
 
 ![createpower](media/createpower.png)
 
-###### Step 5: Call your web API via your Power App
+### Step 5: Call your web API via your Power App
 
 Next, we want to make an API call within your Power. You can import our [GitHub Comment - Power App](powerapp) sample app, please follow instructions on [Importing a canvas app package](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/export-import-app#importing-a-canvas-app-package).
 
@@ -225,4 +227,4 @@ Next, we want to make an API call within your Power. You can import our [GitHub 
 3. Now, you are able to test your Power App and create a new comment in your GitHub team's discussion.
 
 
-Enjoy this fun little tutorial
+Enjoy this fun little tutorial!
