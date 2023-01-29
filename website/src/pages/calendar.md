@@ -45,7 +45,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 20 |  |  |
 | Feb 21 |  |  |
 | Feb 22 |  |  |
-| Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/en-us/reactor/events/18298/) |
+| Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/reactor/events/18298/) |
 | Feb 24 |  |  |
 | Feb 25 |  |  |
 | Feb 26 |  |  |
@@ -53,7 +53,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 28 |  |  |
 | Mar 01 |  🎯 Cloud Skills Challenge Ends | [Last Sprint!](https://aka.ms/lowcode-february/challenge) |
 | Mar 01 |  🔋 Wrap-up : #30DaysOfLowCode | [#30Days Blog](/blog)  |
-| Mar 09 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #LowCodeFebruary  | [Register Here](https://developer.microsoft.com/en-us/reactor/events/18299/) |
+| Mar 09 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #LowCodeFebruary  | [Register Here](https://developer.microsoft.com/reactor/events/18299/) |
 
 ---
 

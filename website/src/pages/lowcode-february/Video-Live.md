@@ -14,7 +14,7 @@ Want to know what online events or livestreams are scheduled in the upcoming wee
 ## Ask The Experts
 
 These thirty-minute live broadcasts are where you can connect with experts to get your questions answered. Join us for new episodes LIVE at 9AM PT, catch the replay at 12PM SGT, or watch on-demand whenever you'd like!
-[Learn More](https://learn.microsoft.com/en-us/events/learn-events/Ask-the-expert/).
+[Learn More](https://learn.microsoft.com/events/learn-events/Ask-the-expert/).
 
 ### PowerfulDevs
 | ![](./../../../static/img/campaign/ate-powerfuldevs.png) | 
@@ -38,10 +38,10 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 | ![](./../../../static/img/campaign/show-lowcode.jpeg) | 
 |:---|
 |The Low Code Revolution showcases stories and insights from industry experts on how you can revolutionize your applications and business processes with the Power Platform. Whether you are citizen developer, IT Pro, or code first developer, each episode will help you discover innovative ways that you can build applications faster and with far less effort by embracing the low code revolution.|
-| **Jan 20, 2023** - [Power Platform CLI Exposed: Power Pages](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/power-platform-cli-exposed-power-pages/) |
-| **Jan 11, 2023** - [Power Platform CLI Exposed: Solutions](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/power-platform-cli-exposed-solutions/) |
-| **Jan 04, 2023** - [Power Plaforms CLI Exposed: PAC CLI Overview](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/power-platform-cli-exposed-pac-cli-overview/) |
-| 🎬 [**Visit The Series Page**](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/) for more episodes.|
+| **Jan 20, 2023** - [Power Platform CLI Exposed: Power Pages](https://learn.microsoft.com/shows/the-low-code-revolution/power-platform-cli-exposed-power-pages/) |
+| **Jan 11, 2023** - [Power Platform CLI Exposed: Solutions](https://learn.microsoft.com/shows/the-low-code-revolution/power-platform-cli-exposed-solutions/) |
+| **Jan 04, 2023** - [Power Plaforms CLI Exposed: PAC CLI Overview](https://learn.microsoft.com/shows/the-low-code-revolution/power-platform-cli-exposed-pac-cli-overview/) |
+| 🎬 [**Visit The Series Page**](https://learn.microsoft.com/shows/the-low-code-revolution/) for more episodes.|
 
 ---
 
@@ -54,7 +54,7 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 | **Feb 13** - Week 2: Backend Integration (Link TBA) | 
 | **Feb 20** - Week 3: User Interface (Link TBA) | 
 | **Feb 27** - Week 4: App Lifecycle Management (Link TBA) | 
-| 🎬 [**Visit The Series Page**](https://learn.microsoft.com/en-us/shows/learn-live/) for more episodes.|
+| 🎬 [**Visit The Series Page**](https://learn.microsoft.com/shows/learn-live/) for more episodes.|
 
 ---
 
@@ -72,6 +72,6 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 | ![](./../../../static/img/campaign/powerful-devs-conf.jpeg) | 
 |:---|
 | The Powerful Devs Conference will highlight how developers can leverage the Power Platform to build applications faster and with far less effort. Connect with industry recognized ProDev influencers, Microsoft Cloud Advocates, trusted and diverse community leaders, and members of the Power Platform Team. Stay tuned for more details - including speakers and session information - in the new year!|
-| 🎬 [**Register**](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) for the Feb 15 Event.|
-| 🎬 [**Revisit Prior Events**](https://learn.microsoft.com/en-us/shows/powerful-devs/) for more episodes.|
+| 🎬 [**Register**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) for the Feb 15 Event.|
+| 🎬 [**Revisit Prior Events**](https://learn.microsoft.com/shows/powerful-devs/) for more episodes.|
 
