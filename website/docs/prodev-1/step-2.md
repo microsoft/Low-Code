@@ -15,7 +15,7 @@ In **Exercise 2** you will install Visual Studio Code, Power Platform Tools, Azu
 
 Install the Node Package Manager
 
-1. Navigate to [Npm and Node.js](https://nodejs.org/en/) website
+1. Navigate to [**Npm and Node.js**](https://aka.ms/lowcode-february/nodejs) website
 2. Select a version. _We recommend that you use LTS (Long-Term Support) version
 18.12.1 or higher._
 
@@ -28,7 +28,7 @@ Install the Node Package Manager
 
 ## 2.2 Visual Studio Code 
 
-1. Navigate to [Visual Studio Code](https://code.visualstudio.com/)
+1. Navigate to [**Visual Studio Code**](https://code.visualstudio.com/)
 2. Download Visual Studio Code and install it if you don’t already have it installed.
 3. Start **Visual Studio Code**.
 
