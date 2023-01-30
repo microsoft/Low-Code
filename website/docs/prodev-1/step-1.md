@@ -5,16 +5,17 @@ title: 1. Create Dev Environment
 
 :::info LAB SCENARIO
 
-You are  member of the PrioritZ Fusion Team. As part of your onboarding, you will be setting up your Power Platform development environment. You will also install Visual Studio Code, and the Power Platform CLI.
+You are member of the PrioritZ Fusion Team. As part of your onboarding, you will be setting up your Power Platform developer environment. You will also install Visual Studio Code, and the Power Platform CLI.
 
-In **Exercise 1** you will will create a Power Platform developer environment. You will do all the development work for this course in this environment.
+In **Exercise 1** you will will create a Power Platform developler environment. You will do all the development work for this course in this environment.
 
 🚨 Note: Do not use an existing environment.
 :::
 
 ## 1.1 Power Apps Developer Plan
 
-1. Navigate to Power Apps Developer Plan
+1. Navigate to [**Power Apps Developer Plan**](https://aka.ms/lowcode-february/devplan/)
+
 2. Select Add a dev environment.
 
 ![Lab-00 Image](./img/lab00-01.png)
@@ -40,7 +41,7 @@ In **Exercise 1** you will will create a Power Platform developer environment. Y
 
 ## 1.3 Power Apps Maker Portal
 
-9. Go back to the [**Maker Portal**](https://make.powerapps.com/) refresh the page if you already have it open.
+9. Go back to the [**Maker Portal**](https://aka.ms/lowcode-february/makerportal) refresh the page if you already have it open.
 10. Click on the environment name and select the dev environment you created.
 
 ![Lab-00 Image](./img/lab00-05.png)

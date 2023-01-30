@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::info CONTRIBUTE A WORKSHOP 💻 
 
-We set this page up as a place to share _low code development workshops_ with the community. Check back frequently for updates! If you have a workshop that you have built, and want to share with the community, [submit a Commnity Buzz](https://github.com/microsoft/Low-Code/issues/new/choose) issue with the details and we'd love to take a look!
+We set this page up as a place to share _low code app development workshops_ with the community. Check back frequently for updates! If you have a workshop that you have built, and want to share with the community, [submit a Commnity Buzz](https://github.com/microsoft/Low-Code/issues/new/choose) issue with the details and we'd love to take a look!
 :::
 
 
