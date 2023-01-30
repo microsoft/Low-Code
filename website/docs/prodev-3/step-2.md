@@ -32,19 +32,34 @@ In **Exercise 2** you will implement the component logic.
 ## 2.1 Implement the component logic
 
 1.	Delete the `HelloWorld.tsx` component file that is automatically created as we won’t be using it.
+
 2.	Go to the lab resources folder.
+
 3.	Drag the `PriorityComponent.tsx` file and drop it in the `PrioriZDnDRanking` folder.
+
+![Lab-02 Image](./img/lab02-17.png)
+
+
 4.  🤖 Note: The `PriorityComponent.tsx` file should now be in the `PrioriZDnDRanking` folder.
+
+![Lab-02 Image](./img/lab02-18.png)
+
 
 5.	Click **File** and save your changes.
 6.	Open the `PriorityComponent.tsx` and review the contents.  This implements the React component that will be rendered to represent our draggable items.
 7.	🤖 Note: Notice line 9 from `‘react-beautiful-dnd’` has a red underline.  This is a npm package the component uses that we haven’t referenced.
 
 
+![Lab-02 Image](./img/lab02-19.png)
+
+
 8.	Run the following command in a terminal window to add a reference to react-beautiful-dnd
 ```
 npm install react-beautiful-dnd
 ```
+
+![Lab-02 Image](./img/lab02-20.png)
+
 9.	Add the following command for the type definitions.
 ```
 npm install --save-dev @types/react-beautiful-dnd
@@ -52,18 +67,31 @@ npm install --save-dev @types/react-beautiful-dnd
 
 10.	Notice the red underline in line 9 has been resolved.
 
+![Lab-02 Image](./img/lab02-21.png)
+
+
 11.	Open the `index.ts` file.
+
 12.	Remove `line 2` as we are no longer using `HelloWorld`.
 ```
 import { HelloWorld, IHelloWorldProps } from "./HelloWorld";
 ```
+
+![Lab-02 Image](./img/lab02-22.png)
+
 
 13.	Add the import below to the `index.ts` file. This will reference the `PriorityComponent`.
 ```
 import { PriorityComponent, PriorityComponentProps } from './PriorityComponent';
 ```
 
+
+![Lab-02 Image](./img/lab02-23.png)
+
 14.	Locate the `Export` class line in `index.ts`.
+
+![Lab-02 Image](./img/lab02-24.png)
+
 
 15.	Add the following code below inside the export class. This defines some working variables you will be using in the workshop logic.
 ```
