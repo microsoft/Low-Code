@@ -54,7 +54,7 @@ const CampaignFeatures = [
     title: 'Hands-on Workshops',
     Svg: require('@site/static/img/campaign/hacks.svg').default,
     fillColor: "#00a4ef",
-    link: "https://microsoft.github.io/Low-Code/docs/intro",
+    link: "/Low-Code/docs/intro",
     description: (
       <>
       Explore workshops in your own time, to work through various features or solutions in self-guided mode.
