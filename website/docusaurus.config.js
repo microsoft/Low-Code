@@ -194,7 +194,7 @@ const config = {
       announcementBar: {
         id: 'LowCode February kicks off Feb 1, 2022!',
         content:
-          '<b> <a href="https://aka.ms/lowcode-february/challenge"> Take Our Cloud Skills Challenge! </a> | Give us <a href="https://microsoft.github.io/Low-Code/?WT.mc_id=javascript-82212-ninarasi"><b> a 🌟 on GitHub</b></a> </b> ',
+          '<b> <a href="https://aka.ms/lowcode-february/challenge"> Take Our Cloud Skills Challenge! </a> | Give us <a href="https://github.com/microsoft/Low-Code"><b> a 🌟 on GitHub</b></a> </b> ',
         backgroundColor: '#000000', /* '#050D20',*/
         textColor: '#ffffff', /* '#4DC7B2', */
         isCloseable: false,
