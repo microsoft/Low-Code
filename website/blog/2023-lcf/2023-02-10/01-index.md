@@ -29,15 +29,16 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 
 ## What We'll Cover
 
- * [Power Platform Custom Connector Authentication Types](#power-platform-custom-connector-authentication-types)
- * [Prerequisites](#prerequisites)
- * [Deploying Sample Apps](#deploying-sample-apps)
- * [API Key Auth](#1-api-key-auth)
- * [Basic Auth](#2-basic-auth)
- * [OAuth2 &ndash; Authorisation Code Auth](#3-oauth2--authorisation-code-auth)
- * [BFF (Backend-for-Frontend) &ndash; Combination of API Key Auth and Basic Auth](#4-bff-backend-for-frontend--combination-of-api-key-auth-and-basic-auth)
- * [Exercise &ndash; Try it yourself!](#exercise-–-try-it-yourself)
- * [Resources &ndash; For self-study!](#resources-–-for-self-study)
+- [What We'll Cover](#what-well-cover)
+- [Power Platform Custom Connector Authentication Types](#power-platform-custom-connector-authentication-types)
+- [Prerequisites](#prerequisites)
+- [Deploying Sample Apps](#deploying-sample-apps)
+- [1. API Key Auth](#1-api-key-auth)
+- [2. Basic Auth](#2-basic-auth)
+- [3. OAuth2 – Authorisation Code Auth](#3-oauth2--authorisation-code-auth)
+- [4. BFF (Backends-for-Frontends) – Combination of API Key Auth and Basic Auth](#4-bff-backends-for-frontends--combination-of-api-key-auth-and-basic-auth)
+- [Exercise – Try it yourself!](#exercise--try-it-yourself)
+- [Resources – For self-study!](#resources--for-self-study)
 
 <!-- FIXME: banner image -->
 ![Empty Banner Placeholder](../../../static/img/banner.png)
@@ -75,8 +76,8 @@ Each function app has already been integrated with API Management. Let's take a 
 
 The first option is using an API key to provide extra security. Using Azure API Management, you can choose between:
 
-    * A concept called [subscription][az apim subscription], where you use the subscription key through a HTTP request header of `Ocp-Apim-Subscription-Key`
-    * Or you can use a HTTP request query string of `subscription-key`.
+* A concept called [subscription][az apim subscription], where you use the subscription key through a HTTP request header of `Ocp-Apim-Subscription-Key`
+* Or you can use a HTTP request query string of `subscription-key`.
 
 Both options add another security layer to your API, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
 
@@ -95,14 +96,14 @@ Both options add another security layer to your API, in addition to your Azure F
     ![API Key Auth - export OpenAPI document][image-04]
 
    You might have a question here.
-   
+
    > What does the "Create Power Connector" menu do? Isn't that for this API key auth?
 
-   That's actually a valid question. The only difference between exporting the OpenAPI document and creating the connector directly on the menu is that which tenant you want to export the connector to. If you want to use only within your tenant, the "Create Power Connector" is way easier. However, if your connector is not only for your tenant, but also other tenant, you should export the OpenAPI document and use it on the other tenants.
+   That's actually a valid question. The only difference between exporting the OpenAPI document and creating the connector directly through the menu is that which tenant you want to export the connector to. If you want to only use within your tenant, the "Create Power Connector" is a simple and easy way to generate a custom connector. However, if your connector is not only for your tenant, but also other tenant, you should export the OpenAPI document and use it in the other tenants.
 
    Therefore, throughout this post, you're assuming to use this custom connector in general purpose, rather than tied with your tenant.
 
-1. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use the API key through `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
+2. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use the API key through `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
     ```jsonc
     {
@@ -135,19 +136,19 @@ Both options add another security layer to your API, in addition to your Azure F
     }
     ```
 
-1. Alright. Let's import this OpenAPI document for a custom connector. Go to either `https://make.powerapps.com` for Power Apps or `https://make.powerautomate.com` for Power Automate, and create a custom connector by importing an OpenAPI file.
+3. Alright. Let's import this OpenAPI document for a custom connector. Go to either `https://make.powerapps.com` for Power Apps or `https://make.powerautomate.com` for Power Automate, and create a custom connector by importing an OpenAPI file.
 
     ![API Key Auth - custom connector by OpenAPI file][image-05]
 
-1. It automatically identifies the authentication type to "API Key", the API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
+4. It automatically identifies the authentication type to "API Key", the API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
 
     ![API Key Auth - custom connector authentication type][image-06]
 
-1. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the API Management.
+5. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the API Management.
 
     ![API Key Auth - custom connector connection][image-07]
 
-1. Test the connector to see whether it works OK or not.
+6. Test the connector to see whether it works OK or not.
 
     ![API Key Auth - custom connector test][image-08]
 
