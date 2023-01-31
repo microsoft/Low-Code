@@ -43,7 +43,7 @@ const CampaignFeatures = [
     title: 'Cloud Skills',
     Svg: require('@site/static/img/campaign/skills.svg').default,
     fillColor: "#ffb900",
-    link: "/Low-Code/lowcode-february/CloudSkills",
+    link: "https://aka.ms/lowcode-february/challenge",
     description: (
       <>
       Skill up on key cloud technologies with these free, self-guided learning courses - and make the leaderboard!
@@ -54,7 +54,7 @@ const CampaignFeatures = [
     title: 'Hands-on Workshops',
     Svg: require('@site/static/img/campaign/hacks.svg').default,
     fillColor: "#00a4ef",
-    link: "/Low-Code/blog",
+    link: "https://microsoft.github.io/Low-Code/docs/intro",
     description: (
       <>
       Explore workshops in your own time, to work through various features or solutions in self-guided mode.

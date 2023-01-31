@@ -11,7 +11,7 @@ In **Exercise 2** you will run a flow that will add sample data to your environm
 
 :::
 
-## 2.1 Run flow
+## 2.1 Run a flow
 
 1.  Open the **PrioritZ** solution you imported.
 

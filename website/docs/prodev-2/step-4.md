@@ -11,6 +11,8 @@ In **Exercise 4** you will learn and test the Power Platform CLI.
 
 :::
 
+## 4.1 Test the Power Platform CLI
+
 1.	Open Visual Studio Code.
 2.	Select the **Power Platform** tab and click **Add Auth Profile**.
 

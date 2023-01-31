@@ -35,8 +35,19 @@ In **Exercise 3** you will use the code component you created in the PrioritZ As
 1.	Navigate to [**Power Platform admin center**](https://aka.ms/lowcode-february/admincenter)  and select environments.
 2.	Open the dev environment you are using for this lab.
 3.	Click Settings.
+
+
+![Lab-02 Image](./img/lab02-38.png)
+
 4.	Expand Products and select Features.
-5.	Turn on Allow publishing of canvas apps with code components and click Save.'
+
+
+![Lab-02 Image](./img/lab02-39.png)
+
+5.	Turn on **Allow publishing of canvas apps with code components** and click Save.'
+
+
+![Lab-02 Image](./img/lab02-40.png)
 
 ## 3.2 Edit canvas app
 🤖 Note: In this task, you will edit the PrioritZ Ask canvas application to use the code component you created.
@@ -44,15 +55,41 @@ In **Exercise 3** you will use the code component you created in the PrioritZ As
 1.	Navigate to [**Power Apps maker portal**](https://aka.ms/lowcode-february/makerportal)  and make sure you are in the correct dev environment.
 2.	Select Solutions and open the PrioritZ solution.
 3.	Select Apps, select the PrioritZ Ask app and click Edit.
-4.	Select the Components tab, click on the … Components option button and select Import components.
+
+![Lab-02 Image](./img/lab02-41.png)
+
+4.	Select the Components tab, click on the **… Components option button** and select **Import components**.
+
+
+![Lab-02 Image](./img/lab02-42.png)
+
 5.	Select the Code tab.
 6.	Select the code component you created and click Import.
+
+
+![Lab-02 Image](./img/lab02-43.png)
+
 7.	Select the Screens tab.
 8.	Expand the Vote Screen and select the Votes gallery.
 9.	Set the Width value of the Votes gallery to 570.
 10.	The screen should now look like the image below.
+
+
+![Lab-02 Image](./img/lab02-44.png)
+
+
 11.	Select the Votes Screen and click + Insert.
+
+
+![Lab-02 Image](./img/lab02-45.png)
+
+
 12.	Select `PrioritZDnDRanking`.
+
+
+![Lab-02 Image](./img/lab02-46.png)
+
+
 
 13.	Go to the Tree view tab and select the `PrioritZDnDRanking` you just added.
 14.	Set the Items value of the `PrioritZDnDRanking` component to the formula below.
@@ -61,8 +98,16 @@ In **Exercise 3** you will use the code component you created in the PrioritZ As
 ```
 
 15.	Select the `PrioritZDnDRanking` go to the `Properties` pane and click **Edit Fields**.
+
+
+![Lab-02 Image](./img/lab02-47.png)
+
 16.	Click **+ Add field**.
 17.	Select **Rank** and click **Add**.
+
+
+![Lab-02 Image](./img/lab02-48.png)
+
 
 18.	Set the `ItemHeight` of the `PrioritZDnDRanking` to the formula below.
 ```
@@ -71,9 +116,21 @@ In **Exercise 3** you will use the code component you created in the PrioritZ As
 
 19.	The rank should now show on the control, but it is sorted descending.
 
+
+![Lab-02 Image](./img/lab02-49.png)
+
+
 20.	Select the Votes gallery and change the sort order to Ascending.
 
+
+![Lab-02 Image](./img/lab02-50.png)
+
+
 21.	The rank should now get sorted ascending.
+
+
+![Lab-02 Image](./img/lab02-51.png)
+
 
 22.	Select the `PrioritZDnDRanking` component.
 
@@ -129,19 +186,34 @@ In **Exercise 3** you will use the code component you created in the PrioritZ As
 30.	Select the Home Screen and click Play.
 31.	Select one of the topics.
 32.	Make your browser widow smaller until it is the size of a phone screen.
+
+
+![Lab-02 Image](./img/lab02-52.png)
+
 33.	Drag one of the topic items and drop it in a different location.
+
+
+![Lab-02 Image](./img/lab02-53.png)
+
+
 34.	The drag/drop should work as expected.
 35.	Close the preview.
 36.	Click **Publish**.
+
+![Lab-02 Image](./img/lab02-54.png)
 
 
 37.	Select **Publish this version** and wait for the publish to be completed.
 38.	Click on the **Back** button.
 
+![Lab-02 Image](./img/lab02-55.png)
+
 39.	Select **Leave** if prompted.
 
-🤖 Note: You should now be back on the solution. Do not navigate away from this page.
+:::tip Note
 
+You should now be back on the solution. Do not navigate away from this page.
+:::
 
 
 

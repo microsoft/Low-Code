@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: 5. Create Custom Connector
+title: 4. Register App
 ---
 
 :::info LAB SCENARIO
@@ -9,73 +9,35 @@ Working as part of the PrioritZ fusion team you will be configuring a custom con
 
 Note: This lab requires an Azure subscription (or trial) in the **same tenant** as your Dataverse environment.
 
+In **Exercise 4** you will deploy the function to Azure.
 
-
-In **Exercise 5** you will create a new custom connector.
 :::
 
-## 5.1 Create connector
+:::tip Important
+This lab requires an 🅰️**Azure subscription (or trial)** in the **same tenant** as your Dataverse environment.
+:::
 
-1.	Navigate to https://portal.azure.com/ 
-2.	Select All resources, search for the function app you deployed and click to open it.
-3.	Copy the URL.
-4.	Open a new browser tab or window and paste the URL you copied.
-5.	Add `/api/swagger.json` to the end of the URL and `ENTER`
+## 4.1 Register Connector Client app
 
+1.	Click on the **Portal** menu and select **Azure Active Directory**.
+2.	Select **App registrations** and click **+ New registration**. This application registration will be used for the connector to access the protected API.
+3.	Enter `PrioritZConnector <Initials>` for Name, select **Accounts in this organizational directory only**, select **Web** for Redirect URI, enter `https://global.consent.azure-apim.net/redirect` and click **Register**.
 
-6.	Click Accept if prompted for permissions.
-7.	Right click on the swagger and select Save as.
+![Lab-04 Image](./img/lab04%20(38).jpg)
 
+4.	Copy the **Application (client) ID** and keep it in a notepad as **PrioritZFL Connector application ID**.
 
-8.	Save the file on your local machine.
-9.	Navigate to Power Apps maker portal and make sure you have the correct Dev environment selected.
-10.	Expand Dataverse and select Custom Connectors.
+![Lab-04 Image](./img/lab04%20(39).jpg)
 
-11.	Click on the chevron button next to the New custom connector and select Import an OpenAPI file.
+5.	Select **Certificates & Secrets** and click **+ New client secret**.
+6.	Provide a description, select **3 months**, and click **Add**. 
+7.	Copy the secret **Value** and keep it on a notepad as **PrioritZFL Connector Secret**.
+8.	Select **API permissions** and click **+ Add a permission**.
 
-12.	Enter PrioritZ Connector for name and click Import.
+![Lab-04 Image](./img/lab04%20(40).jpg)
 
-13.	Select the swagger file you saved and click Open.
-14.	Click Continue.
-15.	Provide Description and advance to Security.
+9.	Select the **My APIs** tab and select **PrioritZFL**.
 
+![Lab-04 Image](./img/lab04%20(41).jpg)
 
-16.	Select OAuth 2.0 for Authentication type.
-17.	Select Azure Active Directory Identity provider.
-18.	Copy the PrioritZFL Connector application ID from your notepad and paste it in the Client id field.
-19.	Copy the PrioritZFL Connector Secret your notepad and paste it in the Client secret field.
-20.	Copy the Tenant ID from your notepad and replace common with it in the Tenant ID field.
-21.	Copy the PrioritZ API application ID from your notepad and paste it in the Resource URL field.
-22.	Enter true for Enable on-behalf-of login.
-23.	Click Create connector.
-
-## 5.2 Test connector
-
-1.	Select the Test tab.
-2.	Click + New connection.
-
-3.	Click Create.
-4.	Provide your credentials.
-5.	Click Accept.
-6.	Select Custom connectors and click Edit on the PrioritZ connector.
-
-
-7.	Select the Test tab.
-8.	Make sure the connection you created is selected.
-9.	Turn on Raw Body.
-10.	Provide the JSON below and click Test operation.
-```cs
-{
-  "topic": "Test Topic",
-  "details": "From Azure Function",
-  "respondBy": "2022-11-01",
-  "myNotes": "It worked",
-  "choices": [
-    {
-      "choice": "Choice 1"
-    }
-  ]
-}
-```
-
-11.	The operation test should succeed, and the response should look like the image below.
+10.	Check the **user_impersonation** checkbox and click **Add permission**.

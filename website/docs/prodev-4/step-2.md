@@ -11,51 +11,107 @@ When you review the API, you see that it has four operations and uses API key au
 
 
 In **Exercise 2** you will add a new operation to only return the current badge name and image URL.  You will do this by using the custom code feature to reshape the response from the API.
-🤖 Note: If you already have the custom connector open, skip to step 4
+:::
+
+:::tip Note
+If you already have the custom connector open, skip to step 4
 :::
 
 ## 2.1 Add code from resource folder
 
 1.	Navigate to [**Power Automate**](https://aka.ms/lowcode-february/workshop/powerautomate) 
-2.	Expand Data and select Custom connectors.
-3.	Click the Edit button of the custom connector you created.
-4.	Select the Definition tab and click New action.
-5.	Enter Get current badge for Summary, Get current badge for Description, and getcurrentbadge for Operation ID.
-6.	Scroll down to the Request section and click + Import from sample.
+2.	Expand **Data** and select **Custom connectors**.
 
-7.	Select Get for Verb, enter `https://contosobadgestest.azurewebsites.net/getcurrentbadge?id={id}` for URL, and click Import.
+3.	Click the **Edit** button of the custom connector you created.
 
-8.	Click Update connector and wait for the connector to be updated.
-9.	Select the Code tab.
-10.	Enable Code and click Upload.
+![Lab-03 Image](./img/lab03-21.jpg)
 
-11.	Select the `CustomConnectorCode.csx` file located in the lab resources folder and click Open.
+4.	Select the Definition tab and click **New action**.
+
+![Lab-03 Image](./img/lab03-22.jpg)
+
+5.	Enter **Get current badge** for Summary, **Get current badge** for Description, and **getcurrentbadge** for Operation ID.
+
+![Lab-03 Image](./img/lab03-23.jpg)
+
+6.	Scroll down to the **Request** section and click **+ Import from sample**.
+
+![Lab-03 Image](./img/lab03-24.jpg)
+
+
+7.	Select **Get** for Verb, enter `https://contosobadgestest.azurewebsites.net/getcurrentbadge?id={id}` for URL, and click Import.
+
+![Lab-03 Image](./img/lab03-25.jpg)
+
+
+8.	Click **Update connector** and wait for the connector to be updated.
+
+9.	Select the **Code** tab.
+
+10.	Enable **Code** and click **Upload**.
+
+![Lab-03 Image](./img/lab03-26.jpg)
+
+11.	Select the [**CustomConnectorCode.csx**](https://github.com/microsoft/Low-Code/blob/main/resources/workshops/Dev%20in%20a%20day/lab03/CustomConnectorCode.csx) file located in the lab resources folder and click Open.
+
 12.	Select the **getcurrentbadge** action.
 
-13.	Review the code you just added.
-14.	Click Update connector and wait for the connector to be updated.
-15.	Advance to Test.
-16.	Select the getcurrentbadge action.
-17.	Provide your email address as id and click Test operation.
-
-18.	The test should succeed, and you should get current badge for the user you created.
-
-19.	Copy the Response Body JSON.
-20.	Select the Definition tab.
-21.	Select the **getcurrentbadge** action.
-
-22.	Scroll down to the Response section and click + Add default response.
-
-23.	Paste the JSON you copied in the Body and click Import.
-
-24.	Click Update connector and wait for the connector to be updated.
-25.	Do not navigate away from this page.
+![Lab-03 Image](./img/lab03-27.jpg)
 
 
-## 2.2 Test custom code
+:::tip Note
+Review the code you just added.
+:::
 
-1.	Select the Test tab.
+
+13.	Click **Update connector** and wait for the connector to be updated.
+
+
+14.	Advance to **Test**.
+15.	Select the **getcurrentbadge** action.
+16.	Provide your email address as id and click **Test operation**.
+
+![Lab-03 Image](./img/lab03-28.jpg)
+
+:::tip Note 
+The test should succeed, and you should get current badge for the user you created.
+
+![Lab-03 Image](./img/lab03-29.jpg)
+:::
+
+## 2.2 Update Connector
+
+1.	Copy the Response **Body** JSON.
+
+2.	Select the **Definition** tab.
+3.	Select the **getcurrentbadge** action.
+
+![Lab-03 Image](./img/lab03-30.jpg)
+
+4.	Scroll down to the **Response** section and click **+ Add default response**.
+
+![Lab-03 Image](./img/lab03-31.jpg)
+
+5.	Paste the JSON you copied in the **Body** and click **Import**.
+
+![Lab-03 Image](./img/lab03-32.jpg)
+
+6.	Click **Update connector** and wait for the connector to be updated.
+
+:::tip Note
+Do not navigate away from this page.
+:::
+
+## 2.3 Test custom code
+
+1.	Select the **Test** tab.
 2.	Select the connection you created earlier.
-3.	Go to the Operations section and select the **getcurrentbadge** operation.
-4.	Provide your email as id and click Test operation.
-5.	The operation should succeed, and the response Body should look like the image below.
+3.	Go to the **Operations** section and select the **getcurrentbadge** operation.
+4.	Provide your email as **id** and click **Test operation**.
+
+![Lab-03 Image](./img/lab03-33.jpg)
+
+:::tip Note
+The operation should succeed, and the response **Body** should look like the image below.
+
+![Lab-03 Image](./img/lab03-34.jpg)

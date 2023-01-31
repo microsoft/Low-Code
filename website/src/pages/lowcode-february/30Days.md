@@ -25,7 +25,9 @@ Welcome to our month-long celebration of Low Code development and Fusion teams! 
 
 _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we wanted to share a few posts ahead of time to set the context and describe the various resources available to you!
 
+:::info Kick Off 
 * Jan 25 - [It's a Low Code February!](/blog/)
+:::
 
 ![Kickoff](CampaignBanner.png)
 

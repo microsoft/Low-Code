@@ -187,11 +187,9 @@ code -a .
 ```
 
 
-![Lab-02 Image](./img/lab02-15.png)
-
-
 23.	The file should now look like the following.
 
-![Lab-02 Image](./img/lab02-16.png)
+
+![Lab-02 Image](./img/lab02-15.png)
 
 24.	Click **File** and save your changes.

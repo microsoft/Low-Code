@@ -20,7 +20,7 @@ In **Exercise 1** you will import a solution into your dev environment.  This so
 ![Lab-01 Image](./img/lab01-01.png)
 
 3.	Click **Browse**.
-4.	Go to the lab resources folder, select the [**PrioritZ_solution.zip**](https://github.com/microsoft/Low-Code/blob/main/resources/lowcode-feb/workshop/lab01/Prioritz_1_0_0_7.zip) file, and click **Open**.
+4.	Go to the lab resources folder, select the [**PrioritZ_solution.zip**](https://github.com/microsoft/Low-Code/blob/main/resources/workshops/Dev%20in%20a%20day/lab01/Prioritz_1_0_0_7.zip) file, and click **Open**.
 
 5.	Click **Next**.
 

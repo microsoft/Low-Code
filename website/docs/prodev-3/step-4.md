@@ -33,6 +33,17 @@ In **Exercise 4** you will add the code component you created to the PrioritZ so
 
 1.	Make sure you are still in the **PrioritZ** solution.
 2.	Click **Add existing** and select **More | Developer | Custom control**.
+
+
+![Lab-02 Image](./img/lab02-56.png)
+
 3.	Select `contoso_ContosoCoffee.PrioritZDnDRanking` and click **Add**.
 
-🤖 Note: The custom control should now be in your solution.
+
+![Lab-02 Image](./img/lab02-57.png)
+
+:::tip Note
+The custom control should now be in your solution.
+
+![Lab-02 Image](./img/lab02-58.png)
+:::
