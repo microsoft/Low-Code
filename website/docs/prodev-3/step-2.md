@@ -37,20 +37,23 @@ In **Exercise 2** you will implement the component logic.
 
 3.	Drag the `PriorityComponent.tsx` file and drop it in the `PrioriZDnDRanking` folder.
 
-![Lab-02 Image](./img/lab02-17.png)
+![Lab-02 Image](./img/lab02-16.png)
 
 
 4.  🤖 Note: The `PriorityComponent.tsx` file should now be in the `PrioriZDnDRanking` folder.
 
-![Lab-02 Image](./img/lab02-18.png)
+![Lab-02 Image](./img/lab02-17.png)
 
 
 5.	Click **File** and save your changes.
 6.	Open the `PriorityComponent.tsx` and review the contents.  This implements the React component that will be rendered to represent our draggable items.
-7.	🤖 Note: Notice line 9 from `‘react-beautiful-dnd’` has a red underline.  This is a npm package the component uses that we haven’t referenced.
+
+:::tip Note
+7.	Notice line 9 from `‘react-beautiful-dnd’` has a red underline.  This is a npm package the component uses that we haven’t referenced.
+:::
 
 
-![Lab-02 Image](./img/lab02-19.png)
+![Lab-02 Image](./img/lab02-18.png)
 
 
 8.	Run the following command in a terminal window to add a reference to react-beautiful-dnd
@@ -58,7 +61,7 @@ In **Exercise 2** you will implement the component logic.
 npm install react-beautiful-dnd
 ```
 
-![Lab-02 Image](./img/lab02-20.png)
+![Lab-02 Image](./img/lab02-19.png)
 
 9.	Add the following command for the type definitions.
 ```
@@ -67,7 +70,7 @@ npm install --save-dev @types/react-beautiful-dnd
 
 10.	Notice the red underline in line 9 has been resolved.
 
-![Lab-02 Image](./img/lab02-21.png)
+![Lab-02 Image](./img/lab02-20.png)
 
 
 11.	Open the `index.ts` file.
@@ -77,7 +80,7 @@ npm install --save-dev @types/react-beautiful-dnd
 import { HelloWorld, IHelloWorldProps } from "./HelloWorld";
 ```
 
-![Lab-02 Image](./img/lab02-22.png)
+![Lab-02 Image](./img/lab02-21.png)
 
 
 13.	Add the import below to the `index.ts` file. This will reference the `PriorityComponent`.
@@ -86,11 +89,11 @@ import { PriorityComponent, PriorityComponentProps } from './PriorityComponent';
 ```
 
 
-![Lab-02 Image](./img/lab02-23.png)
+![Lab-02 Image](./img/lab02-22.png)
 
 14.	Locate the `Export` class line in `index.ts`.
 
-![Lab-02 Image](./img/lab02-24.png)
+![Lab-02 Image](./img/lab02-23.png)
 
 
 15.	Add the following code below inside the export class. This defines some working variables you will be using in the workshop logic.
@@ -99,7 +102,13 @@ private context: ComponentFramework.Context<IInputs>;
 private items: ComponentFramework.PropertyTypes.DataSet;
 ```
 
+![Lab-02 Image](./img/lab02-24.png)
+
 16.	Locate the `init` function.
+
+
+![Lab-02 Image](./img/lab02-25.png)
+
 
 17.	Paste the code below inside the `init` function. This logic initializes our class variables from the runtime values and enables resize notification.
 ```
@@ -107,7 +116,12 @@ this.context = context;
 context.mode.trackContainerResize(true);
 ```
 
+![Lab-02 Image](./img/lab02-26.png)
+
 18.	Locate the `updateView` function.
+
+
+![Lab-02 Image](./img/lab02-27.png)
 
 19.	Replace the `updateView` function with the function below. This logic creates the `React Element` from the `PriorityComponent` and adds it to the virtual DOM.
 
@@ -128,6 +142,10 @@ public updateView(context: ComponentFramework.Context<IInputs>): React.ReactElem
     }
 ```
 
+
+![Lab-02 Image](./img/lab02-28.png)
+
+
 20.	Add the function below after the destroy function. This logic handles the `onReorder` event from the `PriorityComponent` and lidentifies the involved items to the hosting app as selected items.
 
 ```js
@@ -142,8 +160,18 @@ onReorder = (sourceIndex: number, destinationIndex: number): void => {
     };
 ```
 
+![Lab-02 Image](./img/lab02-29.png)
+
 21.	Open the `package.json` file.
+
+
+![Lab-02 Image](./img/lab02-30.png)
+
 22.	Locate the `dependencies` JSON object.
+
+
+![Lab-02 Image](./img/lab02-31.png)
+
 23.	Replace `dependencies` with the JSON below.
 
 ```json
@@ -166,6 +194,8 @@ a)	Open the `.eslintrc.json` file.
 b)	Locate rules and paste the rules below.
 
 
+![Lab-02 Image](./img/lab02-32.png)
+
 25.	Click **File** and save all your changes.
 
 ## 2.2 Run the command and test harness
@@ -174,7 +204,13 @@ b)	Locate rules and paste the rules below.
 ```
 npm run-script build
 ```
-27.	🤖 Note: The build should succeed. If any errors, resolve them before proceeding.
+
+:::tip Note
+27. The build should succeed. If any errors, resolve them before proceeding.
+
+![Lab-02 Image](./img/lab02-33.png)
+:::
+
 
 28.	Run the command below to start the test harness.
 ```
@@ -183,16 +219,28 @@ npm start
 
 29.	The test harness should start. Try dragging the items and see if the behavior functions as expected. The data shown will be the default test harness data.
 
+
+![Lab-02 Image](./img/lab02-34.png)
+
 30.	Close the test harness.
 31.	Stop the run by holding the `CONTROL` key + C. 
 32.	Type Y and `ENTER`.
+
+
+![Lab-02 Image](./img/lab02-35.png)
 
 25.	Run the command below to see your currently selected environment.
 ```
 pac org who
 ```
 
-26.	🤖 Note: You should have the dev environment you created selected. If not, run the select command from the end of lab one again.
+:::tip Note
+26.	You should have the dev environment you created selected. If not, run the select command from the end of lab one again.
+
+
+![Lab-02 Image](./img/lab02-36.png)
+
+:::
 
 ## 2.3 Push component to your environment 
 
@@ -202,3 +250,6 @@ pac pcf push --publisher-prefix contoso
 ```
 
 28.	Wait for the solution to be imported and published to your environment.
+
+
+![Lab-02 Image](./img/lab02-37.png)
