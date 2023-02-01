@@ -9,7 +9,7 @@ title: 30 Days Of Low Code
 ## Welcome! 
 
 :::tip PLANNED ROADMAP
-This is a tentative roadmap for #30DaysOfLowCode, a series of daily content posts all through #LowCodeFebruary. Hear from our experts in the product teams and cloud advocacy and follow along at your own pace!
+This is the planned roadmap for #30DaysOfLowCode, a series of daily content posts all through #LowCodeFebruary. Hear from our experts in the product teams and cloud advocacy and follow along at your own pace!
 :::
 
 We've organized the content into 4 themed weeks. Based on your level of experience with the topic, you can choose to pick specific weeks or posts to check out. If you are new to low code development, we recommend you read the posts in order.
