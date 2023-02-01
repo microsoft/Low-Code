@@ -1,6 +1,6 @@
 ---
 slug: 2023-next-steps
-title: 🗺 | Continue The Journey!
+title: Continue The Journey!
 authors: [april, matt, nitya, sonja]
 draft: true
 hide_table_of_contents: false

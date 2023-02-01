@@ -99,7 +99,7 @@ function CampaignHeader() {
           It's Low Code February!
         </h1>
         <p>
-          Join us for a month-long celebration of low code development - from understanding Power Platform Fundamentals, to exploring Fusion Teams and Cloud Integrations for scalable, serverless apps. Bookmark this page, then join us <b>Jan 31, 2022</b> as we kickstart  the Low Code journey.
+          Join us for a month-long celebration of low code development where we'll go from Power Platform Fundamentals, to exploring Fusion Teams and building scalable, serverless apps with Cloud Integrations. Take the Cloud Skills Challenge, read #30DaysOfLowCode articles from experts, and complete our hands-on workshops.
         </p>
         <div className={styles.buttons}>
           <Link

@@ -10,12 +10,12 @@ We set this page up as a place to share _low code application development_ works
 
 :::info CONTRIBUTE A WORKSHOP 💻 
 
-Have you create a workshop that you want to share with the community? [Submit the custom issue](https://github.com/microsoft/Low-Code/issues/new/choose) with the details and we'd love to take a look! Accepted workshops will get listed in this section!
+Have you created a workshop that you want to share with the community? [**Submit this custom issue**](https://github.com/microsoft/Low-Code/issues/new/choose) with the details and we'd love to take a look! Accepted workshops will get listed in this section!
 :::
 
-## Power Platforms Advocacy
+## Power Platform Advocacy
 
-The Power Platforms Advocacy team maintains [this GitHub Repository](https://aka.ms/pp/workshops) where you can find the latest workshops and presentations developed by the team.
+The Power Platform Advocacy team maintains [this GitHub Repository](https://aka.ms/pp/workshops) where you can find the latest workshops and presentations developed by the team.
 
 :::tip Mixed Reality + Power Apps 🆕 
 

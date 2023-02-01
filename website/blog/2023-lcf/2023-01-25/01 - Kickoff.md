@@ -2,6 +2,7 @@
 slug: 2023-kickoff
 title: It's a Low Code February!
 authors: [sonja,nitya]
+draft: false
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 

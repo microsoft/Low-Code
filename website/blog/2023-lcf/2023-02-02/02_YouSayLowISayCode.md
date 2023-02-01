@@ -1,9 +1,45 @@
 ---
 slug: 2023-day2
-title: You say Low, I say Code!
+title: 2. You say Low, I say Code!
 authors: [april, matt, sonja, nitya]
+draft: true
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
+
+<head>
+  <meta name="twitter:url" 
+    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+  <meta name="twitter:title" 
+    content="FIXME: Title Of Post" />
+  <meta name="twitter:description" 
+    content="FIXME: Post Description" />
+  <meta name="twitter:image" 
+    content="FIXME: Post Image" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" 
+    content="@nitya" />
+  <meta name="twitter:site" content="@AzureAdvocates" /> 
+  <link rel="canonical" 
+    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+</head>
+
+
+Welcome to `Day #FIXME` of #28DaysOfLowCode!
+
+The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
+
+## What We'll Cover
+ * Section 1
+ * Section 2
+ * Section 3
+ * Section 4
+ * Exercise: Try this yourself!
+ * Resources: For self-study!
+
+<!-- FIXME: banner image -->
+![Empty Banner Placeholder](../../../static/img/banner.png)
+
+
 ## You say Low, I say Code!
 
 There is a low code revolution underway. We have a surging digital demand with an estimated 500 million more apps that will need to be created in the next 5 years. More and more companies are leveraging low code and no code platforms to bridge this app gap and address workflow and automation needs. In fact, Gartner estimates that 65% of application development will be low code by 2024.
