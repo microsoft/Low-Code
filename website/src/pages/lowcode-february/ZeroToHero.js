@@ -95,7 +95,7 @@ const ContentItems = [
     topic: 'Customer Stories',
     topiclink: 'https://powerapps.microsoft.com/blog/category/case-studies/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/11/image-1.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/rabobank-streamlines-processes-taking-three-weeks-to-three-minutes/",
+    link: "https://powerapps.microsoft.com/blog/rabobank-streamlines-processes-taking-three-weeks-to-three-minutes/",
     description: " Rabobank currently uses more than 2,500 Power Apps and Power Automate solutions. One instance reduced processing time from three weeks to three minutes, another automated 40-50% of customer calls ."
   },
   {
@@ -103,32 +103,32 @@ const ContentItems = [
     topic: 'Customer Stories',
     topiclink: 'https://powerapps.microsoft.com/blog/category/case-studies/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/12/cocacola_united_dmwl_infographic-1-1024x378.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/coca-cola-united-automates-multi-step-sap-invoicing-process-power-platform/",
+    link: "https://powerapps.microsoft.com/blog/coca-cola-united-automates-multi-step-sap-invoicing-process-power-platform/",
     description: "Coca-Cola United used Power Platform to reduce order validation time from half a day to seconds, and automated a complex multi-step SAP invoicing process to handle 50K+ orders "
   },
 
   {
     title: 'Power Platform Developer Tools November update',
     topic: 'App Lifecycle Management (ALM)',
-    topiclink: 'https://powerapps.microsoft.com/en-us/blog/category/alm/',
+    topiclink: 'https://powerapps.microsoft.com/blog/category/alm/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/12/text-description-automatically-generated.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/power-platform-developer-tools-november-update/",
+    link: "https://powerapps.microsoft.com/blog/power-platform-developer-tools-november-update/",
     description: "We are glad to announce the release of our final 2022 deliverable, the November update for Power Platform CLI, Azure DevOps, and GitHub actions. Read this month’s update to learn about great new features available!"
   },
   {
     title: 'Power Platform build tools and Azure DevOps',
     topic: 'App Lifecycle Management (ALM)',
-    topiclink: 'https://powerapps.microsoft.com/en-us/blog/category/alm/',
+    topiclink: 'https://powerapps.microsoft.com/blog/category/alm/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/11/graphical-user-interface-text-application-descr.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/power-platform-build-tools-and-azure-devops/",
+    link: "https://powerapps.microsoft.com/blog/power-platform-build-tools-and-azure-devops/",
     description: "We have had a lot of requests to clarify best practices for using Power Platform Build Tools (PP.BT) for Azure DevOps and are delighted to share more about this in this post!"
   },
   {
     title: 'Automate deployments with pipelines in Power Platform, now in preview',
     topic: 'App Lifecycle Management (ALM)',
-    topiclink: 'https://powerapps.microsoft.com/en-us/blog/category/alm/',
+    topiclink: 'https://powerapps.microsoft.com/blog/category/alm/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/12/Pipelines-Preview-Blog-GIF.gif',
-    link: "https://powerapps.microsoft.com/en-us/blog/automate-deployments-with-power-platform-pipelines-now-in-preview/",
+    link: "https://powerapps.microsoft.com/blog/automate-deployments-with-power-platform-pipelines-now-in-preview/",
     description: "Pipelines aims to democratize application lifecycle management (ALM) for Power Platform and Dynamics 365 customers by bringing deployment automation capabilities into Managed Environments in a manner that’s more approachable for all makers, admins, and developers"
   },
   {
@@ -143,16 +143,16 @@ const ContentItems = [
     title: 'Protecting data with Dataverse: Security from External Threats',
     topic: 'Dataverse',
     topiclink: 'https://powerapps.microsoft.com/blog/category/dataverse/',
-    imglink: 'https://learn.microsoft.com/en-us/power-apps/maker/data-platform/media/data-platform-cds-intro/platform.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/protecting-data-with-dataverse/",
+    imglink: 'https://learn.microsoft.com/power-apps/maker/data-platform/media/data-platform-cds-intro/platform.png',
+    link: "https://powerapps.microsoft.com/blog/protecting-data-with-dataverse/",
     description: "In this blog series, we will be covering how to protect data in Dataverse from external and internal threats (both from internal users and Microsoft). In today’s post, we will focus on protecting data from external threats."
   },
   {
     title: 'Protecting data with Dataverse: Security from Internal Threats',
     topic: 'Dataverse',
     topiclink: 'https://powerapps.microsoft.com/blog/category/dataverse/',
-    imglink: 'https://learn.microsoft.com/en-us/power-apps/maker/data-platform/media/data-platform-cds-intro/platform.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/protecting-data-with-dataverse-part-2-security-from-internal-threats-users/",
+    imglink: 'https://learn.microsoft.com/power-apps/maker/data-platform/media/data-platform-cds-intro/platform.png',
+    link: "https://powerapps.microsoft.com/blog/protecting-data-with-dataverse-part-2-security-from-internal-threats-users/",
     description: "In this blog series, we will be covering how to protect data in Dataverse from external and internal threats (both from internal users and Microsoft). In today’s post, we will focus on protecting data from internal user threats. "
   },
 ];

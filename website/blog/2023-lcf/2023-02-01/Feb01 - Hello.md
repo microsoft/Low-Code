@@ -37,7 +37,7 @@ The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll
  * Why Low-Code?
  * Start low coding with Microsoft!
  * The full Low-Code February lineup  
- * **Exercise:** Take the [**Cloud Skills Challenge!**](https://learn.microsoft.com/en-us/training/challenges?id=464c05e3-f1ae-400f-b5df-2dcd5299d347&%3FWT.mc_id=javascript-82212-ninarasi)
+ * **Exercise:** Take the [**Cloud Skills Challenge!**](https://learn.microsoft.com/training/challenges?id=464c05e3-f1ae-400f-b5df-2dcd5299d347&%3FWT.mc_id=javascript-82212-ninarasi)
  * ** Resources:** Sign up for the free [**Power Apps Developer Plan!**](https://aka.ms/lowcode-february/devplan)
 
 <!-- FIXME: banner image -->
@@ -53,15 +53,15 @@ The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll
 
 As the market for low-code platform continues to flourish (with projected growth this year of nearly 20% over 2022), now is the time to explore what it can mean for you. 
 
-[**Low-code development**](https://powerapps.microsoft.com/en-us/what-is-low-code/) are becoming more popular as businesses look for ways to modernize their IT infrastructure and generate more output in less time. 
+[**Low-code development**](https://powerapps.microsoft.com/what-is-low-code/) are becoming more popular as businesses look for ways to modernize their IT infrastructure and generate more output in less time. 
 
 Developers can focus on the creative aspects of app building while still taking advantage of powerful cloud computing technologies such as scalability, security, and reliability.
 
-Starting today, we invite you to spend a month getting the low-down on low-code development with an exciting series of tutorials, workshops, and interactive resources during [**#LowCodeFebruary**](aka.ms/lowcode-february).
+Starting today, we invite you to spend a month getting the low-down on low-code development with an exciting series of tutorials, workshops, and interactive resources during [**#LowCodeFebruary**](https://aka.ms/lowcode-february).
 
 ## Start low coding with Microsoft
 
-With [**Microsoft Power Apps**](https://powerapps.microsoft.com/en-us/) you can quickly build custom apps with drag-and-drop tools and pre-built templates, making it easier to create powerful apps that are tailored for your needs.  Low-code development with Azure helps businesses accelerate their innovation cycle and make the most out of their data resources. 
+With [**Microsoft Power Apps**](https://powerapps.microsoft.com/) you can quickly build custom apps with drag-and-drop tools and pre-built templates, making it easier to create powerful apps that are tailored for your needs.  Low-code development with Azure helps businesses accelerate their innovation cycle and make the most out of their data resources. 
 
 Low-code app development through Microsoft Power Platform and Azure can be used to automate workflows, reduce manual efforts, and speed up the development process for building line-of-business apps at a lower cost.
 
@@ -73,13 +73,13 @@ In other words, with Power Platform you’ll produce more and better code than b
 
 ## The full Low-Code February lineup
 
-We want to give developers the resources you need to enhance your knowledge and skill in low code. [**Low Code February**](aka.ms/lowcode-february) is a month-long celebration during which we’ll help participants learn the nuts and bolts of low-code development. 
+We want to give developers the resources you need to enhance your knowledge and skill in low code. [**Low Code February**](https://aka.ms/lowcode-february) is a month-long celebration during which we’ll help participants learn the nuts and bolts of low-code development. 
 
 You will have access to a series of hands-on workshops, self-guided learning courses, skill challengies, conversations with experts, and a community of fellow learners that will give you the necessary tools to start building in 30 days. 
 
 All throughout Low Code February we’ll be running **6 hero initiatives** to help you get the most of your newfound knowledge:
 
-1. [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [PowerFX](https://learn.microsoft.com/en-us/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview) (Power Apps Component Framework), [ALM](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/), [GitHub Actions](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions), and more. 
+1. [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [PowerFX](https://learn.microsoft.com/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/power-apps/developer/component-framework/overview) (Power Apps Component Framework), [ALM](https://learn.microsoft.com/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/products/devops/), [GitHub Actions](https://learn.microsoft.com/power-platform/alm/devops-github-actions), and more. 
 
 * [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) 📅 roadmap:
 
