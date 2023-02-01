@@ -7,7 +7,7 @@ hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [lowcode-february, power platform]
-image: https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png
+image: https://microsoft.github.io/Low-Code/img/og/30-01.png
 description: "Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february" 
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
@@ -20,7 +20,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
   <meta name="twitter:description" 
     content="Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february" />
   <meta name="twitter:image" 
-    content="https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-01.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
