@@ -77,11 +77,11 @@ We want to give developers the resources you need to enhance your knowledge and 
 
 You will have access to a series of hands-on workshops, self-guided learning courses, skill challengies, conversations with experts, and a community of fellow learners that will give you the necessary tools to start building in 30 days. 
 
-Our event kicks off with [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [PowerFX](https://learn.microsoft.com/en-us/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview) (Power Apps Component Framework), [ALM](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/), [GitHub Actions](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions), and more. 
+All throughout Low Code February we’ll be running **6 hero initiatives** to help you get the most of your newfound knowledge:
 
-In no time you’ll be able to explain the business value and product capabilities of Power Platform  as well as utilize Fusion Teams and Cloud Integrations for scalable, serverless apps. 
- 
-Here’s our 🧡[**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) roadmap:
+1. [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [PowerFX](https://learn.microsoft.com/en-us/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview) (Power Apps Component Framework), [ALM](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/), [GitHub Actions](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions), and more. 
+
+* [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) 📅 roadmap:
 
 * **Week 1️⃣: Fundamentals** Kick off with a comprehensive introduction to low code with onboarding experience, tooling, developer stories and more.
 * **Week 2️⃣: Backend Integrations** Dive into the nitty-gritty of low-code development with topics like built-in connectors, dataverse, custom connectors, API management, and Azure integration. 
@@ -91,14 +91,12 @@ Put your knowledge to the test by building a Canvas app, plus get an introductio
 Take your skills to the next level with tutorials on ALM, GitHub Actions, app governance, Power Platform pipelines, and automated testing. 
 * **Week 5️⃣: Wrap-up**
 
-In addition to sharpening your low-code skills with daily learning blocks, our goal is to help you feel supported on your development journey. All throughout Low Code February we’ll be running more initiatives to help you get the most of your newfound knowledge:
-
-* [**#ZeroToHero**](/lowcode-february/ZeroToHero/) Get the latest updates on technologies and products for low code development directly from product teams.
-* [**Video + Livestream**](/lowcode-february/Video-Live/) Join online conversations with product teams and ask questions.  
-* [**Cloud Skills Challenge**](https://aka.ms/lowcode-february/challenge) Skill up on key cloud technologies with free, self-guided learning courses, and compete to make the leaderboard!
-* [**Dev Workshops**](/docs/intro/) Explore workshops in your own time as you work through various 
+2. [**#ZeroToHero**](/lowcode-february/ZeroToHero/) 🦸‍♀️ Get the latest updates on technologies and products for low code development directly from product teams.
+3. [**Video + Livestream**](/lowcode-february/Video-Live/) 📻 Join online conversations with product teams and ask questions.  
+4. [**Cloud Skills Challenge**](https://aka.ms/lowcode-february/challenge) ☁️ Skill up on key cloud technologies with free, self-guided learning courses, and compete to make the leaderboard!
+5. [**Dev Workshops**](/docs/intro/) ⚒️ Explore workshops in your own time as you work through various 
 features or solutions in self-guided mode.
-* [**Community Buzz**](https://pnp.github.io/powerplatform-samples/) Connect with the community and contribute your expertise by building interesting demos or writing articles.
+6. [**Community Buzz**](https://pnp.github.io/powerplatform-samples/) 💡 Connect with the community and contribute your expertise by building interesting demos or writing articles.
 
 ## Get started today!
 
