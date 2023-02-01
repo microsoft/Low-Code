@@ -158,7 +158,7 @@ const config = {
       },
 
       // TODO: Configure to provide default OpenGraph Metadata 
-      image: 'img/logo.svg',
+      image: 'https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png',
       metadata: [
         { 
           name: 'twitter:url', 
@@ -174,7 +174,7 @@ const config = {
         },
         { 
           name: 'twitter:image', 
-          content: 'https://microsoft.github.io/Low-Code/assets/ideal-img/fusion-dev.95bc030.1030.png' // TODO: Add URL to image
+          content: 'https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png' 
         },
         { 
           name: 'twitter:card', 

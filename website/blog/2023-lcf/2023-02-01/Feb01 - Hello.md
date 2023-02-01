@@ -6,27 +6,27 @@ draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
+keywords: [lowcode-february, power platform]
+image: https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png
+description: "Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february" 
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day1" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="Hello, 30DaysOfLowCode!" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/lowcode-february/img/og/30-01.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day1" />
 </head>
 
 Welcome to `Day 01` of #30DaysOfLowCode!
