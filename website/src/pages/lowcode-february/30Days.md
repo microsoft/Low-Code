@@ -8,11 +8,11 @@ title: 30 Days Of Low Code
 
 ## Welcome! 
 
-:::warning TENTATIVE ROADMAP
-This is a tentative roadmap for #30DaysOfLowCode, a daily content series planned for the upcoming **LowCodeFebruary** campaign. Topics and schedule are subject to changes. Revisit this page for updates!
+:::tip PLANNED ROADMAP
+This is a tentative roadmap for #30DaysOfLowCode, a series of daily content posts all through #LowCodeFebruary. Hear from our experts in the product teams and cloud advocacy and follow along at your own pace!
 :::
 
-Welcome to our month-long celebration of Low Code development and Fusion teams! Skill up on:
+We've organized the content into 4 themed weeks. Based on your level of experience with the topic, you can choose to pick specific weeks or posts to check out. If you are new to low code development, we recommend you read the posts in order.
 
  * **Fundamentals** of Power Platforms
  * **Backend Integrations** with Connectors, Azure
@@ -26,7 +26,7 @@ Welcome to our month-long celebration of Low Code development and Fusion teams! 
 _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we wanted to share a few posts ahead of time to set the context and describe the various resources available to you!
 
 :::info Kick Off 
-* Jan 25 - [It's a Low Code February!](/blog/)
+* Jan 25 - [It's a Low Code February!](/blog/2023-kickoff)
 :::
 
 ![Kickoff](CampaignBanner.png)
@@ -46,7 +46,7 @@ _Posts will be linked here once published._
  * Feb 05 - [Week 1: Recap](/blog/)
 :::
 
-![Week 1](./../../../static/img/banner.png)
+![Week 1](./../../../static/img/og/30-week1.png)
 
 ---
 
@@ -65,7 +65,7 @@ _Posts will be linked here once published._
  * Feb 12 - [Week 2: Recap](/blog/)
 :::
 
-![Week 2](./../../../static/img/banner.png)
+![Week 2](./../../../static/img/og/30-week2.png)
 
 ---
 
@@ -84,7 +84,7 @@ _Posts will be linked here once published._
  * Feb 19 - [Week 3: Recap](/blog/)
 :::
 
-![Week 3](./../../../static/img/banner.png)
+![Week 3](./../../../static/img/og/30-week3.png)
 
 
 ## Week 4: DEV EXPERIENCE
@@ -102,7 +102,7 @@ _Posts will be linked here once published._
  * Feb 26 - [Week 4: Recap](/blog/)
 :::
 
-![Week 4](./../../../static/img/banner.png)
+![Week 4](./../../../static/img/og/30-week4.png)
 
 ## Week 5: WRAP-UP
 
@@ -112,18 +112,12 @@ _Posts will be linked here once published._
  * Feb 28 - [Month: Recap](/blog/)
 :::
 
-![Week 5](./../../../static/img/banner.png)
-
-## Thank You! 
-
-:::success YOU MADE IT!
 Thank you for staying the course with us. In the final two posts of this series we'll do two things:
  * **Look Back** - with a quick retrospective of what was covered.
  * **Look Ahead** - with resources and suggestions for how you can skill up further!
 
-We appreciate your time and attention and we hope you found this curated tour valuable. Feedback and suggestions are always welcome. 
+We appreciate your time and attention and we hope you found this curated tour valuable. Feedback always welcome. 
+
+![Thank You](./../../../static/img/og/30-thankyou.png)
 
 From our entire team, here's wishing you **good luck your learning & career journey!** 🎉
-:::
-
-![Team Picture](./../../../static/img/banner.png)
