@@ -42,7 +42,7 @@ _Posts will be linked here once published._
  * Feb 01 - [Hello, #30DaysOfLowCode](/blog/)
  * Feb 02 - [You say Low, I say Code!](/blog/)
  * Feb 03 - [Developer Tools & Onboarding](/blog/)
- * Feb 04 - [Use Cases](/blog/)
+ * Feb 04 - [Developer Story](/blog/)
  * Feb 05 - [Week 1: Recap](/blog/)
 :::
 
@@ -61,7 +61,7 @@ _Posts will be linked here once published._
  * Feb 08 - [Low Code + Serveless](/blog/)
  * Feb 09 - [Custom Connector (Tutorial)](/blog/)
  * Feb 10 - [Custom Connectors (APIM)](/blog/)
- * Feb 11 - [Azure Integration (IoT)](/blog/)
+ * Feb 11 - [Integration Use Cases](/blog/)
  * Feb 12 - [Week 2: Recap](/blog/)
 :::
 

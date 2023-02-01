@@ -1,6 +1,6 @@
 ---
 slug: 2023-day11
-title: 11. Azure Integrations (IoT)
+title: 11. Integrations Use Cases
 authors: [april, matt, nitya, sonja]
 draft: true
 hide_table_of_contents: false
@@ -29,7 +29,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
     href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
 </head>
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
+Welcome to `Day #FIXME` of #30DaysOfLowCode!
 
 The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
 

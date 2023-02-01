@@ -22,35 +22,36 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 |:---|:---|:---|
 | Jan 25 |  🔋 Kickoff  | [#30Days Blog](/blog)  |
 | Jan 31 |  🎯 Cloud Skills Challenge Starts | [Register Now](https://aka.ms/lowcode-february/challenge) |
-| Feb 01 |  |  |
-| Feb 02 |  |  |
-| Feb 03 |  |  |
-| Feb 04 |  |  |
-| Feb 05 |  |  |
-| Feb 06 |  |  |
-| Feb 07 |  |  |
-| Feb 08 |  |  |
-| Feb 09 |  |  |
-| Feb 10 |  |  |
-| Feb 11 |  |  |
-| Feb 12 |  |  |
-| Feb 13 |  |  |
-| Feb 14 |  |  |
+| Feb 01 | 👋 Hello, #30DaysOfLowCode | [#30Days Blog](/blog)  |
+| Feb 01 | 💪 **Hands-on Workshops** | [Start Now](https://microsoft.github.io/Low-Code/docs/intro/) |
+| Feb 02 | 🙌 You say Low, I say Code! | [#30Days Blog](/blog)  |
+| Feb 03 | 🔨 Developer Tools & Onboarding | [#30Days Blog](/blog)  |
+| Feb 04 | 👩‍💻 Developr Story  | [#30Days Blog](/blog)  |
+| Feb 05 | 🥳 Week 1: Recap | [#30Days Blog](/blog)  |
+| Feb 06 | 🥨 Built-in Connectors | [#30Days Blog](/blog)  |
+| Feb 07 | 📃 Low Code + Dataverse | [#30Days Blog](/blog)  |
+| Feb 08 | 🌨️ Low Code + Serveless | [#30Days Blog](/blog)  |
+| Feb 09 | 🍩 Custom Connector (Tutorial) | [#30Days Blog](/blog)  |
+| Feb 10 | 🌮 Custom Connectors (APIM) | [#30Days Blog](/blog)  |
+| Feb 11 | 👥 Integration Use Cases | [#30Days Blog](/blog)  |
+| Feb 12 | 🥳 Week 2: Recap | [#30Days Blog](/blog)  |
+| Feb 13 | 🍏 Build a Canvas App! | [#30Days Blog](/blog)  |
+| Feb 14 | ♾️ Intro to PowerFX | [#30Days Blog](/blog)  |
 | Feb 14 | 💬 [**Webinar:**](/lowcode-february/Video-Live) Power Platform & Azure Deploys with GitHub  | [Register Here](https://mktoevents.com/Microsoft+Event/383091/157-GQE-382) |
-| Feb 15 | [🎙 #PowerfulDevs Conference](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
-| Feb 16 |  |  |
-| Feb 17 |  |  |
-| Feb 18 |  |  |
-| Feb 19 |  |  |
-| Feb 20 |  |  |
-| Feb 21 |  |  |
-| Feb 22 |  |  |
+| Feb 15 | [🎙 **#PowerfulDevs Conference**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
+| Feb 16 | 🎮 Power Component Framework Controls | [#30Days Blog](/blog)  |
+| Feb 17 | 👷‍♂️ Build a PCF Control | [#30Days Blog](/blog)  |
+| Feb 18 | 🕹️ Advanced Use Cases | [#30Days Blog](/blog)  |
+| Feb 19 | 🥳 Week 3: Recap | [#30Days Blog](/blog)  |
+| Feb 20 | 👀 ALM For Power Apps | [#30Days Blog](/blog)  |
+| Feb 21 | 😺 GitHub Actions for Power Apps | [#30Days Blog](/blog)  |
+| Feb 22 | 🚀 Zero-To-Hero Post | [#30Days Blog](/blog)  |
 | Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/reactor/events/18298/) |
-| Feb 24 |  |  |
-| Feb 25 |  |  |
-| Feb 26 |  |  |
-| Feb 27 |  |  |
-| Feb 28 |  |  |
+| Feb 24 | 🧷 Power Platform Pipelines | [#30Days Blog](/blog)  |
+| Feb 25 | ⚒️ Azure DevOps & Automated Testing | [#30Days Blog](/blog)  |
+| Feb 26 | 🥳 Week 4: Recap | [#30Days Blog](/blog)  |
+| Feb 27 | 🚀 Zero-To-Hero Post | [#30Days Blog](/blog)  |
+| Feb 28 | 🥳 Month: Recap | [#30Days Blog](/blog)  |
 | Mar 01 |  🎯 Cloud Skills Challenge Ends | [Last Sprint!](https://aka.ms/lowcode-february/challenge) |
 | Mar 01 |  🔋 Wrap-up : #30DaysOfLowCode | [#30Days Blog](/blog)  |
 | Mar 09 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #LowCodeFebruary  | [Register Here](https://developer.microsoft.com/reactor/events/18299/) |
