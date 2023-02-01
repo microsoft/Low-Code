@@ -77,7 +77,7 @@ You will have access to a series of hands-on workshops, self-guided learning cou
 
 All throughout Low Code February we’ll be running **6 hero initiatives** to help you get the most of your newfound knowledge:
 
-1. [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [PowerFX](https://learn.microsoft.com/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/power-apps/developer/component-framework/overview) (Power Apps Component Framework), [ALM](https://learn.microsoft.com/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/products/devops/), [GitHub Actions](https://learn.microsoft.com/power-platform/alm/devops-github-actions), and more. 
+1. [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) blog series, during which developers can engage with a daily lesson and skill up on [Power Fx](https://learn.microsoft.com/power-platform/power-fx/overview), [PCF](https://learn.microsoft.com/power-apps/developer/component-framework/overview) (Power Component Framework), [ALM](https://learn.microsoft.com/power-platform/alm/overview-alm) (App Lifecycle Management), [Azure DevOps](https://azure.microsoft.com/products/devops/), [GitHub Actions](https://learn.microsoft.com/power-platform/alm/devops-github-actions), and more. 
 
 * [**#30DaysOfLowCode**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/) 📅 roadmap:
 
