@@ -72,22 +72,21 @@ const config = {
         },
 
         style: 'primary',
-
+       
         items: [
           {to: '/lowcode-february', label: '#LowCodeFebruary', position: 'left'},
+          {to: 'https://aka.ms/lowcode-february/devplan', label: '✨ Developer Plan', position: 'left'},
           {to: 'https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi', label: '#PowerfulDevs Conf', position: 'left'},
 
-
-          
           {to: '/blog', label: 'Blog', position: 'right'},
-          /*
+          {to: 'https://aka.ms/lowcode-february/videos', label: 'Videos', position: 'right'},
           {
             type: 'doc',
             docId: 'intro',
             position: 'right',
             label: 'Workshops',
           },
-          */
+        
           {to: '/calendar', label: 'Calendar', position: 'right'},
           {
             href: 'https://github.com/microsoft/Low-Code',

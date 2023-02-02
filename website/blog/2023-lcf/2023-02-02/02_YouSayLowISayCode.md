@@ -2,42 +2,46 @@
 slug: 2023-day2
 title: 2. You say Low, I say Code!
 authors: [april, matt, sonja, nitya]
-draft: true
+draft: false
+hide_table_of_contents: false
+toc_min_heading_level: 2
+toc_max_heading_level: 3
+keywords: [lowcode-february, power platform]
+image: https://microsoft.github.io/Low-Code/img/og/30-02.png
+description: "Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february. Today we talk about what Low Code means, and how Power Platform can help!" 
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day2" />
   <meta name="twitter:title" 
     content="FIXME: Title Of Post" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february. Today we talk about what Low Code means, and how Power Platform can help!" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-02.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
-    content="@nitya" />
+    content="@aprildunnam" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day2" />
 </head>
 
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
+Welcome to `Day 02` of #30DaysOfLowCode!
 
-The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
 
 ## What We'll Cover
- * Section 1
- * Section 2
- * Section 3
- * Section 4
- * Exercise: Try this yourself!
- * Resources: For self-study!
+ * What is Low Code?
+ * How are the Benefits? 
+ * What does Power Platform Provide?
+ * How can we extend Power Platform?
+ * _Activity_: Join the [Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge)
+ * _Resources_: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Empty Banner Placeholder](./../../../static/img/og/30-02.png)
 
 
 ## You say Low, I say Code!
@@ -97,10 +101,10 @@ If all of this sounds intriguing and you want to get started on your low code de
 * 2️⃣ [**Enroll**](https://aka.ms/lowcode-february/challenge) in the Cloud Skills Challenge to learn more about low code and fusion team fundamentals and start climbing that leaderboard!
 * 3️⃣ [**Save**](http://aka.ms/lowcode-february) the page to start your learning on Feb 1, and [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates.
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
-
 ## Resources
-* [Introduction to the Power Platform](https://aka.ms/LowCodePowerPlatformIntro)
-* [Fusion Development with Power Platform EBook](https://aka.ms/FusionDevEbook)
-* [Fusion Development with Power Platform Learning Path](https://aka.ms/learn-fusiondev)
+* [Introduction to the Power Platform](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform//?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform EBook](https://learn.microsoft.com/en-us/power-apps/guidance/fusion-dev-ebook/?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform Learning Path](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/?WT.mc_id=power-82212-apdunnam)
+* [Learn Collection: LowCode February](https://aka.ms/lowcode-february/collection)
+
+![Campaign Banner](./../../../static/img/og/30-banner.png)
