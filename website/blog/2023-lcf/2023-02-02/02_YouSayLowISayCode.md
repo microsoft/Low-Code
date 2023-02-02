@@ -102,9 +102,9 @@ If all of this sounds intriguing and you want to get started on your low code de
 * 3️⃣ [**Save**](http://aka.ms/lowcode-february) the page to start your learning on Feb 1, and [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates.
 
 ## Resources
-* [Introduction to the Power Platform](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform//?WT.mc_id=power-82212-apdunnam)
-* [Fusion Development with Power Platform EBook](https://learn.microsoft.com/en-us/power-apps/guidance/fusion-dev-ebook/?WT.mc_id=power-82212-apdunnam)
-* [Fusion Development with Power Platform Learning Path](https://learn.microsoft.com/en-us/training/paths/transform-business-applications-with-fusion-development/?WT.mc_id=power-82212-apdunnam)
+* [Introduction to the Power Platform](https://learn.microsoft.com/training/modules/introduction-power-platform//?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform EBook](https://learn.microsoft.com/power-apps/guidance/fusion-dev-ebook/?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform Learning Path](https://learn.microsoft.com/training/paths/transform-business-applications-with-fusion-development/?WT.mc_id=power-82212-apdunnam)
 * [Learn Collection: LowCode February](https://aka.ms/lowcode-february/collection)
 
 ![Campaign Banner](./../../../static/img/og/30-banner.png)
