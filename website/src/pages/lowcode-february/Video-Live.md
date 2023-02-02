@@ -69,7 +69,7 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 
 ## #PowerfulDevs 
 
-| ![](./../../../static/img/campaign/powerful-devs-conf.jpeg) | 
+| ![](./../../../static/img/campaign/PowerfulDevsConf23.png) | 
 |:---|
 | The Powerful Devs Conference will highlight how developers can leverage the Power Platform to build applications faster and with far less effort. Connect with industry recognized ProDev influencers, Microsoft Cloud Advocates, trusted and diverse community leaders, and members of the Power Platform Team. Stay tuned for more details - including speakers and session information - in the new year!|
 | 🎬 [**Register**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) for the Feb 15 Event.|
