@@ -22,14 +22,6 @@
             <name>Matt Soucoup</name>
             <uri>https://github.com/codemillmatt</uri>
         </author>
-        <author>
-            <name>Sonja Gu</name>
-            <uri>https://github.com/SonjaGu</uri>
-        </author>
-        <author>
-            <name>Nitya Narasimhan</name>
-            <uri>https://github.com/nitya</uri>
-        </author>
         <category label="low-code-february" term="low-code-february"/>
         <category label="30-days-of-lowcode" term="30-days-of-lowcode"/>
         <category label="learn-live" term="learn-live"/>
