@@ -16,7 +16,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
   <meta name="twitter:url" 
     content="https://microsoft.github.io/Low-Code/blog/2023-day2" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="You say Low, I say Code!" />
   <meta name="twitter:description" 
     content="Welcome to #LowCodeFebruary! Join us for #30DaysOfLowCode learning, skilling and discussions at https://aka.ms/lowcode-february. Today we talk about what Low Code means, and how Power Platform can help!" />
   <meta name="twitter:image" 
