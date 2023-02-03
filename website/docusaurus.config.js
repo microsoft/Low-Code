@@ -118,7 +118,7 @@ const config = {
             to: 'https://aka.ms/lowcode-february/collection'
           },
           {
-            label: `Power Platforms`,
+            label: `Power Platform`,
             to: 'https://learn.microsoft.com/power-platform/developer/get-started?WT.mc_id=javascript-82212-ninarasi'
           },
           {
