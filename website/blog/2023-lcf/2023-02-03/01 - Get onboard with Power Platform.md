@@ -85,8 +85,16 @@ If you are a code first developer, you can use the Power Platform CLI to manage 
 
 Are you a code first developer? To understand how Power Platform can make you more productive and how you can use code to extend the platform, check the [Introduction to Microsoft Power Platform for developers](https://learn.microsoft.com/power-platform/developer/get-started).
 
-For detailed information on the Power Apps Developer plan: [Sign up for Power Apps Developer Plan](https://learn.microsoft.com/power-apps/maker/developer-plan)
+* For detailed information on the Power Apps Developer plan: [Sign up for Power Apps Developer Plan](https://learn.microsoft.com/power-apps/maker/developer-plan)
 
-For detailed information on licensing: [Licensing overview for Microsoft Power Platform](https://learn.microsoft.com/power-platform/admin/pricing-billing-skus)
+* For detailed information on licensing: [Licensing overview for Microsoft Power Platform](https://learn.microsoft.com/power-platform/admin/pricing-billing-skus)
 
-Happy coding.
+Happy coding 🎉.
+
+## Resources
+* [Introduction to the Power Platform](https://learn.microsoft.com/training/modules/introduction-power-platform//?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform EBook](https://learn.microsoft.com/power-apps/guidance/fusion-dev-ebook/?WT.mc_id=power-82212-apdunnam)
+* [Fusion Development with Power Platform Learning Path](https://learn.microsoft.com/training/paths/transform-business-applications-with-fusion-development/?WT.mc_id=power-82212-apdunnam)
+* [Learn Collection: LowCode February](https://aka.ms/lowcode-february/collection)
+
+![Campaign Banner](./../../../static/img/og/30-banner.png)
