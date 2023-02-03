@@ -37,7 +37,7 @@ Welcome to `Day #03` of #30DaysOfLowCode!
  * Sign up for the Power Apps Developer Plan
  * Get familiar with the tools
  * **Activity**: Sign up for your [Developer Plan](https://aka.ms/lowcode-february/devplan)
- * **Resource**s: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
+ * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 ![Developer Tools and Onboarding](./../../../static/img/og/30-03.png)
 
