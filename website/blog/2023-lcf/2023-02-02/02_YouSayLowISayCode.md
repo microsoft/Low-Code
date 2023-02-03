@@ -38,10 +38,10 @@ Welcome to `Day 02` of #30DaysOfLowCode!
  * How are the Benefits? 
  * What does Power Platform Provide?
  * How can we extend Power Platform?
- * _Activity_: Join the [Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge)
- * _Resources_: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
+ * **Activity**: Join the [Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge)
+ * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-![Empty Banner Placeholder](./../../../static/img/og/30-02.png)
+![You say Low, I say Code!](./../../../static/img/og/30-02.png)
 
 
 ## You say Low, I say Code!

@@ -1,5 +1,5 @@
 ---
-slug: zero-to-hero-01
+slug: zero-to-hero-00
 title: 🚀 Zero To Hero With Developers!
 authors: [sonja]
 draft: true

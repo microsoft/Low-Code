@@ -63,7 +63,7 @@ const ContentItems = [
     topic: 'Announcements',
     topiclink: 'https://powerapps.microsoft.com/blog/category/uncategorized/',
     imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/AssesmentTool.png',
-    link: "https://powerapps.microsoft.com/en-us/blog/whats-new-power-apps-january-2023-feature-update/",
+    link: "https://powerapps.microsoft.com/blog/whats-new-power-apps-january-2023-feature-update/",
     description: "Welcome to the Power Apps monthly feature update! We will use this blog to share a summary of product, community, and learning updates from throughout the month so you can access it in one easy place."
   },
 
