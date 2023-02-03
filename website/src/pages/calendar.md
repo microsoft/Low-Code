@@ -26,7 +26,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 01 | 💪 **Hands-on Workshops** | [Start Now](https://microsoft.github.io/Low-Code/docs/intro/) |
 | Feb 02 | 🙌 You say Low, I say Code! | [#30Days Blog](/blog)  |
 | Feb 03 | 🔨 Developer Tools & Onboarding | [#30Days Blog](/blog)  |
-| Feb 04 | 👩‍💻 Developr Story  | [#30Days Blog](/blog)  |
+| Feb 04 | 🚀 **Zero-To-Hero Post: Developr Stories**  | [#30Days Blog](/blog)  |
 | Feb 05 | 🥳 Week 1: Recap | [#30Days Blog](/blog)  |
 | Feb 06 | 🥨 Built-in Connectors | [#30Days Blog](/blog)  |
 | Feb 07 | 📃 Low Code + Dataverse | [#30Days Blog](/blog)  |

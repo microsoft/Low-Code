@@ -56,8 +56,17 @@ function ContentItem({title, description, topic, topiclink, link, imglink}){
     );
 }
 
-// Update this dataset with links to the last 12 roundups
+// Update this dataset with links to the last 15 roundups
 const ContentItems = [
+  {
+    title: 'Power Apps January 2023 Feature Update',
+    topic: 'Announcements',
+    topiclink: 'https://powerapps.microsoft.com/blog/category/uncategorized/',
+    imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/AssesmentTool.png',
+    link: "https://powerapps.microsoft.com/en-us/blog/whats-new-power-apps-january-2023-feature-update/",
+    description: "Welcome to the Power Apps monthly feature update! We will use this blog to share a summary of product, community, and learning updates from throughout the month so you can access it in one easy place."
+  },
+
   {
     title: '2023 Gartner® Magic Quadrant™',
     topic: 'Thought Leadership',
