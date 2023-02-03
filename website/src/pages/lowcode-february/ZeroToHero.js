@@ -58,6 +58,17 @@ function ContentItem({title, description, topic, topiclink, link, imglink}){
 
 // Update this dataset with links to the last 15 roundups
 const ContentItems = [
+
+  {
+    title: 'Meet the developers',
+    topic: 'ZeroToHero🚀',
+    topiclink: 'https://powerapps.microsoft.com/blog/category/uncategorized/',
+    imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/ginibrandon_cover-1024x576.png',
+    link: "https://aka.ms/PowerForPros",
+    description: "Meet the developers combining Power Platform and Azure to go faster"
+  },
+
+
   {
     title: 'Power Apps January 2023 Feature Update',
     topic: 'Announcements',
