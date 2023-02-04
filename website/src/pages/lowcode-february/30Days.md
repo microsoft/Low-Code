@@ -42,7 +42,7 @@ _Posts will be linked here once published._
  * Feb 01 - [Hello, #30DaysOfLowCode](/blog/)
  * Feb 02 - [You say Low, I say Code!](/blog/)
  * Feb 03 - [Developer Tools & Onboarding](/blog/)
- * Feb 04 - [🚀 Zero-To-Hero Post: Developer Stories](/blog/)
+ * Feb 04 - [🚀 Zero-To-Hero Post: Developer Stories](https://aka.ms/lowcode-february/0ToHero)
  * Feb 05 - [Week 1: Recap](/blog/)
 :::
 
