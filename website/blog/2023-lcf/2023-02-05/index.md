@@ -20,7 +20,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
   <meta name="twitter:description" 
     content="Let's recap Week 1 of #30DaysOfLowCode focused on #PowerPlatform Fundamentals - join us at #LowCodeFebruary https://aka.ms/lowcode-february" />
   <meta name="twitter:image" 
-    content="https://microsoft.github.io/Low-Code/img/og/30-03.png" content="summary_large_image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-05.png" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
