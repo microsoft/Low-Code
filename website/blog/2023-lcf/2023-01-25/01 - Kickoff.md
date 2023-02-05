@@ -3,17 +3,40 @@ slug: 2023-kickoff
 title: It's a Low Code February!
 authors: [sonja,nitya]
 draft: false
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+hide_table_of_contents: false
+toc_min_heading_level: 2
+toc_max_heading_level: 3
+keywords: [low code, developer tools, onboarding, power platform fundamentals, 30DaysOfLowCode, recap]
+image: https://microsoft.github.io/Low-Code/img/og/30days-title.png
+description: "We are excited to announce the launch of #LowCodeFebruary https://aka.ms/lowcode-february - a month-long developer journey that will take you from app development tips, to fusion teams insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure!" 
+tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform, kickoff]
 ---
+
+
+<head>
+  <meta name="twitter:url" 
+    content="https://microsoft.github.io/Low-Code/blog/2023-kickoff" />
+  <meta name="twitter:title" 
+    content="5. Week 1 - Recap" />
+  <meta name="twitter:description" 
+    content="We are excited to announce the launch of #LowCodeFebruary https://aka.ms/lowcode-february - a month-long developer journey that will take you from app development tips, to fusion teams insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure!" />
+  <meta name="twitter:image" 
+    content="https://microsoft.github.io/Low-Code/img/og/30days-title.png" content="summary_large_image" />
+  <meta name="twitter:creator" 
+    content="@nitya" />
+  <meta name="twitter:site" content="@AzureAdvocates" /> 
+  <link rel="canonical" 
+    href="https://microsoft.github.io/Low-Code/blog/2023-kickoff" />
+</head>
+
 
 ## Welcome to Low Code February!
 
 February is traditionally a month where we celebrate family, friends and loved ones - from Valentine's Day to Lunar New Year! We hope you also make this the month you fall in love with a new technology space - _low-code app development_ - and join us for a month of learning, making, and sharing!
 
-![Post Banner](./banner.png)
+![#30DaysOfLowCode Kickoff](./../../../static/img/og/30days-title.png)
 
 We are excited to announce the **launch of #LowCodeFebruary**, a month-long developer journey that will take you from app development tips, to fusion teams insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure, and popular developer tools to enhance your productivity.
-
 
 ## What will we cover?
 

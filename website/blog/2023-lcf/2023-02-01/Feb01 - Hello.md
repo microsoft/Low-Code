@@ -39,7 +39,8 @@ Welcome to `Day 01` of #30DaysOfLowCode!
  * ** Resources:** Sign up for the free [**Power Apps Developer Plan!**](https://aka.ms/lowcode-february/devplan)
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](./Feb01%20-%20Hello.png)
+![Post Banner](./../../../static/img/og/30-01.png)
+
 
 
 <!-- ************************************* -->
