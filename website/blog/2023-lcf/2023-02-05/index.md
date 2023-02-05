@@ -37,7 +37,6 @@ Welcome to `Day 05` of #30DaysOfLowCode!
  * **Activity**: Sign up for your [Developer Plan](https://aka.ms/lowcode-february/devplan)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-<!-- FIXME: banner image -->
 ![#30DaysOfLowCode Week 1 Recap](./../../../static/img/og/30-05.png)
 
 
