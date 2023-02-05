@@ -30,7 +30,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 05 | 🥳 Week 1: Recap | [#30Days Blog](/blog)  |
 | Feb 06 | 🥨 Built-in Connectors | [#30Days Blog](/blog)  |
 | Feb 07 | 📃 Low Code + Dataverse | [#30Days Blog](/blog)  |
-| Feb 08 | 🌨️ Low Code + Serveless | [#30Days Blog](/blog)  |
+| Feb 08 | 🌨️ Low Code + Serverless | [#30Days Blog](/blog)  |
 | Feb 09 | 🍩 Custom Connector (Tutorial) | [#30Days Blog](/blog)  |
 | Feb 10 | 🌮 Custom Connectors (APIM) | [#30Days Blog](/blog)  |
 | Feb 11 | 👥 Integration Use Cases | [#30Days Blog](/blog)  |

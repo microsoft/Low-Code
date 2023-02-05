@@ -58,7 +58,7 @@ _Welcome to the Week 2 of your learning journey into Low Code Development._
 _Posts will be linked here once published._
  * Feb 06 - [Built-in Connectors](/blog/)
  * Feb 07 - [Low Code + Dataverse](/blog/)
- * Feb 08 - [Low Code + Serveless](/blog/)
+ * Feb 08 - [Low Code + Serverless](/blog/)
  * Feb 09 - [Custom Connector (Tutorial)](/blog/)
  * Feb 10 - [Custom Connectors (APIM)](/blog/)
  * Feb 11 - [Integration Use Cases](/blog/)
