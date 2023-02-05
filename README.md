@@ -10,8 +10,8 @@ Some of the topics you'll skill up on include:
 
 * Power Platform: Fundamentals
 * Backend Infra: Integrations
-* Frontend UI: Component Fpwdrameworks
-* Best Practices: ALM, Governance, Testing
+* Frontend UI: Component frameworks,
+* Best Practices: ALM, Governance, and Testing
 
 ![Image showing various technologies used in low code dev](./website/static/img/fusion-dev.png)
 
