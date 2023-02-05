@@ -67,6 +67,11 @@ Don't have the time to follow day by day? Here're 3 self-study materials that yo
 3. [**Ask The Experts!**](http://localhost:3000/Low-Code/lowcode-february/Video-Live#ask-the-experts): get your questions answered! Pick a time that works best for you and enjoy a face to face discussion with our leaderships:
     1. 🎙 [**Feb 23, 9AM PST**](https://aka.ms/ATE0223/RSVP ) - Join this session for Q&A from the **Powerful Devs Conference** team. The Powerful Devs Conference focuses on showcasing how code first developers can integrate with the Power Platform to innovate faster. We will have experts on hand to answer questions about full code and low code integration.
     2. 🎙 [**Mar 09, 9AM PST**](https://aka.ms/ATE0309/RSVP) - Join this session for Q&A from the **Low Code February** team, including authors of this #30DaysOfLowCode series. We will have experts in code-first integration with the Power Platform live to answer questions related to the content and cloud skills challenge of the Low Code February event.
+4. [**Learn Live!**:](https://aka.ms/lowcode-february/LearnLive) Have questions for Microsoft Learn modules or the cloud skills challenge? Join our **Learn Live** sessions to hear tips and commentary from experts:
+* 1️⃣ [**Feb 06**](https://aka.ms/lowcode-february/LearnLive) - Low code as a traditional developer
+* 2️⃣ [**Feb 13**](https://aka.ms/lowcode-february/LearnLive) - Integrate OpenAPI-enabled Web APIs with Azure API Management
+* 3️⃣ [**Feb 27**](https://aka.ms/lowcode-february/LearnLive) - Manage Microsoft Power Platform deployments
+ ![Feb5 Banner](./LearnLive.png)
 
 
 ## Feb 15: PowerfulDevs Conf
