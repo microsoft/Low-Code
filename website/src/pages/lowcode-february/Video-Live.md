@@ -50,10 +50,9 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 | ![](./../../../static/img/campaign//learn-live.png) | 
 |:---|
 | It's right there in the name: We present Microsoft Learn content Live. Every episode we'll choose a Learn module and work through it. We'll pull in guests to give you extra commentary from experts and sometimes even the engineers who built it. Join us and ask questions, live!|
-| **Feb 06** - Week 1: Power Fundamentals (Link TBA) | 
-| **Feb 13** - Week 2: Backend Integration (Link TBA) | 
-| **Feb 20** - Week 3: User Interface (Link TBA) | 
-| **Feb 27** - Week 4: App Lifecycle Management (Link TBA) | 
+| **Feb 06** - [Low code as a traditional developer](https://aka.ms/lowcode-february/LearnLive)| 
+| **Feb 13** - [Integrate OpenAPI-enabled Web APIs with Azure API Management](https://aka.ms/lowcode-february/LearnLive) | 
+| **Feb 27** - [Manage Microsoft Power Platform deployments](https://aka.ms/lowcode-february/LearnLive) | 
 | 🎬 [**Visit The Series Page**](https://learn.microsoft.com/shows/learn-live/) for more episodes.|
 
 ---
