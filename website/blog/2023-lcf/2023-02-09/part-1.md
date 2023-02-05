@@ -38,7 +38,7 @@ In the past few days, we've talked about Power Platform connectors, from built-i
  * Scenario - Let's build a dev.to Connector!
  * Process - Building from an OpenAPI specification
  * Testing - Validate it works!
- * **Exercise**: [Training: Build custom connectors for Power Automate](https://learn.microsoft.com/en-us/training/paths/build-custom-connectors/?WT.mc_id=javascript-82212-ninarasi&ns-enrollment-type=Collection&ns-enrollment-id=xz6ehr2mx031y0)
+ * **Exercise**: [Training: Build custom connectors for Power Automate](https://learn.microsoft.com/training/paths/build-custom-connectors/?WT.mc_id=javascript-82212-ninarasi&ns-enrollment-type=Collection&ns-enrollment-id=xz6ehr2mx031y0)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 ![Building a Custom Connector](./../../../static/img/og/30-09.png)
@@ -61,8 +61,8 @@ In the past few days, we've talked about Power Platform connectors, from built-i
 
 ## Resources
 
-* [**Custom Connectors**](https://learn.microsoft.com/en-us/connectors/custom-connectors/?WT.mc_id=javascript-82212-ninarasi) - Documentation
-* [**PowerfulDevs Session**](https://learn.microsoft.com/en-us/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi): Enable millions of low code devs by building custom connectors
+* [**Custom Connectors**](https://learn.microsoft.com/connectors/custom-connectors/?WT.mc_id=javascript-82212-ninarasi) - Documentation
+* [**PowerfulDevs Session**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi): Enable millions of low code devs by building custom connectors
 * **LowCode For JS Developers**: _Website_
 * [**Learn Collection** ](https://aka.ms/lowcode-february/collection) LowCode February
 
