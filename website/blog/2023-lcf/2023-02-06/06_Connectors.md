@@ -2,7 +2,7 @@
 slug: 2023-day6
 title: 6. Let's Make Some Connections!
 authors: [april, daniel]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
