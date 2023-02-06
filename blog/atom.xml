@@ -56,6 +56,33 @@
         <category label="recap" term="recap"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[4. Developer Stories]]></title>
+        <id>2023-day4</id>
+        <link href="https://microsoft.github.io/Low-Code/blog/2023-day4"/>
+        <updated>2023-02-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Software developers around the world are embracing low-code as a powerful part of their toolkit — let's meet some of the developers and organizations and hear their stories..]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to <code>Day 04</code> of #30DaysOfLowCode!</p><p>Today we celebrate all the developers and organizations who make the low code ecosystem successful.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-well-cover">What We'll Cover<a class="hash-link" href="#what-well-cover" title="Direct link to heading">​</a></h2><ul><li>About Zero To Hero</li><li>Meet The Developers</li><li>Meet The Organizations</li><li>Solution Architecture Examples</li><li><strong>Activity</strong>: Sign up for your <a href="https://aka.ms/lowcode-february/devplan" target="_blank" rel="noopener noreferrer">Developer Plan</a></li><li><strong>Resources</strong>: Explore the <a href="https://aka.ms/lowcode-february/collection" target="_blank" rel="noopener noreferrer">Low Code February Collection</a></li></ul><p><img loading="lazy" alt="#30DaysOfLowCode Developer Stories" src="/Low-Code/assets/images/30-04-93f04c7b4f0b04a14177b19755855814.png" width="1001" height="420" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-zero-to-hero">About Zero To Hero<a class="hash-link" href="#about-zero-to-hero" title="Direct link to heading">​</a></h2><p>Did you know we had a <a href="/Low-Code/lowcode-february/ZeroToHero">dedicated Zero To Hero page</a> on this site? It's our page for amplifying news, articles and updates on technologies and products for low code development - directly from product teams! Here's what that page look like. Click on any article to visit the <em>original</em> content on the Product Group blog. Or click the <strong>tag</strong> under a post (e.g., <code>Announcements</code>) to view <em>all</em> posts for that category.</p><p><img loading="lazy" src="/Low-Code/assets/images/zero-to-hero-c5f816967e873a1d7bdb3e4d0d1d4b4a.png" width="1315" height="742" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="meet-the-developers">Meet The Developers<a class="hash-link" href="#meet-the-developers" title="Direct link to heading">​</a></h2><p>Meet featured developer <strong>Gini Brandon</strong> and watch her as she shares her journey of adopting low-code as a professional developer! In the video, Gini talks about her journey graduating with a computer science degree, how she’s been able to increase efficiency using Power Platform, why she believes low code is the future of development, and how you can get started.</p><p>✨ Read It Now: <a href="https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/" target="_blank" rel="noopener noreferrer"><strong>Meet developers combining Power Platform and Azure to go faster</strong></a></p><p><a href="https://www.youtube.com/watch?v=OrWDTi8GVfM" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/ginibrandon_cover-1024x576.png" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="meet-the-organizations">Meet The Organizations<a class="hash-link" href="#meet-the-organizations" title="Direct link to heading">​</a></h2><p>Organizations around the globe have adopted Microsoft Power Platform along with Azure and Dynamics 365 to build flagship applications and establish centers of excellence to scale adoption and impact of low-code solutions.</p><p>✨ Read It Now: <a href="https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#meet-organizations" target="_blank" rel="noopener noreferrer"><strong>Meet The Organizations</strong></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="solution-architecture-examples">Solution Architecture Examples<a class="hash-link" href="#solution-architecture-examples" title="Direct link to heading">​</a></h2><p>Explore a few real-world solution architecture examples that show how low-code capabilities in Power Platform are used in conjunction with code-first programming patterns and capabilities in Microsoft Azure. Here are just a subset of those stories:</p><ul><li>Rabobank – Scaling adoption across the organization </li><li>EY – Loan forgiveness portal</li><li>Blackmores Group – Enabling rapid development of new products</li><li>IKEA Sweden – Reimagining the customer experience</li><li>Western States Caterpillar: Mobile apps for the field</li></ul><p>✨ Read It Now: <a href="https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#architecture-examples" target="_blank" rel="noopener noreferrer"><strong>Solution Architecture Examples</strong></a></p>]]></content>
+        <author>
+            <name>Sameer Chabungbam</name>
+            <uri>https://github.com/schabungbam</uri>
+        </author>
+        <author>
+            <name>Taiki Yoshida</name>
+            <uri>https://github.com/taiki-yoshida</uri>
+        </author>
+        <author>
+            <name>Phil Topness</name>
+            <uri>https://github.com/topness-msft/</uri>
+        </author>
+        <category label="low-code-february" term="low-code-february"/>
+        <category label="30-days-of-lowcode" term="30-days-of-lowcode"/>
+        <category label="learn-live" term="learn-live"/>
+        <category label="zero-to-hero" term="zero-to-hero"/>
+        <category label="ask-the-expert" term="ask-the-expert"/>
+        <category label="fusion-teams" term="fusion-teams"/>
+        <category label="power-platform" term="power-platform"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3. DevTools & Onboarding]]></title>
         <id>2023-day3</id>
         <link href="https://microsoft.github.io/Low-Code/blog/2023-day3"/>
