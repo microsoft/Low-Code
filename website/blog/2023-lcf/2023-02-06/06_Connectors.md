@@ -1,34 +1,50 @@
 ---
 slug: 2023-day6
-title: Let's Make Some Connections!
-authors: [april, matt, nitya]
+title: 6. Let's Make Some Connections!
+authors: [april, daniel]
 draft: true
 hide_table_of_contents: false
+toc_min_heading_level: 2
+toc_max_heading_level: 3
+keywords: [low code, developer tools, onboarding, power platform, connectors, custom connectors]
+image: https://microsoft.github.io/Low-Code/img/og/30-06.png
+description: "Learn about Power Platform's ability to seamlessly pull in and interact with data from a variety of 1st and 3rd party services!" 
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day6" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="6. Let's Make Some Connections!" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Learn about Power Platform's ability to seamlessly pull in and interact with data from a variety of 1st and 3rd party services!" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-06.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day6" />
 </head>
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
+Welcome to `Day #06` of #30DaysOfLowCode!
 
-## Let's Make Some Connections
 
 One of the things that makes the Power Platform so powerful (pun intended) is its ability to seamlessly pull in and interact with data from a variety of 1st and 3rd party services. This integration with other services is done through Connectors - the building blocks of the Power Platform.
+
+## What We'll Cover
+ * What is a Connector?
+ * Connectors Components
+ * Custom Components
+ * Certifying a Connector
+ * **Activity**: Sign up for your [Developer Plan](https://aka.ms/lowcode-february/devplan)
+ * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
+
+
+![Developer Tools and Onboarding](./../../../static/img/og/30-06.png)
+
 
 ## What is a Connector?
 
@@ -38,7 +54,7 @@ The Power Platform offers a large ecosystem of software as a service connectors 
 
 ![Connector Architecture](./06_ConnectorsList.png)
 
-There are hundreds of prebuilt connectors available to use in Power Apps, Power Automate and Logic Apps. You can see a list of all of the connectors available here: [https://learn.microsoft.com/en-us/connectors/connector-reference/](https://learn.microsoft.com/en-us/connectors/connector-reference/)
+There are hundreds of prebuilt connectors available to use in Power Apps, Power Automate and Logic Apps. You can see a list of all of the connectors available here: [https://learn.microsoft.com/connectors/connector-reference/](https://learn.microsoft.com/connectors/connector-reference/)
 
 ## Connectors Components
 
@@ -63,7 +79,7 @@ A connector is simply a wrapper around an API which means you can take any RESTf
 
 You can build custom connectors to connect to both public and private API's.
 
-Connections to private API's are possible with the [on-premises data gateway](https://learn.microsoft.com/en-us/flow/gateway-reference).
+Connections to private API's are possible with the [on-premises data gateway](https://learn.microsoft.com/flow/gateway-reference).
 
 For public API's that you want to create and manage, you might considering leveraging Azure products like [Azure Functions](https://azure.microsoft.com/services/functions/), [Azure Web Apps](https://azure.microsoft.com/services/app-service/web/) or [Azure API Apps](https://azure.microsoft.com/services/app-service/api/).
 
@@ -80,8 +96,8 @@ There are two options when it comes to getting a connector certified:
 
 The processes for certification vary depending on which option you qualify for. You can learn more about the process for getting your connector certified here:
 
-* [Independent publisher certification process](https://learn.microsoft.com/en-us/connectors/custom-connectors/certification-submission-ip)
-* [Verified publisher certification process](https://learn.microsoft.com/en-us/connectors/custom-connectors/certification-submission)
+* [Independent publisher certification process](https://learn.microsoft.com/connectors/custom-connectors/certification-submission-ip)
+* [Verified publisher certification process](https://learn.microsoft.com/connectors/custom-connectors/certification-submission)
 
 ## What's next?
 

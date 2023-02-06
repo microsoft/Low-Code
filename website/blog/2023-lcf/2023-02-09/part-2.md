@@ -1,32 +1,32 @@
 ---
-slug: 2023-day9-build
-title: 9a. Build a Custom Connector
+slug: 2023-day9-use
+title: 9b. Use the Custom Connector
 authors: [nitya, daniel]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [low code, power platform, openAPI, connector, azure logic apps, power automate, power apps, power platform creator kit ]
-image: https://microsoft.github.io/Low-Code/img/og/30-09-01.png
+image: https://microsoft.github.io/Low-Code/img/og/30-09-02.png
 description: "Want to build a Power Platform connector for an API? Or extend an existing one to support new capabilities? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february" 
 tags: [connectors, low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/2023-day9-build" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day9-use" />
   <meta name="twitter:title" 
     content="9. Build a Custom Connector" />
   <meta name="twitter:description" 
     content="Want to build a Power Platform connector for an API? Or extend an existing one to support new capabilities? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february" />
   <meta name="twitter:image" 
-    content="https://microsoft.github.io/Low-Code/img/og/30-09-01.png" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-09-02.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/2023-day9-build" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day9-use" />
 </head>
 
 Welcome to `Day 09` of #30DaysOfLowCode!
@@ -41,7 +41,8 @@ In the past few days, we've talked about Power Platform connectors, from built-i
  * **Exercise**: [Training: Build custom connectors for Power Automate](https://learn.microsoft.com/training/paths/build-custom-connectors/?WT.mc_id=javascript-82212-ninarasi&ns-enrollment-type=Collection&ns-enrollment-id=xz6ehr2mx031y0)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-![Building a Custom Connector](./../../../static/img/og/30-09-01.png)
+![Building a Custom Connector](./../../../static/img/og/30-09-02.png)
+
 
 
 
