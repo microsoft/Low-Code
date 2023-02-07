@@ -6,9 +6,9 @@ draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
+keywords: [low code, developer tools, onboarding, power platform, connectors, custom connectors]
+image: https://microsoft.github.io/Low-Code/img/og/30-07.png
+description: "Learn how to do more with your data for less using Microsoft Dataverse!" 
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
@@ -26,7 +26,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day7" />
 </head>
 
 
@@ -41,8 +41,7 @@ Welcome to `Day 07` of #30DaysOfLowCode!
  * Resource: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](./Feb7.png)
+![Low Code and Dataverse](./../../../static/img/og/30-07.png)
 
 
 <!-- ************************************* -->
