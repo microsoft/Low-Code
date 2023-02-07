@@ -1,6 +1,6 @@
 ---
 slug: 2023-day7
-title: 7. Manage your data with Dataverse!
+title: 7. Do more with your Data for less - Dataverse!
 authors: [srikumar]
 draft: false
 hide_table_of_contents: false
