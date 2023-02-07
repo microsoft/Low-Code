@@ -80,7 +80,7 @@ Building a Logic App is the process of building a workflow using the components 
 
 ## Building a Logic App
 
-We're not going to create a Logic App from front to back, step-by-step, in this article. That's really worth it's own article and we have some [documentation](https://learn.microsoft.com/azure/logic-apps/quickstart-create-first-logic-app-workflow) that will take you through that process.
+We're not going to create a Logic App from front to back, step-by-step, in this article. That's really worth it's own article and we have some [documentation](https://learn.microsoft.com/azure/logic-apps/quickstart-create-first-logic-app-workflow?WT.mc_id=dotnet-82212-masoucou) that will take you through that process.
 
 Rather I want to concentrate on the major pieces and decision points that you'll make when creating a Logic App.
 
@@ -94,7 +94,7 @@ A connector uses the external service's REST API to do its work. When you use th
 
 ![A diagram of how a connector works](./6-connector.png)
 
-If you can't find a connector that suits your needs? You can build one yourself! It's called a custom connector, and this [series](https://learn.microsoft.com/en-us/connectors/custom-connectors/) of [articles](https://learn.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector) will show you how to make your REST API into a connector!
+If you can't find a connector that suits your needs? You can build one yourself! It's called a custom connector, and this [series](https://learn.microsoft.com/en-us/connectors/custom-connectors/?WT.mc_id=dotnet-82212-masoucou) of [articles](https://learn.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector?WT.mc_id=dotnet-82212-masoucou) will show you how to make your REST API into a connector!
 
 ### Kicking off the logic
 
@@ -132,6 +132,6 @@ In fact, Power Automate is built upon Azure Logic Apps!
 
 ## Resources
 
-* Take a [self-paced training course](https://learn.microsoft.com/training/modules/intro-to-logic-apps/) on Azure Logic Apps!
-* [Azure Logic Apps documentation](https://learn.microsoft.com/azure/logic-apps/)
-* [Power Automate documentation](https://learn.microsoft.com/power-automate/getting-started)
+* Take a [self-paced training course](https://learn.microsoft.com/training/modules/intro-to-logic-apps/?WT.mc_id=dotnet-82212-masoucou) on Azure Logic Apps!
+* [Azure Logic Apps documentation](https://learn.microsoft.com/azure/logic-apps/?WT.mc_id=dotnet-82212-masoucou)
+* [Power Automate documentation](https://learn.microsoft.com/power-automate/getting-started?WT.mc_id=dotnet-82212-masoucou)
