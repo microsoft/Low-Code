@@ -13,19 +13,19 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
 ---
 
 <head>
-  <meta name="twitter:url" 
+  <meta name="twitter:url"
     content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
-  <meta name="twitter:title" 
+  <meta name="twitter:title"
     content="FIXME: Title Of Post" />
-  <meta name="twitter:description" 
+  <meta name="twitter:description"
     content="FIXME: Post Description" />
-  <meta name="twitter:image" 
+  <meta name="twitter:image"
     content="FIXME: Post Image" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:creator" 
+  <meta name="twitter:creator"
     content="@codemillmatt" />
-  <meta name="twitter:site" content="@AzureAdvocates" /> 
-  <link rel="canonical" 
+  <meta name="twitter:site" content="@AzureAdvocates" />
+  <link rel="canonical"
     href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
 </head>
 
@@ -116,7 +116,7 @@ You string together actions, after the triggering event, to perform the business
 
 ### Controlling actions
 
-A control action routes the execution within a workflow based on conditions. 
+A control action routes the execution within a workflow based on conditions.
 
 Consider the Azure DevOps connector's Build Complete trigger kicking off a workflow. If the build status is _failed_, then a text message could be sent using the Azure Communication Service's connector. Otherwise if the build status is successful, a message could be posted to a chat in Microsoft Teams using its connector.
 
@@ -124,11 +124,69 @@ The _if_ statement is a conditional action. There are others controlling actions
 
 ## Logic Apps compared to Power Automate
 
-<!-- DANIEL - TAKE IT FROM HERE!!! -->
 Now, you may be thinking to yourself - Logic Apps sound a lot like Power Automate. And you're not wrong, they're both workflow-based services that work with connectors to other services.
 
 In fact, Power Automate is built upon Azure Logic Apps!
 
+### UI
+
+They both have a user-friendly design surface to create your workflow on quickly. The difference is that Logic Apps allows you to build a bit more complex integration solutions and utilize advanced development tooling like Visual Studio or VS Code. Logic Apps has a recently refreshed designer, whereas Power Automate still uses the previous designer and is only accessible via the Power Automate portal.
+
+### Connectors
+
+On the connectors level, there are some differences. To make it a bit more clear for you, I have split the connectors section up in two parts:
+
+#### Logic Apps only connectors
+
+Logic Apps has the following connectors that are only available for Logic Apps:
+
+* Azure Functions
+* IBM 3270/MQ Series
+* SAP
+* Data Transformation
+* Inline Code
+
+Logic Apps offers a bunch of rich integrations with enterprise systems like IBM 3270 & MQ. Logic Apps also has a fairly advanced SAP connector which supports RFC, BAPI & IDOC actions. It also receives messages from SAP, which the SAP ERP connector from Power Automate can't. Next to the enterprise system connectors, it also offers extra features like Azure Functions integration, Data Transformation & Inline Code.
+
+#### Power Automate only connectors
+
+Power Automate also has connectors that are only available for Power Automate:
+
+* AI Builder
+* Approvals
+* Desktop flows
+* Power Apps
+* Power Virtual Agents
+* SAP ERP
+
+Power Automate offers rich integration with Power Platform products like AI Builder, Approvals, Desktop flows (Robotic Process Automation aka RPA), Power Apps & Power Virtual Agents. It also has a SAP ERP connector which supports RFCs and BAPIs. It also has  [nice templates](https://powerautomate.microsoft.com/blog/announcing-deeper-sap-integration-for-the-power-platform/) available that they have built since the [Clear Software acquisition](https://cloudblogs.microsoft.com/powerplatform/2021/10/22/microsoft-acquires-clear-software-to-enhance-connectivity-to-systems-of-record/).
+
+### Licensing
+
+The licensing model is also different, I've listed the characteristics below:
+
+#### Power Automate
+
+Power Automate is licensed on a per-user, per-flow or Pay-as-you-Go basis.
+
+* The per user model is the all you can eat model for Power Automate. You can create & use as much flows as you want, as long as your Dataverse storage is big enough & you haven't reached your [service limits](https://learn.microsoft.com/power-platform/admin/api-request-limits-allocations#licensed-user-request-limits?WT.mc_id=dotnet-82212-masoucou&WT.mc_id=dotnet-82522-masoucou). It has a version with and without attended Robotic Process Automation (RPA).
+* The per flow model is a model that gives you the possibility to let an unlimited number of people within your organization run a flow.
+* The pay-as-you-go model has been introduced not too long ago, and this is where you pay per flow run.
+
+#### Logic Apps Consumption & Logic Apps Standard
+
+There are two types of Logic Apps:
+
+* Logic Apps Consumption
+* Logic Apps Standard
+
+Logic Apps Consumption is the type of Logic App that has been around for a while and it's the type of Logic App that Power Automate is based on. You pay per execution. And on top of that, you can pay a fixed fee for an Integration Services Environment. A Logic App can contain only one workflow.
+
+Logic Apps Standard is a different type of Logic App. You pay a static monthly charge instead of per execution. With Logic Apps Standard, you can have multiple stateful and stateless workflows. You can also host Logic Apps Standard yourself, for instance in a Docker container.
+
+### Built-In VNET
+
+Logic Apps also has built-in Virtual Network (VNET) configuration included. This is something that Power Automate doesn't offer.
 
 ## Resources
 
