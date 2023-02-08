@@ -35,12 +35,12 @@ In the past few days, we've talked about Power Platform connectors, from built-i
 
 ## What We'll Cover
 
-* Motivation - Why are custom connectors needed?
-* Scenario - Let's build a dev.to Connector!
-* Process - Building from an OpenAPI specification
-* Testing - Validate it works!
-* **Exercise**: [Training: Build custom connectors for Power Automate](https://learn.microsoft.com/training/paths/build-custom-connectors/?WT.mc_id=javascript-82212-ninarasi&ns-enrollment-type=Collection&ns-enrollment-id=xz6ehr2mx031y0)
-* **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
+* Custom Connectors in the Power Platform
+* Build a front end with Power Apps
+* Speed up development with the Creator Kit
+* Add the Forem v0 connector to your app
+* Add the Creator Kit components to your app
+* Publish your app
 
 ![Building a Custom Connector](./../../../static/img/og/30-09-02.png)
 
