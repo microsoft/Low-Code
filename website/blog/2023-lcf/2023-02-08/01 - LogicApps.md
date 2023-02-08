@@ -1,35 +1,35 @@
 ---
 slug: 2023-day8
 title: 8. Serverless Low Code
-authors: [april, matt, nitya, sonja]
+authors: [matt, daniel]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [Azure Logic Apps, Serverless, Low Code, Power Automate, Azure Functions]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
+keywords: [low code, developer tools, onboarding, power platform, connectors, custom connectors, azure logic apps]
+image: https://microsoft.github.io/Low-Code/img/og/30-08.png
+description: "Let's explore the topic of serverless low code and piecing together a workflow with Azure Logic Apps."
 tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform, logic-apps, azure-logic-apps, azure-functions, power-automate]
 ---
 
 <head>
   <meta name="twitter:url"
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day8" />
   <meta name="twitter:title"
-    content="FIXME: Title Of Post" />
+    content="8. Serverless Low Code" />
   <meta name="twitter:description"
-    content="FIXME: Post Description" />
+    content="Let's explore the topic of serverless low code and piecing together a workflow with Azure Logic Apps." />
   <meta name="twitter:image"
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-08.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator"
     content="@codemillmatt" />
   <meta name="twitter:site" content="@AzureAdvocates" />
   <link rel="canonical"
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day8" />
 </head>
 
-Welcome to `Day 8` of #28DaysOfLowCode!
+Welcome to `Day 8` of #30DaysOfLowCode!
 
 The theme for this week is Integrations. Yesterday we talked about Low Code + Dataverse. Today we'll explore the topic of serverless low code and piecing together a workflow with Azure Logic Apps.
 
@@ -41,8 +41,7 @@ The theme for this week is Integrations. Yesterday we talked about Low Code + Da
 * Logic Apps compared to Power Automate
 * Resources
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Low Code and Serverless](./../../../static/img/og/30-08.png)
 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
@@ -94,7 +93,7 @@ A connector uses the external service's REST API to do its work. When you use th
 
 ![A diagram of how a connector works](./6-connector.png)
 
-If you can't find a connector that suits your needs? You can build one yourself! It's called a custom connector, and this [series](https://learn.microsoft.com/en-us/connectors/custom-connectors/?WT.mc_id=dotnet-82212-masoucou&WT.mc_id=dotnet-82522-masoucou) of [articles](https://learn.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector?WT.mc_id=dotnet-82212-masoucou&WT.mc_id=dotnet-82522-masoucou) will show you how to make your REST API into a connector!
+If you can't find a connector that suits your needs? You can build one yourself! It's called a custom connector, and this [series](https://learn.microsoft.com/connectors/custom-connectors/?WT.mc_id=dotnet-82212-masoucou&WT.mc_id=dotnet-82522-masoucou) of [articles](https://learn.microsoft.com/connectors/custom-connectors/create-logic-apps-connector?WT.mc_id=dotnet-82212-masoucou&WT.mc_id=dotnet-82522-masoucou) will show you how to make your REST API into a connector!
 
 ### Kicking off the logic
 
@@ -159,7 +158,7 @@ Power Automate also has connectors that are only available for Power Automate:
 * Power Virtual Agents
 * SAP ERP
 
-Power Automate offers rich integration with Power Platform products like AI Builder, Approvals, Desktop flows (Robotic Process Automation aka RPA), Power Apps & Power Virtual Agents. It also has a SAP ERP connector which supports RFCs and BAPIs. It also has  [nice templates](https://powerautomate.microsoft.com/blog/announcing-deeper-sap-integration-for-the-power-platform/) available that they have built since the [Clear Software acquisition](https://cloudblogs.microsoft.com/powerplatform/2021/10/22/microsoft-acquires-clear-software-to-enhance-connectivity-to-systems-of-record/).
+Power Automate offers rich integration with Power Platform products like AI Builder, Approvals, Desktop flows (Robotic Process Automation aka RPA), Power Apps & Power Virtual Agents. It also has a SAP ERP connector which supports RFCs and BAPIs. It also has  [nice templates](https://powerautomate.microsoft.com/blog/announcing-deeper-sap-integration-for-the-power-platform/?WT.mc_id=dotnet-82212-masoucou) available that they have built since the [Clear Software acquisition](https://cloudblogs.microsoft.com/powerplatform/2021/10/22/microsoft-acquires-clear-software-to-enhance-connectivity-to-systems-of-record/?WT.mc_id=dotnet-82212-masoucou).
 
 ### Licensing
 
