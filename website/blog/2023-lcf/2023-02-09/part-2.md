@@ -54,9 +54,7 @@ In the [first part of the blog](part-1.md), Nitya showed you how to build a cust
 
 When custom connectors are deployed, you will find them in multiple places. And, because the Power Platform is not just a bunch of products together, but also really advocates the 'better together' story, it gives you the possibility to even use data from the custom connector in places where the connector doesn't appear.
 
-Let me explain that.
-
-You can find custom connectors in Power Automate, where you can automate processes.
+Let me explain that: You can find custom connectors in Power Automate, where you can automate processes.
 
 ![Image of the forem connector in Power Automate](Part2-1-Forem-Power-Automate.png)
 
@@ -98,7 +96,6 @@ There is excellent guidance on how to [install the Creator Kit](https://learn.mi
 
 In the app, I use the following code components:
 
-* Command bar ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/commandbar))
 * Details list ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/detailslist))
 * Pivot ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/pivot))
 * Search box ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/searchbox))
@@ -109,7 +106,7 @@ The end result will look like this:
 
 ## Add the Forem v0 connector to your app
 
-To work with the forem connector, you first need to add that to your app. Go to Power Apps Studio and select the `Data` icon in the left menu. Next, add the connector to your app by selecting the `Add data` button. Search for `Forem` and click on your custom connector. If you already have a connection, feel free to select that. If not, add a connection here.
+To work with the forem connector, you first need to add that to your app. Go to Power Apps Studio and select the `Data` icon in the left menu. Next, add the connector to your app by selecting the `Add data` button. Search for `Forem` and click on your custom connector. If you already have a connection, feel free to select that. If not, add a connection here by adding the API key you need for the [Forem API](https://developers.forem.com/api/v1#getting-an-api-key).
 
 After connecting the custom connector to your app, the data tab should look like this:
 
@@ -203,16 +200,6 @@ ClearCollect(
                     )
                 ),
                 ShortDateTime
-            ),
-            "github_url",
-            If(
-                !IsBlank(user.github_username),
-                $"https://github.com/{user.github_username}"
-            ),
-            "twitter_url",
-            If(
-                !IsBlank(user.twitter_username),
-                $"https://twitter.com/{user.twitter_username}"
             )
         ),
         "created_at",
@@ -221,7 +208,7 @@ ClearCollect(
 )
 ```
 
-The above `ClearCollect()` formula creates a collection called `colArticles`. The `GetArticles` action of the custom connector will be used to grab the last 1000 articles with the tags `powerplatform, powerapps, dotnet, azure`. Wrapped around that call we have two other formulas: the `Addcolumns()` formula to flatten the result of the API and add some columns, and the `SortByColumns()` formula to sort the articles by created date.
+The above `ClearCollect` formula creates a collection called `colArticles`. The `GetArticles` action of the custom connector will be used to grab the last 1000 articles with the tags `powerplatform, powerapps, dotnet, azure`. Wrapped around that call we have two other formulas: the `Addcolumns` formula to flatten the result of the API and add some columns, and the `SortByColumns` formula to sort the articles by created date.
 
 That's it for our app `OnStart` formula. Next, let's create the header. The header consists of the following three parts:
 
@@ -307,7 +294,6 @@ This setting will make sure the pivot component will show a line below the curre
 * **OnSelect**
 
 ```csharp
-UpdateContext({ctxPivotEvent: "SetFocus" & Text(Rand())});
 Switch(
     Self.SelectedKey,
     "Azure",
@@ -336,16 +322,6 @@ Switch(
                         )
                     ),
                     ShortDateTime
-                ),
-                "github_url",
-                If(
-                    !IsBlank(user.github_username),
-                    $"https://github.com/{user.github_username}"
-                ),
-                "twitter_url",
-                If(
-                    !IsBlank(user.twitter_username),
-                    $"https://twitter.com/{user.twitter_username}"
                 )
             ),
             "created_at",
@@ -378,16 +354,6 @@ Switch(
                         )
                     ),
                     ShortDateTime
-                ),
-                "github_url",
-                If(
-                    !IsBlank(user.github_username),
-                    $"https://github.com/{user.github_username}"
-                ),
-                "twitter_url",
-                If(
-                    !IsBlank(user.twitter_username),
-                    $"https://twitter.com/{user.twitter_username}"
                 )
             ),
             "created_at",
@@ -420,16 +386,6 @@ Switch(
                         )
                     ),
                     ShortDateTime
-                ),
-                "github_url",
-                If(
-                    !IsBlank(user.github_username),
-                    $"https://github.com/{user.github_username}"
-                ),
-                "twitter_url",
-                If(
-                    !IsBlank(user.twitter_username),
-                    $"https://twitter.com/{user.twitter_username}"
                 )
             ),
             "created_at",
@@ -467,16 +423,6 @@ Switch(
                         )
                     ),
                     ShortDateTime
-                ),
-                "github_url",
-                If(
-                    !IsBlank(user.github_username),
-                    $"https://github.com/{user.github_username}"
-                ),
-                "twitter_url",
-                If(
-                    !IsBlank(user.twitter_username),
-                    $"https://twitter.com/{user.twitter_username}"
                 )
             ),
             "created_at",
@@ -486,7 +432,7 @@ Switch(
 )
 ```
 
-The above formula is very long, this is because here I use a `Switch()` formula to have different behavior per selected item. In this case, you can see that when the item with the `MyUnpublishedArticles` key is selected, it's doing a different call (GetMyUnpublishedArticles) than when the item with the `PowerPlatform` key is selected (GetArticles, with tag parameter with the value powerplatform). The rest of the item selections are pretty much the same.
+The above formula is very long, this is because here I use a `Switch` formula to have different behavior per selected item. In this case, you can see that when the item with the `MyUnpublishedArticles` key is selected, it's doing a different call (GetMyUnpublishedArticles) than when the item with the `PowerPlatform` key is selected (GetArticles, with tag parameter with the value powerplatform). The rest of the item selections are pretty much the same.
 
 ### Search Box
 
@@ -514,11 +460,166 @@ The details list is where all the articles are shown. Add the `Fluent Details Li
 |Width|1366|
 |Height|628|
 
-### Command Bar
+Now the details list has the right dimensions and position, but it doesn't have the right content and settings, for that we need to change the following properties:
 
-Add the `Fluent Command Bar` component via the `Insert` menu. Set the following properties:
+* **OnChange**:
+
+The following formula is documented in the documentation of the [details list](https://learn.microsoft.com/power-platform/guidance/creator-kit/detailslist#manual-sorting). This is to make sure the local collection can be sorted the way we want to sort it.
+
+```csharp
+If(Self.EventName="Sort", 
+UpdateContext({
+                ctxSortCol:Self.SortEventColumn,
+                ctxSortAsc:If(Self.SortEventDirection='PowerCAT.FluentDetailsList.SortEventDirection'.Ascending,true,false)
+ })
+);
+```
+
+* **Items**:
+
+In the `Items` property, use an `if` condition to make sure our search box works. In this case, the `if` condition checks if the length of the SearchText in the search box is greater than or equal than 3. If that's the case, a `Search()` formula will be kicked off, that will search within the `colArticles` collection for the title, tags and the author name. If a match is found, it will show it in the details list. If not, the details list will become empty.
+
+If the condition is not met, it will show just the `colArticles`. In both cases it will perform sorting as well.
+
+```csharp
+If(
+    Len(SearchBox1.SearchText) >= 3,
+    SortByColumns(
+        Search(
+            colArticles,
+            SearchBox1.SearchText,
+            "title",
+            "tags",
+            "author_name"
+        ),
+        ctxSortCol,
+        If(
+            ctxSortAsc,
+            SortOrder.Ascending,
+            SortOrder.Descending
+        )
+    ),
+    SortByColumns(
+        colArticles,
+        ctxSortCol,
+        If(
+            ctxSortAsc,
+            SortOrder.Ascending,
+            SortOrder.Descending
+        )
+    )
+)
+```
+
+* **Fields**:
+
+![Image of the properties that need to be added](Part2-9-Details-List-Properties-1.png)
+
+Select the `edit` button next to the `Fields` property and click `Add field`. Make sure to add the following fields:
+
+* title
+* author_name
+* org_name
+* formatted_date
+* comments_count
+* public_reactions_count
+* tags
+
+Now we have the fields available to us, but they don't show yet in the details list. For that, we need to change the `Columns` property.
+
+* **Columns**:
+
+Add the following formulas to the `Columns` property:
+
+```c#
+Switch(
+    Pivot1.Selected.ItemKey,
+    "MyUnpublishedArticles",
+    Table(
+        {
+            ColDisplayName: "📰 Title",
+            ColName: "title",
+            ColBold: true,
+            ColWidth: Parent.Width-100,
+            ColRowHeader: true,
+            ColResizable: true
+        }
+    ),
+    Table(
+        {
+            ColDisplayName: "📰 Title",
+            ColName: "title",
+            ColBold: true,
+            ColWidth: 700,
+            ColRowHeader: true,
+            ColResizable: true
+        },
+        {
+            ColDisplayName: "✍️ Author",
+            ColName: "author_name",
+            ColResizable: true,
+            ColWidth: 200,
+            ColRowHeader: true
+        },
+        {
+            ColDisplayName: "🏢 Org",
+            ColName: "org_name",
+            ColResizable: true,
+            ColWidth: 100,
+            ColRowHeader: true
+        },
+        {
+            ColDisplayName: "⏰ Published",
+            ColName: "formatted_date",
+            ColResizable: true,
+            ColWidth: 150,
+            ColRowHeader: true
+        },
+        {
+            ColDisplayName: "💬",
+            ColName: "comments_count",
+            ColResizable: true,
+            ColSortable: true,
+            ColWidth: 50,
+            ColRowHeader: true
+        },
+        {
+            ColDisplayName: "❤️",
+            ColName: "public_reactions_count",
+            ColResizable: true,
+            ColSortable: true,
+            ColWidth: 50,
+            ColRowHeader: true
+        },
+        {
+            ColDisplayName: "🏷️",
+            ColName: "tags",
+            ColWidth: 250,
+            ColFirstMultiValueBold: true,
+            ColMultiValueDelimiter: " "
+        }
+    )
+)
+```
+
+The above formulas ensure that when the "MyUnpublishedArticles" item is selected in the pivot, it only shows the title column. If that item is not selected, it will show a lot more columns. All the columns are added to a table in both cases, and have properties like:
+
+* ColDisplayName: the display name of the column
+* ColName: the name of the field
+* ColBold: if the column needs to be bold or not
+* ColWidth: the width of the column
+
+If you want to know all possible properties, make sure to check out the [docs](https://learn.microsoft.com/power-platform/guidance/creator-kit/detailslist#columns-properties?WT.mc_id=power-82212-dlaskewitz).
 
 ## Publish your app
+
+With that, our app is ready for publishing. Select the save icon on the top right corner of the screen or use the `ctrl + S` or `cmd + S` shortcut to save your app. Publish your app by selecting the icon in the top right corner of the screen or use the `ctrl + shift + P` or `cmd + shift + P` shortcut to save your app.
+
+There's also a share icon in the same row as the save and publish icons. You can use that to share the app with your colleagues:
+
+![Share app experience where you can share the app with a colleague, add an email message and an image](Part2-10-Share.png)
+
+And that also concludes this blog, hopefully this helps you when you start developing with Power Apps. Don't forget to check out the resources below!
 
 ## Resources
 
