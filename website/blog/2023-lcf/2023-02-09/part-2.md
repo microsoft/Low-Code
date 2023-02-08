@@ -92,11 +92,44 @@ Power Apps Studio is the place where you can design, build and manage your canva
 
 ## Speed up development with the Creator Kit
 
-There are tons of components available out of the box, like text inputs, date pickers, camera controls, etc. These controls offer you a lot of flexibility, but, if you want to make it yourself really easy, it's a good idea to use the [Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview?WT.mc_id=power-82212-dlaskewitz). The Creator Kit is a solution which you can import into your environment. The solution contains a [set of components](https://learn.microsoft.com/power-platform/guidance/creator-kit/compontents?WT.mc_id=power-82212-dlaskewitz) that are based on the [Fluent UI framework](https://developer.microsoft.com/fluentui?WT.mc_id=power-82212-dlaskewitz).
+There are tons of components available out of the box, like text inputs, date pickers, camera controls, etc. These controls offer you a lot of flexibility, but, if you want to make it yourself really easy, it's a good idea to use the [Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview?WT.mc_id=power-82212-dlaskewitz). The Creator Kit is a solution which you can import into your environment. The solution contains a [set of components](https://learn.microsoft.com/power-platform/guidance/creator-kit/components?WT.mc_id=power-82212-dlaskewitz) that are based on the [Fluent UI framework](https://developer.microsoft.com/fluentui?WT.mc_id=power-82212-dlaskewitz).
 
 There is excellent guidance on how to [install the Creator Kit](https://learn.microsoft.com/power-platform/guidance/creator-kit/setup?WT.mc_id=power-82212-dlaskewitz) and how to [use it within Power Apps](https://learn.microsoft.com/power-platform/guidance/creator-kit/creator-kit-explained?WT.mc_id=power-82212-dlaskewitz).
 
+In the app, I use the following components:
+
+* Command bar ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/commandbar))
+* Details list ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/detailslist))
+* Pivot ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/pivot))
+* Search box ([link](https://learn.microsoft.com/power-platform/guidance/creator-kit/searchbox))
+
+The end result will look like this:
+
+![Dev.to Power App which shows a menu at the top, a search box and a list of dev.to articles](Part2-4-Power-App-Finished.png)
+
 ## Add the Forem v0 connector to your app
+
+To work with the forem connector, you first need to add that to your app. Go to Power Apps Studio and select the `Data` icon in the left menu. Next, add the connector to your app by selecting the `Add data` button. Search for `Forem` and click on your custom connector. If you already have a connection, feel free to select that. If not, add a connection here.
+
+After connecting the custom connector to your app, the data tab should look like this:
+
+![](Part2-5-Connector-Added.png)
+
+To test out if the connector works, we can easily create a collection (local data that's saved in the app) by going to the tree view (layers icon in the left menu), selecting `App` and changing the `OnStart` property to:
+
+```PowerFx
+ClearCollect(
+    Articles, 
+    Foremv0.GetArticles(
+      { 
+        page: 1, 
+        per_page: 100
+      }
+    )
+)
+```
+
+This `ClearCollect` formula will create a collection with the name _Articles_. The collection will be filled with whatever comes next. In this case, it's a call to the custom connector `Foremv0` and specifically, a call to the `GetArticles` action in the connector. Inside of the call, the parameters `page` and `per page` are used to make sure we get 100 items returned.
 
 ## Add the Creator Kit components to your app
 
@@ -106,7 +139,7 @@ There is excellent guidance on how to [install the Creator Kit](https://learn.mi
 
 * [**Create a canvas app from scratch**](https://learn.microsoft.com/power-apps/maker/canvas-apps/create-blank-app?WT.mc_id=power-82212-dlaskewitz)
 * [**Creator Kit**](https://learn.microsoft.com/power-platform/guidance/creator-kit/overview?WT.mc_id=power-82212-dlaskewitz)
-* [**Creator Kit components**](https://learn.microsoft.com/power-platform/guidance/creator-kit/compontents?WT.mc_id=power-82212-dlaskewitz)
+* [**Creator Kit components**](https://learn.microsoft.com/power-platform/guidance/creator-kit/components/?WT.mc_id=power-82212-dlaskewitz)
 * [**PowerfulDevs Session**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=power-82212-dlaskewitz): Enable millions of low code devs by building custom connectors
 * [**Learn Collection**](https://aka.ms/lowcode-february/collection) LowCode February
 
