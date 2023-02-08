@@ -519,28 +519,28 @@ Then, follow the steps below. After that, you will be the one who knows better s
 [gh sample bff readme]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/src/BffApp/README.md
 [gh sample openapi bff]: https://github.com/devkimchi/power-platform-connector-via-apim/blob/main/infra/apim-openapi-bff.yaml
 
-[az patterns architecture bff]: https://learn.microsoft.com/azure/architecture/patterns/backends-for-frontends?WT.mc_id=dotnet-82522-juyoo
+[az patterns architecture bff]: https://learn.microsoft.com/azure/architecture/patterns/backends-for-frontends?WT.mc_id=dotnet-82212-juyoo
 
-[az ad]: https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis?WT.mc_id=dotnet-82522-juyoo
-[az ad authn authcodeauth]: https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow?WT.mc_id=dotnet-82522-juyoo
-[az ad register app]: https://learn.microsoft.com/azure/active-directory/develop/quickstart-register-app?WT.mc_id=dotnet-82522-juyoo
+[az ad]: https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis?WT.mc_id=dotnet-82212-juyoo
+[az ad authn authcodeauth]: https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow?WT.mc_id=dotnet-82212-juyoo
+[az ad register app]: https://learn.microsoft.com/azure/active-directory/develop/quickstart-register-app?WT.mc_id=dotnet-82212-juyoo
 
-[az apim]: https://learn.microsoft.com/azure/api-management/api-management-key-concepts?WT.mc_id=dotnet-82522-juyoo
-[az apim policies]: https://learn.microsoft.com/azure/api-management/api-management-howto-policies?WT.mc_id=dotnet-82522-juyoo
-[az apim policies setheader]: https://learn.microsoft.com/azure/api-management/set-header-policy?WT.mc_id=dotnet-82522-juyoo
-[az apim policies basicauth]: https://learn.microsoft.com/azure/api-management/authentication-basic-policy?WT.mc_id=dotnet-82522-juyoo
-[az apim subscription]: https://learn.microsoft.com/azure/api-management/api-management-subscriptions?WT.mc_id=dotnet-82522-juyoo
-[az apim security authn]: https://learn.microsoft.com/azure/api-management/authentication-authorization-overview?WT.mc_id=dotnet-82522-juyoo
+[az apim]: https://learn.microsoft.com/azure/api-management/api-management-key-concepts?WT.mc_id=dotnet-82212-juyoo
+[az apim policies]: https://learn.microsoft.com/azure/api-management/api-management-howto-policies?WT.mc_id=dotnet-82212-juyoo
+[az apim policies setheader]: https://learn.microsoft.com/azure/api-management/set-header-policy?WT.mc_id=dotnet-82212-juyoo
+[az apim policies basicauth]: https://learn.microsoft.com/azure/api-management/authentication-basic-policy?WT.mc_id=dotnet-82212-juyoo
+[az apim subscription]: https://learn.microsoft.com/azure/api-management/api-management-subscriptions?WT.mc_id=dotnet-82212-juyoo
+[az apim security authn]: https://learn.microsoft.com/azure/api-management/authentication-authorization-overview?WT.mc_id=dotnet-82212-juyoo
 
-[az fncapp]: https://learn.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=dotnet-82522-juyoo
+[az fncapp]: https://learn.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=dotnet-82212-juyoo
 
-[az pp cuscon authn]: https://learn.microsoft.com/connectors/custom-connectors/connection-parameters?WT.mc_id=dotnet-82522-juyoo
+[az pp cuscon authn]: https://learn.microsoft.com/connectors/custom-connectors/connection-parameters?WT.mc_id=dotnet-82212-juyoo
 
 [atlassian jira]: https://www.atlassian.com/software/jira
 [oauth2]: https://oauth.net/2/
 
-[m365 dev]: https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program?WT.mc_id=dotnet-82522-juyoo
+[m365 dev]: https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program?WT.mc_id=dotnet-82212-juyoo
 [m365 dev create]: https://learn.microsoft.com/power-platform/developer/create-developer-environment
-[pp dev]: https://learn.microsoft.com/power-apps/maker/developer-plan?WT.mc_id=dotnet-82522-juyoo?WT.mc_id=dotnet-82522-juyoo
-[az free]: https://azure.microsoft.com/free/?WT.mc_id=dotnet-82522-juyoo
+[pp dev]: https://learn.microsoft.com/power-apps/maker/developer-plan?WT.mc_id=dotnet-82212-juyoo?WT.mc_id=dotnet-82212-juyoo
+[az free]: https://azure.microsoft.com/free/?WT.mc_id=dotnet-82212-juyoo
 [gh free]: https://github.com/signup
