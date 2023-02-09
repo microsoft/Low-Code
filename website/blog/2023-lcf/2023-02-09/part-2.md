@@ -2,7 +2,7 @@
 slug: 2023-day9-use
 title: 9b. Use the Custom Connector
 authors: [nitya, daniel]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -31,7 +31,9 @@ tags: [connectors, low-code-february, 30-days-of-lowcode, learn-live, zero-to-he
 
 Welcome to `Day 09` of #30DaysOfLowCode!
 
-In the past few days, we've talked about Power Platform connectors, from built-in options, to their value in serverless computing solutions driven by automated workflows. But what if prebuilt connectors don't support _your_ target API? That's where custom connectors come in. Join us today as we take you step by step through the process of _building, and testing a custom connector!_
+In the [**first part of the blog**](part-1.md), Nitya showed you how to build a custom connector for the Forem v0 API. From now, I (Daniel) will take it over and show you what you can do with the custom connector in the Power Platform. 
+
+If you don't want to follow the whole tutorial, but you **want to just see the solution**, make sure to go the the bottom of the page for a [**link to the resources**](#completed-solution) that you can import and explore on your own!
 
 :::info SEE US LIVE AT POWERFUL DEVS!
 Join us Feb 15 at the #PowerfulDevs conference where Daniel and Nitya will walk through the steps of building the connector and application - and more!
@@ -55,10 +57,6 @@ Join us Feb 15 at the #PowerfulDevs conference where Daniel and Nitya will walk 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
 <!-- ************************************* -->
-
-In the [first part of the blog](part-1.md), Nitya showed you how to build a custom connector for the Forem v0 API. From now, I (Daniel) will take it over and show you what you can do with the custom connector in the Power Platform.
-
-If you don't want to follow the whole tutorial, but you want to just see the solution, make sure to go the the bottom of the page where .
 
 ## Custom connectors in the Power Platform
 
