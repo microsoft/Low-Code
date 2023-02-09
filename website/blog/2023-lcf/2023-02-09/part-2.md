@@ -41,6 +41,7 @@ In the past few days, we've talked about Power Platform connectors, from built-i
 * Add the Forem v0 connector to your app
 * Add the Creator Kit components to your app
 * Publish your app
+* Completed solution
 
 ![Building a Custom Connector](./../../../static/img/og/30-09-02.png)
 
@@ -49,6 +50,8 @@ In the past few days, we've talked about Power Platform connectors, from built-i
 <!-- ************************************* -->
 
 In the [first part of the blog](part-1.md), Nitya showed you how to build a custom connector for the Forem v0 API. From now, I (Daniel) will take it over and show you what you can do with the custom connector in the Power Platform.
+
+If you don't want to follow the whole tutorial, but you want to just see the solution, make sure to go the the bottom of the page where .
 
 ## Custom connectors in the Power Platform
 
@@ -618,6 +621,10 @@ With that, our app is ready for publishing. Select the save icon on the top righ
 There's also a share icon in the same row as the save and publish icons. You can use that to share the app with your colleagues:
 
 ![Share app experience where you can share the app with a colleague, add an email message and an image](Part2-10-Share.png)
+
+## Completed solution
+
+The custom connector and the canvas app are available as a solution via [this link](../../../../resources/custom-connector-solution/Forem_1_0_0_0.zip). You can import the solution via the import solution functionality that is described [here](https://learn.microsoft.com/power-apps/maker/data-platform/import-update-export-solutions).
 
 And that also concludes this blog, hopefully this helps you when you start developing with Power Apps. Don't forget to check out the resources below!
 
