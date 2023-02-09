@@ -1,7 +1,7 @@
 ---
 slug: 2023-day10
 title: 10. Providing Power Platform custom connector with additional security via Azure API Management
-authors: [justin]
+authors: [justin, julia]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
@@ -53,14 +53,14 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 Power Platform custom connectors currently support [four authentication flow options &ndash; No Auth flow, API Key Auth flow, Basic Auth flow and OAuth2 Authorisation Code Auth flow][az pp cuscon authn]. "No Auth flow" is definitely not an option this time, but let's focus on the other three options throughout this post. You also need to be aware that those authentication types are mutually exclusive. In other words, you CANNOT combine two or more authentication scenarios on one custom connector. Also, if you want to use the API Key auth flow, you CANNOT use the other two authentication types within the custom connector. I'll discuss that later in this post.
 
 
-## Prerequisites ##
+## Prerequisites
 
 For this post, you need to have the followings signed up:
 
-* [Microsoft 365 Developer Program][m365 dev]
-* [Power Platform Developer Program][pp dev]
-* [Free Microsoft Azure subscription][az free]
-* [Free GitHub account][gh free]
+- [Microsoft 365 Developer Program][m365 dev]
+- [Power Platform Developer Program][pp dev]
+- [Free Microsoft Azure subscription][az free]
+- [Free GitHub account][gh free]
 
 
 ## Deploying Sample Apps
@@ -76,8 +76,8 @@ Each function app has already been integrated with API Management. Let's take a 
 
 The first option is using an API key to provide extra security. Using Azure API Management, you can choose between:
 
-* A concept called [subscription][az apim subscription], where you use the subscription key through a HTTP request header of `Ocp-Apim-Subscription-Key`
-* Or you can use a HTTP request query string of `subscription-key`.
+- A concept called [subscription][az apim subscription], where you use the subscription key through a HTTP request header of `Ocp-Apim-Subscription-Key`
+- Or you can use a HTTP request query string of `subscription-key`.
 
 Both options add another security layer to your API, in addition to your Azure Function app's `x-functions-key` in the request header or `code` in the request querystring.
 
@@ -103,7 +103,7 @@ Both options add another security layer to your API, in addition to your Azure F
 
    Therefore, throughout this post, you're assuming to use this custom connector in general purpose, rather than tied with your tenant.
 
-2. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use the API key through `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
+1. Let's take a look at the document. It might look like the following JSON document, saying that you MUST use the API key through `Ocp-Apim-Subscription-Key` in the request header or `subscription-key` in the request querystring.
 
     ```jsonc
     {
@@ -136,19 +136,19 @@ Both options add another security layer to your API, in addition to your Azure F
     }
     ```
 
-3. Alright. Let's import this OpenAPI document for a custom connector. Go to either `https://make.powerapps.com` for Power Apps or `https://make.powerautomate.com` for Power Automate, and create a custom connector by importing an OpenAPI file.
+1. Alright. Let's import this OpenAPI document for a custom connector. Go to either `https://make.powerapps.com` for Power Apps or `https://make.powerautomate.com` for Power Automate, and create a custom connector by importing an OpenAPI file.
 
     ![API Key Auth - custom connector by OpenAPI file][image-05]
 
-4. It automatically identifies the authentication type to "API Key", the API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
+1. It automatically identifies the authentication type to "API Key", the API key parameter name of `Ocp-Apim-Subscription-Key` and the parameter location of "Header".
 
     ![API Key Auth - custom connector authentication type][image-06]
 
-5. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the API Management.
+1. After creating the connector, let's create a connection for the connector. Then, it requires the API key. Enter the API key generated from the API Management.
 
     ![API Key Auth - custom connector connection][image-07]
 
-6. Test the connector to see whether it works OK or not.
+1. Test the connector to see whether it works OK or not.
 
     ![API Key Auth - custom connector test][image-08]
 
@@ -249,12 +249,12 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
 1. To use OAuth2 auth flow, you need to first [register an app][az ad register app] in [Azure Active Directory][az ad]. After registering a new app, it will give the ability to get the access codes. I'm not going into too many details here, but it's worth taking a look at [this document][gh sample authcodeauth readme]. Once you create the app, you will have the following information:
 
-    * Tenant ID
-    * Client ID
-    * Client secret
-    * Endpoint URL for authorization
-    * Endpoint URL for the access token
-    * Endpoint URL for the refresh token
+    - Tenant ID
+    - Client ID
+    - Client secret
+    - Endpoint URL for authorization
+    - Endpoint URL for the access token
+    - Endpoint URL for the refresh token
 
 1. With this information, you need to integrate it with API Management. Go to Azure Portal, open the API Management instance, and navigate to the "OAuth 2.0 + OpenID Connect" blade. Add a new OAuth2 service under the "OAuth 2.0" tab.
 
@@ -262,19 +262,19 @@ The third option is to use [OAuth2][oauth2]. There are many authentication flows
 
 1. Enter the following details in the fields and create the service.
 
-    * Display name: `AuthCode Auth`
-    * Client registration page URL: `http://localhost`
-    * Authorization grant types: tick only on "Authorization code"
-    * Authorization endpoint URL: endpoint URL for authorization noted from the above
-    * Token endpoint URL: endpoint URL for access token noted from the above
-    * Default scope: `https://graph.microsoft.com/.default`
-    * Client ID: client ID noted from the above
-    * Client secret: client secret noted from the above
+    - Display name: `AuthCode Auth`
+    - Client registration page URL: `http://localhost`
+    - Authorization grant types: tick only on "Authorization code"
+    - Authorization endpoint URL: endpoint URL for authorization noted from the above
+    - Token endpoint URL: endpoint URL for access token noted from the above
+    - Default scope: `https://graph.microsoft.com/.default`
+    - Client ID: client ID noted from the above
+    - Client secret: client secret noted from the above
 
     After that, you will have both redirect URLs:
 
-    * `null/signin-oauth/code/callback/authcode-auth`
-    * `null/signin-oauth/implicit/callback`
+    - `null/signin-oauth/code/callback/authcode-auth`
+    - `null/signin-oauth/implicit/callback`
 
     Replace `null` with your API Management instance URL like `https://{{APIM_NAME}}.azure-api.net`, where `{{APIM_NAME}}` is your API Management instance name.
 
@@ -450,9 +450,9 @@ We've created a BFF by combining APIs that use API key auth and basic auth, and 
 
 Theoretically, there are three possible combinations for BFF:
 
-* API key auth and basic auth
-* API key auth and OAuth2 auth code auth
-* Basic auth and OAuth2 auth code auth
+- API key auth and basic auth
+- API key auth and OAuth2 auth code auth
+- Basic auth and OAuth2 auth code auth
 
 Throughout this post, we've walked through the first combination. After that, you can try the other two combinations on your end!
 
@@ -461,55 +461,55 @@ Throughout this post, we've walked through the first combination. After that, yo
 
 If you haven't joined the following programs, it's time to do so for further learning!
 
-* [Microsoft 365 Developer Program][m365 dev]
-* [Power Platform Developer Program][pp dev]
-* [Free Microsoft Azure subscription][az free]
-* [Free GitHub account][gh free]
+- [Microsoft 365 Developer Program][m365 dev]
+- [Power Platform Developer Program][pp dev]
+- [Free Microsoft Azure subscription][az free]
+- [Free GitHub account][gh free]
 
 Then, follow the steps below. After that, you will be the one who knows better security on Power Platform custom connectors!
 
-* Fork this [GitHub repository][gh sample] to provision and deploy the sample apps.
-* Read and follow the instructions for each scenario:
-  * [API Key Auth][gh sample apikeyauth readme]
-  * [Basic Auth][gh sample basicauth readme]
-  * [Authorisation Code Auth][gh sample authcodeauth readme]
-  * [BFF][gh sample bff readme]
+- Fork this [GitHub repository][gh sample] to provision and deploy the sample apps.
+- Read and follow the instructions for each scenario:
+  - [API Key Auth][gh sample apikeyauth readme]
+  - [Basic Auth][gh sample basicauth readme]
+  - [Authorisation Code Auth][gh sample authcodeauth readme]
+  - [BFF][gh sample bff readme]
 
 
 ## Resources &ndash; For self-study!
 
-* [Cloud architecture pattern &ndash; BFF (Backends-for-frontends)][az patterns architecture bff]
-* [Azure AD application model][az ad register app]
-* [Azure API Management authentication and authorisation][az apim security authn]
-* [Power Platform custom connector parameters][az pp cuscon authn]
-* [Creating Microsoft 365 Developer Environment][m365 dev create]
+- [Cloud architecture pattern &ndash; BFF (Backends-for-frontends)][az patterns architecture bff]
+- [Azure AD application model][az ad register app]
+- [Azure API Management authentication and authorisation][az apim security authn]
+- [Power Platform custom connector parameters][az pp cuscon authn]
+- [Creating Microsoft 365 Developer Environment][m365 dev create]
 
 
-[image-01]: ./01-image-01.png
-[image-02]: ./01-image-02.png
-[image-03]: ./01-image-03.png
-[image-04]: ./01-image-04.png
-[image-05]: ./01-image-05.png
-[image-06]: ./01-image-06.png
-[image-07]: ./01-image-07.png
-[image-08]: ./01-image-08.png
-[image-09]: ./01-image-09.png
-[image-10]: ./01-image-10.png
-[image-11]: ./01-image-11.png
-[image-12]: ./01-image-12.png
-[image-13]: ./01-image-13.png
-[image-14]: ./01-image-14.png
-[image-15]: ./01-image-15.png
-[image-16]: ./01-image-16.png
-[image-17]: ./01-image-17.png
-[image-18]: ./01-image-18.png
-[image-19]: ./01-image-19.png
-[image-20]: ./01-image-20.png
-[image-21]: ./01-image-21.png
-[image-22]: ./01-image-22.png
-[image-23]: ./01-image-23.png
-[image-24]: ./01-image-24.png
-[image-25]: ./01-image-25.png
+[image-01]: ./image-01.png
+[image-02]: ./image-02.png
+[image-03]: ./image-03.png
+[image-04]: ./image-04.png
+[image-05]: ./image-05.png
+[image-06]: ./image-06.png
+[image-07]: ./image-07.png
+[image-08]: ./image-08.png
+[image-09]: ./image-09.png
+[image-10]: ./image-10.png
+[image-11]: ./image-11.png
+[image-12]: ./image-12.png
+[image-13]: ./image-13.png
+[image-14]: ./image-14.png
+[image-15]: ./image-15.png
+[image-16]: ./image-16.png
+[image-17]: ./image-17.png
+[image-18]: ./image-18.png
+[image-19]: ./image-19.png
+[image-20]: ./image-20.png
+[image-21]: ./image-21.png
+[image-22]: ./image-22.png
+[image-23]: ./image-23.png
+[image-24]: ./image-24.png
+[image-25]: ./image-25.png
 
 
 [gh sample]: https://github.com/devkimchi/power-platform-connector-via-apim
