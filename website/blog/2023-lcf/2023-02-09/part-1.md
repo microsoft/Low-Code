@@ -16,7 +16,7 @@ tags: [connectors, low-code-february, 30-days-of-lowcode, learn-live, zero-to-he
   <meta name="twitter:url" 
     content="https://microsoft.github.io/Low-Code/blog/2023-day9-build" />
   <meta name="twitter:title" 
-    content="9. Build a Custom Connector" />
+    content="9a. Build a Custom Connector" />
   <meta name="twitter:description" 
     content="Want to build a Power Platform connector for an API? Or extend an existing one to support new capabilities? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february" />
   <meta name="twitter:image" 

@@ -39,11 +39,11 @@ _Welcome to the Week 1 of your learning journey into Low Code Development._
 
 :::info WEEK 1 - TOPIC
 _Posts will be linked here once published._
- * Feb 01 - [Hello, #30DaysOfLowCode](/blog/)
- * Feb 02 - [You say Low, I say Code!](/blog/)
- * Feb 03 - [Developer Tools & Onboarding](/blog/)
- * Feb 04 - [🚀 Zero-To-Hero Post: Developer Stories](https://aka.ms/lowcode-february/0ToHero)
- * Feb 05 - [Week 1: Recap](/blog/)
+ * Feb 01 - [Hello, #30DaysOfLowCode](/blog/2023-day1)
+ * Feb 02 - [You say Low, I say Code!](/blog/2023-day2)
+ * Feb 03 - [Developer Tools & Onboarding](/blog/2023-day3)
+ * Feb 04 - [🚀 Zero-To-Hero Post: Developer Stories](/blog/2023-day4)
+ * Feb 05 - [Week 1: Recap](/blog/2023-day5)
 :::
 
 ![Week 1](./../../../static/img/og/30-week1.png)
@@ -56,13 +56,13 @@ _Welcome to the Week 2 of your learning journey into Low Code Development._
 
 :::info WEEK 2 - TOPIC
 _Posts will be linked here once published._
- * Feb 06 - [Built-in Connectors](/blog/)
- * Feb 07 - [Low Code + Dataverse](/blog/)
- * Feb 08 - [Low Code + Serverless](/blog/)
- * Feb 09 - [Custom Connector (Tutorial)](/blog/)
- * Feb 10 - [Custom Connectors (APIM)](/blog/)
- * Feb 11 - [Integration Use Cases](/blog/)
- * Feb 12 - [Week 2: Recap](/blog/)
+ * Feb 06 - [Built-in Connectors](/blog/2023-day6)
+ * Feb 07 - [Low Code + Dataverse](/blog/2023-day7)
+ * Feb 08 - [Low Code + Serverless](/blog/2023-day8)
+ * Feb 09 - Custom Connector [Part 1: Build It](/blog/2023-day9-build), [Part 2: Use It](/blog/2023-day9-use)
+ * Feb 10 - Custom Connectors (APIM)
+ * Feb 11 - Integration Use Cases
+ * Feb 12 - Week 2: Recap
 :::
 
 ![Week 2](./../../../static/img/og/30-week2.png)
@@ -75,13 +75,13 @@ _Welcome to the Week 3 of your learning journey into Low Code Development._
 
 :::info WEEK 3 - TOPIC
 _Posts will be linked here once published._
- * Feb 13 - [Build a Canvas App!](/blog/)
- * Feb 14 - [Intro to PowerFX](/blog/)
- * Feb 15 - [🚀 Zero-To-Hero Post](/blog/)
- * Feb 16 - [Power Component Framework Controls](/blog/)
- * Feb 17 - [Build a PCF Control](/blog/)
- * Feb 18 - [Advanced Use Cases](/blog/)
- * Feb 19 - [Week 3: Recap](/blog/)
+ * Feb 13 - Build a Canvas App!
+ * Feb 14 - Intro to PowerFX
+ * Feb 15 - 🚀 Zero-To-Hero Post
+ * Feb 16 - Power Component Framework Controls
+ * Feb 17 - Build a PCF Control
+ * Feb 18 - Advanced Use Cases
+ * Feb 19 - Week 3: Recap
 :::
 
 ![Week 3](./../../../static/img/og/30-week3.png)
