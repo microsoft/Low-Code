@@ -2,7 +2,7 @@
 slug: 2023-day9-build
 title: 9a. Build a Custom Connector
 authors: [nitya, daniel]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -33,12 +33,17 @@ Welcome to `Day 09` of #30DaysOfLowCode!
 
 It's **Integrations Week**! So far, we've talked about Power Platform Connectors - from [built-in options](/blog/2023-day6) to [serverless computing solutions](/blog/2023-day8) with automated workflows triggered by connectors. But what if prebuilt connectors don't support _your_ requirements? That's where **custom connectors** come in. Join us today for a 2-part tutorial as we take you step-by-step through the process of _building, testing, and using_ a custom connector! 
 
+:::info SEE US LIVE AT POWERFUL DEVS!
+Join us Feb 15 at the #PowerfulDevs conference where Daniel and Nitya will walk through the steps of building the connector and application - and more!
+[**Register Here**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)
+:::
+
 
 ## What We'll Cover
- * Motivation - Why are custom connectors needed?
- * Scenario - Let's build a dev.to Connector!
- * Process - Building from an OpenAPI specification
- * Testing - Validate it works!
+ * **Motivation** - Why are custom connectors needed?
+ * **Scenario** - Let's build a dev.to Connector!
+ * **Process** - Building from an OpenAPI specification
+ * **Testing** - Validate it works!
  * **Exercise**: [Training: Build custom connectors for Power Automate](https://learn.microsoft.com/training/paths/build-custom-connectors/?WT.mc_id=javascript-82212-ninarasi&ns-enrollment-type=Collection&ns-enrollment-id=xz6ehr2mx031y0)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
@@ -177,7 +182,7 @@ You can create a new connection either from the _Connections_ page (see sidebar)
 
 Switch back to the Custom Connectors page, select the connector you were working on, and move to the _Test_ tab. You should see something like this - where you can now select the newly created connector as the default Connection for the test.
 
-Screenshot of Testing UI](./build/7-test.png)
+![Screenshot of Testing UI](./build/7-test.png)
 
 At this point, you can simply select the _Action_ (request), provide any necessary parameters, and click `Test operation` to see if you get the correct response. For example, in the screenshot below, you can see the default response for `getUserArticles` returns the last article I published on dev.to! 
 

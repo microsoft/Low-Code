@@ -33,6 +33,13 @@ Welcome to `Day 09` of #30DaysOfLowCode!
 
 In the past few days, we've talked about Power Platform connectors, from built-in options, to their value in serverless computing solutions driven by automated workflows. But what if prebuilt connectors don't support _your_ target API? That's where custom connectors come in. Join us today as we take you step by step through the process of _building, and testing a custom connector!_
 
+:::info SEE US LIVE AT POWERFUL DEVS!
+Join us Feb 15 at the #PowerfulDevs conference where Daniel and Nitya will walk through the steps of building the connector and application - and more!
+[**Register Here**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)
+:::
+
+
+
 ## What We'll Cover
 
 * Custom Connectors in the Power Platform
