@@ -1,5 +1,6 @@
 ---
 slug: 2023-day9-use
+date: 2023-02-09T13:00
 title: 9b. Use the Custom Connector
 authors: [nitya, daniel]
 draft: false

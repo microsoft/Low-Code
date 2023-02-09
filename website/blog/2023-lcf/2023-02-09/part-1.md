@@ -1,5 +1,6 @@
 ---
 slug: 2023-day9-build
+date: 2023-02-09T12:00
 title: 9a. Build a Custom Connector
 authors: [nitya, daniel]
 draft: false

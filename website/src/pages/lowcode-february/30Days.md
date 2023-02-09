@@ -93,13 +93,13 @@ _Welcome to the Week 4 of your learning journey into Low Code Development._
 
 :::info WEEK 4 - TOPIC
 _Posts will be linked here once published._
- * Feb 20 - [ALM For Power Apps](/blog/)
- * Feb 21 - [GitHub Actions for Power Apps](/blog/)
- * Feb 22 - [🚀 Zero-To-Hero Post](/blog/)
- * Feb 23 - [App Governance](/blog/)
- * Feb 24 - [Power Platform Pipelines](/blog/)
- * Feb 25 - [Azure DevOps & Automated Testing](/blog/)
- * Feb 26 - [Week 4: Recap](/blog/)
+ * Feb 20 - ALM For Power Apps
+ * Feb 21 - GitHub Actions for Power Apps
+ * Feb 22 - 🚀 Zero-To-Hero Post
+ * Feb 23 - App Governance
+ * Feb 24 - Power Platform Pipelines
+ * Feb 25 - Azure DevOps & Automated Testing
+ * Feb 26 - Week 4: Recap
 :::
 
 ![Week 4](./../../../static/img/og/30-week4.png)
@@ -108,8 +108,8 @@ _Posts will be linked here once published._
 
 :::info WEEK 5 - WRAP-UP
 _Posts will be linked here once published._
- * Feb 27 - [🚀 Zero-To-Hero Post](/blog/)
- * Feb 28 - [Month: Recap](/blog/)
+ * Feb 27 - 🚀 Zero-To-Hero Post
+ * Feb 28 - Month: Recap
 :::
 
 Thank you for staying the course with us. In the final two posts of this series we'll do two things:
