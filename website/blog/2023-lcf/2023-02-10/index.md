@@ -2,7 +2,7 @@
 slug: 2023-day10
 title: 10. Secure Connectors with APIM
 authors: [justin, julia]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -39,13 +39,8 @@ The theme for this week is **backend**. Yesterday we talked about building custo
 - [**Exercise**](#exercise--try-it-yourself) – Try it yourself!
 - [**Resources**](#resources--for-self-study) – For self-study!
 
-<!-- FIXME: banner image -->
 ![Empty Banner Placeholder](./../../../static/img/og/30-10.png)
 
-
-<!-- ************************************* -->
-<!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
-<!-- ************************************* -->
 
 ## Custom Connector Authentication Types
 
