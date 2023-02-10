@@ -57,7 +57,7 @@ Model-Driven apps require a Microsoft Dataverse database. They're built on top o
 
 But with Canvas Apps, you start with a blank screen – like an artist’s canvas. You have complete control over the placement of each image, textbox, form, icon, and other elements on that canvas. Power Apps offers you a graphical, intuitive interface with a pixel perfect visual app designer which enables you to build and deploy professional looking Canvas Apps faster with tailor-made UI.
 
-[Canvas App UI being edited inside of the Power Apps Studio](image_url)
+[Canvas App UI being edited inside of the Power Apps Studio](./Figure1.png)
 
 
 ## Section 2
