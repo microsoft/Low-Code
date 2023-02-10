@@ -77,7 +77,7 @@ You can simply select a template from our vast gallery and then run the app to u
 
 ### Start from data
 
-Maybe you already have some business data to work with and you’d like to build an app that connects to this data directly.  It doesn’t matter if your data lives in Excel, SharePoint, an Azure SQL Database or even Dataverse – you can create a working 3-screen app in just a few clicks and choose to customise it however you want.
+Maybe you already have some business data to work with and you’d like to build an app that connects to this data directly.  It doesn’t matter where your data lives – you can create a working 3-screen app in just a few clicks and choose to customise it however you want. 
 
 The generated 3-screen app includes:
 
@@ -86,6 +86,8 @@ The generated 3-screen app includes:
 3. **Edit Screen**: This allows users to edit a single record to change any of its values. 
 
 ![Image showing generated 3-screen Canvas App](./Figure3.png)
+
+This process takes care of the data connection for you so that you can focus on the functionality and UI straight away. Whether your data lives in [SharePoint](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-sharepoint), [Excel](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-data), [Azure SQL](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-azure-sql-database) or even [Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/data-platform-create-app), you can get started building Canvas Apps, from data, today. 
 
 ## Section 3
 
