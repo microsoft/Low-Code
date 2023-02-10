@@ -34,9 +34,9 @@ Welcome to `Day 13` of #30DaysOfLowCode!
 More often than not, a well thought out, consistent, eye-catching but functional user experience can define the success of your app. This is why we’ve decided to dedicate this week to the **User Interface (UI)**. Today’s blog will begin that journey with actionable insights and resources that will get you started building amazing UI with Canvas Apps.
 
 ## What We'll Cover
- * What are Canvas Apps? 
+ * What are Canvas Apps?
  * Ways to build Canvas Apps
- * Section 3
+ * Working with Express Design
  * Section 4
  * Exercise: Try this yourself!
  * Resources: For self-study!
@@ -89,7 +89,25 @@ The generated 3-screen app includes:
 
 This process takes care of the data connection for you so that you can focus on the functionality and UI straight away. Whether your data lives in [SharePoint](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-sharepoint), [Excel](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-data), [Azure SQL](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-azure-sql-database) or even [Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/data-platform-create-app), you can get started building Canvas Apps, from data, today. 
 
-## Section 3
+## Working with Express Design
+
+Express design is a new way to quickly get started with Canvas Apps by instantly transforming any visual design artifact into an app. Every app starts with a design phase where some form of initial sketch would have been made. You may have sketched some basic UI on a piece of paper or on a whiteboard or if you’re a professional – you may have designed some assets in Figma.
+
+Whatever your method is, Power Apps is now applying advanced cognitive AI models to generate app UI using two methods.
+
+### Image to App
+
+All you have to do is take a picture or screenshot of whatever wireframe, sketch, or visual design that you have, upload it into Power Apps and then follow the steps in the guided interface to tag the relevant UI components and set up your data. This will then auto-magically generate an app for you to jumpstart your app development process. See [this article](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/app-from-image) for more information and step-by-step guidance on how to generate Canvas Apps from an image!
+
+Also, check out this [AMAZING TikTok](https://www.tiktok.com/@mspowerplatform/video/7192702168489577774) that shows you the whole Image to App process in under 60 seconds! Don’t forget to follow us while you’re there 😉 
+
+![Image showing the Image to App fucntionality in Power Apps](./Figure4.png)
+
+### Figma to App
+
+Now the Image to App process will do it’s best to match your drawing or image however if you are looking for an exact, pixel-perfect match then you should consider creating your design in Figma using the [Create Apps from Figma UI Kit](https://www.figma.com/community/file/1110934196623232680). Afterwards, you will then convert your design file into a Canvas App and then add more functionality using the Power Apps Studio. More details on this process can be [found here](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/figma/overview) so be sure to try it out for yourself and let us know how it went!
+
+![Image showing the Figma to App fucntionality in Power Apps](./Figure5.png)
 
 ## Section 4
 
