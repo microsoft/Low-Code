@@ -59,8 +59,33 @@ But with Canvas Apps, you start with a blank screen – like an artist’s canva
 
 ![Canvas App UI being edited inside of the Power Apps Studio](./Figure1.png)
 
+## Ways to build Canvas Apps
 
-## Section 2
+Now there are many starting points when building Canvas Apps. We’ve already established that you can start from a _blank canvas_ and build out your app from there however we have other methods for getting you to where you want to be faster.
+
+Whether it’s your first time and you want to start from a template just to get familiar with the building experience, or you already have data and you want to build your Canvas App on top of that data or even if you have an initial design and you want to start from that design and add data later on – we’ve got you covered. 
+
+Whatever method you choose, you’ll always end up in the Power Apps Studio. This is the space where you’ll design, build, and manage your Canvas App. If you want to understand the various parts of the Power Apps Studio before you get your hands dirty; I highly recommend reading [this article](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/power-apps-studio) which gives a really good insight into the various parts of it.
+
+### Start from a template
+
+If it’s your first time, you might want to start from a template just so you can get familiar with Canvas Apps. Power Apps provides multiple templates for all types of scenarios. 
+
+GIIIIIIIIIIIIIIIIIIIIFFFFFFFFF
+
+You can simply select a template from our vast gallery and then run the app to understand its default behaviour. Feel free to add some additional functionality and make it your own. For a full breakdown of how to create an app from a template, check out [this article](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-test-drive) to learn more. 
+
+### Start from data
+
+Maybe you already have some business data to work with and you’d like to build an app that connects to this data directly.  It doesn’t matter if your data lives in Excel, SharePoint, an Azure SQL Database or even Dataverse – you can create a working 3-screen app in just a few clicks and choose to customise it however you want.
+
+The generated 3-screen app includes:
+
+1. **Browse Screen**: Lets the user browse through data. It also includes search, sort, and data refresh all out of the box.
+2. **Details Screen**: This screen just shows the extended details of a single record. It also has the option of deleting that record as well. 
+3. **Edit Screen**: This allows users to edit a single record to change any of its values. 
+
+![Image showing generated 3-screen Canvas App]()
 
 ## Section 3
 
