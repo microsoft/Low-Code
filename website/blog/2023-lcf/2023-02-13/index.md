@@ -85,7 +85,7 @@ The generated 3-screen app includes:
 2. **Details Screen**: This screen just shows the extended details of a single record. It also has the option of deleting that record as well. 
 3. **Edit Screen**: This allows users to edit a single record to change any of its values. 
 
-![Image showing generated 3-screen Canvas App]()
+![Image showing generated 3-screen Canvas App](./Figure3.png)
 
 ## Section 3
 
