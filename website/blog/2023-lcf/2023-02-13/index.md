@@ -71,7 +71,7 @@ Whatever method you choose, you’ll always end up in the Power Apps Studio. Thi
 
 If it’s your first time, you might want to start from a template just so you can get familiar with Canvas Apps. Power Apps provides multiple templates for all types of scenarios. 
 
-GIIIIIIIIIIIIIIIIIIIIFFFFFFFFF
+![Gif showing the process of creating a Canvas App from a template](./Figure2.gif)
 
 You can simply select a template from our vast gallery and then run the app to understand its default behaviour. Feel free to add some additional functionality and make it your own. For a full breakdown of how to create an app from a template, check out [this article](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-test-drive) to learn more. 
 
