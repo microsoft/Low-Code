@@ -29,9 +29,9 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
     href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
 </head>
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
+Welcome to `Day 13` of #30DaysOfLowCode!
 
-The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
+More often than not, a well thought out, consistent, eye-catching but functional user experience can define the success of your app. This is why we’ve decided to dedicate this week to the **User Interface (UI)**. Today’s blog will begin that journey with actionable insights and resources that will get you started building amazing UI with Canvas Apps.
 
 ## What We'll Cover
  * Section 1
