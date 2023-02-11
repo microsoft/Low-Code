@@ -110,7 +110,7 @@ The following technology patterns are generalized with regards to specific use c
 
 A common part of many of these fusion architecture patterns is the use of custom connectors that are exported & controlled from Azure API Management.
 
-![Feb11](./Picture1.png)
+![Feb11](./picture1.png)
 
  
 **IT Democratization**
@@ -207,7 +207,7 @@ By combining Power Platform with mainframe application data, you can unlock data
 •	Ingesting real-time data, like telemetry & system alerts, that trigger Power Automate flows and send notifications to Microsoft Teams. 
 •	Using Power Apps to create user interfaces that allow users to view, manage, and create visualizations for Mainframe application data.
 
-![Feb11](./mainframe'.png) 
+![Feb11](./mainframe.png) 
 
 **Resources:**
 * [Low-Code Meets Mainframe: Kyndryl data pipeline](https://ignite.microsoft.com/sessions/691884e3-273a-46eb-99ee-a0c761c86a1e?source=sessions/?WT.mc_id=javascript-82212-ninarasi)
