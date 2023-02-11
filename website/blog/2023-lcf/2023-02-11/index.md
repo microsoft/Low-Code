@@ -105,7 +105,7 @@ The following technology patterns are generalized with regards to specific use c
 
 A common part of many of these fusion architecture patterns is the use of custom connectors that are exported & controlled from Azure API Management.
 
-![Feb11](./picture1.png)
+![Feb11](./picture-1.png)
 
  
 **IT Democratization**
