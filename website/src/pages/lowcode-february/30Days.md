@@ -61,7 +61,7 @@ _Posts will be linked here once published._
  * Feb 08 - [Serverless Low Code](/blog/2023-day8)
  * Feb 09 - Custom Connector [Part 1: Build It](/blog/2023-day9-build), [Part 2: Use It](/blog/2023-day9-use)
  * Feb 10 - [Secure Connectors with APIM](/blog/2023-day10)
- * Feb 11 - [Low Code + Azure Integration Patterns](/blog/2023-day11)
+ * Feb 11 - Low Code + Azure Integration Patterns
  * Feb 12 - Week 2: Recap
 :::
 
