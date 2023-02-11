@@ -1,8 +1,8 @@
 ---
 slug: 2023-day11
-title: 10. Secure Connectors with APIM
-authors: [justin, julia]
-draft: false
+title: 11. Low Code + Azure Integration Patterns
+authors: [linda, stephanie]
+draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
