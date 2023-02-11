@@ -6,10 +6,10 @@ draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [power-platform, custom-connector, api-management, apim, security, authn, authentication, authorization]
-image: https://microsoft.github.io/Low-Code/img/og/30-10.png
-description: "Throughout this post, let's discuss how Azure API Management can offer extra security to Power Platform custom connectors." 
-tags: [low-code-february, 28-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert, fusion-teams, power-platform]
+keywords: [FIXME, comma, separated, keywords, for, metatags]
+image: ../../static/img/banner.png
+description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
+tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
