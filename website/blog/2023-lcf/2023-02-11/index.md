@@ -1,37 +1,37 @@
 ---
 slug: 2023-day11
-title: 11. Low Code + Azure Integration Patterns
+title: 11. Azure Integration Patterns
 authors: [linda, stephanie]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [power-platform, azure, fusion teams, integration patterns, low code]
+image: https://microsoft.github.io/Low-Code/img/og/30-11.png
+description: "Today we'll explore some real world use cases that integrate Azure with Power Platform to help you resolve business challenges more efficiently." 
+tags: [low-code-february, 28-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert, fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day11" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="11. Low Code + Azure Integration Patterns" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Today we'll explore some real world use cases that integrate Azure with Power Platform to help you resolve busienss challenges more efficiently." />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-10.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
-    content="@nitya" />
+    content="@lynnaloo" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day11" />
 </head>
 
 Welcome to `Day 11` of #30DaysOfLowCode!
 
-The theme for this week is **backend integration**. Yesterday we talked about building secure connectors with Azure API Management. Today we'll explore some real world use cases that integrate Azure with Power Platform to help you resolve busienss challenges more efficiently.
+The theme for this week is **backend integration**. Yesterday we talked about building secure connectors with Azure API Management. Today we'll explore some real world use cases that integrate Azure with Power Platform to help you resolve busienss challenges more efficiently. Let's talk about **Low Code and Azure Integration Patterns!**.
 
 ## What We'll Cover
  * Why Power Platform and Azure together?
@@ -40,13 +40,8 @@ The theme for this week is **backend integration**. Yesterday we talked about bu
  * Low Code + Azure Integration Patterns
 
 
-<!-- FIXME: banner image -->
-![Feb11](./feb11.png)
+![Speaker Card for Feb 11](./../../../static/img/og/30-11.png)
 
-
-<!-- ************************************* -->
-<!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
-<!-- ************************************* -->
 
 ## Why Power Platform and Azure together?
 
