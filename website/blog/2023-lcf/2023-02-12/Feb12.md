@@ -64,7 +64,7 @@ Are you new to connectors and curious about how they can enhance the functionali
 
 Do you want to create and manage your data and insights with ease to support your applications and more? Our second blog this week provides a walkthrough of Dataverse, from introduction to managing low-code to pro-code integration as well as controlling advanced business logic in a compliant manner.
 
-* [**Serverless Low Code**]((https://microsoft.github.io/Low-Code/blog/2023-day8))
+* [**Serverless Low Code**](https://microsoft.github.io/Low-Code/blog/2023-day8)
 
 Did you know that you can create serverless applications with low-code technology? Our third blog walks you through how Azure Logic Apps bring low-code technology to serverless computing. You'll learn how to build and deploy serverless applications with ease, leveraging the power of low-code.
 
@@ -87,7 +87,7 @@ Last but not least, we end the week with a hands-on approach by showcasing key i
 
   ![feb12](./Powerful%20Dev%20Social-Simple1.png)
 
-* [**Learn Live!**:](https://aka.ms/lowcode-february/LearnLive) Do you have questions about the Microsoft Learn modules or the Cloud Skills Challenge? Then don't miss out on our "Learn Live" sessions! These sessions are the perfect opportunity to hear tips and insights from experts in the field, so join in and ask your questions: 
+* [**Learn Live!**](https://aka.ms/lowcode-february/LearnLive) Do you have questions about the Microsoft Learn modules or the Cloud Skills Challenge? Then don't miss out on our "Learn Live" sessions! These sessions are the perfect opportunity to hear tips and insights from experts in the field, so join in and ask your questions: 
   1. 🎙 [**Feb 13**](https://aka.ms/lowcode-february/LearnLive) - Integrate OpenAPI-enabled Web APIs with Azure API Management
   2. 🎙 [**Feb 27**](https://aka.ms/lowcode-february/LearnLive) - Manage Microsoft Power Platform deployments
 
