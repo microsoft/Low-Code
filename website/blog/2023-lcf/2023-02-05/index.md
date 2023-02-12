@@ -1,6 +1,6 @@
 ---
 slug: 2023-day5
-title: 5. Recap - Fundamentals Week
+title: 5. Recap - Fundamentals Week ✨
 authors: [sonja, nitya]
 draft: false
 hide_table_of_contents: false
