@@ -2,7 +2,7 @@
 slug: 2023-day12
 title: 12. Recap - Integrations Week ✨
 authors: [sonja, nitya]
-draft: false
+draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -93,7 +93,7 @@ Last but not least, we end the week with a hands-on approach by showcasing key i
 
   ![feb12](./LearnLive.png)
 
-* [**Webinar: Power Platform & Azure Deploys with GitHub: 14**](https://mktoevents.com/Microsoft+Event/383091/157-GQE-382) In this webinar, you'll learn about the capabilities that Power Platform opens up for GitHub, and discover the inner and outer loop functions that are available with Power Platform and GitHub. You'll also see how to author CI/CD pipelines and hear customer success stories from the retail and manufacturing industries. 
+* [**Webinar: Power Platform & Azure Deploys with GitHub**](https://mktoevents.com/Microsoft+Event/383091/157-GQE-382) In this webinar, you'll learn about the capabilities that Power Platform opens up for GitHub, and discover the inner and outer loop functions that are available with Power Platform and GitHub. You'll also see how to author CI/CD pipelines and hear customer success stories from the retail and manufacturing industries. 
 
   ![feb12](./webinar.png)
 
