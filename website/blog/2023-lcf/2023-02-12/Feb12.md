@@ -87,7 +87,7 @@ Last but not least, we end the week with a hands-on approach by showcasing key i
 
   ![feb12](./Powerful%20Dev%20Social-Simple1.png)
 
-* [**Learn Live!**:](https://aka.ms/lowcode-february/LearnLive) Do you have questions about the Microsoft Learn modules or the Cloud Skills Challenge? Then don't miss out on our "Learn Live" sessions! These sessions are the perfect opportunity to hear tips and insights from experts in the field, so join in and ask your questions: 
+* [**Learn Live!**](https://aka.ms/lowcode-february/LearnLive) Do you have questions about the Microsoft Learn modules or the Cloud Skills Challenge? Then don't miss out on our "Learn Live" sessions! These sessions are the perfect opportunity to hear tips and insights from experts in the field, so join in and ask your questions: 
   1. 🎙 [**Feb 13**](https://aka.ms/lowcode-february/LearnLive) - Integrate OpenAPI-enabled Web APIs with Azure API Management
   2. 🎙 [**Feb 27**](https://aka.ms/lowcode-february/LearnLive) - Manage Microsoft Power Platform deployments
 
