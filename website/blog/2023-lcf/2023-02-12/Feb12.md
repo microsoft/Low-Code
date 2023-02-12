@@ -64,7 +64,7 @@ Are you new to connectors and curious about how they can enhance the functionali
 
 Do you want to create and manage your data and insights with ease to support your applications and more? Our second blog this week provides a walkthrough of Dataverse, from introduction to managing low-code to pro-code integration as well as controlling advanced business logic in a compliant manner.
 
-* [**Serverless Low Code**]((https://microsoft.github.io/Low-Code/blog/2023-day8))
+* [**Serverless Low Code**](https://microsoft.github.io/Low-Code/blog/2023-day8)
 
 Did you know that you can create serverless applications with low-code technology? Our third blog walks you through how Azure Logic Apps bring low-code technology to serverless computing. You'll learn how to build and deploy serverless applications with ease, leveraging the power of low-code.
 
