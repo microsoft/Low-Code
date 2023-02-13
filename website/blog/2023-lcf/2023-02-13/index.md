@@ -2,7 +2,7 @@
 slug: 2023-day13
 title: 13. Build a Canvas App
 authors: [gomolemo, april]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
