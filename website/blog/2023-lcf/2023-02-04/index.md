@@ -2,7 +2,7 @@
 slug: 2023-day4
 title: 4. Developer Stories
 authors: [sameer, taiki, phil]
-draft: false
+draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
