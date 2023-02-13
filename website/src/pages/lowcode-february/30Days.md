@@ -56,17 +56,16 @@ _Welcome to the Week 2 of your learning journey into Low Code Development._
 
 :::info WEEK 2 - TOPIC
 _Posts will be linked here once published._
- * Feb 06 - [Built-in Connectors](/blog/2023-day6)
- * Feb 07 - [Low Code + Dataverse](/blog/2023-day7)
- * Feb 08 - [Low Code + Serverless](/blog/2023-day8)
+ * Feb 06 - [Let's Make Some Connections!](/blog/2023-day6)
+ * Feb 07 - [Do more with your Data for less - Dataverse!](/blog/2023-day7)
+ * Feb 08 - [Serverless Low Code](/blog/2023-day8)
  * Feb 09 - Custom Connector [Part 1: Build It](/blog/2023-day9-build), [Part 2: Use It](/blog/2023-day9-use)
- * Feb 10 - Custom Connectors (APIM)
- * Feb 11 - Integration Use Cases
+ * Feb 10 - [Secure Connectors with APIM](/blog/2023-day10)
+ * Feb 11 - [Low Code + Azure Integration Patterns](/blog/2023-day11)
  * Feb 12 - Week 2: Recap
 :::
 
 ![Week 2](./../../../static/img/og/30-week2.png)
-
 ---
 
 ## Week 3: USER INTERFACE
