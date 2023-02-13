@@ -65,7 +65,7 @@ Now there are many starting points when building Canvas Apps. We’ve already es
 
 Whether it’s your first time and you want to start from a template just to get familiar with the building experience, or you already have data and you want to build your Canvas App on top of that data or even if you have an initial design and you want to start from that design and add data later on – we’ve got you covered. 
 
-Whatever method you choose, you’ll always end up in the Power Apps Studio. This is the space where you’ll design, build, and manage your Canvas App. If you want to understand the various parts of the Power Apps Studio before you get your hands dirty; I highly recommend reading [this article](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/power-apps-studio) which gives a really good insight into the various parts of it.
+Whatever method you choose, you’ll always end up in the Power Apps Studio. This is the space where you’ll design, build, and manage your Canvas App. If you want to understand the various parts of the Power Apps Studio before you get your hands dirty; I highly recommend reading [this article](https://aka.ms/LCF/PowerAppsStudio) which gives a really good insight into the various parts of it.
 
 ### Start from a template
 
@@ -73,7 +73,7 @@ If it’s your first time, you might want to start from a template just so you c
 
 ![Image showing a few Canvas Apps templates](./Figure2.png)
 
-You can simply select a template from our vast gallery and then run the app to understand its default behaviour. Feel free to add some additional functionality and make it your own. For a full breakdown of how to create an app from a template, check out [this article](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-test-drive) to learn more. 
+You can simply select a template from our vast gallery and then run the app to understand its default behaviour. Feel free to add some additional functionality and make it your own. For a full breakdown of how to create an app from a template, check out [this article](https://aka.ms/LCF/CanvasFromTemplate) to learn more. 
 
 ### Start from data
 
@@ -87,7 +87,7 @@ The generated 3-screen app includes:
 
 ![Image showing generated 3-screen Canvas App](./Figure3.png)
 
-This process takes care of the data connection for you so that you can focus on the functionality and UI straight away. Whether your data lives in [SharePoint](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-sharepoint), [Excel](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-data), [Azure SQL](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-azure-sql-database) or even [Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/data-platform-create-app), you can get started building Canvas Apps, from data, today. 
+This process takes care of the data connection for you so that you can focus on the functionality and UI straight away. Whether your data lives in [SharePoint](https://aka.ms/LCF/CanvasFromSharepoint), [Excel](https://aka.ms/LCF/CanvasFromExcel), [Azure SQL](https://aka.ms/LCF/CanvasFromSQL) or even [Dataverse](https://aka.ms/LCF/CanvasFromDataverse), you can get started building Canvas Apps, from data, today. 
 
 ## Working with Express Design
 
@@ -97,15 +97,15 @@ Whatever your method is, Power Apps is now applying advanced cognitive AI models
 
 ### Image to App
 
-All you have to do is take a picture or screenshot of whatever wireframe, sketch, or visual design that you have, upload it into Power Apps and then follow the steps in the guided interface to tag the relevant UI components and set up your data. This will then auto-magically generate an app for you to jumpstart your app development process. See [this article](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/app-from-image) for more information and step-by-step guidance on how to generate Canvas Apps from an image!
+All you have to do is take a picture or screenshot of whatever wireframe, sketch, or visual design that you have, upload it into Power Apps and then follow the steps in the guided interface to tag the relevant UI components and set up your data. This will then auto-magically generate an app for you to jumpstart your app development process. See [this article](https://aka.ms/LCF/AppFromImage) for more information and step-by-step guidance on how to generate Canvas Apps from an image!
 
-Also, check out this [AMAZING TikTok](https://www.tiktok.com/@mspowerplatform/video/7192702168489577774) that shows you the whole Image to App process in under 60 seconds! Don’t forget to follow us while you’re there 😉 
+Also, check out this [AMAZING TikTok](https://aka.ms/LCF/ExpressDesignTikTok) that shows you the whole Image to App process in under 60 seconds! Don’t forget to follow us while you’re there 😉 
 
 ![Image showing the Image to App fucntionality in Power Apps](./Figure4.png)
 
 ### Figma to App
 
-Now the Image to App process will do it’s best to match your drawing or image however if you are looking for an exact, pixel-perfect match then you should consider creating your design in Figma using the [Create Apps from Figma UI Kit](https://www.figma.com/community/file/1110934196623232680). Afterwards, you will then convert your design file into a Canvas App and then add more functionality using the Power Apps Studio. More details on this process can be [found here](https://learn.microsoft.com/en-gb/power-apps/maker/canvas-apps/figma/overview) so be sure to try it out for yourself and let us know how it went!
+Now the Image to App process will do it’s best to match your drawing or image however if you are looking for an exact, pixel-perfect match then you should consider creating your design in Figma using the [Create Apps from Figma UI Kit](https://aka.ms/LCF/FigmaKit). Afterwards, you will then convert your design file into a Canvas App and then add more functionality using the Power Apps Studio. More details on this process can be [found here](https://aka.ms/LCF/Figma) so be sure to try it out for yourself and let us know how it went!
 
 ![Image showing the Figma to App fucntionality in Power Apps](./Figure5.png)
 
@@ -113,7 +113,7 @@ Now the Image to App process will do it’s best to match your drawing or image 
 
 So now that you've taken the time to delve into this blog post, you're essentially a pro at finding whatever your starting point is! Go ahead, give yourself a pat on the back AND why don’t you try and build some Canvas Apps UI yourself? It’s easier than you think, and we’ve got some training materials to help you get started as well. 
 
-* **Training**: [Use the UI and controls in a canvas app in Power Apps](https://learn.microsoft.com/en-gb/training/paths/ui-controls-canvas-app-powerapps/) is a Learning Path up on Microsoft Learn which takes you through the process of building a functional UI for your Canvas App. It highlights app navigation, themes, icons, images, personalization, different form factors, and so many more controls that you can take advantage of. 
+* **Training**: [Use the UI and controls in a canvas app in Power Apps](https://aka.ms/LCF/CanvasUIPath) is a Learning Path up on Microsoft Learn which takes you through the process of building a functional UI for your Canvas App. It highlights app navigation, themes, icons, images, personalization, different form factors, and so many more controls that you can take advantage of. 
 
 ## What's next?
 
@@ -128,5 +128,5 @@ Also consider -
 ## Resources
 
 * Low Code February **[Learn Collection](https://learn.microsoft.com/en-us/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi)**: Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
-* Power Apps **[Canvas Apps Documentation](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/)**
-* On-Demand Viewing: **[Building the UI in Power Apps](https://learn.microsoft.com/en-us/events/ignite-nov-2021/power-platform/connection-zone/conll111/)**
+* Power Apps **[Canvas Apps Documentation](https://aka.ms/LCF/CanvasDocs)**
+* On-Demand Viewing: **[Building the UI in Power Apps](https://aka.ms/LCF/UILearnLive)**
