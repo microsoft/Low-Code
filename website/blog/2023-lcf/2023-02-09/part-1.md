@@ -85,9 +85,9 @@ The good news? The dev.to site is built on a platform called Forem - [which has 
 
 ## The Build Lifecycle
 
-The Power Platform [documentation](https://learn.microsoft.com/en-us/connectors/custom-connectors/#lifecycle?WT.mc_id=javascript-82212-ninarasi) describes this 5-step process for building a custom connector:
+The Power Platform [documentation](https://learn.microsoft.com/connectors/custom-connectors/#lifecycle?WT.mc_id=javascript-82212-ninarasi) describes this 5-step process for building a custom connector:
 
-![](https://learn.microsoft.com/en-us/connectors/custom-connectors/media/index/authoring-steps.png)
+![](https://learn.microsoft.com/connectors/custom-connectors/media/index/authoring-steps.png)
 
  1. **Build & Secure it** - applicable only if you are building the API itself. We are not, so we can skip it.
  2. **Define it** - this is where you describe the methods and metadata in the API. You can hand-craft this _or_ use standardized options (OpenAPI file or Postman collection) to build from.
@@ -98,7 +98,7 @@ The Power Platform [documentation](https://learn.microsoft.com/en-us/connectors/
 
 ## Let's Build the Connector!
 
-We'll follow the guidelines in [this tutorial](https://learn.microsoft.com/en-us/connectors/custom-connectors/#tutorial?WT.mc_id=javascript-82212-ninarasi). 
+We'll follow the guidelines in [this tutorial](https://learn.microsoft.com/connectors/custom-connectors/#tutorial?WT.mc_id=javascript-82212-ninarasi). 
 
 ### 1. Pre-Requisites
 
@@ -169,7 +169,7 @@ Once you've completed the definition to your satisfaction, take a minute to clic
 
 ## Let's Test the Connector!
 
-At this point, we've come to the [Step 5: Test the connector](https://learn.microsoft.com/en-us/connectors/custom-connectors/define-blank#step-5-test-the-connector?WT.mc_id=javascript-82212-ninarasi) step of the tutorial. **Testing is currently available only in Power Automate and Power Apps**.
+At this point, we've come to the [Step 5: Test the connector](https://learn.microsoft.com/connectors/custom-connectors/define-blank#step-5-test-the-connector?WT.mc_id=javascript-82212-ninarasi) step of the tutorial. **Testing is currently available only in Power Automate and Power Apps**.
 
 ### 1. Create Connection
 
