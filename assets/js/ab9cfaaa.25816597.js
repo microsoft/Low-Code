@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[9772],{88867:e=>{e.exports=JSON.parse('{"label":"28-days-of-lowcode","permalink":"/Low-Code/blog/tags/28-days-of-lowcode","allTagsPath":"/Low-Code/blog/tags","count":2}')}}]);
