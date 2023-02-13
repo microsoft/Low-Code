@@ -1,32 +1,32 @@
 ---
 slug: 2023-day13
 title: 13. Build a Canvas App
-authors: [april, matt, nitya, sonja]
+authors: [gomolemo, april]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [low code, developer tools, onboarding, power platform fundamentals, 30DaysOfLowCode, canvas apps]
+image: https://microsoft.github.io/Low-Code/img/og/30-13.png
+description: "Today’s blog will begin your User Interface development journey with actionable insights and resources that will get you started building amazing UI with Canvas Apps." 
+tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform, canvas-apps]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day13" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="13. Build a Canvas App" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Today’s blog will begin your User Interface development journey with actionable insights and resources that will get you started building amazing UI with Canvas Apps." />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-13.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day13" />
 </head>
 
 Welcome to `Day 13` of #30DaysOfLowCode!
@@ -41,8 +41,7 @@ More often than not, a well thought out, consistent, eye-catching but functional
  * 	**Exercises**: Try it Yourself! 
  * 	**Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Speaker Card](../../../static/img/og/30-13.png)
 
 
 <!-- ************************************* -->
@@ -127,6 +126,6 @@ Also consider -
 
 ## Resources
 
-* Low Code February **[Learn Collection](https://learn.microsoft.com/en-us/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi)**: Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
+* Low Code February **[Learn Collection](https://learn.microsoft.com/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi)**: Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
 * Power Apps **[Canvas Apps Documentation](https://aka.ms/LCF/CanvasDocs)**
 * On-Demand Viewing: **[Building the UI in Power Apps](https://aka.ms/LCF/UILearnLive)**
