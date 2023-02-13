@@ -37,9 +37,9 @@ More often than not, a well thought out, consistent, eye-catching but functional
  * What are Canvas Apps?
  * Ways to build Canvas Apps
  * Working with Express Design
- * Section 4
- * Exercise: Try this yourself!
- * Resources: For self-study!
+ * 	**Activity**: Sign up for your [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)
+ * 	**Exercises**: Try it Yourself! 
+ * 	**Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 <!-- FIXME: banner image -->
 ![Empty Banner Placeholder](../../../static/img/banner.png)
@@ -109,8 +109,24 @@ Now the Image to App process will do it’s best to match your drawing or image 
 
 ![Image showing the Figma to App fucntionality in Power Apps](./Figure5.png)
 
-## Section 4
+## Exercises
 
-## Exercise
+So now that you've taken the time to delve into this blog post, you're essentially a pro at finding whatever your starting point is! Go ahead, give yourself a pat on the back AND why don’t you try and build some Canvas Apps UI yourself? It’s easier than you think, and we’ve got some training materials to help you get started as well. 
+
+* **Training**: [Use the UI and controls in a canvas app in Power Apps](https://learn.microsoft.com/en-gb/training/paths/ui-controls-canvas-app-powerapps/) is a Learning Path up on Microsoft Learn which takes you through the process of building a functional UI for your Canvas App. It highlights app navigation, themes, icons, images, personalization, different form factors, and so many more controls that you can take advantage of. 
+
+## What's next?
+
+Be sure to keep yourself posted with this week’s blog posts and discover all that there is to know about working with User Interface in the Power Platform. From Power Fx to the Power Component Framework, we have so much planned for you. 
+
+Also consider -
+
+ 1. Signing up for the free **[Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)** so you have access to the Power Platform.
+ 2. Enrolling in the **[Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge)** to skill up on key cloud technologies with free, self-guided learning courses, and start climbing the leaderboard!
+ 3. Registering for the **[Powerful Devs Conference](https://aka.ms/lowcode-february/PowerfulDevsConf2023)** to learn from experts how you, as a developer, can leverage the Power Platform to build applications faster and with far less effort.
 
 ## Resources
+
+* Low Code February **[Learn Collection](https://learn.microsoft.com/en-us/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi)**: Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
+* Power Apps **[Canvas Apps Documentation](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/)**
+* On-Demand Viewing: **[Building the UI in Power Apps](https://learn.microsoft.com/en-us/events/ignite-nov-2021/power-platform/connection-zone/conll111/)**
