@@ -1,6 +1,6 @@
 ---
 slug: 2023-day7
-title: 7. Do more with your Data for less - Dataverse!
+title: 7. Dataverse - Do more with Data, for less!
 authors: [srikumar]
 draft: false
 hide_table_of_contents: false
@@ -48,7 +48,6 @@ Welcome to `Day 07` of #30DaysOfLowCode!
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
 <!-- ************************************* -->
 
-# Do more with your Data for less - Microsoft Dataverse 
 Microsoft Dataverse is a SaaS data platform that helps you ***easily create and manage your data, events, logic, and generate analytics, and insights to support interconnected apps and processes in a secure and compliant manner***. Dataverse, being a hyperscale polyglot storage, can store any type of data (relational, file, observational etc.) for all your transactional or analytical applications. Dataverse is the data platform for all Power Platform products and Dynamics 365 applications, supporting both low-code and pro-code development. It is a critical element of Microsoft Power Platform, supporting all the data, events, analytics, and related processing, besides generating insights for citizen app makers and professional developers to build, store and manage data for their applications. 
 
 ![Figure 1: Microsoft Dataverse and Power Platform](./DataverseRunsOnAzure.png)
