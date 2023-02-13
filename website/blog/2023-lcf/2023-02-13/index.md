@@ -37,9 +37,9 @@ More often than not, a well thought out, consistent, eye-catching but functional
  * What are Canvas Apps?
  * Ways to build Canvas Apps
  * Working with Express Design
- * 	**Activity**: Sign up for your [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)
- * 	**Exercises**: Try it Yourself! 
- * 	**Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
+ * **Activity**: Sign up for your [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)
+ * **Exercises**: Try it Yourself! 
+ * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 ![Speaker Card](../../../static/img/og/30-13.png)
 
