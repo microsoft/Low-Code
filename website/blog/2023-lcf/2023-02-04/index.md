@@ -58,7 +58,7 @@ Did you know we had a [dedicated Zero To Hero page](/lowcode-february/ZeroToHero
 
 Meet featured developer **Gini Brandon** and watch her as she shares her journey of adopting low-code as a professional developer! In the video, Gini talks about her journey graduating with a computer science degree, how she’s been able to increase efficiency using Power Platform, why she believes low code is the future of development, and how you can get started.
 
-✨ Read It Now: [**Meet developers combining Power Platform and Azure to go faster**](https://powerapps.microsoft.com/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/)
+✨ Read It Now: [**Meet developers combining Power Platform and Azure to go faster**](https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/)
 
 [![](https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/ginibrandon_cover-1024x576.png)](https://www.youtube.com/watch?v=OrWDTi8GVfM)
 
@@ -66,7 +66,7 @@ Meet featured developer **Gini Brandon** and watch her as she shares her journey
 
 Organizations around the globe have adopted Microsoft Power Platform along with Azure and Dynamics 365 to build flagship applications and establish centers of excellence to scale adoption and impact of low-code solutions.
 
-✨ Read It Now: [**Meet The Organizations**](https://powerapps.microsoft.com/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#meet-organizations)
+✨ Read It Now: [**Meet The Organizations**](https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#meet-organizations)
 
 ## Solution Architecture Examples
 
@@ -77,4 +77,4 @@ Explore a few real-world solution architecture examples that show how low-code c
  * IKEA Sweden – Reimagining the customer experience
  * Western States Caterpillar: Mobile apps for the field
 
-✨ Read It Now: [**Solution Architecture Examples**](https://powerapps.microsoft.com/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#architecture-examples)
+✨ Read It Now: [**Solution Architecture Examples**](https://powerapps.microsoft.com/en-us/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/#architecture-examples)
