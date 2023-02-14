@@ -75,7 +75,7 @@ _Welcome to the Week 3 of your learning journey into Low Code Development._
 :::info WEEK 3 - TOPIC
 _Posts will be linked here once published._
  * Feb 13 - [Build a Canvas App!](/blog/2023-day13)
- * Feb 14 - [Intro to PowerFX](/blog/2023-day14)
+ * Feb 14 - Intro to PowerFX
  * Feb 15 - 🚀 Zero-To-Hero Post
  * Feb 16 - Power Component Framework Controls
  * Feb 17 - Build a PCF Control
