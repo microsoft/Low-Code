@@ -62,7 +62,7 @@ _Posts will be linked here once published._
  * Feb 09 - Custom Connector [Part 1: Build It](/blog/2023-day9-build), [Part 2: Use It](/blog/2023-day9-use)
  * Feb 10 - [Secure Connectors with APIM](/blog/2023-day10)
  * Feb 11 - [Low Code + Azure Integration Patterns](/blog/2023-day11)
- * Feb 12 - Week 2: Recap
+ * Feb 12 - [Week 2: Recap](/blog/2023-day12)
 :::
 
 ![Week 2](./../../../static/img/og/30-week2.png)
@@ -74,8 +74,8 @@ _Welcome to the Week 3 of your learning journey into Low Code Development._
 
 :::info WEEK 3 - TOPIC
 _Posts will be linked here once published._
- * Feb 13 - Build a Canvas App!
- * Feb 14 - Intro to PowerFX
+ * Feb 13 - [Build a Canvas App!](/blog/2023-day13)
+ * Feb 14 - [Intro to PowerFX](/blog/2023-day14)
  * Feb 15 - 🚀 Zero-To-Hero Post
  * Feb 16 - Power Component Framework Controls
  * Feb 17 - Build a PCF Control

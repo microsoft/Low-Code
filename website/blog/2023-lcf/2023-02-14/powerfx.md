@@ -3,7 +3,7 @@ slug: 2023-day14-build
 date: 2023-02-14T12:00
 title: 14. Intro to Power Fx
 authors: [april]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
