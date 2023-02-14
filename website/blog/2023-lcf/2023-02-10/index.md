@@ -161,7 +161,7 @@ The second option is to use the basic auth flow. It's important to know that **A
 
     ![Basic Auth - disable subscription](./image-10.png)
 
-    It's also worth noting that because the custom connector sends the basic auth token to the function app through API Management, it's safe to assume that the function app is able to understand the token and process it.
+   > **WARNING**: If you disable the subscription key for this exercise, your API endpoint works as like a public API &ndash; not secure at all. Therefore, you MUST implement the logic in your function app that validates the basic authentication header sent through API Management. As mentioned above, it's required to disable the subscription key because API Management doesn't natively support the basic auth feature. Therefore, if you want to use this approach, please use it with extra care.
 
 1. Once you're ready, export the OpenAPI document by selecting the "Export" menu and choosing the "OpenAPI v2 (JSON)" option.
 
