@@ -8,26 +8,26 @@ hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [powerfx,low code, power platform, power apps, formulas]
-image: https://microsoft.github.io/Low-Code/img/og/30-09-01.png
+image: https://microsoft.github.io/Low-Code/img/og/30-09-14.png
 description: "Want to add logic to your low code apps in Power Apps? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february" 
 tags: [powerfx, low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/2023-day9-build" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day14-build" />
   <meta name="twitter:title" 
     content="14. Intro to Power Fx" />
   <meta name="twitter:description" 
     content="Want to add logic to your low code apps in Power Apps? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february"  />
   <meta name="twitter:image" 
-    content="https://microsoft.github.io/Low-Code/img/og/30-09-01.png" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-09-14.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
-    content="@nitya" />
+    content="@aprildunnam" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/2023-day9-build" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day14-build" />
 </head>
 
 Welcome to `Day 14` of #30DaysOfLowCode!
@@ -44,10 +44,6 @@ Yesterday, we explored how to get started building apps with Power Apps Canvas a
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 ![Intro to Power Fx](./../../../static/img/og/30-14.png)
-
-<!-- ************************************* -->
-<!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
-<!-- ************************************* -->
 
 ## What is Power Fx?
 
