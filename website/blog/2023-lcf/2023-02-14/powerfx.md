@@ -8,7 +8,7 @@ hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [powerfx,low code, power platform, power apps, formulas]
-image: https://microsoft.github.io/Low-Code/img/og/30-09-14.png
+image: https://microsoft.github.io/Low-Code/img/og/30-14.png
 description: "Want to add logic to your low code apps in Power Apps? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february" 
 tags: [powerfx, low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
 ---
@@ -21,7 +21,7 @@ tags: [powerfx, low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero,
   <meta name="twitter:description" 
     content="Want to add logic to your low code apps in Power Apps? Join us on #30DaysOfLowCode to learn how - https://aka.ms/lowcode-february"  />
   <meta name="twitter:image" 
-    content="https://microsoft.github.io/Low-Code/img/og/30-09-14.png" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-14.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@aprildunnam" />
