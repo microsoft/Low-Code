@@ -158,7 +158,7 @@ Inbound policy:
 ### Step 3: Create a custom connector via Azure API Management
 
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
-If you want to add additional security to your API, check out our blog post on [10. Providing Power Platform custom connector with additional security via Azure API Management]()
+If you want to add additional security to your API, check out our blog post on [10. Secure Connectors with APIM](https://microsoft.github.io/Low-Code/blog/2023-day10).
 
 <img src="media/createpower.png" width="700">
 
