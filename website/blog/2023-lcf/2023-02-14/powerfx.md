@@ -1,5 +1,5 @@
 ---
-slug: 2023-day14-build
+slug: 2023-day14
 date: 2023-02-14T12:00
 title: 14. Intro to Power Fx
 authors: [april]
