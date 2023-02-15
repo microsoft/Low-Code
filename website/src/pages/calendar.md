@@ -41,6 +41,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 14 | ♾️ Intro to PowerFX | [#30Days Blog](/blog)  |
 | Feb 14 | 💬 [**Webinar:**](/lowcode-february/Video-Live) Power Platform & Azure Deploys with GitHub  | [Register Here](https://mktoevents.com/Microsoft+Event/383091/157-GQE-382) |
 | Feb 15 | [🎙 **#PowerfulDevs Conference**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) | [Register Here](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi)  |
+| Feb 15 | 🚀 **Zero-To-Hero Post: OpenAI & Microsoft Power Platform** |[Read Post](https://aka.ms/lowcode-february/0ToHero)  |
 | Feb 16 | 🎮 Power Component Framework Controls | [#30Days Blog](/blog)  |
 | Feb 17 | 👷‍♂️ Build a PCF Control | [#30Days Blog](/blog)  |
 | Feb 18 | 🕹️ Advanced Use Cases | [#30Days Blog](/blog)  |

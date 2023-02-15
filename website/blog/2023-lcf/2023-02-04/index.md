@@ -1,6 +1,6 @@
 ---
 slug: 2023-day4
-title: 4. Developer Stories
+title: 4. 🚀 Developer Stories 
 authors: [sameer, taiki, phil]
 draft: false
 hide_table_of_contents: false
