@@ -164,13 +164,13 @@ If you want to add additional security to your API, check out our blog post on [
 
 ### Step 4: Call your web API via your Power App
 
-Next, we want to integrate our newly create custom connector in our Power App and make an API call. You can import our [OpenAI Power App](powerapp) sample app, please follow instructions on [Importing a canvas app package](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/export-import-app#importing-a-canvas-app-package).
+Next, we want to integrate our newly create custom connector in our Power App and make an API call.
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
 <img src="media/customconnectorpower.png" width="400">
 
-2. Next, we modify our **Generate Picture** Button with the following PowerFX formula:
+2. Next, we modify a **Generate Picture** Button with the following PowerFX formula:
 
 ```
 ClearCollect(_datacollection, OpenAIAPI.createimage({prompt:TextInput1.Text,n:1,size:"512x512"}).data); 
@@ -179,7 +179,7 @@ Reset(TextInput1)
 
 ![powerappsinput](media/powerappsinput1.png)
 
-3. Next, we modify our **Image2** with the following PowerFX formula:
+3. Next, we modify an **Image** with the following PowerFX formula:
 
 ```
 $"{First(_datacollection).url}"
