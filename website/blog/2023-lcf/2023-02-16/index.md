@@ -103,3 +103,4 @@ Also consider -
 * Signing up for the free [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan) so you have access to the Power Platform.
 * Enrolling in the [Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge) to skill up on key cloud technologies with free, self-guided learning courses, and start climbing the leaderboard!
 
+![Campaign Banner](./../../../static/img/og/30-banner.png)
