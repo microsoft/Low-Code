@@ -1,32 +1,32 @@
 ---
 slug: 2023-day15
-title: 15.  Build next-gen apps with OpenAI and Microsoft Power Platform
+title: 15.  OpenAI & Microsoft Power Platform
 authors: [julia]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 keywords: [power-platform, custom-connector, api-management, apim, authn, openAI, GPT, dalle, natural-language, ai]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+image: https://microsoft.github.io/Low-Code/img/og/30-15.png
+description: "Throughout this post, let's discuss how developers can leverage OpenAI's APIs to build next-gen application using Microsoft Power Apps. We will use DALL·E 2 (a new AI system model) to create realistic images and art from a description in natural language." 
+tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform, open-ai]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog2023-day15" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="Build next-gen apps with OpenAI and Microsoft Power Platform" />
   <meta name="twitter:description" 
     content="Throughout this post, let's discuss how developers can leverage OpenAI's APIs to build next-gen application using Microsoft Power Apps. We will use DALL·E 2 (a new AI system model) to create realistic images and art from a description in natural language." />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-15.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
-    content="@nitya" />
+    content="@jujujuliakasper" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-next-gen-apps-with-openai-and-microsoft-power-platform/ba-p/3742289" />
 </head>
 
 Welcome to `Day 15` of #28DaysOfLowCode!
@@ -46,13 +46,8 @@ The theme for this week is **OpenAI and Microsoft Power Platform**. Over the pas
  * [Step 4: Call your web API via your Power App](#step-4-call-your-web-api-via-your-power-app)
  * [Resources](#resources)
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Speaker Card](../../../static/img/og/30-15.png)
 
-
-<!-- ************************************* -->
-<!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
-<!-- ************************************* -->
 
 ## What is OpenAI
 
@@ -78,7 +73,7 @@ Web APIs have experienced an exponential increase in popularity and usage in the
 
 1. Sign into Azure portal and go to your API Management instance.
 2. In the left menu, select **APIs > + Add API** and select **HTTP**.
-<img src="media/addapi.png" width="700">
+![Add API](media/addapi.png)
 
 3. Enter the following settings. Then select **Create**.
 
@@ -97,7 +92,8 @@ Web APIs have experienced an exponential increase in popularity and usage in the
   | URL for **POST**  | */images/generations*  |
 
 5. Select your newly created operation and edit **Frontend**.
-<img src="media/editfrontend.png" width="500">
+
+![Edit Front End](media/editfrontend.png)
 
 6. Next, we need to add a **Request Body** to our API. For this, within our Frontend section scroll down and select **Request**. Now **Add representation** and insert the following information:
 
@@ -106,7 +102,7 @@ Web APIs have experienced an exponential increase in popularity and usage in the
   | CONTENT TYPE  | application/json  |
   | DEFINITION  | {"prompt":"A cute baby sea otter","n":1,"size":"512x512"}  |
 
-<img src="media/addrepresentation.png" width="700">
+![Add Representation](media/addrepresentation.png)
 
 7. Next, we will add a Response to our API. Select **Responses** and insert the following information via **+ Add response** for **200 OK**:
 
@@ -115,7 +111,7 @@ Web APIs have experienced an exponential increase in popularity and usage in the
   | CONTENT TYPE  | application/json  |
   | DEFINITION  | {"created": 1589478378,"data": [{"url": "https://..."},{"url": "https://..."}]} |
 
-<img src="media/addresponse.png" width="700">
+![Add Response](media/addresponse.png)
 
 8. Select **Save**.
 
@@ -125,10 +121,11 @@ Web APIs have experienced an exponential increase in popularity and usage in the
 
 > *Note: OpenAI API uses API keys for authentication. Visit your [API Keys](https://platform.openai.com/account/api-keys) page to retrieve the API key you'll use in your requests.*
 
-2. Select your operation and in the **Inbound processing** section, select the (</>) (code editor) icon.
+2. Select your operation and in the **Inbound processing** section, select the (`</>`) (code editor) icon.
 
 Inbound policy:
-```
+
+```html
 <policies>
     <inbound>
         <base />
@@ -153,14 +150,14 @@ Inbound policy:
  - Go to the **Test** tab.
  - Select **Send**.
 
-<img src="media/test.png" width="700">
+![Test ](media/test.png)
 
 ### Step 3: Create a custom connector via Azure API Management
 
 As soon as your API was tested successfully, you are now able to export your web API to the Microsoft Power Platform. Please find a detailed guide here: [Export APIs from Azure API Management to the Power Platform](https://learn.microsoft.com/en-us/azure/api-management/export-api-power-platform).
 If you want to add additional security to your API, check out our blog post on [10. Secure Connectors with APIM](https://microsoft.github.io/Low-Code/blog/2023-day10).
 
-<img src="media/createpower.png" width="700">
+![Create Power](media/createpower.png)
 
 ### Step 4: Call your web API via your Power App
 
@@ -168,7 +165,7 @@ Next, we want to integrate our newly create custom connector in our Power App an
 
 1. In your Power App, add your custom connector to your Power App via the tab **data > + Add data**.
 
-<img src="media/customconnectorpower.png" width="400">
+![Custom Connector Power](media/customconnectorpower.png)
 
 2. Next, we modify a **Generate Picture** Button with the following PowerFX formula:
 
@@ -177,7 +174,8 @@ ClearCollect(_datacollection, OpenAIAPI.createimage({prompt:TextInput1.Text,n:1,
 Reset(TextInput1)
 ```
 
-![powerappsinput](media/powerappsinput1.png)
+![Power Apps Input](media/powerappsinput1.png)
+
 
 3. Next, we modify an **Image** with the following PowerFX formula:
 
@@ -185,7 +183,7 @@ Reset(TextInput1)
 $"{First(_datacollection).url}"
 ```
 
-![powerappsinput](media/powerappsinput2.png)
+![Power Apps Input](media/powerappsinput2.png)
 
 4. Now, you are able to test your Power App and create a picture via your text input parameters. This picture will be generated using OpenAI's DALL·E model. Enjoy generating some fun pictures like me:
 
