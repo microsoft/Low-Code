@@ -1,6 +1,6 @@
 ---
 slug: 2023-day15
-title: 15.  OpenAI & Microsoft Power Platform
+title: 15. 🚀 OpenAI & Microsoft Power Platform 
 authors: [julia]
 draft: false
 hide_table_of_contents: false
@@ -29,7 +29,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
     href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-next-gen-apps-with-openai-and-microsoft-power-platform/ba-p/3742289" />
 </head>
 
-Welcome to `Day 15` of #28DaysOfLowCode!
+Welcome to `Day 15` of #30DaysOfLowCode!
 
 The theme for this week is **OpenAI and Microsoft Power Platform**. Over the past few weeks, social-media feeds and newsletters have been filled with stories and conversations about artificial intelligence (AI). ChatGPT and OpenAI were often center of these conversations and today we will take a look at an exciting OpenAI and Power Platform scenario. We will discuss how developers can leverage OpenAI's APIs to build next-gen application using Microsoft Power Apps. For our scenario, we will use DALL·E 2 (a new AI system model) to create realistic images and art from a text description in natural language.
 

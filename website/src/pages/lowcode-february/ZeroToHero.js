@@ -56,8 +56,20 @@ function ContentItem({title, description, topic, topiclink, link, imglink}){
     );
 }
 
-// Update this dataset with links to the last 15 roundups
+// Update this dataset with links to the last 20 roundups
 const ContentItems = [
+
+  {
+    title: 'OpenAI and Microsoft Power Platform',
+    topic: 'ZeroToHero🚀',
+    topiclink: 'https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bg-p/AppsonAzureBlog',
+    imglink: 'https://techcommunity.microsoft.com/t5/image/serverpage/image-id/441706iEF525535826D52CC/image-size/large?v=v2&px=999',
+    link: "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-next-gen-apps-with-openai-and-microsoft-power-platform/ba-p/3742289",
+    description: "Build your nex-gen application with OpenAI and Power Platform"
+  },
+
+
+
 
   {
     title: 'Meet the developers',
