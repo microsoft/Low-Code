@@ -2,7 +2,7 @@
 slug: 2023-day16
 title: 16. Intro to PCF Control
 authors: [gomolemo]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
