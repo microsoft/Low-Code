@@ -83,9 +83,38 @@ Before the PCF existed, HTML web resources were used to provide any type of cust
 
 A [solution](https://aka.ms/LCF/SolutionConcepts) can have code components, which can then be imported into a Dataverse environment. Professional / Traditional developers and app makers can then specify columns, subgrids, views, and dashboard subgrids to use in place of default components after importing the solution containing the code components. These coding elements can be added to Canvas Apps as well as Model-Driven Apps.
 
+Code Components consists of 3 elements;
+* Manifest
+* Component implementation
+* Resources
+
 ![Image showing the 3 main key areas of a PCF Component](./PCF-KeyAreas.png)
 
-## Excercise
+### Manifest
+The manifest (`ControlManifest.Input.xml`) is the file that defines the metadata and configuration of a code component. It is an XML document that describes:
+* **name**: The name of the component, which is used to identify it within the Power Apps authoring tools.
+* **description**: A brief description of the component, which helps users understand what it does.
+* **version**: The version number of the component, which is used to track changes and updates.
+* **resource files**: A list of resource files that the component needs.
+
+The manifest is an important file for a PCF code component because it is used by the Power Apps authoring tools to register and manage the component. This also includes the kind of data which is to be configured (field or dataset) and any other properties that can be configured in the application when the component is added.
+
+### Component implementation
+The component implementation in (PCF) refers to the code that defines the behaviour and appearance of the component. The component implementation is typically written in TypeScript or JavaScript and is compiled into a single solution that is loaded into the Power Apps authoring and runtime environments.
+
+The [Power Platform CLI](https://aka.ms/LCF/PowerCLI) will auto-generate an `index.ts` file that includes stubbed implementations for methods described in the code component interface. These methods control the lifecycle of the code component and can include, but is not limited to;
+
+* **init**: This is the entry point for the component and is called when the component is first loaded. The initialization function is responsible for setting up the component and registering any event listeners or other functionality.
+* **updateView**: This function is called whenever the component's properties or state changes. It is responsible for re-rendering the component's user interface to reflect the updated state.
+* **getOutputs**: Called by the framework prior to a component receiving new data. 
+* **destroy**:  This method is invoked when the component is to be removed from the DOM tree. Use it for the cleanup and to release any memory that the component is using.
+
+Overall, the component implementation is responsible for defining the functionality and appearance of the component, and for integrating it into the Power Apps environment so that it can be used by app makers.
+
+### Resources
+With PCF components, resources refer to the files and assets that are used to support the component implementation to implement its visualization. Resources can include things like images, icons, stylesheets, and other files that are necessary for the component to function properly. These are typically organized into a separate folder within the component project and are referenced by the component implementation code as needed.
+
+## Exercise
 
 Try the exercise in this [learn module](https://aka.ms/LCF/BuildPCF) where you will learn how to build your very first custom PCF component, create a code component solution package, and then test and debug the code component.
 
