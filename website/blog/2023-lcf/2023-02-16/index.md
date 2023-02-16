@@ -1,32 +1,32 @@
 ---
 slug: 2023-day16
-title: 16. Power Component Framework Controls
-authors: [april, matt, nitya, sonja]
+title: 16. Intro to PCF Control
+authors: [gomolemo]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [power platform, low code, power component framework, tutorial]
+image: https://microsoft.github.io/Low-Code/img/og/30-16.png
+description: "Power Component Framework can be used to enhance the user experience for users working with data on forms, views, dashboards, and even canvas app screens. Learn more in #LowCodeFebruary." 
+tags: [low-code-february, 30-days-of-lowcode, pcf, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day16" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="16. Intro to PCF Control" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Power Component Framework can be used to enhance the user experience for users working with data on forms, views, dashboards, and even canvas app screens. Learn more in #LowCodeFebruary." />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-16.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day16" />
 </head>
 
 Welcome to `Day 16` of #30DaysOfLowCode!
@@ -41,8 +41,7 @@ The theme for this week is **User Interface**! Yesterday, [Julia](https://github
  * **Exercise**: Training - [Build a Power Apps component](https://aka.ms/LCF/BuildPCF)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-<!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Speaker Card Feb 15](../../../static/img/og/30-16.png)
 
 
 <!-- ************************************* -->
@@ -124,7 +123,7 @@ Also be sure to look out for tomorrow's blog where we will be building another P
 
 * **Exercise**: Training - [Build a Power Apps component](https://aka.ms/LCF/BuildPCF)
 * **Documentation**: [Power Apps Component Framework Overview](https://aka.ms/LCF/PCFDocs)
-* **Watch**: [The Low Code Revolution Show](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/?wt.mc_id=82054_collection_webpage_ece&ns-enrollment-type=Collection&ns-enrollment-id=8q5jhr1y0jeqj6)
+* **Watch**: [The Low Code Revolution Show](https://learn.microsoft.com/shows/the-low-code-revolution/?wt.mc_id=82054_collection_webpage_ece&ns-enrollment-type=Collection&ns-enrollment-id=8q5jhr1y0jeqj6)
 * Low Code February [Learn Collection](https://learn.microsoft.com/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi): Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
 
 Also consider -
