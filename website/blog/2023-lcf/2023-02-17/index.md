@@ -318,10 +318,32 @@ Now we get to run and test our component in a *test harness* that simulates the 
 	npm start
 ```
 
+A new browser window should automatically load the test harness. 
 
+![An image showing the Power Apps Test Harness](./Image9.png)
 
-## Section 4
+Go ahead and write some text directly into the text input (1) on the right. Be sure to press the **Enter** key a couple of times to see the text input automatically resizing. You can also play with the pre-set width and height properties (2) to find how the text input behaves under various conditions. Also, you'll notice that the AutoHeightValue (3) dynamically changes as you're writing as well. 
+
+![An image showing the Power Apps Test Harness after changes](./Image10.png)
+
+## Where to from here? 
+At face value, it doesnt seem like much however I wanted to give you a just a taste of what is possible when professional developers use their skills and their tools to contribute to Power Platform Solutions. Once a code component is built and you've verified that it works. The next step is to create a solution package and import that into the Power Apps Environment.
+
+See [this article](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls) for guidance on how to package a code component and then when you want to add your code component to a Power App, you can read the guidance for [Canvas Apps](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/component-framework-for-canvas-apps) and/or [Model-Driven Apps](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/code-components-model-driven-apps).
 
 ## Exercise
+Try the exercise in this [learn module](https://aka.ms/LCF/BuildMorePCF) where you will get to learn EVEN MORE about code components. You'll be able to get details on how to address more complex scenarios as it applies to the PCF. What makes this exciting is that it covers how to use client frameworks such as React and Angular within a component, along with how to address scenarios such as file upload, localization, and integration with the Microsoft Dataverse Web API.
 
 ## Resources
+* **Exercise**: Training - [Use advanced features with Power Apps component framework](https://aka.ms/LCF/BuildMorePCF)
+* **Documentation**: [Power Apps Component Framework Overview](https://aka.ms/LCF/PCFDocs)
+* **Watch**: [The Low Code Revolution Show](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/?wt.mc_id=82054_collection_webpage_ece&ns-enrollment-type=Collection&ns-enrollment-id=8q5jhr1y0jeqj6)
+* **Watch** all of the [Powerful Devs Conference](https://www.youtube.com/live/4VK1CJYR2W4)  sessions on demand to learn from experts how you, as a developer, can leverage the Power Platform to build applications faster and with far less effort.
+* Low Code February [Learn Collection](https://learn.microsoft.com/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi): Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
+
+Also consider -
+
+* Signing up for the free [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan) so you have access to the Power Platform.
+* Enrolling in the [Cloud Skills Challenge](https://aka.ms/lowcode-february/challenge) to skill up on key cloud technologies with free, self-guided learning courses, and start climbing the leaderboard!
+
+![Campaign Banner](./../../../static/img/og/30-banner.png)
