@@ -208,6 +208,118 @@ Once the build is successful, you'll notice in the project folder, that the comp
 
 With those artifacts generated, we can now start implementing our component logic.
 
+### Implement Component's Logic
+Let's get straight into it. 
+
+1. Open the **index.ts** file and insert the following variables above the constructor method.
+```ts
+	// The PCF context object
+    private context: ComponentFramework.Context<IInputs>;
+
+    // The wrapper div element for the component
+    private container: HTMLDivElement;
+
+    /* The callback function to call whenever your code 
+    has made a change to a bound or output property */
+    private notifyOutputChanged: () => void;
+
+    //Variable to track the height of the control
+    height: number; 
+    
+    textarea: HTMLTextAreaElement; 
+    defaultLoaded = false; 
+```
+
+2. Find the **init** method and replace its contents with this:
+
+```ts
+	//Track all elements
+    this.container = container;
+	this.context = context;
+	this.notifyOutputChanged = notifyOutputChanged;
+	this.textarea = document.createElement("textarea");
+	this.textarea.rows = 1;
+	this.textarea.style.resize = 'none';
+	this.textarea.style.overflowY = 'hidden';
+	this.textarea.oninput = this.onTextAreaInput;
+	this.textarea.onchange = this.onTextAreaChanged;
+	this.container.appendChild(this.textarea);
+```
+After pasting the code above, you may have a couple of errors. No need to worry - we'll be defining a few methods, in a moment, which will clear these errors.
+
+3. Underneath the **init** method, add the following: 
+
+```ts
+	/* These methods are responsible for telling the framework 
+	that there is a new value in the text input and then it 
+	starts calculating the new height */
+	onTextAreaInput = (): void => {
+		this.autoSizeTextArea();
+	}
+	
+	onTextAreaChanged = (): void => {
+		this.notifyOutputChanged();
+	}
+	
+	autoSizeTextArea(): void {
+		this.textarea.style.height = 'auto';
+		const newHeight = (this.textarea.scrollHeight) + 'px';
+		const heightChanged = newHeight !== this.textarea.style.height;
+		this.textarea.style.height = newHeight;
+		if (heightChanged) { this.notifyOutputChanged(); }
+	}
+```
+4. Look for the **updateView** method and add the following:
+
+```ts
+	const value = context.parameters.TextValue;
+		let disabled = context.mode.isControlDisabled;
+		let masked = false;
+		if (value && value.security) {
+			masked = !value.security.readable;
+			disabled = disabled || masked || !value.security.editable;
+		}
+
+	// Update text value if input value changes
+	if (!this.defaultLoaded || context.updatedProperties.indexOf("TextValue") > -1) {
+		this.defaultLoaded = true;
+		const newValue = masked ? "****" : value.raw as string;
+		this.textarea.value = newValue;
+		this.autoSizeTextArea();
+	}
+```
+5. And one of the last major things we need to do is find and update the **getOutputs** method with the following code:
+
+```ts
+	/* This provides the output/bound properties back to 
+	the PCF after notifyOutputChanged() has been called. */
+	const  height = Number.parseInt(this.textarea.style.height);
+	return {
+		TextValue:  this.textarea.value,
+		AutoHeightValue:  height
+	}
+```
+6. Go ahead and **Save** everything. 
+
+## Test and Run your Component 
+Now that we have configured and built out the component logic, let's give it a go! Now is a great time to test your component *before* you import it into Power Apps. 
+
+1. Let's return to the **Terminal** and rebuild our component. 
+
+```bash
+	npm run build
+```
+If you've followed everything correctly, the build should succeed. If not, feel free to take some time and check if you've copied all code correctly. 
+
+Now we get to run and test our component in a *test harness* that simulates the Power Apps runtime, so you get to see how your component behaves. 
+
+2. In the **Terminal** once more, run the following command: 
+```bash
+	npm start
+```
+
+
+
 ## Section 4
 
 ## Exercise
