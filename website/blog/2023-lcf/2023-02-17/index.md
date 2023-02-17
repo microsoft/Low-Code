@@ -34,10 +34,11 @@ Welcome to `Day 17` of #30DaysOfLowCode!
 The theme for this week is **User Interface** and we're ending it off with a quick tutorial on PCF Components! Yesterday, I wrote about the [Power Apps Component Framework](https://microsoft.github.io/Low-Code/blog/2023-day16) and highlighted why you would want to use it, what the advantages are, as well as the composition of a PCF Component. Today, as promised, we'll be building a simple code component step-by-step.
 
 ## What We'll Cover
- * **Recap**: Power Apps Component Framework
- * **Scenario**: What are we building today?
- * **Build**: Let's make a Code Component!
- * 
+ * Power Apps Component Framework Recap
+ * What are we building today?
+ * Let's make a Code Component!
+ * Test and Run your component 
+ * Where to from here?
  * **Exercise**: Training - [Use advanced features with Power Apps component framework](https://aka.ms/LCF/BuildMorePCF)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
@@ -115,7 +116,8 @@ We will need a working folder to store our Code Component solution. For ease of 
 ```bash
 	pac pcf init --namespace SampleNamespace --name DynamicInputPCF --template field
 ```
-This image shows an example of the output you should see: 
+This image shows an example of the output you should see:
+
 
 ![An image showing the output of initializing your component with the Power Platform CLI](./Image3.png)
 
@@ -138,6 +140,73 @@ Remember, from yesterday's blog - we established that the manifest is an XML fil
 2. Near the top of the file, Change the version to **1.0.0** and description-key to **Dynamic Input**.
 
 ![An image showing the edited control tag in the project manifest](./Image5.png)
+
+3. Locate the **<property ... />** node and replace it with this:
+
+```xml
+	<property name="TextValue" display-name-key="TextValue" description-key="TextValueDescription" of-type-group="strings" usage="bound" required="true" />
+	<property name="AutoHeightValue" display-name-key="AutoHeightValue" description-key="AutoHeightValueDescription" of-type="Whole.None" usage="bound" required="true" />
+
+	<type-group name="strings">
+	  <type>SingleLine.Text</type> 
+	  <type>SingleLine.TextArea</type> 
+	  <type>Multiple</type> 
+	</type-group> 
+```
+4. Locate the **<resources ... />** node and include a reference to a CSS file named DynamicInputPCF.css that you'll soon create.
+
+```xml
+	<css path="css/DynamicInputPCF.css" order="1" />
+```
+
+5. Save your changes by selecting **File** and then **Save**.
+
+![An image showing the process of saving your work.](./Image6.png)
+
+### Add styling to your code component
+
+Now we're going to be adding some basic styling to our component. Just to get a feel of what the process is like and how you can further customise code components.
+
+1. Make sure you still have the **ControlManifest.Input.xml** file selected and then select **New Folder**.
+
+![An image showing the process of adding a new folder in VS Code.](./Image7.png)
+
+2. Name the new folder **css** and then select the **css** folder you've created and select **New File**.
+
+![An image showing the process of adding a new file in VS Code.](./Image8.png)
+
+3. Name the new file **DynamicInputPCF.css**
+4. Open DynamicInputPCF.css and paste the following CSS:
+
+```css
+	.DynamicInputPCF textarea { 
+		padding: 5px; 
+		box-sizing: border-box;
+		width: 100%; 
+	}
+			
+	.DynamicInputPCF textarea:focus, .DynamicInputPCF textarea:enabled:hover { 
+		border: 2px solid black;
+	} 
+```
+
+5. Select **File** and select **Save**.
+
+### Build your code component
+In order to ensure that the right TypeScript types are generated to match the properties in your ControlManifest.xml document, we need to run a build on our component. 
+
+Return to the terminal and perform a build b using the following command:
+
+```bash
+	npm run build
+```
+
+Once the build is successful, you'll notice in the project folder, that the component is compiled into the **out/controls/DynamicInputPCF** directory. The results of this compilation are:
+* **css** folder
+* **bundle.js**  - Bundled component source code
+* and the **ControlManifest.xml** which is the actual component manifest file that is uploaded to the Microsoft Dataverse organization
+
+With those artifacts generated, we can now start implementing our component logic.
 
 ## Section 4
 
