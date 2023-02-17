@@ -101,20 +101,20 @@ We will need a working folder to store our Code Component solution. For ease of 
 3. Change directory to your working folder.
 
 ```bash
-	cd C:\LowCodeFeb
+cd C:\LowCodeFeb
 ```
 4. From your LowCodeFeb directory, create a directory named **dynamicTextInput-pcf**.
 
 ```bash
-	mkdir dynamicTextInput-pcf
+mkdir dynamicTextInput-pcf
 ```
 5. Change directory to **dynamicTextInput-pcf**.
 ```bash
-	cd dynamicTextInput-pcf
+cd dynamicTextInput-pcf
 ```
 6. Initialize your component project by using Power Platform CLI with the following command:
 ```bash
-	pac pcf init --namespace SampleNamespace --name DynamicInputPCF --template field
+pac pcf init --namespace SampleNamespace --name DynamicInputPCF --template field
 ```
 This image shows an example of the output you should see:
 
@@ -123,15 +123,15 @@ This image shows an example of the output you should see:
 
 7. Install the project build tools by using the command `npm install`. Don't worry about any warnings you may see at this point. 
 ```bash
-	npm install
+npm install
 ```
 8. Once completed, run the command below to open the component project in Visual Studio Code.
 ```csharp
-	code -a .
+code -a .
 ```
 Your opened project should look like this so far:
 
-![An image showing the code component VS Code project structure](./Image4.png)
+![An image showing the code component VS Code project structure](./IMAGE4.png)
 
 ### Update Code Component's Manifest
 Remember, from yesterday's blog - we established that the manifest is an XML file that defines the metadata and configuration of a code component. The manifest is an important file for a PCF code component because it is used by the Power Apps authoring tools to register and manage the component. This also includes the kind of data which is to be configured (field or dataset) and any other properties that can be configured in the application when the component is added.
@@ -144,19 +144,19 @@ Remember, from yesterday's blog - we established that the manifest is an XML fil
 3. Locate the **<property ... />** node and replace it with this:
 
 ```xml
-	<property name="TextValue" display-name-key="TextValue" description-key="TextValueDescription" of-type-group="strings" usage="bound" required="true" />
-	<property name="AutoHeightValue" display-name-key="AutoHeightValue" description-key="AutoHeightValueDescription" of-type="Whole.None" usage="bound" required="true" />
+<property name="TextValue" display-name-key="TextValue" description-key="TextValueDescription" of-type-group="strings" usage="bound" required="true" />
+<property name="AutoHeightValue" display-name-key="AutoHeightValue" description-key="AutoHeightValueDescription" of-type="Whole.None" usage="bound" required="true" />
 
-	<type-group name="strings">
-	  <type>SingleLine.Text</type> 
-	  <type>SingleLine.TextArea</type> 
-	  <type>Multiple</type> 
-	</type-group> 
+<type-group name="strings">
+	<type>SingleLine.Text</type> 
+	<type>SingleLine.TextArea</type> 
+	<type>Multiple</type> 
+</type-group> 
 ```
 4. Locate the **<resources ... />** node and include a reference to a CSS file named DynamicInputPCF.css that you'll soon create.
 
 ```xml
-	<css path="css/DynamicInputPCF.css" order="1" />
+<css path="css/DynamicInputPCF.css" order="1" />
 ```
 
 5. Save your changes by selecting **File** and then **Save**.
@@ -179,15 +179,15 @@ Now we're going to be adding some basic styling to our component. Just to get a 
 4. Open DynamicInputPCF.css and paste the following CSS:
 
 ```css
-	.DynamicInputPCF textarea { 
-		padding: 5px; 
-		box-sizing: border-box;
-		width: 100%; 
-	}
+.DynamicInputPCF textarea { 
+	padding: 5px; 
+	box-sizing: border-box;
+	width: 100%; 
+}
 			
-	.DynamicInputPCF textarea:focus, .DynamicInputPCF textarea:enabled:hover { 
-		border: 2px solid black;
-	} 
+.DynamicInputPCF textarea:focus, .DynamicInputPCF textarea:enabled:hover { 
+	border: 2px solid black;
+} 
 ```
 
 5. Select **File** and select **Save**.
@@ -198,7 +198,7 @@ In order to ensure that the right TypeScript types are generated to match the pr
 Return to the terminal and perform a build b using the following command:
 
 ```bash
-	npm run build
+npm run build
 ```
 
 Once the build is successful, you'll notice in the project folder, that the component is compiled into the **out/controls/DynamicInputPCF** directory. The results of this compilation are:
@@ -213,91 +213,91 @@ Let's get straight into it.
 
 1. Open the **index.ts** file and insert the following variables above the constructor method.
 ```ts
-	// The PCF context object
-    private context: ComponentFramework.Context<IInputs>;
+// The PCF context object
+private context: ComponentFramework.Context<IInputs>;
 
-    // The wrapper div element for the component
-    private container: HTMLDivElement;
+// The wrapper div element for the component
+private container: HTMLDivElement;
 
-    /* The callback function to call whenever your code 
-    has made a change to a bound or output property */
-    private notifyOutputChanged: () => void;
+/* The callback function to call whenever your code 
+has made a change to a bound or output property */
+private notifyOutputChanged: () => void;
 
-    //Variable to track the height of the control
-    height: number; 
+//Variable to track the height of the control
+height: number; 
     
-    textarea: HTMLTextAreaElement; 
-    defaultLoaded = false; 
+textarea: HTMLTextAreaElement; 
+defaultLoaded = false; 
 ```
 
 2. Find the **init** method and replace its contents with this:
 
 ```ts
-	//Track all elements
-    this.container = container;
-	this.context = context;
-	this.notifyOutputChanged = notifyOutputChanged;
-	this.textarea = document.createElement("textarea");
-	this.textarea.rows = 1;
-	this.textarea.style.resize = 'none';
-	this.textarea.style.overflowY = 'hidden';
-	this.textarea.oninput = this.onTextAreaInput;
-	this.textarea.onchange = this.onTextAreaChanged;
-	this.container.appendChild(this.textarea);
+//Track all elements
+this.container = container;
+this.context = context;
+this.notifyOutputChanged = notifyOutputChanged;
+this.textarea = document.createElement("textarea");
+this.textarea.rows = 1;
+this.textarea.style.resize = 'none';
+this.textarea.style.overflowY = 'hidden';
+this.textarea.oninput = this.onTextAreaInput;
+this.textarea.onchange = this.onTextAreaChanged;
+this.container.appendChild(this.textarea);
 ```
 After pasting the code above, you may have a couple of errors. No need to worry - we'll be defining a few methods, in a moment, which will clear these errors.
 
 3. Underneath the **init** method, add the following: 
 
 ```ts
-	/* These methods are responsible for telling the framework 
-	that there is a new value in the text input and then it 
-	starts calculating the new height */
-	onTextAreaInput = (): void => {
-		this.autoSizeTextArea();
-	}
-	
-	onTextAreaChanged = (): void => {
-		this.notifyOutputChanged();
-	}
-	
-	autoSizeTextArea(): void {
-		this.textarea.style.height = 'auto';
-		const newHeight = (this.textarea.scrollHeight) + 'px';
-		const heightChanged = newHeight !== this.textarea.style.height;
-		this.textarea.style.height = newHeight;
-		if (heightChanged) { this.notifyOutputChanged(); }
-	}
+/* These methods are responsible for telling the framework 
+that there is a new value in the text input and then it 
+starts calculating the new height */
+onTextAreaInput = (): void => {
+	this.autoSizeTextArea();
+}
+
+onTextAreaChanged = (): void => {
+	this.notifyOutputChanged();
+}
+
+autoSizeTextArea(): void {
+	this.textarea.style.height = 'auto';
+	const newHeight = (this.textarea.scrollHeight) + 'px';
+	const heightChanged = newHeight !== this.textarea.style.height;
+	this.textarea.style.height = newHeight;
+	if (heightChanged) { this.notifyOutputChanged(); }
+}
 ```
 4. Look for the **updateView** method and add the following:
 
 ```ts
-	const value = context.parameters.TextValue;
-		let disabled = context.mode.isControlDisabled;
-		let masked = false;
-		if (value && value.security) {
-			masked = !value.security.readable;
-			disabled = disabled || masked || !value.security.editable;
-		}
-
-	// Update text value if input value changes
-	if (!this.defaultLoaded || context.updatedProperties.indexOf("TextValue") > -1) {
-		this.defaultLoaded = true;
-		const newValue = masked ? "****" : value.raw as string;
-		this.textarea.value = newValue;
-		this.autoSizeTextArea();
+const value = context.parameters.TextValue;
+	let disabled = context.mode.isControlDisabled;
+	let masked = false;
+	if (value && value.security) {
+		masked = !value.security.readable;
+		disabled = disabled || masked || !value.security.editable;
 	}
+
+// Update text value if input value changes
+if (!this.defaultLoaded || context.updatedProperties.indexOf("TextValue") > -1) {
+	this.defaultLoaded = true;
+	const newValue = masked ? "****" : value.raw as string;
+	this.textarea.value = newValue;
+	this.autoSizeTextArea();
+}
 ```
 5. And one of the last major things we need to do is find and update the **getOutputs** method with the following code:
 
 ```ts
-	/* This provides the output/bound properties back to 
-	the PCF after notifyOutputChanged() has been called. */
-	const  height = Number.parseInt(this.textarea.style.height);
-	return {
-		TextValue:  this.textarea.value,
-		AutoHeightValue:  height
-	}
+/* This provides the output/bound properties back to 
+the PCF after notifyOutputChanged() has been called. */
+const  height = Number.parseInt(this.textarea.style.height);
+return {
+	TextValue:  this.textarea.value,
+	AutoHeightValue:  height
+}
 ```
 6. Go ahead and **Save** everything. 
 
@@ -307,7 +307,7 @@ Now that we have configured and built out the component logic, let's give it a g
 1. Let's return to the **Terminal** and rebuild our component. 
 
 ```bash
-	npm run build
+npm run build
 ```
 If you've followed everything correctly, the build should succeed. If not, feel free to take some time and check if you've copied all code correctly. 
 
@@ -315,7 +315,7 @@ Now we get to run and test our component in a *test harness* that simulates the 
 
 2. In the **Terminal** once more, run the following command: 
 ```bash
-	npm start
+npm start
 ```
 
 A new browser window should automatically load the test harness. 
