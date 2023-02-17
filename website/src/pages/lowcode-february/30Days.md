@@ -38,7 +38,6 @@ _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we
 _Welcome to the Week 1 of your learning journey into Low Code Development._
 
 :::info WEEK 1 - TOPIC
-_Posts will be linked here once published._
  * Feb 01 - [Hello, #30DaysOfLowCode](/blog/2023-day1)
  * Feb 02 - [You say Low, I say Code!](/blog/2023-day2)
  * Feb 03 - [Developer Tools & Onboarding](/blog/2023-day3)
@@ -55,7 +54,6 @@ _Posts will be linked here once published._
 _Welcome to the Week 2 of your learning journey into Low Code Development._
 
 :::info WEEK 2 - TOPIC
-_Posts will be linked here once published._
  * Feb 06 - [Let's Make Some Connections!](/blog/2023-day6)
  * Feb 07 - [Do more with your Data for less - Dataverse!](/blog/2023-day7)
  * Feb 08 - [Serverless Low Code](/blog/2023-day8)
@@ -77,7 +75,7 @@ _Posts will be linked here once published._
  * Feb 13 - [Build a Canvas App!](/blog/2023-day13)
  * Feb 14 - [Intro to PowerFX](/blog/2023-day14)
  * Feb 15 - [🚀 Zero-To-Hero Post: OpenAI & Microsoft Power Platform](/blog/2023-day15)
- * Feb 16 - Power Component Framework Controls
+ * Feb 16 - [Power Component Framework Controls](/blog/2023-day16)
  * Feb 17 - Build a PCF Control
  * Feb 18 - Advanced Use Cases
  * Feb 19 - Week 3: Recap
