@@ -60,7 +60,7 @@ GitHub Workflow : This is the actual CI/CD script that is used by GitHub and it 
 GitHub Job      : A Job is a composition of a GitHub Runner (container where the CI/CD script is run)
 GitHub Steps    : Step has a set of actions that accomplish an the overall outcome of the workflow (such as deploying to Power Platform)
 
-The GitHub actions for Power Platform are available at the GitHub market place. The GitHub actions, provide the ability to import export solutions, deploying to different environments, provisioning and decommissioning an environments, and validate the solution when it is being imported into a target environment.
+[The GitHub actions for Power Platform are available at the GitHub market place](https://github.com/marketplace/actions/powerplatform-actions). The GitHub actions, provide the ability to import export solutions, deploying to different environments, provisioning and decommissioning an environments, and validate the solution when it is being imported into a target environment.
 
 ## GitHub Runners
 Runners in GitHub are a type of machine where you need to run your GitHub job on. Runners can GitHub hosted or self-hosted. 
@@ -93,8 +93,6 @@ Try out our Hands on lab for [GitHub actions](https://github.com/microsoft/power
 - [**Azure AD service principal**](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 - [**GitHub Power Platform Actions tutorial**](https://learn.microsoft.com/en-us/power-platform/alm/tutorials/github-actions-start?source=recommendations)
 - [**GitHub Power Platform Actions: Hands on lab**](https://github.com/microsoft/powerplatform-actions-lab)
-- 
-
 
 
 ![Campaign Banner](./../../../static/img/og/30-banner.png)
