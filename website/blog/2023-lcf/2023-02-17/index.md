@@ -1,33 +1,34 @@
 ---
 slug: 2023-day17
 title: 17. Build a PCF Control
-authors: [april, matt, nitya, sonja]
+authors: [gomolemo]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [power platform, low code, power component framework, tutorial]
+image: https://microsoft.github.io/Low-Code/img/og/30-17.png
+description: "Build a PCF code component step by step" 
+tags: [low-code-february, 30-days-of-lowcode, pcf, power apps component frameworkpower-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-17.png" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="17. Build a PCF Control" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Learn how to build a PCF code component step by step. Learn more in #LowCodeFebruary, #30DaysofLowCode" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-17.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/img/og/30-17.png" />
 </head>
+
 
 Welcome to `Day 17` of #30DaysOfLowCode!
 
@@ -43,7 +44,7 @@ The theme for this week is **User Interface** and we're ending it off with a qui
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Feb 17](../../../static/img/og/30-17.png)
 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
@@ -329,7 +330,7 @@ Go ahead and write some text directly into the text input (1) on the right. Be s
 ## Where to from here? 
 At face value, it doesnt seem like much however I wanted to give you a just a taste of what is possible when professional developers use their skills and their tools to contribute to Power Platform Solutions. Once a code component is built and you've verified that it works. The next step is to create a solution package and import that into the Power Apps Environment.
 
-See [this article](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls) for guidance on how to package a code component and then when you want to add your code component to a Power App, you can read the guidance for [Canvas Apps](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/component-framework-for-canvas-apps) and/or [Model-Driven Apps](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/code-components-model-driven-apps).
+See [this article](https://learn.microsoft.com/power-apps/developer/component-framework/import-custom-controls?WT.mc_id=javascript-82212-ninarasi) for guidance on how to package a code component and then when you want to add your code component to a Power App, you can read the guidance for [Canvas Apps](https://learn.microsoft.com/power-apps/developer/component-framework/component-framework-for-canvas-apps?WT.mc_id=javascript-82212-ninarasi) and/or [Model-Driven Apps](https://learn.microsoft.com/power-apps/developer/component-framework/code-components-model-driven-apps?WT.mc_id=javascript-82212-ninarasi).
 
 ## Exercise
 Try the exercise in this [learn module](https://aka.ms/LCF/BuildMorePCF) where you will get to learn EVEN MORE about code components. You'll be able to get details on how to address more complex scenarios as it applies to the PCF. What makes this exciting is that it covers how to use client frameworks such as React and Angular within a component, along with how to address scenarios such as file upload, localization, and integration with the Microsoft Dataverse Web API.
@@ -337,7 +338,7 @@ Try the exercise in this [learn module](https://aka.ms/LCF/BuildMorePCF) where y
 ## Resources
 * **Exercise**: Training - [Use advanced features with Power Apps component framework](https://aka.ms/LCF/BuildMorePCF)
 * **Documentation**: [Power Apps Component Framework Overview](https://aka.ms/LCF/PCFDocs)
-* **Watch**: [The Low Code Revolution Show](https://learn.microsoft.com/en-us/shows/the-low-code-revolution/?wt.mc_id=82054_collection_webpage_ece&ns-enrollment-type=Collection&ns-enrollment-id=8q5jhr1y0jeqj6)
+* **Watch**: [The Low Code Revolution Show](https://learn.microsoft.com/shows/the-low-code-revolution/?wt.mc_id=82054_collection_webpage_ece&ns-enrollment-type=Collection&ns-enrollment-id=8q5jhr1y0jeqj6?WT.mc_id=javascript-82212-ninarasi)
 * **Watch** all of the [Powerful Devs Conference](https://www.youtube.com/live/4VK1CJYR2W4)  sessions on demand to learn from experts how you, as a developer, can leverage the Power Platform to build applications faster and with far less effort.
 * Low Code February [Learn Collection](https://learn.microsoft.com/users/nityan/collections/xz6ehr2mx031y0?WT.mc_id=javascript-82212-ninarasi): Collection of resources to go from learning Power Platform Fundamentals, to understanding the Dataverse and working in Fusion Development teams.
 
