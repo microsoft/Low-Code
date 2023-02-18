@@ -1,48 +1,46 @@
 ---
 slug: 2023-day18
-title: 18. Advanced Use Cases
-authors: [april, matt, nitya, sonja]
+title: 18. Power Pages for ProDevs
+authors: [neeraj]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [power platform, low code, power pages]
+image: https://microsoft.github.io/Low-Code/img/og/30-18.png
+description: "Power Pages for ProDevs" 
+tags: [low-code-february, 30-days-of-lowcode, power pages,fusion-teams, power-platform]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-18.png" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="18. Power Pages for ProDevs" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Leverage Power Pages and fusion teams to quickly build public or internal facing websites. Learn more in #LowCodeFebruary, #30DaysofLowCode" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-18.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/img/og/30-18.png" />
 </head>
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
-
-The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
+Welcome to `Day 18` of #30DaysOfLowCode!
 
 ## What We'll Cover
- * Section 1
- * Section 2
- * Section 3
- * Section 4
- * Exercise: Try this yourself!
- * Resources: For self-study!
+ * Power Pages loves Fusion Dev teams
+ * No Code & Configuration
+ * Low Code & Pro Code
+ * Supporting the large teams
+ * **Activity**: Sign up for your [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)
+ * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Feb18](./feb18.png)
 
 
 <!-- ************************************* -->
@@ -58,7 +56,7 @@ What makes Power Pages unique in Power Platform is ability to address various au
 
 Power Pages makes it easy for low code makers to get started and launch sites. Power Pages also is a place where Pro Devs with Web Development & Design background can help a Fusion team shine by adding their skills to the project. For IT admins we alleviate worry about infrastructure without giving up trust with security and governance tools.
 
-Thousands of customers across the global have been building and shipping solutions on Power Pages for years. PwC is one such customer who used their professional developer team skills, familiar tooling, and fusion team capabilities in Power Pages to deliver a compelling solution migrated from a full stack web application – read more about it here [Microsoft Customer Story : PwC builds multitenant enterprise decision support site with Power Pages](https://customers.microsoft.com/en-us/story/1558972627174665363-pricewaterhousecoopers-banking-and-capital-markets-power-pages)
+Thousands of customers across the global have been building and shipping solutions on Power Pages for years. PwC is one such customer who used their professional developer team skills, familiar tooling, and fusion team capabilities in Power Pages to deliver a compelling solution migrated from a full stack web application – read more about it here [Microsoft Customer Story : PwC builds multitenant enterprise decision support site with Power Pages](https://customers.microsoft.com/story/1558972627174665363-pricewaterhousecoopers-banking-and-capital-markets-power-pages)
 
 
 ## Supporting Fusion teams 
@@ -124,14 +122,14 @@ Power pages supports tooling required for CI/CD setup. And this includes
 ## What’s Next?
 * Signing up for the free **[Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)** so you have access to the Power Platform and you can try [Microsoft Power Pages](https://powerpages.microsoft.com)
 
-* Watch the Power Pages session from [Powerful Devs 2023 Conference](https://learn.microsoft.com/en-us/events/learn-events/Powerful-Devs-2023/)
+* Watch the Power Pages session from [Powerful Devs 2023 Conference](https://learn.microsoft.com/events/learn-events/Powerful-Devs-2023/?WT.mc_id=javascript-82212-ninarasi)
 
 * Watch the Power Pages session from Microsoft Ignite 2022 from [Power Pages: Low-Code Web Development | BRK40 - YouTube](https://www.youtube.com/watch?v=eOV3aXolYWs)
 
 ## Resources
 
-* [**Video**: Getting started videos](https://learn.microsoft.com/en-us/power-pages/training-videos/)
-* [**Training**: Power Pages training](https://learn.microsoft.com/en-us/training/paths/power-pages-get-started)
-* [**Documentation**: Microsoft Power Pages documentation](https://learn.microsoft.com/en-us/power-pages/)
+* [**Video**: Getting started videos](https://learn.microsoft.com/power-pages/training-videos/?WT.mc_id=javascript-82212-ninarasi)
+* [**Training**: Power Pages training](https://learn.microsoft.com/training/paths/power-pages-get-started/?WT.mc_id=javascript-82212-ninarasi)
+* [**Documentation**: Microsoft Power Pages documentation](https://learn.microsoft.com/power-pages/?WT.mc_id=javascript-82212-ninarasi)
 * [**Blog**: Microsoft Power Pages Blog](https://powerpages.microsoft.com/blog/)
 * [**Community**: Microsoft Power Pages Community](https://powerusers.microsoft.com/t5/Microsoft-Power-Pages-Community/ct-p/MPPCommunity)
