@@ -2,7 +2,7 @@
 slug: 2023-day18
 title: 18. Power Pages for ProDevs
 authors: [neeraj]
-draft: true
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
@@ -32,7 +32,7 @@ tags: [low-code-february, 30-days-of-lowcode, power pages,fusion-teams, power-pl
 Welcome to `Day 18` of #30DaysOfLowCode!
 
 ## What We'll Cover
- * Power Pages loves Fusion Dev teams
+ * Power Pages ❤️ Fusion Dev teams
  * No Code & Configuration
  * Low Code & Pro Code
  * Supporting the large teams
