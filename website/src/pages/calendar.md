@@ -44,7 +44,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 15 | 🚀 **Zero-To-Hero Post: OpenAI & Microsoft Power Platform** |[Read Post](https://aka.ms/lowcode-february/0ToHero)  |
 | Feb 16 | 🎮 Power Component Framework Controls | [#30Days Blog](/blog)  |
 | Feb 17 | 👷‍♂️ Build a PCF Control | [#30Days Blog](/blog)  |
-| Feb 18 | 🕹️ Advanced Use Cases | [#30Days Blog](/blog)  |
+| Feb 18 | 👥 Power Pages for ProDevs | [#30Days Blog](/blog)  |
 | Feb 19 | 🥳 Week 3: Recap | [#30Days Blog](/blog)  |
 | Feb 20 | 👀 ALM For Power Apps | [#30Days Blog](/blog)  |
 | Feb 21 | 😺 GitHub Actions for Power Apps | [#30Days Blog](/blog)  |

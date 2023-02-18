@@ -76,8 +76,8 @@ _Posts will be linked here once published._
  * Feb 14 - [Intro to PowerFX](/blog/2023-day14)
  * Feb 15 - [🚀 Zero-To-Hero Post: OpenAI & Microsoft Power Platform](/blog/2023-day15)
  * Feb 16 - [Power Component Framework Controls](/blog/2023-day16)
- * Feb 17 - Build a PCF Control
- * Feb 18 - Advanced Use Cases
+ * Feb 17 - [Build a PCF Control](/blog/2023-day17)
+ * Feb 18 - Power Pages for ProDevs
  * Feb 19 - Week 3: Recap
 :::
 
