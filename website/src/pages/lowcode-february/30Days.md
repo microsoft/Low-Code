@@ -77,8 +77,8 @@ _Posts will be linked here once published._
  * Feb 15 - [🚀 Zero-To-Hero Post: OpenAI & Microsoft Power Platform](/blog/2023-day15)
  * Feb 16 - [Power Component Framework Controls](/blog/2023-day16)
  * Feb 17 - [Build a PCF Control](/blog/2023-day17)
- * Feb 18 - Power Pages for ProDevs
- * Feb 19 - Week 3: Recap
+ * Feb 18 - [Power Pages for ProDevs](/blog/2023-day18)
+ * Feb 19 - [Week 3: Recap](/blog/2023-day19)
 :::
 
 ![Week 3](./../../../static/img/og/30-week3.png)
@@ -90,7 +90,7 @@ _Welcome to the Week 4 of your learning journey into Low Code Development._
 
 :::info WEEK 4 - TOPIC
 _Posts will be linked here once published._
- * Feb 20 - ALM For Power Apps
+ * Feb 20 - ALM For Power Platform
  * Feb 21 - GitHub Actions for Power Apps
  * Feb 22 - 🚀 Zero-To-Hero Post
  * Feb 23 - App Governance
