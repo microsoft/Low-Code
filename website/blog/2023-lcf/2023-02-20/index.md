@@ -1,49 +1,49 @@
 ---
 slug: 2023-day20
-title: 20. ALM For Power Apps
-authors: [april, matt, nitya, sonja]
+title: 20. ALM For Power Platform
+authors: [kartik, daniel]
 draft: true
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [low code, developer tools, power platform, developer experience, app lifecycle management, alm, 30DaysOfLowCode]
+image: https://microsoft.github.io/Low-Code/img/og/30-20.png
+description: "Take a look into the foundamentals of App Lifecycle Management (ALM) and walk you through how can you implement ALM with Power Platform. - join us at #LowCodeFebruary https://aka.ms/lowcode-february. #30DaysOfLowCode" 
+tags: [low code, developer tools, power platform, developer experience, app lifecycle management, alm, 30DaysOfLowCode]
 ---
 
 <head>
   <meta name="twitter:url"
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day20" />
   <meta name="twitter:title"
-    content="FIXME: Title Of Post" />
+    content="20. ALM For Power Platform" />
   <meta name="twitter:description"
-    content="FIXME: Post Description" />
+    content="Take a look into the foundamentals of App Lifecycle Management (ALM) and walk you through how can you implement ALM with Power Platform. - join us at #LowCodeFebruary https://aka.ms/lowcode-february. #30DaysOfLowCode" />
   <meta name="twitter:image"
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-20.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator"
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" />
   <link rel="canonical"
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day20" />
 </head>
 
-Welcome to `Day #FIXME` of #30DaysOfLowCode!
+Welcome to `Day 20` of #30DaysOfLowCode!
 
-The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
+The theme for this week is Developer Experience. Today we will take a look into the foundamentals of App Lifecycle Management (ALM) and walk you through how can you implement ALM with Power Platform.
 
 ## What We'll Cover
 
-* Section 1
-* Section 2
-* Section 3
-* Section 4
-* Exercise: Try this yourself!
-* Resources: For self-study!
+* Intro to Application Lifecycle Management (ALM)
+* Power Platform and Application Lifecycle Management
+* Solutions for Application Lifecycle Management
+* Deployment management
+* Exercise: Sign up for your [**Developer Plan**](https://aka.ms/lowcode-february/devplan)
+* Resources: Explore the [**Low Code February Collection**](https://aka.ms/lowcode-february/collection)
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Feb20](./../../../static/img/og/30-20.png)
 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
@@ -90,19 +90,14 @@ When committing solutions from a Power Platform developer environment, you need 
 
 ## Deployment management
 
-As mentioned before, there are various ways and means to deploy power platform applications, there are integrations with Azure DevOps and [GitHub Actions](../../2023-02-21/../2023-lcf/2023-02-21/index.md). In addition, Power Platform has an in-product deployment capability called [Pipelines for Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/pipelines). This is designed for developers who may not have sophisticated ALM deployment needs.
+As mentioned before, there are various ways and means to deploy power platform applications, there are integrations with Azure DevOps and GitHub Actions. In addition, Power Platform has an in-product deployment capability called [Pipelines for Power Platform](https://learn.microsoft.com/power-platform/alm/pipelines/?WT.mc_id=javascript-82212-ninarasi). This is designed for developers who may not have sophisticated ALM deployment needs.
 
 ## Resources
-[ALM with Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/)
-
-[Environment Strategy](https://learn.microsoft.com/en-us/power-platform/alm/environment-strategy-alm)
-
-[Solution Concepts](https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm)
-
-[ALM Automation: Power Platform Build Tools for Azure DevOps](https://learn.microsoft.com/en-us/power-platform/alm/devops-build-tools)
-
-[ALM Automation: Power Platform actions with GitHub](https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions)
-
-[ALM Automation:Pipelines in Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/pipelines)
+* [ALM with Power Platform](https://learn.microsoft.com/power-platform/alm/?WT.mc_id=javascript-82212-ninarasi)
+* [Environment Strategy](https://learn.microsoft.com/power-platform/alm/environment-strategy-alm/?WT.mc_id=javascript-82212-ninarasi)
+* [Solution Concepts](https://learn.microsoft.com/power-platform/alm/solution-concepts-alm/?WT.mc_id=javascript-82212-ninarasi)
+* [ALM Automation: Power Platform Build Tools for Azure DevOps](https://learn.microsoft.com/power-platform/alm/devops-build-tools?WT.mc_id=javascript-82212-ninarasi)
+* [ALM Automation: Power Platform actions with GitHub](https://learn.microsoft.com/power-platform/alm/devops-github-actions?WT.mc_id=javascript-82212-ninarasi)
+* [ALM Automation:Pipelines in Power Platform](https://learn.microsoft.com/power-platform/alm/pipelines?WT.mc_id=javascript-82212-ninarasi)
 
 ![Campaign Banner](./../../../static/img/og/30-banner.png)
