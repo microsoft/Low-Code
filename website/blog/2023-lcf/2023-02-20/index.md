@@ -57,11 +57,11 @@ Now, there is a perception that ALM is only valid traditional software developme
 ## What falls within realm of ALM?
 
 ALM can be seen via various terms, such as:
-  -Digital transformation : where an organization adopts technology to help improve value, productivity,risk management, efficiency, and manage costs
-  -DevOps (Development + Operations)               : It is the union of people, process, and tools to enable continuous delivery to your users of your service
-  -DevSecOps (Development + Security + Operations) : It is an approach built on top of DevOps and incorporating a security mindset from the get go
-  -Legacy Application development                  : Managing the Application lifecycle of a mature product line
-  -New Application development                     : Managing the Application lifecycle of a nascent product line
+  - Digital transformation : where an organization adopts technology to help improve value, productivity,risk management, efficiency, and manage costs
+  - DevOps (Development + Operations)               : It is the union of people, process, and tools to enable continuous delivery to your users of your service
+  - DevSecOps (Development + Security + Operations) : It is an approach built on top of DevOps and incorporating a security mindset from the get go
+  - Legacy Application development                  : Managing the Application lifecycle of a mature product line
+  - New Application development                     : Managing the Application lifecycle of a nascent product line
 
 Now there is SDLC which stands for Software Development Lifecycle, it is also part of ALM but focuses mostly on the software development side of things.
 
