@@ -51,9 +51,7 @@ The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll
 
 ## Background
 
-It is no secret that Large Language Models (LLM) like ChatGPT have been all the rage in the last couple of months. These conversational models offer seamless and intuitive interfaces for users to interact with, enabling them to easily ask questions or complete tasks.  The Azure Communication Services team provides developers with the low code tools to integrate these conversational entities with communication channel.  
-
-As a follow up to our  [last blog](https://techcommunity.microsoft.com/t5/azure-communication-services/build-a-conversational-sms-bot-with-azure-communication-services/ba-p/3739568), today we want to showcase the ability build a similar SMS conversational bot using Power Automate connectors. The bot will be called Anton and will act as a personal trainer at Contoso Gym. See the preview:
+In our [last blog](https://techcommunity.microsoft.com/t5/azure-communication-services/build-a-conversational-sms-bot-with-azure-communication-services/ba-p/3739568), we walked through the process of building an SMS conversational bot. Today we want to showcase a similar bot, but this time built completely on top of low code connectors for Power Automate. It is incredibly easy and exciting to leverage Azure Communication Services connectors in conjunction with Large Language Models (LLM) like ChatGPT to build a conversation bot. For this blog, we will be building Anton, a personal trainer bot for Contoso Gym. See the preview:
 
 ![Anton Preview](./01-anton_demo.gif)
 
