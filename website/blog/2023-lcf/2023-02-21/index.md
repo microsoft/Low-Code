@@ -48,16 +48,16 @@ Yesterday we talked about foundamentals of App Lifecycle Managament with Power P
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
 <!-- ************************************* -->
 
-## Basic GitHub actions Concept
+## Basic GitHub Actions Concepts
 Before we get into details on the Power Platform GitHub actions, we need to understand some key terms of GitHub, that enable GitHub to do Continuous Integration/Continuous Delivery (CI/CD).
 
 ![GitHub Workflow Concepts](./Github-concept.png)
 
-GitHub actions are component to enable CI/CD of Power Platform Applications using GitHub Workflows.
-GitHub Run      : GitHub run is a term used when the workflow runs 
-GitHub Workflow : This is the actual CI/CD script that is used by GitHub and it consists of Jobs
-GitHub Job      : A Job is a composition of a GitHub Runner (container where the CI/CD script is run)
-GitHub Steps    : Step has a set of actions that accomplish an the overall outcome of the workflow (such as deploying to Power Platform)
+* GitHub actions are components to enable CI/CD of Power Platform Applications using GitHub Workflows.
+* GitHub Run      : GitHub run is a term used when the workflow runs 
+* GitHub Workflow : This is the actual CI/CD script that is used by GitHub and it consists of Jobs
+* GitHub Job      : A Job is a composition of a GitHub Runner (container where the CI/CD script is run)
+* GitHub Steps    : Step has a set of actions that accomplish an the overall outcome of the workflow (such as deploying to Power Platform)
 
 [The GitHub actions for Power Platform are available at the GitHub market place](https://github.com/marketplace/actions/powerplatform-actions). The GitHub actions, provide the ability to import export solutions, deploying to different environments, provisioning and decommissioning an environments, and validate the solution when it is being imported into a target environment.
 
