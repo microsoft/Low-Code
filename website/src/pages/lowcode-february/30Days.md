@@ -90,8 +90,8 @@ _Welcome to the Week 4 of your learning journey into Low Code Development._
 
 :::info WEEK 4 - TOPIC
 _Posts will be linked here once published._
- * Feb 20 - ALM For Power Platform
- * Feb 21 - GitHub Actions for Power Apps
+ * Feb 20 - [ALM For Power Platform](/blog/2023-day20)
+ * Feb 21 - GitHub Actions for Power Platform
  * Feb 22 - 🚀 Zero-To-Hero Post
  * Feb 23 - App Governance
  * Feb 24 - Power Platform Pipelines

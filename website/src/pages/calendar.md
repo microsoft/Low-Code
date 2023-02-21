@@ -46,8 +46,8 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 17 | 👷‍♂️ Build a PCF Control | [#30Days Blog](/blog)  |
 | Feb 18 | 👥 Power Pages for ProDevs | [#30Days Blog](/blog)  |
 | Feb 19 | 🥳 Week 3: Recap | [#30Days Blog](/blog)  |
-| Feb 20 | 👀 ALM For Power Apps | [#30Days Blog](/blog)  |
-| Feb 21 | 😺 GitHub Actions for Power Apps | [#30Days Blog](/blog)  |
+| Feb 20 | 👀 ALM For Power Platform | [#30Days Blog](/blog)  |
+| Feb 21 | 😺 GitHub Actions for Power Platform | [#30Days Blog](/blog)  |
 | Feb 22 | 🚀 Zero-To-Hero Post | [#30Days Blog](/blog)  |
 | Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/reactor/events/18298/) |
 | Feb 24 | 🧷 Power Platform Pipelines | [#30Days Blog](/blog)  |
