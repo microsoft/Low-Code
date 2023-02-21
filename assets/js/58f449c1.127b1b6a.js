@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6283],{46802:e=>{e.exports=JSON.parse('{"label":"power platform","permalink":"/Low-Code/blog/tags/power-platform","allTagsPath":"/Low-Code/blog/tags","count":21}')}}]);
