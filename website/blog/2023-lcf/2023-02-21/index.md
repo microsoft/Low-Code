@@ -1,48 +1,47 @@
 ---
 slug: 2023-day21
-title: 21. GitHub Actions for Power Apps
-authors: [april, matt, nitya, sonja]
-draft: true
+title: 21. GitHub Actions for Power
+authors: [kartik, daniel]
+draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2
 toc_max_heading_level: 3
-keywords: [FIXME, comma, separated, keywords, for, metatags]
-image: ../../static/img/banner.png
-description: "FIXME: Used in meta tag. If not specified, becomes first line of Markdown" 
-tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-expert,fusion-teams, power-platform]
+keywords: [low code, developer tools, power platform, developer experience, github, 30DaysOfLowCode]
+image: https://microsoft.github.io/Low-Code/img/og/30-21.png
+description: "Explore the topic of GitHub Actions and show you how can you connect to Power Platform environments with GitHub Actions" 
+tags: [low-code-february, 30-days-of-lowcode, power-platform, developer experience, github]
 ---
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    content="https://microsoft.github.io/Low-Code/blog/2023-day21" />
   <meta name="twitter:title" 
-    content="FIXME: Title Of Post" />
+    content="GitHub Actions for Power" />
   <meta name="twitter:description" 
-    content="FIXME: Post Description" />
+    content="Explore the topic of GitHub Actions and show you how can you connect to Power Platform environments with GitHub Actions" />
   <meta name="twitter:image" 
-    content="FIXME: Post Image" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-21.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" 
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/slug-FIXME" />
+    href="https://microsoft.github.io/Low-Code/blog/2023-day21" />
 </head>
 
-Welcome to `Day #FIXME` of #28DaysOfLowCode!
+Welcome to `Day 21` of #28DaysOfLowCode!
 
-The theme for this week is #FIXME. Yesterday we talked about #FIXME. Today we'll explore the topic of #FIXME.
+Yesterday we talked about foundamentals of App Lifecycle Managament with Power Platform. Today we'll explore the topic of GitHub Actions and show you how can you connect to Power Platform environments with GitHub Actions.
 
 ## What We'll Cover
- * Section 1
- * Section 2
- * Section 3
- * Section 4
- * Exercise: Try this yourself!
- * Resources: For self-study!
+ * Intro to GitHub Actions
+ * GitHub Runners
+ * Power Platform and GitHub Actions
+ * Exercise: Sign up for your [**Developer Plan**](https://aka.ms/lowcode-february/devplan)
+ * Resources: Explore the [**Low Code February Collection**](https://aka.ms/lowcode-february/collection)
 
 <!-- FIXME: banner image -->
-![Empty Banner Placeholder](../../../static/img/banner.png)
+![Empty Banner Placeholder](./../../../static/img/og/30-21.png)
 
 
 <!-- ************************************* -->
@@ -74,6 +73,7 @@ Power Platform Actions on GitHub, support Windows and Linux images for both GitH
 Power Platform Actions for GitHub have support for the following: 
 - UserName/Password : Generic connection which uses username and password to authenticate to the Power Platform environments. Please do not enable MFAs this account otherwise your GitHub workflows will break
 - Service Principal and Client secret (Recommended) - This allows your workflow to authenticate to the Power Platform using a service principal identity with a client secret. This is an approach we generally recommend when deploying Power Platform applications at scale.
+
 ## Use Environment Variables within GitHub workflow scripts when deploying Power Platform applications
 If you want to use the same workflow to deploy multiple Power Platform solution to either one environment or different environments. 
 GitHub Workflows support environment variables. 
@@ -84,14 +84,14 @@ Once you have the environments in place you can then call these environment vari
 
 
 ## Exercise
-Try out our Hands on lab for [GitHub actions](https://github.com/microsoft/powerplatform-actions-lab)
+* Try out our Hands on lab for [**GitHub actions**](https://github.com/microsoft/powerplatform-actions-lab)
 
 ## Resources
 - [**Get the GitHub actions from the GitHub marketplace**](https://github.com/marketplace/actions/powerplatform-actions)
 - [**Self hosted runner information**](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners)
 - [**About GitHub hosted runners**](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners)
-- [**Azure AD service principal**](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
-- [**GitHub Power Platform Actions tutorial**](https://learn.microsoft.com/en-us/power-platform/alm/tutorials/github-actions-start?source=recommendations)
+- [**Azure AD service principal**](https://learn.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal?WT.mc_id=javascript-82212-ninarasi)
+- [**GitHub Power Platform Actions tutorial**](https://learn.microsoft.com/power-platform/alm/tutorials/github-actions-start?source=recommendations?WT.mc_id=javascript-82212-ninarasi)
 - [**GitHub Power Platform Actions: Hands on lab**](https://github.com/microsoft/powerplatform-actions-lab)
 
 
