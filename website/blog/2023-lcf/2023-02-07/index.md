@@ -39,7 +39,7 @@ Welcome to `Day 07` of #30DaysOfLowCode!
  * Built-in Integrations: Azure
  * Enterprise-ready: Hyperscale
  * Resource: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
- * Activity: Learn more about [Dataverse!](aka.ms/Dataverse) 
+ * Activity: Learn more about [Dataverse!](https://aka.ms/Dataverse) 
 
 
 ![Low Code and Dataverse](./../../../static/img/og/30-07.png)
@@ -115,7 +115,7 @@ Stay tuned for the rest of this week's blog posts to dive deeper into the world 
 * Resource: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 * [Microsoft Dataverse documentation](https://learn.microsoft.com/power-apps/maker/data-platform/?WT.mc_id=javascript-82212-ninarasi)
 * [Why to choose Dataverse](https://www.youtube.com/watch?v=fbKZlF1WMBk&list=PL8b8RgcLYAyqDb3hgrVOs-xICPtorzSiK&index=5&ab_channel=MicrosoftPowerPlatform)
-* Learn more about [Dataverse!](aka.ms/Dataverse) 
+* Learn more about [Dataverse!](https://aka.ms/Dataverse) 
 
 
 
