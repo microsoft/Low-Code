@@ -29,7 +29,7 @@ tags: [low-code-february, 30-days-of-lowcode, power-platform, developer experien
     href="https://microsoft.github.io/Low-Code/img/og/30-21.png" />
 </head>
 
-Welcome to `Day 21` of #28DaysOfLowCode!
+Welcome to `Day 21` of #30DaysOfLowCode!
 
 Yesterday we talked about foundamentals of App Lifecycle Managament with Power Platform. Today we'll explore the topic of GitHub Actions and show you how can you connect to Power Platform environments with GitHub Actions.
 
