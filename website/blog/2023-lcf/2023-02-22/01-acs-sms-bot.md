@@ -29,7 +29,7 @@ tags: [low code, developer tools, power platform, power automate, azure communic
     href="https://microsoft.github.io/Low-Code/img/og/30-22.png" />
 </head>
 
-Welcome to `Day 22` of #28DaysOfLowCode!
+Welcome to `Day 22` of #30DaysOfLowCode!
 
 ## What We'll Cover
 
