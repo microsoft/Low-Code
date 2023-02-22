@@ -14,7 +14,7 @@ tags: [low-code-february, 30-days-of-lowcode, power-platform, developer experien
 
 <head>
   <meta name="twitter:url" 
-    content="https://microsoft.github.io/Low-Code/blog/2023-day21" />
+    content="https://microsoft.github.io/Low-Code/img/og/30-21.png" />
   <meta name="twitter:title" 
     content="GitHub Actions for Power" />
   <meta name="twitter:description" 
@@ -26,7 +26,7 @@ tags: [low-code-february, 30-days-of-lowcode, power-platform, developer experien
     content="@nitya" />
   <meta name="twitter:site" content="@AzureAdvocates" /> 
   <link rel="canonical" 
-    href="https://microsoft.github.io/Low-Code/blog/2023-day21" />
+    href="https://microsoft.github.io/Low-Code/img/og/30-21.png" />
 </head>
 
 Welcome to `Day 21` of #28DaysOfLowCode!
