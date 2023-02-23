@@ -25,6 +25,10 @@ Managed Environments allows organizations to streamline their governance at scal
             <name>Caitlin Shaw</name>
             <uri>https://github.com/caitlinshaw1</uri>
         </author>
+        <author>
+            <name>Kartik Kanakasabesan</name>
+            <uri>https://github.com/kkanakas</uri>
+        </author>
         <category label="low-code-february" term="low-code-february"/>
         <category label="30-days-of-lowcode" term="30-days-of-lowcode"/>
         <category label="power-platform" term="power-platform"/>
