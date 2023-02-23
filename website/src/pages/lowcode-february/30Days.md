@@ -37,7 +37,7 @@ _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we
 
 _Welcome to the Week 1 of your learning journey into Low Code Development._
 
-:::info WEEK 1 - TOPIC
+:::info 1. LOW CODE: FUNDAMENTALS
  * Feb 01 - [Hello, #30DaysOfLowCode](/blog/2023-day1)
  * Feb 02 - [You say Low, I say Code!](/blog/2023-day2)
  * Feb 03 - [Developer Tools & Onboarding](/blog/2023-day3)
@@ -64,9 +64,9 @@ _Welcome to the Week 2 of your learning journey into Low Code Development._
 :::
 
 ![Week 2](./../../../static/img/og/30-week2.png)
----
 
-## Week 3: USER INTERFACE
+
+## Week 3. USER INTERFACE
 
 _Welcome to the Week 3 of your learning journey into Low Code Development._
 
