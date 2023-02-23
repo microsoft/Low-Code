@@ -50,6 +50,7 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 21 | 😺 GitHub Actions for Power Platform | [#30Days Blog](/blog)  |
 | Feb 22 | 👥 Power Automate, ACS and OpenAI | [#30Days Blog](/blog)  |
 | Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/reactor/events/18298/) |
+| Feb 23 | 👥 Power Platform and Governance | [#30Days Blog](/blog)  
 | Feb 24 | 🧷 Power Platform Pipelines | [#30Days Blog](/blog)  |
 | Feb 25 | ⚒️ Azure DevOps & Automated Testing | [#30Days Blog](/blog)  |
 | Feb 26 | 🥳 Week 4: Recap | [#30Days Blog](/blog)  |
