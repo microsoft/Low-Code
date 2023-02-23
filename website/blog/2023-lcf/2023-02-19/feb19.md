@@ -38,13 +38,15 @@ Welcome to `Day 19` of #30DaysOfLowCode!
  * **Look Ahead**: Are you ready for the Developer Experience Week?!
  * **Resources**: Explore the [**Low Code February Collection**](https://aka.ms/lowcode-february/collection)
 
-![Speaker Card for Feb 12](./../../../static/img/og/30-19.png)
+![Speaker Card for Feb 19](./../../../static/img/og/30-19.png)
 
-## **Look Back**: Week 2 Recap
+## **Look Back**: Week 3 Recap
 
 Hey there! Week 3 is a wrap! We had a blast exploring the user interface of Power Apps together. First up, we took a deep dive into canvas apps 101 and got familiar with the low code programming language - Fx. We also got to play around with the PCF (Power Apps Component Framework) control and learned how to build stunning, eye-catching front-ends. To top it off, we even built a PCF control together! 
 
 In our ZeroToHero blog post, we provided a detailed step-by-step guide on how to create a highly flexible and interactive app using the powerful combination of OpenAI, API Management, and Power Apps. Last but not the least, we also discussed how professional developers can take advantage of Power Pages to quickly build enterprise-ready internal and external websites. 
+
+![Roadmap Image for Week 3](./../../../static/img/og/30-roadmap-week3.png)
 
 Here's what we've covered this week:
 
