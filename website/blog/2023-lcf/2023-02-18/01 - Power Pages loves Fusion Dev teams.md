@@ -39,9 +39,7 @@ Welcome to `Day 18` of #30DaysOfLowCode!
  * **Activity**: Sign up for your [Power Apps Developer Plan](https://aka.ms/lowcode-february/devplan)
  * **Resources**: Explore the [Low Code February Collection](https://aka.ms/lowcode-february/collection)
 
-<!-- FIXME: banner image -->
-![Feb18](./feb18.png)
-
+![Speaker Card for Feb 18](./../../../static/img/og/30-18.png)
 
 <!-- ************************************* -->
 <!--  AUTHORS: ONLY UPDATE BELOW THIS LINE -->
