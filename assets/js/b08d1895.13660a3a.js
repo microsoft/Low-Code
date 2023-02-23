@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4751],{97261:e=>{e.exports=JSON.parse('{"label":"managed environment","permalink":"/Low-Code/blog/tags/managed-environment","allTagsPath":"/Low-Code/blog/tags","count":1}')}}]);
