@@ -1,7 +1,7 @@
 ---
 slug: 2023-day23
 title: 23. Power Platform and Governance
-authors: [caitlin]
+authors: [caitlin, kartik]
 draft: false
 hide_table_of_contents: false
 toc_min_heading_level: 2

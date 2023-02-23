@@ -92,8 +92,8 @@ _Welcome to the Week 4 of your learning journey into Low Code Development._
 _Posts will be linked here once published._
  * Feb 20 - [ALM For Power Platform](/blog/2023-day20)
  * Feb 21 - [GitHub Actions for Power Platform](/blog/2023-day21)
- * Feb 22 - Power Automate, ACS and OpenAI
- * Feb 23 - App Governance
+ * Feb 22 - [Power Automate, ACS and OpenAI](/blog/2023-day22)
+ * Feb 23 - [Power Platform and Governance](/blog/2023-day23)
  * Feb 24 - Power Platform Pipelines
  * Feb 25 - Azure DevOps & Automated Testing
  * Feb 26 - Week 4: Recap
