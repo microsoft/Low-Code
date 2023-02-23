@@ -37,7 +37,7 @@ _Welcome to our LowCode February kickoff!!_ The official kickoff is Feb 1 but we
 
 _Welcome to the Week 1 of your learning journey into Low Code Development._
 
-:::info 1. LOW CODE: FUNDAMENTALS
+:::info Core Concepts & Developer Tools
  * Feb 01 - [Hello, #30DaysOfLowCode](/blog/2023-day1)
  * Feb 02 - [You say Low, I say Code!](/blog/2023-day2)
  * Feb 03 - [Developer Tools & Onboarding](/blog/2023-day3)
@@ -53,7 +53,7 @@ _Welcome to the Week 1 of your learning journey into Low Code Development._
 
 _Welcome to the Week 2 of your learning journey into Low Code Development._
 
-:::info WEEK 2 - TOPIC
+:::info Serverless, Data & Azure
  * Feb 06 - [Let's Make Some Connections!](/blog/2023-day6)
  * Feb 07 - [Do more with your Data for less - Dataverse!](/blog/2023-day7)
  * Feb 08 - [Serverless Low Code](/blog/2023-day8)
@@ -70,7 +70,7 @@ _Welcome to the Week 2 of your learning journey into Low Code Development._
 
 _Welcome to the Week 3 of your learning journey into Low Code Development._
 
-:::info WEEK 3 - TOPIC
+:::info Component Frameworks & Customization
 _Posts will be linked here once published._
  * Feb 13 - [Build a Canvas App!](/blog/2023-day13)
  * Feb 14 - [Intro to PowerFX](/blog/2023-day14)
@@ -88,7 +88,7 @@ _Posts will be linked here once published._
 
 _Welcome to the Week 4 of your learning journey into Low Code Development._
 
-:::info WEEK 4 - TOPIC
+:::info APP MANAGEMENT & DEVOPS
 _Posts will be linked here once published._
  * Feb 20 - [ALM For Power Platform](/blog/2023-day20)
  * Feb 21 - [GitHub Actions for Power Platform](/blog/2023-day21)
@@ -103,7 +103,7 @@ _Posts will be linked here once published._
 
 ## Week 5: WRAP-UP
 
-:::info WEEK 5 - WRAP-UP
+:::info SUMMARY OF #30DaysOfLowCode
 _Posts will be linked here once published._
  * Feb 27 - 🚀 Zero-To-Hero Post
  * Feb 28 - Month: Recap
