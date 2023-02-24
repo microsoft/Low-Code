@@ -94,8 +94,7 @@ _Posts will be linked here once published._
  * Feb 21 - [GitHub Actions for Power Platform](/blog/2023-day21)
  * Feb 22 - [Power Automate, ACS and OpenAI](/blog/2023-day22)
  * Feb 23 - [Power Platform and Governance](/blog/2023-day23)
- * Feb 24 - Power Platform Pipelines
- * Feb 25 - Azure DevOps & Automated Testing
+ * Feb 24 - Power Apps & Automated Testing
  * Feb 26 - Week 4: Recap
 :::
 
@@ -106,7 +105,8 @@ _Posts will be linked here once published._
 :::info SUMMARY OF #30DaysOfLowCode
 _Posts will be linked here once published._
  * Feb 27 - 🚀 Zero-To-Hero Post
- * Feb 28 - Month: Recap
+ * Mar 1 - 🚀 Zero-To-Hero Post - Power Platform Pipelines
+ * Mar 1 - Month: Recap
 :::
 
 Thank you for staying the course with us. In the final two posts of this series we'll do two things:
