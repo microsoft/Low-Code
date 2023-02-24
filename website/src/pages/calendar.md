@@ -51,14 +51,13 @@ _Check this section for links to upcoming activities for #LowCodeFebruary. _
 | Feb 22 | 👥 Power Automate, ACS and OpenAI | [#30Days Blog](/blog)  |
 | Feb 23 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #PowerfulDevs  | [Register Here](https://developer.microsoft.com/reactor/events/18298/) |
 | Feb 23 | 👥 Power Platform and Governance | [#30Days Blog](/blog)  
-| Feb 24 | 🧷 Power Platform Pipelines | [#30Days Blog](/blog)  |
-| Feb 25 | ⚒️ Azure DevOps & Automated Testing | [#30Days Blog](/blog)  |
+| Feb 24 | ⚒️ Power Apps & Automated Testing | [#30Days Blog](/blog)  |
 | Feb 26 | 🥳 Week 4: Recap | [#30Days Blog](/blog)  |
 | Feb 27 | 🚀 Zero-To-Hero Post | [#30Days Blog](/blog)  |
 | Feb 27 | 📺 **Learn Live: Manage Microsoft Power Platform deployments**  | [Register Here](https://aka.ms/lowcode-february/LearnLive) |
-| Feb 28 | 🥳 Month: Recap | [#30Days Blog](/blog)  |
-| Mar 01 |  🎯 Cloud Skills Challenge Ends | [Last Sprint!](https://aka.ms/lowcode-february/challenge) |
-| Mar 01 |  🔋 Wrap-up : #30DaysOfLowCode | [#30Days Blog](/blog)  |
+| Mar 01 | 🚀 Zero-To-Hero Post | [#30Days Blog](/blog)  |
+| Mar 01 | 🔋 Wrap-up : #30DaysOfLowCode | [#30Days Blog](/blog)  |
+| Mar 01 | 🎯 Cloud Skills Challenge Ends | [Last Sprint!](https://aka.ms/lowcode-february/challenge) |
 | Mar 09 | 💬 [**AskTheExperts:**](/lowcode-february/Video-Live) #LowCodeFebruary  | [Register Here](https://developer.microsoft.com/reactor/events/18299/) |
 
 ---
