@@ -70,14 +70,14 @@ Power Apps Test Studio is low-code solution to organize, record, and automate te
 * **Test editor** - Once you've recorded test steps with Test Studio, the next step is to add your custom assertions. You can use the Test Studio UI to insert the assertions where they make sense in your app's flow.
   ![Test Studio editor](./TS-EditSteps.gif)
 
-* **Test playback** - Test Studio can be run in Studio by pressing Play. If any of the assert statements you configured in the previous step were to fail, the test step will fail and you will be shown the error. or it can be integrated into CI/CD flows by following these instructions: [Automate tests with Azure Pipelines using YAML](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/test-studio-yaml-pipeline)
+* **Test playback** - Test Studio can be run in Studio by pressing Play. If any of the assert statements you configured in the previous step were to fail, the test step will fail and you will be shown the error. or it can be integrated into CI/CD flows by following these instructions: [Automate tests with Azure Pipelines using YAML](https://learn.microsoft.com/power-apps/maker/canvas-apps/test-studio-yaml-pipeline?WT.mc_id=javascript-82212-ninarasi)
 
   ![Test Studio playback](./TS-PlayMode.png)
 
 ### Test Engine
 Test Engine is an evolution of our Power Apps testing tools. Test Engine builds upon the key use cases of Test Studio, but takes it in a new, powerful direction through open source collaboration and use of the Playwright browser testing platform. The goals of Test Engine are to provide customers with a robust testing platform for all types of Power Apps, and to make it super easy to integrate automated testing into your app development processes.
 
-A lot more information about Test Engine can be found in the blog post [Introducing Test Engine: An open platform for automated testing of canvas apps](https://powerapps.microsoft.com/en-us/blog/introducing-test-engine-an-open-platform-for-automated-testing-of-canvas-apps/)
+A lot more information about Test Engine can be found in the blog post [Introducing Test Engine: An open platform for automated testing of canvas apps](https://powerapps.microsoft.com/blog/introducing-test-engine-an-open-platform-for-automated-testing-of-canvas-apps/)
 
   ![Test Engine automating a test run](TE-Recording.gif)
 
