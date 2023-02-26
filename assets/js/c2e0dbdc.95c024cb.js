@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[9731],{44231:e=>{e.exports=JSON.parse('{"label":"recap","permalink":"/Low-Code/blog/tags/recap","allTagsPath":"/Low-Code/blog/tags","count":3}')}}]);

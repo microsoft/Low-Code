@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4022],{51776:e=>{e.exports=JSON.parse('{"label":"azure-functions","permalink":"/Low-Code/blog/tags/azure-functions","allTagsPath":"/Low-Code/blog/tags","count":1}')}}]);

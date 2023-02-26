@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6605],{37922:e=>{e.exports=JSON.parse('{"label":"open-ai","permalink":"/Low-Code/blog/tags/open-ai","allTagsPath":"/Low-Code/blog/tags","count":1}')}}]);
