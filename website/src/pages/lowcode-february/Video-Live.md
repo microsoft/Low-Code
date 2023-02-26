@@ -20,7 +20,7 @@ These thirty-minute live broadcasts are where you can connect with experts to ge
 | ![](./../../../static/img/campaign/ate-powerfuldevs.png) | 
 |:---|
 |This Ask the Expert will be focused on answering questions from the Powerful Devs Conference on Feb 15th. The Powerful Devs Conference focuses on showcasing how code first developers can integrate with the Power Platform to innovate faster. We will have experts on hand to answer questions about full code and low code integration. |
-| 🚨 Register for **[Live Session](https://aka.ms/ATE0223/RSVP)** (Feb 23, 9AM PT) or [**Replay**](https://aka.ms/ATE0223/APAC-RSVP) (Feb 12, 12PM SGT)|
+| 🚨 Register for **[Live Session](https://aka.ms/ATE0223/RSVP)** (Feb 23, 9AM PT) or [**Replay**](https://aka.ms/ATE0223/APAC-RSVP) (Feb 24, 12PM SGT)|
 
 
 ### LowCode Feb

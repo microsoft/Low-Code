@@ -94,7 +94,7 @@ _Posts will be linked here once published._
  * Feb 21 - [GitHub Actions for Power Platform](/blog/2023-day21)
  * Feb 22 - [Power Automate, ACS and OpenAI](/blog/2023-day22)
  * Feb 23 - [Power Platform and Governance](/blog/2023-day23)
- * Feb 24 - Power Apps & Automated Testing
+ * Feb 24 - [Power Apps & Automated Testing](/blog/2023-day24)
  * Feb 26 - Week 4: Recap
 :::
 
