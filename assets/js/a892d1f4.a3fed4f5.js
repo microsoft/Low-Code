@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[81798],{40982:e=>{e.exports=JSON.parse('{"label":"backend integration","permalink":"/Low-Code/blog/tags/backend-integration","allTagsPath":"/Low-Code/blog/tags","count":1}')}}]);
