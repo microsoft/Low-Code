@@ -104,7 +104,7 @@ _Posts will be linked here once published._
 
 :::info SUMMARY OF #30DaysOfLowCode
 _Posts will be linked here once published._
- * Feb 27 - 🚀 Zero-To-Hero Post - API Management & Power Platform
+ * Feb 27 - [🚀 Zero-To-Hero Post - API Management & Power Platform](/blog/2023-day27)
  * Mar 1 - 🚀 Zero-To-Hero Post - Power Platform Pipelines
  * Mar 1 - Month: Recap
 :::
