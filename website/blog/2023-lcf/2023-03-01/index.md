@@ -50,7 +50,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
  
  It's hard to believe that #30DaysOfLowCode is coming to an end! It seems like just yesterday that we launched this initiative, and yet here we are, 30 days later, with an incredible amount of learning and growth behind us. So... it's time for a wrap!
  
- The numbers for the #LowCodeFebruary campaign are truly impressive, with over **130,000** visitors to the event page, 3000+ attendees to the Powerful Dev Conf, and 2500 participants taking part in the cloud skills challenges. What's more, we have welcomed countless attendees joining the various events and activities, from blogs series, to workshops, learn lives, webinars, and more. 
+ The numbers for the #LowCodeFebruary campaign are truly impressive, with over **130,000** visitors to the event page, **16,000** attendees (live and on-demand) to the Powerful Dev Conf, and **2,500** participants taking part in the cloud skills challenges. What's more, we have welcomed countless attendees joining the various events and activities, from blogs series, to workshops, learn lives, webinars, and more. 
 
   From the bottom of our hearts, we want to thank each and every one of you for your participation, engagement, and enthusiasm. It's been truly inspiring to see the passion and dedication from this strong community, and we're honored to be a part of it. ✨
 
@@ -68,6 +68,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
    [**#30DaysOfLowCode Roadmap**](https://microsoft.github.io/Low-Code/lowcode-february/30Days/?WT.mc_id=javascript-82212-ninarasi):
 
     * **Week 1️⃣: Fundamentals:** Power Platform core concepts, getting onboard and developer stories 
+      
     * **Week 2️⃣: Backend Integrations:** Connectors, dataverse, custom connectors, API management, Azure integration and hand-on practices & turorials 
     * **Week 3️⃣: User Interface:** Building a Canvas app, introduction to PowerFx, Power Component Framework Controls, Power Pages as well as OpenAI and Power Platform.
     * **Week 4️⃣: Dev Experience:** Tutorials on ALM (App Lifecycle Management), GitHub Actions, App Governance, Automated testing, as well as ACS and OpenAI. 
