@@ -105,8 +105,8 @@ _Posts will be linked here once published._
 :::info SUMMARY OF #30DaysOfLowCode
 _Posts will be linked here once published._
  * Feb 27 - [🚀 Zero-To-Hero Post - API Management & Power Platform](/blog/2023-day27)
- * Mar 1 - 🚀 Zero-To-Hero Post - Power Platform Pipelines
- * Mar 1 - Month: Recap
+ * Mar 1 - [🚀 Zero-To-Hero Post - Power Platform Pipelines](https://microsoft.github.io/Low-Code/lowcode-february/ZeroToHero/)
+ * Mar 1 - [Month: Recap](/blog/2023-next-steps)
 :::
 
 Thank you for staying the course with us. In the final two posts of this series we'll do two things:
