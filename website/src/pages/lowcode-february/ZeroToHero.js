@@ -60,6 +60,19 @@ function ContentItem({title, description, topic, topiclink, link, imglink}){
 const ContentItems = [
 
   {
+    title: 'Pipelines in Power Platform is Generally Available (GA)',
+    topic: 'ZeroToHero🚀',
+    topiclink: 'https://powerapps.microsoft.com/en-us/blog/',
+    imglink: 'https://powerappsblogscdn.azureedge.net/wp-content/uploads/2022/12/Pipelines-Preview-Blog-GIF.gif',
+    link: "https://powerapps.microsoft.com/en-us/blog/pipelines-in-power-platform-is-generally-available-ga/",
+    description: "Pipelines within Power Platform is generally available."
+  },
+
+
+
+
+
+  {
     title: 'OpenAI and Microsoft Power Platform',
     topic: 'ZeroToHero🚀',
     topiclink: 'https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bg-p/AppsonAzureBlog',
