@@ -13,6 +13,16 @@ We set this page up as a place to share _low code application development_ works
 Have you created a workshop that you want to share with the community? [**Submit this custom issue**](https://github.com/microsoft/Low-Code/issues/new/choose) with the details and we'd love to take a look! Accepted workshops will get listed in this section!
 :::
 
+
+### Local Workshops other than English
+
+Here are the workshop materials written in languages other than English.
+
+| Language | Title | Description |
+|----------|-------|-------------|
+| 한국어    | [글로벌 파워 플랫폼 부트캠프 2023](https://aka.ms/gppbkr/appdev-in-a-day) | 글로벌 파워 플랫폼 부트캠프에서 사용했던 파워 앱, 파워 오토메이트 및 커스텀 커넥터를 작성하는 워크샵 교재입니다 |
+
+
 ## Power Platform Advocacy
 
 The Power Platform Advocacy team maintains [this GitHub Repository](https://aka.ms/pp/workshops) where you can find the latest workshops and presentations developed by the team.
