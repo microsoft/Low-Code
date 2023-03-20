@@ -87,7 +87,7 @@ The good news? The dev.to site is built on a platform called Forem - [which has 
 
 The Power Platform [documentation](https://learn.microsoft.com/connectors/custom-connectors/#lifecycle?WT.mc_id=javascript-82212-ninarasi) describes this 5-step process for building a custom connector:
 
-![](https://learn.microsoft.com/connectors/custom-connectors/media/index/authoring-steps.png)
+![The 5-step process for building a custom connector](https://learn.microsoft.com/connectors/custom-connectors/media/index/authoring-steps.png)
 
  1. **Build & Secure it** - applicable only if you are building the API itself. We are not, so we can skip it.
  2. **Define it** - this is where you describe the methods and metadata in the API. You can hand-craft this _or_ use standardized options (OpenAPI file or Postman collection) to build from.
@@ -121,7 +121,7 @@ Don't have a Power Apps or Power Automate subscription (see pre-requisites)? Jus
 
 Visit the [Power Apps](https://make.powerapps.com/) portal and sign in. You should see something like this:
 
-![](./build/1-signin.png)
+![Screenshot of the sign-in page on Power Apps portal](./build/1-signin.png)
 
 Select `Data > Custom Connectors` to enter the Custom Connector Wizard. Click the `New custom connector` drop-down to see the different starting options as shown below. Use the **Create from blank** option to build the custom connector manually. We walk through this approach in our [**PowerfulDevs Session**](https://learn.microsoft.com/events/learn-events/powerful-devs-2023/?WT.mc_id=javascript-82212-ninarasi) on Feb 15 so don't miss it!
 

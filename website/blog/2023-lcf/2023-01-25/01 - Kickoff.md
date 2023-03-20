@@ -34,7 +34,7 @@ tags: [low-code-february, 30-days-of-lowcode, learn-live, zero-to-hero, ask-the-
 
 February is traditionally a month where we celebrate family, friends and loved ones - from Valentine's Day to Lunar New Year! We hope you also make this the month you fall in love with a new technology space - _low-code app development_ - and join us for a month of learning, making, and sharing!
 
-![#30DaysOfLowCode Kickoff](./../../../static/img/og/30days-title.png)
+![#30DaysOfLowCode Kickoff Banner](./../../../static/img/og/30days-title.png)
 
 We are excited to announce the **launch of #LowCodeFebruary**, a month-long developer journey that will take you from app development tips, to fusion teams insights, and hands-on tutorials to skill you up on Power Platform, Microsoft Azure, and popular developer tools to enhance your productivity.
 
@@ -42,7 +42,7 @@ We are excited to announce the **launch of #LowCodeFebruary**, a month-long deve
 
 Let's talk about what you will learn in our developer journey this month. We have multiple initiatives in mind that can help you _learn_, _skill up_, _engage with experts_, _contribute to community_ and _watch videos_ at your own pace. 
 
-![LCF Banner](../../../static/img/lcf-banner.png)
+![Low Code February Banner](../../../static/img/lcf-banner.png)
 
 1. The [**#30DaysOfLowCode**](/blog) blog series helps you _learn_ by reading posts from experts, taking you on a 4-week journey from fundamentals, to application lifecycle managment - and cover developer tools and best practices along the way!
 2. The [**#ZeroToHero**](/lowcode-february/ZeroToHero/) series captures blog posts directly from our product teams, sharing the latest features and tips for low code development.

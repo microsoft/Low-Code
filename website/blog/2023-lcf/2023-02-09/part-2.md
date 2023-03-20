@@ -119,7 +119,7 @@ To work with the forem connector, you first need to add that to your app. Go to 
 
 After connecting the custom connector to your app, the data tab should look like this:
 
-![](Part2-5-Connector-Added.png)
+![Screenshot showing connector added to your app](Part2-5-Connector-Added.png)
 
 To test out if the connector works, we can easily create a collection (local data that's saved in the app) by going to the tree view (layers icon in the left menu), selecting `App` and changing the `OnStart` property to:
 
@@ -242,7 +242,7 @@ Next, add the `Fluent Pivot` component via the `Insert` menu. Set the `X` proper
 1. Press the `Y` in the properties panel of the Pivot component
 1. Change the value of the `Y` property to `Self.Height/2` in the formula bar.
 
-![](Part2-8-Pivot-Properties-1.png)
+![Screenshot of Power Apps page showing properties panel](Part2-8-Pivot-Properties-1.png)
 
 This will place the pivot on the right side of the dev.to logo you just added. Change the `Theme` property to `AppThemeJson` so that it will get the theme you have set in the app `OnStart`.
 

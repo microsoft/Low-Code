@@ -52,7 +52,7 @@ Today we celebrate all the developers and organizations who make the low code ec
 
 Did you know we had a [dedicated Zero To Hero page](/lowcode-february/ZeroToHero) on this site? It's our page for amplifying news, articles and updates on technologies and products for low code development - directly from product teams! Here's what that page look like. Click on any article to visit the _original_ content on the Product Group blog. Or click the **tag** under a post (e.g., `Announcements`) to view _all_ posts for that category.
 
-![](./zero-to-hero.png)
+![Zero to Hero page screenshot](./zero-to-hero.png)
 
 ## Meet The Developers
 
@@ -60,7 +60,7 @@ Meet featured developer **Gini Brandon** and watch her as she shares her journey
 
 ✨ Read It Now: [**Meet developers combining Power Platform and Azure to go faster**](https://powerapps.microsoft.com/blog/meet-the-developers-combining-power-platform-and-azure-to-go-faster/)
 
-[![](https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/ginibrandon_cover-1024x576.png)](https://www.youtube.com/watch?v=OrWDTi8GVfM)
+[![Thumbnail Image from Meet the Developers Video](https://powerappsblogscdn.azureedge.net/wp-content/uploads/2023/02/ginibrandon_cover-1024x576.png)](https://www.youtube.com/watch?v=OrWDTi8GVfM)
 
 ## Meet The Organizations
 

@@ -13,7 +13,7 @@ Some of the topics you'll skill up on include:
 * Frontend UI: Component frameworks,
 * Best Practices: ALM, Governance, and Testing
 
-![Image showing various technologies used in low code dev](./website/static/img/fusion-dev.png)
+![Image showing various technologies used in low code dev](./website/static/img/fusion-dev.png )
 
 ---
 

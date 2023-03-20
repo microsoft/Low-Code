@@ -40,7 +40,7 @@ function ContentItem({title, description, topic, topiclink, link, imglink}){
         <div className={clsx('col col--4', styles.contentItem)}>
             <a href={link} target="_blank">
                 <div className="text--center padding-horiz--md">
-                <Image img={imglink}/>
+                <Image alt={"Thumbnail Image for"+title} img={imglink}/>
                 </div>
                 <div className="text--center padding-horiz--md">
                     <h3>{title} </h3>

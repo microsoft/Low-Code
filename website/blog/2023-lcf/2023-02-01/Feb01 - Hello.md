@@ -68,7 +68,7 @@ According to [**Forrester**](https://aka.ms/2022ForresterTEI), composite organiz
 
 In other words, with Power Platform you’ll produce more and better code than before, with increased cost savings. That means developing more projects and delivering increased value to your clients. With low code, everyone wins!
 
-![Empty Banner Placeholder](./01%20-%20Kickoff.png)
+![Kickoff Banner for Low Code February](./01%20-%20Kickoff.png)
 
 ## The full Low-Code February lineup
 
@@ -105,4 +105,4 @@ Want to get started on your low code development journey with us? Here are some 
 2. [**Enroll**](https://aka.ms/lowcode-february/challenge) in the Cloud Skills Challenge and start climbing that leaderboard! ☁️
 3. [**Save**](http://aka.ms/lowcode-february) the page and [**Subscribe**](https://microsoft.github.io/Low-Code/blog/rss.xml) to the blog in your favorite feed reader for updates. 🔖
 
-![Empty Banner Placeholder](./Feb01%20-%20Banner.png)
+![Low Code February Banner](./Feb01%20-%20Banner.png)
