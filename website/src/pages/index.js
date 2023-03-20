@@ -37,7 +37,7 @@ function HomepageHero() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Link to="https://learn.microsoft.com/power-platform/developer/fusion-development?WT.mc_id=javascript-82212-ninarasi">
+        <Link aria-label="Fusion Development Path" to="https://learn.microsoft.com/power-platform/developer/fusion-development?WT.mc_id=javascript-82212-ninarasi">
           <Image img={bannerImg} className={styles.featureImg} />
         </Link>
       </div>

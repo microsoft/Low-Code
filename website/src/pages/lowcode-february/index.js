@@ -77,9 +77,9 @@ const CampaignFeatures = [
 function Feature({Svg, title, description, link, fillColor}) {
   return (
     <div className={clsx('col col--4')}>
-      <a href={link} target="_blank">
+      <a aria-label={title} href={link} target="_blank">
         <div className="text--center">
-          <Svg height="200px" width="200px" fill={fillColor} role="img" />
+          <Svg aria-label={title+" icon"} height="200px" width="200px" fill={fillColor} role="img" />
         </div>
       </a>
       <div fill="#00ff00" className="text--center padding-horiz--md">
