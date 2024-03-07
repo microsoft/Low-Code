@@ -142,8 +142,8 @@ const config = {
             to: 'https://learn.microsoft.com/power-pages/introduction?WT.mc_id=javascript-82212-ninarasi'
           },
           {
-            label: 'Privacy Statement ',
-            to: 'https://privacy.microsoft.com/privacystatement',
+            label: 'Privacy',
+            to: 'https://go.microsoft.com/fwlink/?LinkId=521839',
           },
           {
             label: 'Consumer Health Privacy',
