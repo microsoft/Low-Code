@@ -145,6 +145,10 @@ const config = {
             label: 'Privacy Statement ',
             to: 'https://privacy.microsoft.com/privacystatement',
           },
+          {
+            label: 'Consumer Health Privacy',
+            to: 'https://go.microsoft.com/fwlink/?linkid=2259814',
+          },
           { 
            label: `Copyright © ${new Date().getFullYear()} Microsoft`,
            to: 'https://microsoft.com'
